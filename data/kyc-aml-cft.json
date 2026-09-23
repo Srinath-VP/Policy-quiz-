@@ -1,0 +1,926 @@
+{
+  "id": "kyc-aml-cft",
+  "policyName": "KYC / AML / CFT Policy",
+  "quizzes": [
+    {
+      "topic": "Introduction to Money Laundering & the PMLA Act",
+      "questions": [
+        {
+          "q": "Which Act's provisions require Regulated Entities (banks, financial institutions) to follow customer identification procedures?",
+          "options": [
+            "Prevention of Money-Laundering Act, 2002 & PML (Maintenance of Records) Rules, 2005",
+            "SEBI Act, 1992",
+            "Banking Regulation Act, 1949",
+            "Companies Act, 2013"
+          ],
+          "correct": 0,
+          "explain": "The objective slide states this obligation flows from the PMLA, 2002 and the PML (Maintenance of Records) Rules, 2005, as amended by the Government of India."
+        },
+        {
+          "q": "The Prevention of Money-Laundering Act (PMLA), 2002 came into force with effect from:",
+          "options": [
+            "1st April 2002",
+            "1st July 2005",
+            "1st July 2002",
+            "1st January 2003"
+          ],
+          "correct": 1,
+          "explain": "The Act was enacted in January 2003 but came into force with effect from 1st July, 2005."
+        },
+        {
+          "q": "As per Sec. 3 of the PML Act, 'money laundering' is defined as:",
+          "options": [
+            "Knowingly assisting or being a party to any process connected with proceeds of crime and projecting it as untainted property",
+            "Filing GST returns late",
+            "Opening an account without a passbook",
+            "Any banking transaction above Rs. 50,000"
+          ],
+          "correct": 0,
+          "explain": "Sec. 3 defines money laundering as whosoever directly or indirectly attempts, assists, or is involved in any process connected with proceeds of crime and projects it as untainted property."
+        },
+        {
+          "q": "The general punishment for non-adherence to the PMLA is rigorous imprisonment of:",
+          "options": [
+            "1 to 3 years",
+            "3 to 7 years",
+            "7 to 14 years",
+            "5 to 10 years"
+          ],
+          "correct": 1,
+          "explain": "Punishment for non-adherence of the Act is rigorous imprisonment for not less than 3 years but up to 7 years."
+        },
+        {
+          "q": "The maximum punishment can extend to 10 years when the money-laundering offence is committed under:",
+          "options": [
+            "Companies Act, 2013",
+            "FEMA",
+            "Income Tax Act",
+            "Narcotic Drugs and Psychotropic Substances Act, 1985"
+          ],
+          "correct": 3,
+          "explain": "For offences done under the Narcotic Drugs and Psychotropic Substances Act, 1985, the maximum punishment may extend to 10 years."
+        },
+        {
+          "q": "Which of the following is NOT listed as an objective of the bank's AML Policy?",
+          "options": [
+            "Ensuring compliance with guidelines issued by FIU-IND & RBI",
+            "Enhancing fraud prevention",
+            "Increasing cross-selling revenue through relaxed KYC",
+            "Preventing banks from being used for money laundering or terrorist activities"
+          ],
+          "correct": 2,
+          "explain": "The five stated objectives are about preventing misuse, knowing the customer, detecting/reporting suspicious transactions, fraud prevention and regulatory compliance — not increasing revenue by relaxing KYC."
+        },
+        {
+          "q": "Which of these is listed as an obligation of banks under the PMLA Act, 2002?",
+          "options": [
+            "Avoiding STR filing to reduce paperwork",
+            "Appointment of Principal Officer and Designated Director",
+            "Sharing customer data freely with any third party",
+            "Waiving KYC for long-standing customers"
+          ],
+          "correct": 1,
+          "explain": "Obligations under PMLA include appointing Principal Officers/Designated Director, maintaining records, furnishing information, verifying identity, and preserving records."
+        },
+        {
+          "q": "Transaction records between the bank and its clients must generally be preserved for how long from the date of each transaction?",
+          "options": [
+            "5 years",
+            "2 years",
+            "10 years",
+            "8 years"
+          ],
+          "correct": 0,
+          "explain": "Records must be preserved for 5 years from the date of each transaction (or 5 years after the business relationship ends); vouchers must be kept for 10 years."
+        },
+        {
+          "q": "In the money-laundering process, 'Placement' refers to:",
+          "options": [
+            "Filing of a Cash Transaction Report",
+            "Money re-entering the economy looking legitimate",
+            "Entry of dirty money into a legitimate financial institution",
+            "Making a series of transactions to distance funds from the point of entry"
+          ],
+          "correct": 2,
+          "explain": "Placement is the stage at which the launderer inserts the dirty money into a legitimate financial institution."
+        },
+        {
+          "q": "'Integration', the final stage of money laundering, is best described as:",
+          "options": [
+            "The initial cash deposit",
+            "A series of transactions to disguise the money's trail",
+            "Filing of a Suspicious Transaction Report",
+            "Money re-entering the mainstream economy appearing to come from a legal transaction"
+          ],
+          "correct": 3,
+          "explain": "At the Integration stage, the money re-enters the mainstream economy in legitimate-looking form, appearing to come from a legal transaction."
+        }
+      ]
+    },
+    {
+      "topic": "KYC Standards, Customer Acceptance Policy & Risk Categorisation",
+      "questions": [
+        {
+          "q": "Which of these is NOT one of the four KYC Standards listed in the policy?",
+          "options": [
+            "Customer Identification Procedure (CIP)",
+            "Customer Acceptance Policy (CAP)",
+            "Risk Management",
+            "Marketing Strategy"
+          ],
+          "correct": 3,
+          "explain": "The four KYC Standards listed are CAP, Risk Management, CIP and Monitoring of Transactions."
+        },
+        {
+          "q": "As per the Customer Acceptance Policy, accounts should NOT be opened in the name of:",
+          "options": [
+            "Anonymous / Fictitious / Benami names with a criminal background",
+            "Salaried employees",
+            "Pensioners",
+            "Government departments"
+          ],
+          "correct": 0,
+          "explain": "CAP specifically excludes anonymous, fictitious or benami named customers, and those with a criminal background."
+        },
+        {
+          "q": "Is a personal 'Introduction' from an existing account holder mandatory to open a new bank account under current norms?",
+          "options": [
+            "Only for NRIs",
+            "Yes, always mandatory",
+            "Only for high-value accounts",
+            "No, introduction is not mandatory now"
+          ],
+          "correct": 3,
+          "explain": "The Customer Acceptance Policy slide explicitly states: 'Introduction is not mandatory now.'"
+        },
+        {
+          "q": "Customers are categorised into which risk categories under Risk Categorisation?",
+          "options": [
+            "Type 1 / Type 2 / Type 3",
+            "Green / Yellow / Red",
+            "Low / Medium / High",
+            "A / B / C"
+          ],
+          "correct": 2,
+          "explain": "Customers are categorised as Low, Medium or High risk based on annual income, volume of transactions and customer profile."
+        },
+        {
+          "q": "Which of the following would typically fall under the LOW risk category?",
+          "options": [
+            "Salaried employees with a well-defined salary structure, pensioners",
+            "Trusts, charities and NGOs",
+            "Non-resident customers",
+            "Politically Exposed Persons (PEPs)"
+          ],
+          "correct": 0,
+          "explain": "Low risk includes salaried employees with well-defined salaries, pensioners, benefit recipients, and customers other than High & Medium risk."
+        },
+        {
+          "q": "Which of the following is classified as HIGH risk under Risk Categorisation?",
+          "options": [
+            "Customers with a long-term, active relationship",
+            "Politically Exposed Persons (PEPs) and their family members",
+            "Government departments and regulators",
+            "Salaried pensioners"
+          ],
+          "correct": 1,
+          "explain": "High risk includes non-resident customers, HNIs, trusts/charities/NGOs, PEPs and their family members, and persons living in high-risk countries, among others."
+        },
+        {
+          "q": "Which of the following typically falls under MEDIUM risk category?",
+          "options": [
+            "Government departments",
+            "NBFCs, Builders, Stock Brokers",
+            "Salaried employees",
+            "Statutory bodies"
+          ],
+          "correct": 1,
+          "explain": "Medium risk is listed as NBFCs, Builders and Stock Brokers."
+        },
+        {
+          "q": "For Individuals, what is the annual income/turnover ceiling for the LOW risk category?",
+          "options": [
+            "Up to Rs. 5 lakhs",
+            "Above Rs. 50 lakhs",
+            "Up to and inclusive of Rs. 10 lakhs",
+            "Up to Rs. 1 crore"
+          ],
+          "correct": 2,
+          "explain": "For Individuals, Clubs & Associations, Low Risk is 'up to and inclusive of Rs. 10 lakhs' annual income/turnover."
+        },
+        {
+          "q": "Who is designated to authorise opening of an account where the customer is a Politically Exposed Person (High risk)?",
+          "options": [
+            "Regional Manager",
+            "Officer in charge of the section",
+            "Any staff member",
+            "Branch Manager"
+          ],
+          "correct": 0,
+          "explain": "As per the Authority to Authorise table, accounts where customers are Politically Exposed Persons must be authorised by the Regional Manager."
+        },
+        {
+          "q": "The risk categorisation assigned to a customer:",
+          "options": [
+            "Must be disclosed to the customer on request",
+            "Shall not be revealed to a customer",
+            "Should be printed on the passbook",
+            "Is optional to assign"
+          ],
+          "correct": 1,
+          "explain": "The policy explicitly states: 'The risk categorization of a customer shall not be revealed to a customer.'"
+        }
+      ]
+    },
+    {
+      "topic": "Customer Identification Procedure (CIP) & Documents for Natural Persons",
+      "questions": [
+        {
+          "q": "Customer Identification Procedure (CIP) primarily involves:",
+          "options": [
+            "Marketing new bank products",
+            "Setting interest rates for the customer",
+            "Determining the customer's true identity and beneficial ownership, and knowing the source of funds",
+            "Approving loan applications"
+          ],
+          "correct": 2,
+          "explain": "CIP means making every reasonable effort to determine the true identity and beneficial ownership of accounts, source of funds, and the nature of the customer's business."
+        },
+        {
+          "q": "Along with Proof of Identity and Proof of Address, what else is required for documents of natural persons?",
+          "options": [
+            "Educational certificate",
+            "Latest salary slip",
+            "Recent photograph",
+            "Employer's letter"
+          ],
+          "correct": 2,
+          "explain": "Documents for natural persons are: Identity (Proof of Identity), Address/location (Proof of Address), and a Recent photograph."
+        },
+        {
+          "q": "How many Officially Valid Documents (OVDs) serve the purpose of both identity and address proof?",
+          "options": [
+            "Six",
+            "Four",
+            "Eight",
+            "Five"
+          ],
+          "correct": 0,
+          "explain": "Six OVDs are listed: Passport, Driving Licence, proof of possession of Aadhaar, Voter's ID, NREGA job card, and a letter from the National Population Register."
+        },
+        {
+          "q": "Which of these is one of the six Officially Valid Documents (OVDs)?",
+          "options": [
+            "College ID card",
+            "Passport (within validity)",
+            "Ration card",
+            "PAN card alone"
+          ],
+          "correct": 1,
+          "explain": "Passport (within validity) is one of the six OVDs, along with Driving Licence, Aadhaar, Voter's ID, NREGA job card, and NPR letter."
+        },
+        {
+          "q": "If an OVD furnished by the customer does not carry an updated address, which of these is NOT an acceptable alternate address proof?",
+          "options": [
+            "A verbal confirmation by the customer",
+            "Self-attested address",
+            "Utility bill not more than 2 months old",
+            "Bank or Post Office savings account statement"
+          ],
+          "correct": 0,
+          "explain": "Accepted alternates include recent utility bills, tax receipts, self-attested address, bank/post office statements, PPOs and employer-issued accommodation letters — not a verbal confirmation."
+        },
+        {
+          "q": "Under Rule 159 of the Income-tax Rules, 1962, PAN/Form 60 is mandatory for cash payment against DD/PO aggregating more than:",
+          "options": [
+            "Rs. 10,000 in a financial year",
+            "Rs. 1,00,000 in a financial year",
+            "Rs. 20,000 in a financial year",
+            "Rs. 50,000 in a financial year"
+          ],
+          "correct": 3,
+          "explain": "PAN/Form 60 is required for payment of cash by way of DD/PO aggregating more than Rs. 50,000 in a financial year."
+        },
+        {
+          "q": "PAN or Form 60 is mandatory when a Time Deposit payment exceeds:",
+          "options": [
+            "Rs. 50,000 per day",
+            "Rs. 20,000 per day",
+            "Rs. 1,00,000 per day",
+            "Rs. 10,000 per day"
+          ],
+          "correct": 0,
+          "explain": "PAN/Form 60 is required for time deposit payments exceeding Rs. 50,000 per day."
+        },
+        {
+          "q": "In case of a change of name due to marriage, an existing document remains a valid OVD provided the change is supported by:",
+          "options": [
+            "A witness's affidavit",
+            "A marriage certificate issued by a State Government Gazette notification",
+            "A self-declaration only",
+            "A verbal statement to the branch"
+          ],
+          "correct": 1,
+          "explain": "A document remains a deemed OVD despite the name change if supported by a marriage certificate issued via State Government Gazette notification."
+        },
+        {
+          "q": "KYC verification done at one branch/office of the bank:",
+          "options": [
+            "Is valid only at that specific branch",
+            "Is valid only for 6 months",
+            "Must be repeated for every transfer",
+            "Is valid for transfer of the account to any other branch/office, provided full KYC is not due for updation"
+          ],
+          "correct": 3,
+          "explain": "KYC verification once done at one branch/office is valid for transfer of the account to any other branch/office of the bank, provided it is not due for periodic updation."
+        },
+        {
+          "q": "For obtaining photographs on a Partnership Firm's account, photographs must be obtained from:",
+          "options": [
+            "Any one partner",
+            "All partners",
+            "No photographs are required",
+            "Only the managing partner"
+          ],
+          "correct": 1,
+          "explain": "For Partnership Firms, photographs are to be obtained from all partners (as per the 'Obtaining Photographs' table)."
+        }
+      ]
+    },
+    {
+      "topic": "Special Accounts, V-CIP & Digital Onboarding",
+      "questions": [
+        {
+          "q": "A Basic Savings Bank Deposit Account (BSBDA) requires:",
+          "options": [
+            "A minimum balance of Rs. 5,000",
+            "A minimum balance of Rs. 1,000",
+            "No minimum balance",
+            "A minimum balance equal to the average quarterly balance"
+          ],
+          "correct": 2,
+          "explain": "BSBDA is a normal banking service and this account need not have any minimum balance requirement."
+        },
+        {
+          "q": "How many free withdrawals are allowed per month in a BSBD account before charges apply?",
+          "options": [
+            "Six",
+            "Unlimited",
+            "Four",
+            "Two"
+          ],
+          "correct": 2,
+          "explain": "A maximum of 4 withdrawals can be done free of cost per month (cash withdrawal, ATM, AePS); beyond that, Rs. 6/- is charged per transaction."
+        },
+        {
+          "q": "Holders of a BSBD account:",
+          "options": [
+            "Can open unlimited other savings accounts in the same bank",
+            "Will not be eligible to open any other savings bank deposit account in that bank",
+            "Must maintain a minimum balance in other accounts",
+            "Are exempt from all KYC requirements"
+          ],
+          "correct": 1,
+          "explain": "BSBD account holders will not be eligible for opening any other savings bank deposit account in that same bank."
+        },
+        {
+          "q": "In a 'Small Account', the aggregate of all credits in a financial year must not exceed:",
+          "options": [
+            "Rs. 10 lakh",
+            "Rs. 1 lakh",
+            "Rs. 50,000",
+            "Rs. 2 lakh"
+          ],
+          "correct": 1,
+          "explain": "For Small Accounts, the aggregate of all credits in a financial year should not exceed Rs. 1 lakh."
+        },
+        {
+          "q": "In a Small Account, the balance at any point in time should not exceed:",
+          "options": [
+            "Rs. 1 lakh",
+            "Rs. 10,000",
+            "Rs. 25,000",
+            "Rs. 50,000"
+          ],
+          "correct": 3,
+          "explain": "The balance in a Small Account at any point of time should not exceed Rs. 50,000."
+        },
+        {
+          "q": "For a non-KYC compliant account, after continued non-compliance, when may the bank apply a full (credit + debit) freeze and consider account closure, following an initial partial (debit) freeze?",
+          "options": [
+            "After 3 months",
+            "After the partial freeze continues for 6 months",
+            "Immediately, with no notice",
+            "After 9 months"
+          ],
+          "correct": 1,
+          "explain": "RBI's staged approach: 3-month notice, a further 3-month reminder, then partial (debit) freeze; if that continues for 6 months and the account remains non-compliant, both credit and debit are frozen and the account may be closed."
+        },
+        {
+          "q": "V-CIP stands for:",
+          "options": [
+            "Video based Customer Identification Process",
+            "Virtual Customer Interaction Portal",
+            "Verified Compliance Investigation Procedure",
+            "Verified Customer Information Process"
+          ],
+          "correct": 0,
+          "explain": "V-CIP is the 'Video based Customer Identification Process' — an alternate method of customer identification using live photo and an OVD/Aadhaar."
+        },
+        {
+          "q": "Where must the entire data and video recordings of V-CIP be stored?",
+          "options": [
+            "Storage is not required",
+            "On the customer's personal device",
+            "On any global cloud server",
+            "In a system located in India"
+          ],
+          "correct": 3,
+          "explain": "The V-CIP infrastructure must prevent connections from outside India, and the entire data and recordings must be stored in a system located in India."
+        },
+        {
+          "q": "For accounts opened using Aadhaar OTP-based e-KYC, the aggregate balance across all deposit accounts of the customer shall not exceed:",
+          "options": [
+            "Rs. 1 lakh",
+            "Rs. 50,000",
+            "Rs. 5 lakh",
+            "Rs. 2 lakh"
+          ],
+          "correct": 0,
+          "explain": "The aggregate balance of all deposit accounts of the customer opened via Aadhaar OTP shall not exceed Rs. 1 lakh; if exceeded, the account ceases to be operational until CDD is completed."
+        },
+        {
+          "q": "Using a printed copy of an equivalent e-document, including e-PAN, is:",
+          "options": [
+            "Not valid for V-CIP",
+            "Always valid for V-CIP",
+            "Valid only for high-risk customers",
+            "Valid with Branch Manager approval"
+          ],
+          "correct": 0,
+          "explain": "The V-CIP Procedure slide states: 'Use of printed copy of equivalent e-document including e-PAN is not valid for the VCIP.'"
+        }
+      ]
+    },
+    {
+      "topic": "KYC Documentation for Legal Entities & Special Constitutions",
+      "questions": [
+        {
+          "q": "For a Company, documents required include Certificate of Incorporation, Memorandum & Articles of Association, and:",
+          "options": [
+            "Only a Board Resolution",
+            "None required",
+            "Permanent Account Number (PAN) of the company",
+            "Only PAN of the directors"
+          ],
+          "correct": 2,
+          "explain": "For a Company, the required documents include the Certificate of Incorporation, MOA/AOA, PAN of the company, a Board resolution/power of attorney, and beneficial owner details."
+        },
+        {
+          "q": "For a Partnership Firm, which specific deed is required in addition to registration certificate and PAN of the firm?",
+          "options": [
+            "Trust Deed",
+            "Partnership Deed",
+            "Memorandum of Association",
+            "Society Registration Certificate"
+          ],
+          "correct": 1,
+          "explain": "For Partnership Firms, documents include the Registration certificate, Partnership Deed, PAN of the firm, names of all partners, and address of the registered office."
+        },
+        {
+          "q": "For Trusts & Foundations, identification of beneficial owners includes a beneficiary with what minimum interest in the trust?",
+          "options": [
+            "15% or more",
+            "5% or more",
+            "25% or more",
+            "10% or more"
+          ],
+          "correct": 3,
+          "explain": "Beneficial owner identification for a trust includes beneficiaries with 10 percent or more interest in the trust."
+        },
+        {
+          "q": "HUF stands for:",
+          "options": [
+            "Hindu Undivided Family",
+            "Hindu Unregistered Firm",
+            "Home Use Finance",
+            "High Utility Fund"
+          ],
+          "correct": 0,
+          "explain": "HUF stands for Hindu Undivided Family, a legal entity type covered in the documentation requirements."
+        },
+        {
+          "q": "For an HUF account, along with PAN and the Deed of Declaration of HUF, what else must be obtained?",
+          "options": [
+            "A list of Karta, Coparceners and other members",
+            "Only the Karta's signature",
+            "A government ID of every relative",
+            "Only the coparceners' details"
+          ],
+          "correct": 0,
+          "explain": "HUF documents required: PAN in the name of HUF, Deed of Declaration, list of Karta/Coparceners/other members, and OVD/PAN of Karta/authorised signatories."
+        },
+        {
+          "q": "'Government Accounts' includes accounts of Government departments, Societies, Universities and:",
+          "options": [
+            "Private limited companies",
+            "Stock brokers",
+            "NBFCs",
+            "Local Bodies like Village Panchayats"
+          ],
+          "correct": 3,
+          "explain": "Accounts of Government or its Departments, Societies, Universities and Local Bodies like Village Panchayats are included under the term 'Government Accounts'."
+        },
+        {
+          "q": "For Political Parties, the Authority Letter for opening an account must be issued on party letterhead by:",
+          "options": [
+            "The Election Commission",
+            "Party president / authorised signatory as per Bye-laws",
+            "Any party member",
+            "A bank employee"
+          ],
+          "correct": 1,
+          "explain": "An authority letter on party letterhead from the party president / authorised signatory as per Bye-laws is required, along with a signed party resolution."
+        },
+        {
+          "q": "For SHG/JLGs, along with the resolution disclosing the list of members and account opening procedure, what else is required?",
+          "options": [
+            "A GST registration certificate",
+            "A business registration certificate",
+            "OVD and PAN/Form 60 of the authorised signatories, with photograph",
+            "A Certificate of Incorporation"
+          ],
+          "correct": 2,
+          "explain": "For SHG/JLGs, a copy of the resolution and any OVD/PAN (Form 60) of the authorised signatories with photograph must be obtained."
+        },
+        {
+          "q": "For an Unincorporated Association (e.g., unregistered trust, club), besides PAN and resolution of the managing body, what must also be obtained?",
+          "options": [
+            "Stock exchange listing certificate",
+            "Power of attorney granted to transact on its behalf",
+            "No further document is needed",
+            "Import Export Code"
+          ],
+          "correct": 1,
+          "explain": "Documents for unincorporated associations include the resolution of the managing body, PAN, and power of attorney granted to transact on its behalf."
+        },
+        {
+          "q": "For a Sole Proprietary Firm, if the bank is satisfied that the customer cannot furnish two proof-of-business documents, the bank may, at its discretion, accept:",
+          "options": [
+            "Only one such document",
+            "No documents at all",
+            "A witness's affidavit instead",
+            "Only a verbal declaration"
+          ],
+          "correct": 0,
+          "explain": "The policy allows the bank, at its discretion, to accept only one proof-of-business document where it is satisfied that furnishing two is not possible."
+        }
+      ]
+    },
+    {
+      "topic": "Re-KYC, Periodic Updation & Account Lifecycle Management",
+      "questions": [
+        {
+          "q": "Under the periodic KYC updation schedule, HIGH risk customers must be re-KYC'd every:",
+          "options": [
+            "2 years",
+            "5 years",
+            "8 years",
+            "10 years"
+          ],
+          "correct": 0,
+          "explain": "Periodic KYC updation frequency: High Risk — 2 years, Medium Risk — 8 years, Low Risk — 10 years."
+        },
+        {
+          "q": "Periodic KYC updation for LOW risk customers is required every:",
+          "options": [
+            "8 years",
+            "5 years",
+            "10 years",
+            "2 years"
+          ],
+          "correct": 2,
+          "explain": "Low Risk customers require periodic KYC updation every 10 years."
+        },
+        {
+          "q": "Periodic KYC updation for MEDIUM risk customers is required every:",
+          "options": [
+            "5 years",
+            "8 years",
+            "2 years",
+            "10 years"
+          ],
+          "correct": 1,
+          "explain": "Medium Risk customers require periodic KYC updation every 8 years."
+        },
+        {
+          "q": "For a walk-in customer's remittance (DD/NEFT/RTGS/BPO etc.) up to and inclusive of Rs. 20,000, KYC documents:",
+          "options": [
+            "Need not be insisted upon, except where there is suspicion of potential fraud",
+            "Must always be insisted upon",
+            "Are mandatory regardless of amount",
+            "Require two OVDs to be submitted"
+          ],
+          "correct": 0,
+          "explain": "For remittances up to Rs. 20,000, the application form must be filled with proper details, but no KYC documents need be insisted upon except where there is suspicion of potential fraud."
+        },
+        {
+          "q": "A Savings Bank or Current Account is classified as 'Inoperative' when there is no customer-induced credit or debit transaction for:",
+          "options": [
+            "1 year",
+            "3 years",
+            "2 years",
+            "6 months"
+          ],
+          "correct": 2,
+          "explain": "An account is classified as Inoperative where there is no customer-induced credit or debit transaction for two years (other than periodic interest credit / service charge debit)."
+        },
+        {
+          "q": "Before converting an inoperative account back to operative, which of the following is required?",
+          "options": [
+            "Only a phone call confirmation",
+            "The account must be closed and a new one opened",
+            "No action is needed, it reactivates automatically",
+            "Fresh KYC documents and verification of the customer's signature"
+          ],
+          "correct": 3,
+          "explain": "Converting to operative requires a request letter, fresh KYC documents, a recent photograph, signature verification and reassessment of risk categorisation, authorised by the Branch-in-Charge."
+        },
+        {
+          "q": "Penal charges for non-maintenance of minimum balance on inoperative accounts:",
+          "options": [
+            "Depend entirely on branch discretion",
+            "Shall not be levied",
+            "Are levied only after 3 years of inoperative status",
+            "Are levied at double the normal rate"
+          ],
+          "correct": 1,
+          "explain": "The policy explicitly states: 'Penal charges shall not be levied on inoperative accounts for non-maintenance of minimum balance.'"
+        },
+        {
+          "q": "When a minor account holder attains majority and the account was operated by a guardian, what must be obtained?",
+          "options": [
+            "A Balance Confirmation Letter signed by the erstwhile minor and verified by the guardian",
+            "Nothing further is required",
+            "A new PAN card for the erstwhile minor",
+            "A police verification certificate"
+          ],
+          "correct": 0,
+          "explain": "When the account was operated by the guardian, a Balance Confirmation Letter must be signed by the erstwhile minor and verified by the guardian."
+        },
+        {
+          "q": "Review of a customer's risk categorisation should be carried out at a periodicity of not less than:",
+          "options": [
+            "Once a month",
+            "Once a year",
+            "Once in three months",
+            "Once in six months"
+          ],
+          "correct": 3,
+          "explain": "Review of risk categorisation should be carried out not less than once in six months (within 31st January & 31st July)."
+        },
+        {
+          "q": "In case of NO change in KYC information at periodic updation, what must be obtained from an individual customer?",
+          "options": [
+            "An in-person branch visit only",
+            "A self-declaration via the customer's registered email-ID/mobile number",
+            "A fresh set of OVDs regardless",
+            "Only a new photograph"
+          ],
+          "correct": 1,
+          "explain": "If there is no change in KYC information, a self-declaration from the customer is obtained through the customer's registered email-ID or mobile number."
+        }
+      ]
+    },
+    {
+      "topic": "Customer Due Diligence, Enhanced Due Diligence & Beneficial Ownership",
+      "questions": [
+        {
+          "q": "Customer Due Diligence (CDD) at account opening (or for an occasional transaction) is mandatory when the transaction amount is equal to or exceeds:",
+          "options": [
+            "Rs. 20,000",
+            "Rs. 10,000",
+            "Rs. 50,000",
+            "Rs. 1,00,000"
+          ],
+          "correct": 2,
+          "explain": "CDD is mandatory at commencement of a relationship or for occasional transactions of an amount equal to or exceeding Rs. 50,000."
+        },
+        {
+          "q": "The three levels of due diligence in the policy's framework are CDD, EDD and:",
+          "options": [
+            "ODD (Ongoing Due Diligence)",
+            "None — only two levels exist",
+            "GDD (General Due Diligence)",
+            "FDD (Final Due Diligence)"
+          ],
+          "correct": 0,
+          "explain": "The Due Diligence framework has three tiers: CDD (Customer Due Diligence), EDD (Enhanced Due Diligence), and ODD (Ongoing Due Diligence)."
+        },
+        {
+          "q": "For a company customer, 'Controlling ownership interest' means ownership of/entitlement to more than what percentage of shares, capital or profits?",
+          "options": [
+            "10%",
+            "25%",
+            "5%",
+            "15%"
+          ],
+          "correct": 0,
+          "explain": "'Controlling ownership interest' means ownership of/entitlement to more than 10% of the shares or capital or profits of the company."
+        },
+        {
+          "q": "For an unincorporated association or body of individuals, the beneficial owner is one who has ownership/entitlement to more than what percentage of the property, capital or profits?",
+          "options": [
+            "15%",
+            "10%",
+            "20%",
+            "5%"
+          ],
+          "correct": 0,
+          "explain": "For an unincorporated association or body of individuals, the beneficial owner threshold is more than 15 percent."
+        },
+        {
+          "q": "For accounts opened through non-face-to-face (non-F2F) digital channels, the first transaction into the account must be:",
+          "options": [
+            "A debit transaction only",
+            "A credit from an existing KYC-complied bank account of the customer",
+            "A cash deposit at any branch",
+            "There is no restriction"
+          ],
+          "correct": 1,
+          "explain": "For non-F2F accounts, the first transaction must be a credit from an existing KYC-complied bank account of the customer."
+        },
+        {
+          "q": "How are accounts opened via non-face-to-face (non-F2F) digital onboarding categorised for risk?",
+          "options": [
+            "No categorisation is applied",
+            "Low risk",
+            "High-risk customers",
+            "Medium risk"
+          ],
+          "correct": 2,
+          "explain": "Enhanced Due Diligence for non-F2F accounts states such customers shall be categorised as high-risk customers."
+        },
+        {
+          "q": "For SHGs, full CDD of all members is required:",
+          "options": [
+            "Only for the animator, never for members",
+            "At the time of opening the SHG's savings account itself",
+            "It is never required for SHG members",
+            "May be undertaken at the time of credit linking of the SHG"
+          ],
+          "correct": 3,
+          "explain": "CDD of all members of an SHG is not required while opening the savings account, but may be undertaken at the time of credit linking of SHGs."
+        },
+        {
+          "q": "Approval to open an account for a Politically Exposed Person (PEP) must be obtained from:",
+          "options": [
+            "The Branch Manager alone",
+            "Any bank officer",
+            "The customer's referee",
+            "Senior management"
+          ],
+          "correct": 3,
+          "explain": "Under EDD for PEPs, the approval to open an account for a PEP shall be obtained from the senior management."
+        },
+        {
+          "q": "The Enhanced Due Diligence instructions applicable to PEPs shall also apply to:",
+          "options": [
+            "No one else",
+            "Family members or close associates of the PEP",
+            "Only the PEP personally, no one else",
+            "Only government employees generally"
+          ],
+          "correct": 1,
+          "explain": "The policy states these instructions shall also be applicable to family members or close associates of PEPs."
+        },
+        {
+          "q": "For a Foreign Student opening an NRO account, a declaration about the local address must be obtained and verified within:",
+          "options": [
+            "15 days",
+            "30 days",
+            "7 days",
+            "60 days"
+          ],
+          "correct": 1,
+          "explain": "A declaration about the local address must be obtained within 30 days of opening the account, and the said local address must be verified."
+        }
+      ]
+    },
+    {
+      "topic": "Money Mules, FATCA / CRS, CKYC-CERSAI & Regulatory Reporting",
+      "questions": [
+        {
+          "q": "A 'Money Mule' is best described as someone who:",
+          "options": [
+            "Is a bank's compliance officer",
+            "Often unknowingly helps launder money by transferring illegal funds through their own account",
+            "Deliberately runs an organised money-laundering business",
+            "Audits suspicious transaction reports"
+          ],
+          "correct": 1,
+          "explain": "A money mule is one who often unknowingly helps launder money by transferring illegal funds through their own accounts."
+        },
+        {
+          "q": "Which of the following is a red flag suggesting a possible money mule account?",
+          "options": [
+            "Regular monthly salary credits only",
+            "Consistently low transaction volume",
+            "Long-standing, stable account activity",
+            "A sudden spike in account activity, particularly in newly opened or dormant accounts"
+          ],
+          "correct": 3,
+          "explain": "A sudden spike in account activity, particularly involving newly opened or dormant accounts, is flagged as a significant red flag for money mule activity."
+        },
+        {
+          "q": "FATCA stands for:",
+          "options": [
+            "Foreign Account Tax Compliance Act",
+            "Federal Anti-Terrorism Compliance Act",
+            "Financial Account Tracking Compliance Authority",
+            "Foreign Asset Transfer Control Act"
+          ],
+          "correct": 0,
+          "explain": "FATCA is the Foreign Account Tax Compliance Act, a 2010 US federal law requiring foreign institutions to report US taxpayers' accounts to the IRS."
+        },
+        {
+          "q": "India and the United States signed the FATCA Inter-Governmental Agreement (IGA) in:",
+          "options": [
+            "January 2003",
+            "June 2015",
+            "July 2015",
+            "July 2010"
+          ],
+          "correct": 2,
+          "explain": "India and the U.S. signed the FATCA Inter-Governmental Agreement (IGA) during July 2015."
+        },
+        {
+          "q": "The Common Reporting Standard (CRS) is an internationally agreed standard developed by:",
+          "options": [
+            "United Nations",
+            "FATF",
+            "G20 countries",
+            "World Bank"
+          ],
+          "correct": 2,
+          "explain": "CRS is an internationally agreed standard for automatic exchange of financial account information, developed by G20 countries; India committed as an early adopter from June 2015."
+        },
+        {
+          "q": "The Government of India has authorised which agency to act as the Central KYC Registry (CKYCR)?",
+          "options": [
+            "RBI",
+            "CERSAI",
+            "SEBI",
+            "FIU-IND"
+          ],
+          "correct": 1,
+          "explain": "Government of India authorised CERSAI (Central Registry of Securitisation Asset Reconstruction and Security Interest of India) to perform the functions of the CKYCR."
+        },
+        {
+          "q": "Banks shall upload a customer's KYC records onto CKYCR within how many days of commencement of an account-based relationship?",
+          "options": [
+            "5 days",
+            "30 days",
+            "15 days",
+            "10 days"
+          ],
+          "correct": 3,
+          "explain": "Banks shall capture customer's KYC records and upload them onto CKYCR within 10 days of commencement of an account-based relationship."
+        },
+        {
+          "q": "FIU-IND, as an independent body, reports directly to the Economic Intelligence Council headed by:",
+          "options": [
+            "The Finance Minister",
+            "The Prime Minister",
+            "The RBI Governor",
+            "The SEBI Chairman"
+          ],
+          "correct": 0,
+          "explain": "FIU-IND is a central, independent agency that reports directly to the Economic Intelligence Council, which is headed by the Finance Minister."
+        },
+        {
+          "q": "As per the reporting requirements to FIU-IND, a Suspicious Transaction Report (STR) must be submitted within:",
+          "options": [
+            "7 days of confirmation of suspicion",
+            "There is no fixed timeline",
+            "15 days of close of the month",
+            "30 days of the transaction"
+          ],
+          "correct": 0,
+          "explain": "STRs must be submitted to FIU-IND within 7 days of confirmation of suspicion, unlike CTR/CCR/CBWT/NPOTR which follow a 15-day, month-end cycle."
+        },
+        {
+          "q": "Cash Transaction Reports (CTR) for large cash transactions above Rs. 10 lakhs/month must be submitted to FIU-IND within:",
+          "options": [
+            "Immediately, in real time",
+            "15 days of close of each month",
+            "30 days of close of each month",
+            "7 days of the transaction"
+          ],
+          "correct": 1,
+          "explain": "CTR for large cash transactions above Rs. 10 lakhs/month must be submitted within 15 days of close of each month."
+        }
+      ]
+    }
+  ]
+}

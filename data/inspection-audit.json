@@ -1,0 +1,1041 @@
+{
+  "id": "inspection-audit",
+  "policyName": "Inspection & Audit Policies",
+  "quizzes": [
+    {
+      "topic": "Objectives, Hierarchy & Risk-Based Internal Audit (RBIA)",
+      "questions": [
+        {
+          "q": "Which body sits at the top of the audit hierarchy in the bank, above the Audit Committee of the Board and the Chairman?",
+          "options": [
+            "Board of Directors",
+            "Inspection and Audit Department",
+            "General Manager (Monitoring)",
+            "Audit Committee of Executives"
+          ],
+          "correct": 0,
+          "explain": "The Hierarchy of Audit in Universe chart places the Board of Directors at the top, above the Audit Committee of the Board and the Chairman."
+        },
+        {
+          "q": "As per the document, what is one stated purpose of inspections and audits conducted in banks?",
+          "options": [
+            "To evaluate the adequacy, completeness, operational effectiveness and efficiency of the control systems in the bank",
+            "To approve new product launches",
+            "To fix the annual budget of the branch",
+            "To conduct customer satisfaction surveys"
+          ],
+          "correct": 0,
+          "explain": "The document lists evaluating the adequacy, completeness, operational effectiveness and efficiency of control systems as a key reason inspections and audits are conducted."
+        },
+        {
+          "q": "Under Risk Based Internal Audit (RBIA), major risk areas taken up for risk assessment in branch activities include Credit, Earnings, Operations and which other area?",
+          "options": [
+            "Public Relations",
+            "Internal Control",
+            "Human Resources",
+            "Marketing"
+          ],
+          "correct": 1,
+          "explain": "The document lists the four major risk areas for RBIA risk assessment as Credit, Earnings, Operations and Internal Control."
+        },
+        {
+          "q": "Under RBIA, observations are classified under low, medium and high risk based on which set of loan accounts of the branch?",
+          "options": [
+            "Top 50 loan accounts",
+            "All jewel loan accounts",
+            "Top 100 loan accounts",
+            "Top 10 loan accounts"
+          ],
+          "correct": 2,
+          "explain": "The RBIA table states observations are classified under low, medium and high risk based on the Top 100 loan accounts of the branch."
+        },
+        {
+          "q": "As per the current year target mentioned in the document, what percentage of branches shall be covered under RBIA, with the rest covered under conventional inspection?",
+          "options": [
+            "60%",
+            "75%",
+            "100%",
+            "50%"
+          ],
+          "correct": 1,
+          "explain": "The document states that in the current year 75% of the branches shall be covered under RBIA and the rest as per conventional inspection."
+        },
+        {
+          "q": "Under conventional (regular) inspection, branches are rated using which five-tier scale based on percentage of marks scored?",
+          "options": [
+            "Red, Orange, Yellow, Blue, Green",
+            "Low, Medium, High, Very High, Extremely High",
+            "Fail, Weak, Average, Strong, Excellent",
+            "Poor, Unsatisfactory, Satisfactory, Good, Very Good"
+          ],
+          "correct": 3,
+          "explain": "The comparison table shows conventional branch inspection rates branches as Poor, Unsatisfactory, Satisfactory, Good and Very Good based on % of marks scored."
+        },
+        {
+          "q": "Under RBIA, a branch with 'High' Business Risk combined with 'Low' Control Risk is graded as which category?",
+          "options": [
+            "Very High Risk Branch",
+            "Medium Risk Branch",
+            "High Risk Branch",
+            "Extremely High Risk Branch"
+          ],
+          "correct": 2,
+          "explain": "The RBIA grading table shows High Business Risk combined with Low Control Risk results in a 'High Risk Branch' grade."
+        },
+        {
+          "q": "Under RBIA, a branch with 'High' Business Risk combined with 'High' Control Risk is graded as which category?",
+          "options": [
+            "Extremely High Risk Branch",
+            "High Risk Branch",
+            "Medium Risk Branch",
+            "Low Risk Branch"
+          ],
+          "correct": 0,
+          "explain": "The RBIA grading table shows High Business Risk combined with High Control Risk results in an 'Extremely High Risk Branch' grade."
+        },
+        {
+          "q": "In the Score/Rating of Control Level table, a score of 80% and above corresponds to which rating?",
+          "options": [
+            "Satisfactory",
+            "Good",
+            "Moderate",
+            "Very Good"
+          ],
+          "correct": 3,
+          "explain": "The RBIA score table shows that a score of 80%+ corresponds to a 'Very Good' rating, indicating a sound and good control environment."
+        },
+        {
+          "q": "Under Regular Inspection grading, a branch scoring 60% and above but below 70% is rated as?",
+          "options": [
+            "Unsatisfactory",
+            "Satisfactory",
+            "Good",
+            "Very Good"
+          ],
+          "correct": 1,
+          "explain": "The Regular Inspection range-of-marks table shows 60% and above but below 70% corresponds to a 'Satisfactory' grade/rating."
+        }
+      ]
+    },
+    {
+      "topic": "Periodicity of Inspection & Offsite Monitoring",
+      "questions": [
+        {
+          "q": "Under RBIA/Regular Inspection periodicity, a Low Risk (Very Good rated) branch must be re-inspected within how many months of the previous inspection?",
+          "options": [
+            "9 months",
+            "18 months",
+            "12 months",
+            "15 months"
+          ],
+          "correct": 1,
+          "explain": "The Periodicity of Inspection table shows Low Risk/Very Good branches have a previous-inspection period of 18 months."
+        },
+        {
+          "q": "Under the periodicity of inspection table, a branch rated as 'Very High or Extremely High Risk' (or Unsatisfactory/Poor) must be re-inspected within how many months?",
+          "options": [
+            "15 months",
+            "9 months",
+            "18 months",
+            "12 months"
+          ],
+          "correct": 1,
+          "explain": "The table shows Very High/Extremely High Risk or Unsatisfactory/Poor branches have the shortest inspection period of 9 months."
+        },
+        {
+          "q": "For a newly opened branch, the first inspection findings should be reported to which committee, and within what period?",
+          "options": [
+            "ACE, on a quarterly basis",
+            "RACE, on a monthly basis",
+            "IAC, on a half-yearly basis",
+            "ACB, on an annual basis"
+          ],
+          "correct": 0,
+          "explain": "The document states that for a newly opened branch, first inspection findings (period: 9 months) should be reported to ACE on a quarterly basis."
+        },
+        {
+          "q": "The Offsite Monitoring Cell at Head Office monitors reports that may be reviewed on what frequency basis?",
+          "options": [
+            "Only on occurrence of fraud",
+            "Daily, weekly, monthly or quarterly basis",
+            "Only annually",
+            "Only half-yearly"
+          ],
+          "correct": 1,
+          "explain": "The document states the frequency of these reports may be looked into on a daily, weekly, monthly or quarterly basis."
+        },
+        {
+          "q": "What does the Offsite Monitoring Cell (OMU Cell) at Head Office primarily do?",
+          "options": [
+            "Issue solvency certificates",
+            "Conduct statutory audit of the bank",
+            "Approve annual budgets of branches",
+            "Monitor and guide the functioning of the Offsite Monitoring Unit (OMU) at Regional Offices"
+          ],
+          "correct": 3,
+          "explain": "The document states the Offsite Monitoring Cell at Head Office shall monitor and guide the functioning of OMU at Regional Offices."
+        },
+        {
+          "q": "In addition to key functional areas, what else does the OMU Cell monitor as prescribed by the Chairman/GM from time to time?",
+          "options": [
+            "Transactions exceeding threshold limit",
+            "Branch furniture inventory",
+            "Marketing campaigns",
+            "Staff leave records"
+          ],
+          "correct": 0,
+          "explain": "The document states the OMU Cell shall monitor key functional areas and the transactions exceeding threshold limit prescribed by the Chairman/GM."
+        },
+        {
+          "q": "A branch is classified as a 'Chronic Defaulter' if it has not submitted periodic audit returns to the Regional Office for how long?",
+          "options": [
+            "The past three months",
+            "The past one month",
+            "The past one year",
+            "The past six months"
+          ],
+          "correct": 0,
+          "explain": "The General Guidelines slide defines a Chronic Defaulter as a branch which has not submitted periodic audit returns to Regional Office for the past three months."
+        },
+        {
+          "q": "A Quick Mortality Account (QMA) is defined as an account that becomes NPA within what time period from the date of first disbursement, for limits sanctioned for the first time?",
+          "options": [
+            "18 months",
+            "Six months",
+            "One year",
+            "Two years"
+          ],
+          "correct": 2,
+          "explain": "The document defines a QMA as any account becoming NPA within a period of one year from the date of first disbursement for first-time limits."
+        },
+        {
+          "q": "If a branch reports two or more instances of QMAs with individual book balance of Rs.5.00 lakhs or more during a quarter, who takes this up with RACE to decide on verification of all loans sanctioned by that official?",
+          "options": [
+            "Chairman",
+            "Concurrent Auditor",
+            "Regional Manager",
+            "Branch Manager"
+          ],
+          "correct": 2,
+          "explain": "The document states the Regional Manager shall take up with RACE to decide whether to verify all loans sanctioned by the official in such cases."
+        },
+        {
+          "q": "For a branch categorized as Scale I or II in a rural/semi-urban centre, the follow-up of the Relieving Manager's Certificate for timely submission should occur within how many days from completion of taking charge?",
+          "options": [
+            "5 days",
+            "7 days",
+            "3 days",
+            "4 days"
+          ],
+          "correct": 3,
+          "explain": "The document specifies that for Scale I & II branches in rural/semi-urban centres, the follow-up period is 4 days from date of completion of taking charge."
+        }
+      ]
+    },
+    {
+      "topic": "Audit Committees: ACB, ACE & RACE",
+      "questions": [
+        {
+          "q": "The Audit Committee of Board (ACB) guides in developing effective policies for which functions?",
+          "options": [
+            "Only Internal Audit",
+            "Only Concurrent Audit and IS Audit",
+            "Internal Audit, Concurrent Audit, IS Audit and all other inspection and audit functions",
+            "Marketing and HR functions"
+          ],
+          "correct": 2,
+          "explain": "The document states the ACB will guide in developing effective Internal Audit (Chairman), Concurrent Audit, IS Audit and all other inspection & audit functions."
+        },
+        {
+          "q": "Which of the following is an item reviewed ANNUALLY by the Audit Committee of the Board (ACB), rather than quarterly?",
+          "options": [
+            "Annual review of Whistle Blower Policy",
+            "Review note on frauds",
+            "Quarterly review of Concurrent Audit Reports",
+            "Review of minutes of ACE"
+          ],
+          "correct": 0,
+          "explain": "The ACB table lists Annual review of Whistle Blower Policy under the 'Annual' column, while the other options are listed under 'Quarterly'."
+        },
+        {
+          "q": "The ACB reviews the status of legal audits conducted for accounts with what minimum exposure, on a quarterly basis?",
+          "options": [
+            "Rs.10 lakhs and above",
+            "Rs.50 lakhs and above",
+            "Rs.1.00 Crore and above",
+            "Rs.5.00 Crore and above"
+          ],
+          "correct": 2,
+          "explain": "The document states ACB quarterly reviews the status of Legal Audits conducted for accounts with exposure of Rs.1.00 Crore and above."
+        },
+        {
+          "q": "How frequently must the Audit Committee of Executives (ACE) meet, as a minimum requirement?",
+          "options": [
+            "At least once in a quarter and minimum 6 times a year",
+            "At least once a month",
+            "At least twice a year",
+            "At least once a year"
+          ],
+          "correct": 0,
+          "explain": "The document states ACE should meet minimum at least once in a quarter and minimum of 6 times in a year."
+        },
+        {
+          "q": "Who serves as the Convenor of the Audit Committee of Executives (ACE)?",
+          "options": [
+            "HOD (Inspection & Audit)",
+            "HOD (Credit)",
+            "General Manager (Monitoring)",
+            "HOD (Vigilance)"
+          ],
+          "correct": 0,
+          "explain": "The document explicitly states that HOD (Inspection & Audit) will be the Convenor of ACE."
+        },
+        {
+          "q": "What is ACE authorized and empowered to approve or ratify, besides other functions?",
+          "options": [
+            "Recruitment of new branch managers",
+            "Sanction of all staff loans",
+            "Annual bank budget",
+            "Changes/amendment in the scoring pattern, rating parameters and reporting formats"
+          ],
+          "correct": 3,
+          "explain": "The document states ACE is authorized and empowered to approve/ratify changes/amendment in the scoring pattern, rating parameters and reporting formats."
+        },
+        {
+          "q": "In the ACE half-yearly review items, which department (HO) is responsible for 'Review on the recovery of amount involved in fraud'?",
+          "options": [
+            "Credit",
+            "Inspection & Audit",
+            "Vigilance",
+            "Recovery"
+          ],
+          "correct": 1,
+          "explain": "The half-yearly review table lists 'Review on recovery of amount involved in fraud' under HO: Inspection & Audit."
+        },
+        {
+          "q": "At Regional Audit Committee of Executives (RACE) meetings, whose presence (without delegation) is compulsory?",
+          "options": [
+            "General Manager",
+            "Branch Manager",
+            "Chairman",
+            "Regional Manager"
+          ],
+          "correct": 3,
+          "explain": "The document explicitly states Regional Manager (without delegation) is compulsory in RACE meetings."
+        },
+        {
+          "q": "Who chairs the RACE meetings held at Regional Offices?",
+          "options": [
+            "The General Manager (Monitoring)",
+            "The IC Head",
+            "The Regional Manager",
+            "The Chairman of the Bank"
+          ],
+          "correct": 1,
+          "explain": "The document states RACE meetings held at Regional Offices shall be chaired by the IC Head."
+        },
+        {
+          "q": "As per RACE guidelines, what is the maximum number of RACE meetings held in a month, and which branch category is closed at HO instead of RACE?",
+          "options": [
+            "Maximum three meetings a month; Category 'B' branches closed at HO",
+            "Maximum two meetings a month; Category 'E' branches closed at HO",
+            "Maximum one meeting a month; Category 'A' branches closed at HO",
+            "Maximum four meetings a month; Category 'C' branches closed at HO"
+          ],
+          "correct": 1,
+          "explain": "The document states monthly maximum is two RACE meetings, and branches Category 'E' shall be closed at HO."
+        }
+      ]
+    },
+    {
+      "topic": "Inspection Centres, HO Department Roles & Zero Tolerance Areas",
+      "questions": [
+        {
+          "q": "Which officer grade is designated as In-Charge (MAP) for Inspection Centres?",
+          "options": [
+            "Senior Manager / Manager in Regional Office",
+            "Assistant General Manager",
+            "Chief Manager",
+            "Scale I Officer"
+          ],
+          "correct": 0,
+          "explain": "The document states one officer in the grade of Senior Manager / Manager in Regional Office will be designated as In-Charge (MAP)."
+        },
+        {
+          "q": "Inspection of Training Centres by Inspection Centres is conducted on what basis?",
+          "options": [
+            "Monthly",
+            "Quarterly",
+            "Bi-annual",
+            "Annual"
+          ],
+          "correct": 2,
+          "explain": "The document states Inspection Centres conduct inspection of Training Centres on a bi-annual basis."
+        },
+        {
+          "q": "The Regional Manager must visit a branch within how many months from the date it is declared High/Very High/Extremely High risk (or Satisfactory/Unsatisfactory/Poorly rated)?",
+          "options": [
+            "6 months",
+            "1 month",
+            "3 months",
+            "9 months"
+          ],
+          "correct": 2,
+          "explain": "The document states the Regional Manager is to visit the branch within 3 months from the date of declaring the branch under the above risk/rating categories."
+        },
+        {
+          "q": "A 'spurt in advances' flagged for scrutiny is defined as an increase of more than what percentage by number/amount over the previous quarter?",
+          "options": [
+            "20%",
+            "5%",
+            "15%",
+            "10%"
+          ],
+          "correct": 3,
+          "explain": "The document defines Spurt in Advances as advances of more than 10% by number/amount over the previous quarter."
+        },
+        {
+          "q": "Which HO department is responsible for co-ordinating the concurrent audit of branches and organizing the empanelment of external auditors?",
+          "options": [
+            "HO: Credit Department",
+            "HO: Inspection & Audit Department",
+            "HO: Vigilance Department",
+            "HO: Compliance Department"
+          ],
+          "correct": 1,
+          "explain": "The document lists co-ordinating concurrent audit and empanelment of external auditors as functions of the HO: Inspection & Audit Department."
+        },
+        {
+          "q": "Which of the following is listed as a 'Zero Tolerance Area' that must be compulsorily complied with before closure of an inspection report or accepting FRC?",
+          "options": [
+            "Non-display of interest rate charts",
+            "Non creation/non registration of mortgage deed (lien on deposits, assignments) or MOD for securities in favour of the bank",
+            "Minor discrepancy in stationery stock register",
+            "Delay in staff training completion"
+          ],
+          "correct": 1,
+          "explain": "The document lists non-creation/non-registration of mortgage deed or MOD as a Zero Tolerance Area requiring compulsory compliance."
+        },
+        {
+          "q": "According to the Zero Tolerance Areas section, a branch with any zero tolerance deficiency must be rated as high risk and rectified within how many days?",
+          "options": [
+            "30 days",
+            "15 days",
+            "7 days",
+            "60 days"
+          ],
+          "correct": 1,
+          "explain": "The document states that irrespective of marks obtained, branches with zero tolerance area issues should be rated as high risk, with rectification within 15 days."
+        },
+        {
+          "q": "A fresh slippage of time-barred DPNs is treated as a Zero Tolerance Area issue if the number exceeds 10 or the amount involved exceeds what value?",
+          "options": [
+            "Rs.5.00 lakhs",
+            "Rs.1.00 lakh",
+            "Rs.10.00 lakhs",
+            "Rs.2.00 lakhs"
+          ],
+          "correct": 0,
+          "explain": "The document specifies fresh slippage of time-barred DPNs is a zero tolerance issue if more than 10 in number or amount involved is more than Rs.5.00 lakhs."
+        },
+        {
+          "q": "As per the Selection of Staff for Audit System guidelines, for how long should an officer preferably have served as Branch Manager before being considered as an inspector?",
+          "options": [
+            "Minimum period of 5 years",
+            "Minimum period of 1 year",
+            "Minimum period of 6 months",
+            "Minimum period of 2 years"
+          ],
+          "correct": 3,
+          "explain": "The document states the officer should preferably be Scale II and above and have served as Branch Manager for a minimum period of 2 years."
+        },
+        {
+          "q": "Under the SOP for inspectors, within how many working days must inspectors submit their reports?",
+          "options": [
+            "3 working days",
+            "2 working days",
+            "5 working days",
+            "7 working days"
+          ],
+          "correct": 0,
+          "explain": "The document states inspectors submit the reports within 3 working days as part of the SOP."
+        }
+      ]
+    },
+    {
+      "topic": "Revenue Audit, Snap Audit & Special Reports",
+      "questions": [
+        {
+          "q": "Branches with total advances of Rs.1.00 Crore and above (excluding jewel loans and loan on deposits) are subjected to Revenue Audit on what basis?",
+          "options": [
+            "Monthly basis",
+            "Half yearly basis",
+            "Annual basis",
+            "Quarterly basis"
+          ],
+          "correct": 1,
+          "explain": "The document states all branches with total advances of Rs.1.00 Crore and above are subjected to revenue audit on a half yearly basis."
+        },
+        {
+          "q": "Revenue Audit must be completed within what timeframe of the closure of the half year?",
+          "options": [
+            "Two months",
+            "Three months",
+            "Fifteen days",
+            "A month"
+          ],
+          "correct": 3,
+          "explain": "The document states Revenue Audit shall be completed within a month of the closure of the half year."
+        },
+        {
+          "q": "Cent percent transaction audit is required where an expenditure head shows an increase of more than what percentage over the previous year?",
+          "options": [
+            "20%",
+            "10%",
+            "30%",
+            "15%"
+          ],
+          "correct": 0,
+          "explain": "The document states cent percent transaction audit is to be done where the expenditure head shows an increase of more than 20% over the previous year."
+        },
+        {
+          "q": "Top how many branches (business-wise) as on previous March/September will be subjected to Revenue Audit by Inspection Centres?",
+          "options": [
+            "50 branches",
+            "200 branches",
+            "100 branches",
+            "150 branches"
+          ],
+          "correct": 2,
+          "explain": "The document states the top 100 branches business-wise as on previous March/September will be subjected to Revenue Audit by Inspection Centres."
+        },
+        {
+          "q": "What is the maximum permissible duration for a Snap Audit of a branch?",
+          "options": [
+            "2 days",
+            "5 days",
+            "7 days",
+            "1 day"
+          ],
+          "correct": 0,
+          "explain": "The document explicitly states Snap Audit may not exceed 2 days."
+        },
+        {
+          "q": "Special Reports submitted by inspectors are addressed to whom, under copy to the IC Head?",
+          "options": [
+            "Chairman of the bank",
+            "HOD Vigilance",
+            "Regional Manager",
+            "General Manager (in-charge of Inspection & Audit Department)"
+          ],
+          "correct": 3,
+          "explain": "The document states inspectors are required to submit Special Reports to the General Manager (in-charge of Inspection & Audit Department) under copy to the IC Head."
+        },
+        {
+          "q": "Special Reports have to be closed within what timeframe from the date of the report?",
+          "options": [
+            "15 days",
+            "3 months",
+            "2 months",
+            "1 month"
+          ],
+          "correct": 2,
+          "explain": "The document states special reports have to be closed within 2 months from the date of the report."
+        },
+        {
+          "q": "For excess cash found in the Sundry Deposit A/c, amounts less than Rs.100 should be handled how?",
+          "options": [
+            "Written off directly",
+            "Credited to customer account after investigation",
+            "Transferred to income account immediately",
+            "Reported to RBI"
+          ],
+          "correct": 1,
+          "explain": "The document states amounts less than Rs.100 are credited to customer's account after investigation, whereas amounts more than Rs.100 go through RO and are unclaimed for up to 1 year before transfer to income account with permission."
+        },
+        {
+          "q": "Which of the following is listed as a 'Special Report' trigger under the document?",
+          "options": [
+            "Advances granted by the Branch Manager to close relatives or self without prior HO approval",
+            "Branch running out of currency notes",
+            "Staff requesting festival advance",
+            "Delayed submission of monthly stationery report"
+          ],
+          "correct": 0,
+          "explain": "The document lists advances granted by the Branch Manager to close relatives or self without prior approval of Head Office as a Special Report trigger."
+        },
+        {
+          "q": "A branch is treated as 'Very High Risk' or 'Unsatisfactory' due to fraud occurrence if more than how many instances of fraud are reported during a financial year, or if the aggregate fraud amount exceeds a certain value?",
+          "options": [
+            "More than five instances, or aggregate amount more than Rs.5.00 lakhs",
+            "More than three instances, or aggregate amount more than Rs.10.00 lakhs",
+            "More than one instance, or aggregate amount more than Rs.1.00 lakh",
+            "More than two instances, or aggregate amount more than Rs.20.00 lakhs"
+          ],
+          "correct": 1,
+          "explain": "The document states more than three instances of frauds in a financial year, or aggregate fraud amount more than Rs.10.00 lakhs, results in Very High Risk or Unsatisfactory rating."
+        }
+      ]
+    },
+    {
+      "topic": "Closure of Audit Cycle, Management Audit & Credit/Stock Audit",
+      "questions": [
+        {
+          "q": "The first compliance/rectification reply to an audit report must be submitted within what timeframe from receipt of the audit report?",
+          "options": [
+            "One month",
+            "Three months",
+            "Two months",
+            "15 days"
+          ],
+          "correct": 0,
+          "explain": "The document states the first compliance/rectification reply is within one month from the receipt of the audit report, under 'Closure of Audit Cycle'."
+        },
+        {
+          "q": "The Final Rectification Certificate (FRC) must be submitted within what timeframe?",
+          "options": [
+            "45 days",
+            "One month",
+            "Two months",
+            "Three months"
+          ],
+          "correct": 2,
+          "explain": "The document states the Final Rectification Certificate (FRC) shall be submitted within two months, under 'Closure of Audit Cycle'."
+        },
+        {
+          "q": "Closure of Credit Audit reports at RO (RACE) level must be completed within how many days?",
+          "options": [
+            "60 days",
+            "30 days",
+            "90 days",
+            "45 days"
+          ],
+          "correct": 0,
+          "explain": "The document states closure of Credit Audit reports at RO: RACE is within 60 days, and Credit and Inspection are also noted as closed within 60 days."
+        },
+        {
+          "q": "For Management Audit of a Regional Office, what is the man-days requirement and who conducts it?",
+          "options": [
+            "3 days, by an external CA firm",
+            "2 days, by a Senior Manager from other RO/HO along with IC Head",
+            "1 day, by the Regional Manager alone",
+            "5 days, by the Chairman"
+          ],
+          "correct": 1,
+          "explain": "The Management Audit table specifies a Senior Manager from other RO/HO along with IC Head conducts it annually, requiring 2 days."
+        },
+        {
+          "q": "Who closes the Management Audit report of Regional Offices, after which HO: Inspection & Audit places a consolidated review note to ACE and ACB?",
+          "options": [
+            "The IC Head",
+            "The Chairman",
+            "The Regional Manager",
+            "The General Manager (Monitoring)"
+          ],
+          "correct": 1,
+          "explain": "The document states Management Audit report of Regional Offices will be closed by the Chairman, with a consolidated review note placed before ACE and ACB."
+        },
+        {
+          "q": "External frauds such as pledge of stolen jewels up to what amount need not result in downgrading of the RBIA rating?",
+          "options": [
+            "Rs.20.00 lakhs",
+            "Rs.5.00 lakhs",
+            "Rs.1.00 lakh",
+            "Rs.10.00 lakhs"
+          ],
+          "correct": 3,
+          "explain": "The document states external frauds like pledge of stolen jewels up to Rs.10.00 lakhs need not result in downgrading of the RBIA rating."
+        },
+        {
+          "q": "For Credit Audit, closure of reports is placed to the Chairman by which HO department, in coordination with the IA department?",
+          "options": [
+            "HO: Recovery HOD",
+            "HO: Credit HOD",
+            "HO: Compliance HOD",
+            "HO: Vigilance HOD"
+          ],
+          "correct": 1,
+          "explain": "The document states closure of Credit Audit reports: HO: Credit HOD, IA Department, placed to Chairman, and RO: RACE within 60 days."
+        },
+        {
+          "q": "Besides Statutory Audit by external auditors, the bank is subject to inspection by NABARD on what frequency, and Management Audit by the Sponsor Bank on what frequency?",
+          "options": [
+            "NABARD annually; Sponsor Bank once in two years",
+            "Both annually",
+            "NABARD quarterly; Sponsor Bank annually",
+            "NABARD once in two years; Sponsor Bank annually"
+          ],
+          "correct": 0,
+          "explain": "The document states the bank is subject to Inspection by NABARD annually and Management Audit by the Sponsor Bank once in two years."
+        },
+        {
+          "q": "Which types of audit are named directly under 'Types of Audits' in the document, alongside Revenue Audit and Credit Audit?",
+          "options": [
+            "Only Revenue and Credit Audit",
+            "Payroll Audit and Vendor Audit",
+            "Staff Accountability Study, IS Audit, Compliance Audit, Jewel Verification, Snap/Special Audit, Pre-Release Audit, Stock Audit",
+            "Marketing Audit, HR Audit, Legal Audit"
+          ],
+          "correct": 2,
+          "explain": "The 'Types of Audits' slide lists Revenue Audit, Staff Accountability Study, IS Audit, Compliance Audit, Jewel Verification, Snap/Special Audit, Pre Release Audit, Credit Audit and Stock Audit."
+        },
+        {
+          "q": "Compliance Audit is conducted at what point in the audit cycle?",
+          "options": [
+            "Only during snap audit",
+            "Only for branches rated Poor",
+            "Before the inspection begins",
+            "After receipt of FRC, before acceptance for closure of report"
+          ],
+          "correct": 3,
+          "explain": "The document states Compliance Audit occurs after receipt of FRC (before acceptance for closure of report)."
+        }
+      ]
+    },
+    {
+      "topic": "Information Systems (IS) Audit Policy",
+      "questions": [
+        {
+          "q": "Software Audit is generally carried out utilising the services of officers holding which qualification?",
+          "options": [
+            "CFA qualified officers",
+            "CISA qualified officers",
+            "CA qualified officers",
+            "CAIIB qualified officers"
+          ],
+          "correct": 1,
+          "explain": "The document states Software Audit shall be carried out generally utilising the services of CISA qualified officers of the bank."
+        },
+        {
+          "q": "Application software audit under IS Audit is carried out by which type of empaneled auditors?",
+          "options": [
+            "CERT-In empaneled auditors",
+            "RBI empaneled auditors",
+            "SEBI empaneled auditors",
+            "NABARD empaneled auditors"
+          ],
+          "correct": 0,
+          "explain": "The document states application software audit is carried out by CERT-In empaneled auditors (Computer Emergency Response Team)."
+        },
+        {
+          "q": "Network Audit under IS Audit is conducted on what frequency, using CISA/CISSP qualified officers?",
+          "options": [
+            "Quarterly basis",
+            "Bi-annual basis",
+            "Half-yearly basis",
+            "Annual basis"
+          ],
+          "correct": 3,
+          "explain": "The document states Network Audit is conducted on an annual basis using CISA/CISSP qualified officers attached to the core team of IS Audit."
+        },
+        {
+          "q": "Under the IS Audit rating and reporting scale, a score below 50% is rated as which risk category?",
+          "options": [
+            "Low Risk",
+            "Extremely High Risk",
+            "Medium Risk",
+            "High Risk"
+          ],
+          "correct": 3,
+          "explain": "The document states for IS Audit rating, a score below 50% is rated High Risk, 50-70% Medium Risk, and above 70% Low Risk."
+        },
+        {
+          "q": "Other IS Audit coverage such as aggregation points (routers & switches), AEPS/POS, ATM, third-party IT environments and Data Centre is conducted on what frequency?",
+          "options": [
+            "Annual (Administrative Departments bi-annual)",
+            "Only once at go-live",
+            "Monthly",
+            "Weekly"
+          ],
+          "correct": 0,
+          "explain": "The document states IS Audit of aggregation points, ATM, third-party IT environments, Data Centre, CBS Project Office, DR site, CTS Centre, Regional Offices is annual, while Administrative Departments are bi-annual."
+        },
+        {
+          "q": "VAPT (audit) of critical applications like Internet Banking and Mobile Banking should be conducted at what minimum frequency?",
+          "options": [
+            "At least half yearly",
+            "At least quarterly",
+            "At least annually",
+            "At least monthly"
+          ],
+          "correct": 0,
+          "explain": "The document states VAPT of critical applications - Internet Banking, Mobile Banking - is to be audited at least half yearly."
+        },
+        {
+          "q": "Which of these is listed as a Special Report item under IS Audit?",
+          "options": [
+            "Incomplete loan documentation",
+            "Lack of awareness in maintaining password secrecy",
+            "Delay in ATM cash replenishment",
+            "Poor branch network connectivity speed"
+          ],
+          "correct": 1,
+          "explain": "The document lists lack of awareness in maintaining password secrecy as one of the IS Audit Special Reports items."
+        },
+        {
+          "q": "Maintenance of which type of account in a branch, other than those permitted by the system, is flagged as an IS Audit special report item?",
+          "options": [
+            "Sundry deposit account",
+            "Nominal account",
+            "Parking account",
+            "Suspense account"
+          ],
+          "correct": 2,
+          "explain": "The document lists maintenance of parking account in branch, other than those permitted by the system, as an IS Audit special report concern."
+        },
+        {
+          "q": "Branch Audit under IS Audit types corresponds to what activity?",
+          "options": [
+            "External statutory audit",
+            "Only network audit",
+            "Regular inspection",
+            "Only VAPT testing"
+          ],
+          "correct": 2,
+          "explain": "The document states under 'Various Types of Information Systems Audit', Branch Audit corresponds to Regular Inspection."
+        },
+        {
+          "q": "Which of the following is listed as an IS Audit special report concern regarding daily checks?",
+          "options": [
+            "Delay in monthly stationery indent",
+            "Non-checking of VVR, SWO & other critical reports on a daily basis",
+            "Failure to update branch signage",
+            "Non-attendance of staff training"
+          ],
+          "correct": 1,
+          "explain": "The document lists non-checking of VVR, SWO and other critical reports on a daily basis as an IS Audit special report item."
+        }
+      ]
+    },
+    {
+      "topic": "Staff Accountability Policy",
+      "questions": [
+        {
+          "q": "Staff accountability for lapses in an advance account must be examined within how many years of the relief of the officer concerned?",
+          "options": [
+            "5 years",
+            "3 years",
+            "2 years",
+            "4 years"
+          ],
+          "correct": 3,
+          "explain": "The document states staff accountability for lapses in advance account is to be examined within 4 years of the relief of the officer."
+        },
+        {
+          "q": "Staff accountability examination should be completed at least how long before the retirement of the staff member?",
+          "options": [
+            "1 year before retirement",
+            "6 months before retirement",
+            "3 months before retirement",
+            "1 month before retirement"
+          ],
+          "correct": 2,
+          "explain": "The document states staff accountability at least 3 months before the retirement of the staff should be examined."
+        },
+        {
+          "q": "For which category of large value NPA accounts must a copy of the staff accountability study report be forwarded to the CVO and the Sponsor Bank?",
+          "options": [
+            "Accounts with book balance of Rs.1 Crore and above",
+            "Accounts with book balance of Rs.50 lakhs and above",
+            "All NPA accounts regardless of value",
+            "Accounts with book balance of Rs.5 Crore and above"
+          ],
+          "correct": 0,
+          "explain": "The document states all large value NPA accounts with book balance of Rs.1 Crore and above where staff accountability study is conducted require a copy sent to CVO and the Sponsor Bank."
+        },
+        {
+          "q": "Which committee is convened by HOD Vigilance Department and consists of heads of Recovery, Accounts, Credit and Planning departments, for staff accountability?",
+          "options": [
+            "Audit Committee of Executives (ACE)",
+            "Regional Staff Accountability Committee (RSAC)",
+            "Regional Audit Committee of Executives (RACE)",
+            "Internal Advisory Committee (IAC)"
+          ],
+          "correct": 3,
+          "explain": "The document states the Internal Advisory Committee (IAC) consists of heads of Recovery, Accounts, Credit and Planning departments, with HOD Vigilance as convenor."
+        },
+        {
+          "q": "For non-credit related staff accountability issues involving exposure up to Rs.1.00 lakh, which authority handles the report?",
+          "options": [
+            "Chairman level HO Staff Accountability Committee",
+            "GM level HO Staff Accountability Committee",
+            "Regional Staff Accountability Committee (RSAC) headed by RM",
+            "RACE headed by IC-Head"
+          ],
+          "correct": 2,
+          "explain": "The competent authority table shows exposure up to Rs.1 lakh is handled by the Regional Staff Accountability Committee (RSAC) headed by RM."
+        },
+        {
+          "q": "For non-credit related issues with amount involved above Rs.15.00 lakhs, which authority is the competent authority for staff accountability reports?",
+          "options": [
+            "Chairman level HO Staff Accountability Committee",
+            "Regional Staff Accountability Committee (RSAC)",
+            "GM level HO Staff Accountability Committee",
+            "RACE headed by IC-Head"
+          ],
+          "correct": 0,
+          "explain": "The competent authority table shows amounts above Rs.15.00 lakhs are handled by the Chairman level HO Staff Accountability Committee."
+        },
+        {
+          "q": "Which of the following is listed as one of the triggering credit-area events for staff accountability study?",
+          "options": [
+            "Branch relocating premises",
+            "Account slipping to NPA category",
+            "Branch receiving an award",
+            "Staff attending training program"
+          ],
+          "correct": 1,
+          "explain": "The document lists account slipping to NPA category as one of the trigger events (along with filing of suit, OTS, adverse audit findings) for staff accountability study."
+        },
+        {
+          "q": "Which of these is listed among the 'Non-Credit Areas' warranting staff accountability study?",
+          "options": [
+            "Non-compliance to KYC/AML/CFT guidelines",
+            "Late opening of branch",
+            "Delay in ATM replenishment",
+            "Poor customer service ratings"
+          ],
+          "correct": 0,
+          "explain": "The document lists non-compliance to KYC/AML/CFT guidelines as a non-credit area item warranting staff accountability study."
+        },
+        {
+          "q": "The staff accountability study for advance accounts is based on outstanding balance excluding which component?",
+          "options": [
+            "Principal amount",
+            "MOI (Memorandum of Interest)",
+            "Sanctioned limit",
+            "Security value"
+          ],
+          "correct": 1,
+          "explain": "The document states the staff accountability study is based on the outstanding balance excluding MOI."
+        },
+        {
+          "q": "If a staff accountability lapse is identified in a study report but not reported in the inspection reports, who is held responsible?",
+          "options": [
+            "The Regional Manager alone",
+            "The respective inspecting official/s",
+            "The Branch Manager alone",
+            "The Chairman"
+          ],
+          "correct": 1,
+          "explain": "The document states that if the staff accountability study report was not reported in inspection reports, the respective inspecting official/s would be held responsible."
+        }
+      ]
+    },
+    {
+      "topic": "Concurrent Audit Policy",
+      "questions": [
+        {
+          "q": "Concurrent Audit coverage must ensure at least what percentage of deposits and advances of the bank on an ongoing basis?",
+          "options": [
+            "50% of deposits and 50% of advances",
+            "75% of deposits and 75% of advances",
+            "100% of deposits and 50% of advances",
+            "25% of deposits and 25% of advances"
+          ],
+          "correct": 0,
+          "explain": "The document states coverage of at least 50% of deposits and 50% of advances and other risk exposure of the bank under concurrent audit is to be ensured on an ongoing basis."
+        },
+        {
+          "q": "Branches with average advance figure of less than what amount may be exempted from concurrent audit coverage?",
+          "options": [
+            "Less than Rs.5.00 Crore",
+            "Less than Rs.25.00 Crore",
+            "Less than Rs.1.00 Crore",
+            "Less than Rs.10.00 Crore"
+          ],
+          "correct": 3,
+          "explain": "The document states branches with average advance figure of less than Rs.10.00 Crore may be exempted from concurrent audit coverage."
+        },
+        {
+          "q": "Concurrent Audits are conducted by which external parties?",
+          "options": [
+            "Only in-house bank staff",
+            "Only RBI-appointed auditors",
+            "Only NABARD officials",
+            "Chartered Accountants / retired bank officials"
+          ],
+          "correct": 3,
+          "explain": "The document states concurrent audits are conducted by external Chartered Accountants / retired bank officials."
+        },
+        {
+          "q": "Under concurrent audit, the report of the month is due by when, and closure of reports is expected within what period?",
+          "options": [
+            "End of succeeding month; closure within 1 month",
+            "15th of succeeding month; closure within 3 months",
+            "5th of succeeding month; closure within 2 months",
+            "10th of succeeding month; closure within 1 month"
+          ],
+          "correct": 2,
+          "explain": "The document states the report of the month is due before the 5th of the succeeding month, with closure of reports within 2 months."
+        },
+        {
+          "q": "The tenure of a Concurrent Auditor is initially for how long, extendable for a further period, subject to satisfactory performance?",
+          "options": [
+            "Three years, non-extendable",
+            "One year, extendable for a further two years (overall three years)",
+            "Six months, extendable for six months",
+            "Two years, extendable for a further one year"
+          ],
+          "correct": 1,
+          "explain": "The document states the tenure of concurrent audit would be initially for one year and would be extended for a further period of two years (overall three years), based on performance."
+        },
+        {
+          "q": "Retired officers considered for initial engagement as concurrent auditors must have retired on superannuation within the last how many years, in Scale II and above?",
+          "options": [
+            "Last five years",
+            "Last three years",
+            "Last two years",
+            "Last one year"
+          ],
+          "correct": 1,
+          "explain": "The document states officers who retired on superannuation in Scale II & above within the last three years may be considered for initial engagement as concurrent auditor."
+        },
+        {
+          "q": "What is the maximum permissible age for a retired officer to continue as concurrent auditor, including being assigned another branch from the 4th year onwards?",
+          "options": [
+            "62 years",
+            "65 years",
+            "60 years",
+            "70 years"
+          ],
+          "correct": 1,
+          "explain": "The document states the retired officer can be assigned another branch in the 4th year onwards within the maximum permissible age of 65 years."
+        },
+        {
+          "q": "As part of Concurrent Auditor's role, how many jewel packets should be randomly verified every month?",
+          "options": [
+            "10 jewel packets",
+            "50 jewel packets",
+            "20 jewel packets",
+            "5 jewel packets"
+          ],
+          "correct": 2,
+          "explain": "The document states random verification of 20 number of jewel packets every month is part of the Concurrent Auditor's role."
+        },
+        {
+          "q": "As per fees structure, what is the concurrent audit fee for a branch with total business between Rs.50 crore and up to Rs.100 crore?",
+          "options": [
+            "Rs.9000",
+            "Rs.8000",
+            "Rs.10000",
+            "Rs.7000"
+          ],
+          "correct": 0,
+          "explain": "The Concurrent Audit fee table shows Rs.9000 for total business above Rs.50 crore and up to Rs.100 crore."
+        },
+        {
+          "q": "Stock Audit / Credit Audit of a branch shall NOT be allotted to which auditor for that same branch?",
+          "options": [
+            "The Concurrent Auditor of the same branch",
+            "The IS Auditor of the branch",
+            "Any retired bank official",
+            "Any external Chartered Accountant firm"
+          ],
+          "correct": 0,
+          "explain": "The document states Stock Audit/Credit Audit shall not be allotted to the Concurrent Auditor of the same branch, to maintain independence."
+        }
+      ]
+    }
+  ]
+}

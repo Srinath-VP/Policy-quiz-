@@ -1,0 +1,1156 @@
+{
+  "id": "types-of-customer",
+  "policyName": "Types of Customer 2026",
+  "quizzes": [
+    {
+      "topic": "Banking & Customer Fundamentals",
+      "questions": [
+        {
+          "q": "As per Section 5(b) of the Banking Regulation Act, 1949, deposits accepted for lending or investment are repayable on demand or otherwise, and withdrawal is made by which means?",
+          "options": [
+            "Cheque, draft, order or otherwise",
+            "Only by cheque",
+            "Only through an ATM",
+            "Only through a bank draft"
+          ],
+          "correct": 0,
+          "explain": "Section 5(b) of the Banking Regulation Act, 1949 defines banking as accepting deposits repayable on demand or otherwise, and withdrawal by cheque, draft, order or otherwise."
+        },
+        {
+          "q": "According to John Paget's definition, what constitutes a person as a 'Customer' of a bank?",
+          "options": [
+            "A person who has taken a loan from the bank",
+            "A person who has deposited money only once",
+            "A person who has an account with the bank, whether fixed or savings, and has dealing of a banking nature",
+            "Any person who enters a bank branch for enquiry"
+          ],
+          "correct": 2,
+          "explain": "John Paget defined a Customer as 'a person who has an account with a bank, whether fixed or savings, and has dealing of banking nature.'"
+        },
+        {
+          "q": "John Paget's definition of Customer, based on transactions of deposit and withdrawal of money at frequent intervals, is popularly known as what?",
+          "options": [
+            "The Frequency Rule",
+            "The Duration Theory",
+            "The Contract Theory",
+            "The Deposit Theory"
+          ],
+          "correct": 1,
+          "explain": "The document states this definition of Customer 'is popularly known as the Duration Theory.'"
+        },
+        {
+          "q": "The banking relationship between a bank and its customer is established as a contract governed by which Act?",
+          "options": [
+            "Banking Regulation Act, 1949",
+            "Companies Act, 2013",
+            "Indian Trust Act, 1882",
+            "Indian Contract Act, 1872"
+          ],
+          "correct": 3,
+          "explain": "The slide states that banking relationship is a contract between the Bank and the Customer, and refers to the Indian Contract Act, 1872 for establishing the relationship."
+        },
+        {
+          "q": "As per the Indian Contract Act 1872, which of the following persons is NOT legally competent to enter into a contract with a bank?",
+          "options": [
+            "A major person of sound mind",
+            "A drunken person who is not in good sense",
+            "A person not disqualified by any law",
+            "A person who is not insolvent"
+          ],
+          "correct": 1,
+          "explain": "The material states that a drunken person is not legally competent to enter into a contract, and one should be in good sense while opening an account."
+        },
+        {
+          "q": "As per the Indian Contract Act 1872, at what age does an individual become 'major' and legally competent to enter into a valid contract?",
+          "options": [
+            "18 years",
+            "21 years",
+            "16 years",
+            "15 years"
+          ],
+          "correct": 0,
+          "explain": "The individual should be major, i.e. of 18 years of age, to be competent to enter into a valid contract."
+        },
+        {
+          "q": "Besides proof of identity, residential address and photographs, what else must a person furnish while opening a deposit account?",
+          "options": [
+            "A guarantor's signature",
+            "A police verification certificate",
+            "An income certificate",
+            "Initial deposit not less than the prescribed minimum"
+          ],
+          "correct": 3,
+          "explain": "The prescribed account opening form requires proof of identity and address, photographs, and an initial deposit not less than the prescribed minimum."
+        },
+        {
+          "q": "As per RBI's guidance mentioned in the training material, what is NOT necessary for opening a new bank account?",
+          "options": [
+            "Proof of residential address",
+            "Proof of identity",
+            "Introduction by an existing account holder",
+            "Photographs"
+          ],
+          "correct": 2,
+          "explain": "RBI has informed that introduction is not necessary for opening of accounts, so banks should not insist on introduction of an existing customer while opening a new account."
+        },
+        {
+          "q": "Which of the following is listed under the 'Personal accounts' category of customer types in the training material?",
+          "options": [
+            "Hindu Undivided Family",
+            "Minor Account",
+            "Trust",
+            "Partnership Firm"
+          ],
+          "correct": 1,
+          "explain": "Under 'Personal accounts' the material lists Single Individual, Joint Individual, Minor Account, Illiterate Person, Blind Person, and Pardanashin women."
+        },
+        {
+          "q": "What is the stated purpose of accepting deposits of money from the public, as per the definition of banking under Section 5(b) of the Banking Regulation Act, 1949?",
+          "options": [
+            "For the purpose of lending or investment",
+            "For government treasury operations",
+            "For safekeeping only",
+            "For trading in securities"
+          ],
+          "correct": 0,
+          "explain": "Banking is defined as 'accepting for the purpose of lending or investment, of deposits of money from public.'"
+        }
+      ]
+    },
+    {
+      "topic": "Single & Joint Individual Accounts",
+      "questions": [
+        {
+          "q": "A single individual account is a purely personal account that is normally operated upon by whom?",
+          "options": [
+            "Any family member",
+            "Only a nominee",
+            "The bank manager",
+            "The account holder himself"
+          ],
+          "correct": 3,
+          "explain": "The document states this account 'is normally operated upon by the account holder himself.'"
+        },
+        {
+          "q": "In a single individual account, how can the account holder authorize another person to operate the account?",
+          "options": [
+            "It is not permitted under any circumstance",
+            "By a verbal instruction to the branch staff",
+            "By giving Mandate or Power of Attorney",
+            "By an SMS request"
+          ],
+          "correct": 2,
+          "explain": "The account holder 'may authorize another person to operate the account by giving him Mandate or Power of Attorney.'"
+        },
+        {
+          "q": "Why is it desirable to obtain proper nomination on a single individual account?",
+          "options": [
+            "To avoid legal complications that may arise after the death of the account holder",
+            "To waive KYC requirements",
+            "To reduce the minimum balance requirement",
+            "To enable joint operation of the account"
+          ],
+          "correct": 0,
+          "explain": "The material states nomination is obtained 'in order to avoid legal complications that may arise after the death of the account holder.'"
+        },
+        {
+          "q": "A joint account of more than one individual is opened for operational convenience or to avoid legal complications arising from which event?",
+          "options": [
+            "A change of home branch",
+            "Retirement of a bank employee",
+            "Bankruptcy of the bank",
+            "Death of one of the joint account holders"
+          ],
+          "correct": 3,
+          "explain": "Joint accounts are opened 'for operational convenience or to avoid legal complications upon death of one of the joint account holders.'"
+        },
+        {
+          "q": "In a joint account, who can change addition/deletion of a name, make a material alteration, close the account, or change operational instructions?",
+          "options": [
+            "The bank alone, at its discretion",
+            "Any one account holder",
+            "All the account holders jointly",
+            "Only the eldest account holder"
+          ],
+          "correct": 2,
+          "explain": "The material states these actions 'can be changed by all the account holders jointly.'"
+        },
+        {
+          "q": "In a joint account operated with the instruction 'Former or Survivor,' who alone can change or revoke the operating instructions?",
+          "options": [
+            "Both jointly",
+            "The Former",
+            "Any one of the account holders",
+            "The Survivor"
+          ],
+          "correct": 1,
+          "explain": "The material states that in joint accounts with 'Former or Survivor' instructions, 'instructions can be changed/revoked only by Former.'"
+        },
+        {
+          "q": "In a joint account with 'Either or Survivor' operating instructions, who can request a Stop Payment on a cheque?",
+          "options": [
+            "Any one of the account holders",
+            "Only the Former",
+            "All account holders jointly",
+            "Only a nominee"
+          ],
+          "correct": 0,
+          "explain": "As per the Joint Account Summary table, Stop Payment under 'Either or Survivor' instructions can be requested by 'Any one' account holder."
+        },
+        {
+          "q": "In a joint account with 'Former or Survivor' instructions, payment on maturity of a Fixed Deposit Receipt (FDR) can be made to whom?",
+          "options": [
+            "All account holders jointly",
+            "Only the Former",
+            "The Survivor alone",
+            "Any one of the account holders"
+          ],
+          "correct": 1,
+          "explain": "The Joint Account Summary table shows that for 'Former or Survivor' accounts, payment on maturity of an FDR is made to 'Only Former.'"
+        },
+        {
+          "q": "Under all three joint account operating modes shown in the training material (Either or Survivor, Former or Survivor, and Joint Operation), what is required for premature payment of an FDR?",
+          "options": [
+            "All account holders jointly",
+            "Only the Survivor",
+            "Any one account holder",
+            "Only the Former"
+          ],
+          "correct": 0,
+          "explain": "The Joint Account Summary table shows 'All jointly' is required for premature payment of FDR under all three operating modes."
+        },
+        {
+          "q": "In 'Joint Operation' mode with a nomination in place, once all original account holders have died, to whom is payment made?",
+          "options": [
+            "Only to the bank as unclaimed deposit",
+            "The survivor and legal heirs, till any of the survivor is alive",
+            "Payment stops permanently",
+            "Only to the nominee's own legal heirs"
+          ],
+          "correct": 1,
+          "explain": "The Joint Account Summary table shows payment in case of nomination under 'Joint Operation' goes to 'Survivor and legal heirs till any of survivor is alive.'"
+        }
+      ]
+    },
+    {
+      "topic": "Minor Accounts & Guardianship",
+      "questions": [
+        {
+          "q": "As per Section 3 of the Indian Majority Act, at what age does a person normally attain majority, except when a guardian is appointed by a Court?",
+          "options": [
+            "15 years",
+            "18 years",
+            "16 years",
+            "21 years"
+          ],
+          "correct": 1,
+          "explain": "Section 3 of the Indian Majority Act says a person attains majority at 18, except where a guardian is appointed by a Court, where the age of majority is 21."
+        },
+        {
+          "q": "As per the Indian Contract Act, what is the legal status of a contract entered into with a minor?",
+          "options": [
+            "The contract is void",
+            "The contract is valid only for savings accounts",
+            "The contract is valid but voidable",
+            "The contract is valid if witnessed"
+          ],
+          "correct": 0,
+          "explain": "A minor is not under a legal capacity to enter into a contract, and therefore any contract with a minor is void."
+        },
+        {
+          "q": "Section 6(a) of the Hindu Minority and Guardianship Act, 1956 recognizes which persons as the natural guardian of a Hindu minor?",
+          "options": [
+            "Only the mother",
+            "Either of the parents, father or mother",
+            "Only a court-appointed relative",
+            "Only the father"
+          ],
+          "correct": 1,
+          "explain": "Section 6(a) of the Hindu Minority and Guardianship Act, 1956 recognizes that either of the parents, father or mother, can be the natural guardian."
+        },
+        {
+          "q": "What type of account should NOT be opened for a minor, as per the training material?",
+          "options": [
+            "Current Account",
+            "Recurring Deposit Account",
+            "Fixed Deposit Account",
+            "Savings Account"
+          ],
+          "correct": 0,
+          "explain": "The material states 'No Current Account should be opened' for a minor."
+        },
+        {
+          "q": "In a self-operated minor account, who makes the nomination since the minor cannot?",
+          "options": [
+            "The guardian of the minor",
+            "The bank branch manager",
+            "Any relative of the minor",
+            "No nomination is possible for minor accounts"
+          ],
+          "correct": 0,
+          "explain": "A minor cannot make a nomination in a self-operated minor account; nomination is done by the guardian of the minor."
+        },
+        {
+          "q": "Literate minors above what age may be allowed to open and operate savings bank accounts independently, subject to bank-fixed limits?",
+          "options": [
+            "16 years",
+            "10 years",
+            "12 years",
+            "14 years"
+          ],
+          "correct": 1,
+          "explain": "The material states 'Literate Minors above the age of 10 years may be now allowed to open and operate savings bank accounts independently.'"
+        },
+        {
+          "q": "When a minor attains the age of majority, who should operate the account?",
+          "options": [
+            "Only the guardian, until a fresh mandate is filed",
+            "The bank operates it in trust until further notice",
+            "The guardian continues to operate jointly with the minor",
+            "The minor alone; the guardian should not be allowed to operate the account"
+          ],
+          "correct": 3,
+          "explain": "On attaining majority, the minor alone can operate the account and the guardian should not be allowed to operate the account."
+        },
+        {
+          "q": "Which of the following is one of the three types of guardian listed in the training material?",
+          "options": [
+            "Corporate Guardian",
+            "Statutory Guardian",
+            "Testamentary Guardian (appointed by will)",
+            "Karta"
+          ],
+          "correct": 2,
+          "explain": "The three types of guardian listed are Natural Guardian, Testamentary Guardian (appointed by will), and Legal Guardian (appointed by court)."
+        },
+        {
+          "q": "Under Mohammedan Law, who can act as the natural guardian of a Muslim minor's account?",
+          "options": [
+            "Either parent, as under Hindu law",
+            "Any senior family member chosen by consensus",
+            "The father (or father's father), not the mother",
+            "The mother only"
+          ],
+          "correct": 2,
+          "explain": "Accounts of Mohammedan minors are operated by the father, who is the natural guardian; the mother cannot act as natural guardian under Mohammedan Law."
+        },
+        {
+          "q": "In the case of a deceased minor's account, to whom is the balance payable, and on production of what document?",
+          "options": [
+            "To the bank as unclaimed deposit",
+            "To the minor's legal heirs without any documentation",
+            "To the natural guardian only after 10 years",
+            "To the guardian, upon production of the death certificate"
+          ],
+          "correct": 3,
+          "explain": "In case of death of the minor, the balance is payable to the guardian upon production of the death certificate."
+        }
+      ]
+    },
+    {
+      "topic": "Illiterate, Blind & Pardanashin Women Accounts",
+      "questions": [
+        {
+          "q": "How is an 'Illiterate person' defined in the training material?",
+          "options": [
+            "A person below 18 years of age",
+            "A person who cannot read or write",
+            "A person without a bank account",
+            "A person who cannot sign in English"
+          ],
+          "correct": 1,
+          "explain": "The material states 'Illiterate person is a person who cannot read or write.'"
+        },
+        {
+          "q": "Before opening an account for an illiterate person, who must introduce them to the branch?",
+          "options": [
+            "A police officer",
+            "A notary public",
+            "An existing literate account holder of the branch",
+            "A chartered accountant"
+          ],
+          "correct": 2,
+          "explain": "The material states 'The illiterate person will have to be introduced by an existing literate account holder of the branch.'"
+        },
+        {
+          "q": "Which thumb impression is normally obtained from a male illiterate person for entering into an agreement with the bank?",
+          "options": [
+            "Left Hand Thumb impression (LHT)",
+            "No specific thumb is prescribed",
+            "Both thumb impressions",
+            "Right Hand Thumb impression (RHT)"
+          ],
+          "correct": 0,
+          "explain": "The material states 'Normally, Left Hand Thumb impression (LHT) of male & Right Hand Thumb impression (RHT) of female is to be obtained.'"
+        },
+        {
+          "q": "Who can attest the thumb impression of an illiterate person on the account opening form?",
+          "options": [
+            "A local shopkeeper",
+            "A judicial officer or bank official or a witness who is also an account holder of the bank",
+            "Any relative of the account holder",
+            "A neighbour of the account holder"
+          ],
+          "correct": 1,
+          "explain": "The material states the thumb impression 'has to be attested by a judicial officer or bank official or any witness who is also the account holder of the bank.'"
+        },
+        {
+          "q": "How many witnesses are required for nomination in the case of an illiterate customer?",
+          "options": [
+            "Two witnesses",
+            "One witness",
+            "Three witnesses",
+            "No witness is required"
+          ],
+          "correct": 0,
+          "explain": "The material states 'Two witnesses required for nomination' for illiterate persons."
+        },
+        {
+          "q": "For an illiterate customer, who is NOT permitted to fill up the withdrawal slip?",
+          "options": [
+            "Another customer of the bank",
+            "No bank employee should fill it up",
+            "The illiterate customer's own family member",
+            "A witness known to the bank"
+          ],
+          "correct": 1,
+          "explain": "The material states 'No bank employee should fill up the withdrawal slip for the illiterate customer and he can be assisted by any other customer of the bank.'"
+        },
+        {
+          "q": "For a blind person's account, who must witness the signature or thumb impression on the account opening form?",
+          "options": [
+            "Only a family member of the blind person",
+            "No witness is required",
+            "Only the branch manager",
+            "A person who certifies that the contents of the form were explained to the blind person in his presence"
+          ],
+          "correct": 3,
+          "explain": "The material states the signature/thumb impression 'to be witnessed by a person who should certify that contents of the A/c opening form were explained to the blind person in his presence.'"
+        },
+        {
+          "q": "A blind person should always visit the branch personally for which transaction, per the training material?",
+          "options": [
+            "Passbook updation",
+            "Balance enquiry",
+            "Cash withdrawal",
+            "Cheque book request"
+          ],
+          "correct": 2,
+          "explain": "The material states 'He should always visit the branch for cash withdrawal.'"
+        },
+        {
+          "q": "What best describes a 'Pardanashin woman' according to the training material?",
+          "options": [
+            "A woman who has never opened a bank account",
+            "A widow with no legal heirs",
+            "A woman above the age of 60",
+            "A lady who remains in complete seclusion and does not transact business with people other than her own family members"
+          ],
+          "correct": 3,
+          "explain": "The material defines a Pardanashin woman as 'a lady who remains in complete seclusion & does not transact any business with people other than her own family members.'"
+        },
+        {
+          "q": "Normally, what type of account is NOT opened in the name of a Pardanashin woman?",
+          "options": [
+            "Current Account",
+            "Savings Account",
+            "Recurring Deposit Account",
+            "Fixed Deposit Account"
+          ],
+          "correct": 0,
+          "explain": "The material states 'Normally no current account is opened' for a Pardanashin woman."
+        }
+      ]
+    },
+    {
+      "topic": "Hindu Undivided Family (HUF)",
+      "questions": [
+        {
+          "q": "As per Hindu law, which communities can form a Hindu Undivided Family (HUF)?",
+          "options": [
+            "Hindus, Sikhs & Jains",
+            "Hindus and Muslims",
+            "Only Hindus",
+            "All Indian citizens regardless of religion"
+          ],
+          "correct": 0,
+          "explain": "The material states 'As per Hindu law, the Hindus, Sikhs & Jains can form HUF.'"
+        },
+        {
+          "q": "HUF is governed by two schools of thought. In Bengal, HUF is governed by which law?",
+          "options": [
+            "Common Law",
+            "Mitakshara Law",
+            "Shariat Law",
+            "Dayabhag law"
+          ],
+          "correct": 3,
+          "explain": "The material states 'In Bengal, it is governed by Dayabhag law; in other parts of India, it is governed by Mitakshara Law.'"
+        },
+        {
+          "q": "In an HUF, the joint owners are known by what term?",
+          "options": [
+            "Shareholders",
+            "Coparceners",
+            "Directors",
+            "Trustees"
+          ],
+          "correct": 1,
+          "explain": "The material states 'Joint owner of HUF are known as coparceners.'"
+        },
+        {
+          "q": "Who manages the HUF property, as the senior-most major male member of the family?",
+          "options": [
+            "The Manager or Karta",
+            "A court-appointed administrator",
+            "The eldest coparcener's wife",
+            "The bank manager"
+          ],
+          "correct": 0,
+          "explain": "The material states 'HUF property is managed by senior most major male member called Manager or Karta.'"
+        },
+        {
+          "q": "As per which Supreme Court judgement, cited in the training material, can an HUF NOT enter into a partnership?",
+          "options": [
+            "Supreme Court judgement of 1956",
+            "Supreme Court judgement of 1998",
+            "Supreme Court judgement of 1972",
+            "Supreme Court judgement of 2005"
+          ],
+          "correct": 1,
+          "explain": "The material states 'HUF cannot enter into a partnership as per Supreme Court judgement of 1998.'"
+        },
+        {
+          "q": "What document must be signed by the Karta and all the coparceners when opening an HUF account?",
+          "options": [
+            "Partnership Deed",
+            "Joint Hindu Family Letter (CD-115)",
+            "Trust Deed",
+            "Memorandum of Association"
+          ],
+          "correct": 1,
+          "explain": "The material states 'Joint Hindu Family Letter (CD-115) to be signed by Karta & all the coparceners.'"
+        },
+        {
+          "q": "If the PAN of the HUF is not available, whose PAN should at least be obtained?",
+          "options": [
+            "The Karta's PAN",
+            "No PAN is required in this case",
+            "Any coparcener's PAN",
+            "The eldest coparcener's PAN"
+          ],
+          "correct": 0,
+          "explain": "The material states 'PAN of HUF required, if not at least Karta should have PAN.'"
+        },
+        {
+          "q": "Does the death of a coparcener dissolve the HUF?",
+          "options": [
+            "Only if all coparceners agree to dissolve it",
+            "Yes, the HUF is automatically dissolved",
+            "No, death of a coparcener does not dissolve the HUF",
+            "Only if the deceased was the Karta"
+          ],
+          "correct": 2,
+          "explain": "The material states 'Death of coparcener does not dissolve HUF,' though it is advisable to obtain a fresh CD-115 letter on such an event."
+        },
+        {
+          "q": "From when are female descendants included as coparceners in an HUF, per the training material?",
+          "options": [
+            "The date is not specified",
+            "January 1956",
+            "April 2013",
+            "September 2005"
+          ],
+          "correct": 3,
+          "explain": "The material states the HUF consists of a common ancestor and 'his all male & female (female from Sept. 2005) descendents up to 3 generation next to him.'"
+        },
+        {
+          "q": "Under which sections of the Income Tax Act can an HUF account avail tax rebates and deductions, per the training material?",
+          "options": [
+            "Sections 194A and 194C",
+            "Sections 10, 12 and 15",
+            "Sections 80C, 88 and 80L",
+            "Sections 44AB and 44AD"
+          ],
+          "correct": 2,
+          "explain": "The material states 'According to IT act, tax rebates and deductions can be availed under sections 80C, 88 and 80L for HUF account.'"
+        }
+      ]
+    },
+    {
+      "topic": "Proprietorship Firms",
+      "questions": [
+        {
+          "q": "In a proprietorship firm, the business is wholly owned by whom?",
+          "options": [
+            "Shareholders",
+            "A group of partners",
+            "An individual",
+            "A trust"
+          ],
+          "correct": 2,
+          "explain": "The material states 'Business is wholly owned by an individual' in a proprietorship firm."
+        },
+        {
+          "q": "In law, what is the relationship between a proprietor and the proprietorship firm?",
+          "options": [
+            "The firm is taxed separately from the proprietor",
+            "There is no difference between the proprietor and the firm",
+            "They are two distinct legal entities",
+            "The firm has limited liability separate from the proprietor"
+          ],
+          "correct": 1,
+          "explain": "The material states 'In law, there is no difference between proprietor & the firm.'"
+        },
+        {
+          "q": "What must be obtained from the proprietor in the bank's prescribed format when opening a proprietorship account?",
+          "options": [
+            "Trust deed",
+            "Partnership deed",
+            "Proprietorship letter in the bank's Performa",
+            "Memorandum of Association"
+          ],
+          "correct": 2,
+          "explain": "The material states 'Proprietorship letter in bank's Performa is to be obtained.'"
+        },
+        {
+          "q": "A proprietorship firm's account is, in all respects, an account in the name of whom?",
+          "options": [
+            "An individual, operated upon by the proprietor on behalf of the firm",
+            "A registered company",
+            "A cooperative society",
+            "A joint venture of multiple owners"
+          ],
+          "correct": 0,
+          "explain": "The material states 'In all respects, it is an account in the name of an individual only except that it is operated upon by the proprietor on behalf of firm.'"
+        },
+        {
+          "q": "What registration does the training material state a proprietorship firm should have?",
+          "options": [
+            "GST Number",
+            "Certificate of Incorporation",
+            "Company Identification Number (CIN)",
+            "LLP registration"
+          ],
+          "correct": 0,
+          "explain": "The material states 'The firm should have GST No.'"
+        },
+        {
+          "q": "In case of a proprietorship firm's debts, against which assets do creditors have recourse?",
+          "options": [
+            "Both the assets of the firm and the private assets of the proprietor",
+            "Only the private assets of the proprietor's family members",
+            "Only the assets of the firm",
+            "No recourse is available since liability is limited"
+          ],
+          "correct": 0,
+          "explain": "The material states 'Creditors have recourse not only against assets of the firm but also against private assets of the proprietor.'"
+        },
+        {
+          "q": "In what capacity must a proprietor execute security documents for the bank?",
+          "options": [
+            "Only as Proprietor on behalf of the firm",
+            "Through an appointed company director",
+            "Only in his individual capacity",
+            "As Proprietor on behalf of the firm, as well as in his individual capacity"
+          ],
+          "correct": 3,
+          "explain": "The material states the bank insists 'that proprietor should execute the security documents in the capacity as Proprietor on behalf of the firm as well as in his individual capacity.'"
+        },
+        {
+          "q": "How can a proprietor authorise another person to operate the firm's bank account?",
+          "options": [
+            "It is not permitted for proprietorship firms",
+            "Through Mandate or Power of Attorney",
+            "Only through a partnership deed",
+            "Only through a board resolution"
+          ],
+          "correct": 1,
+          "explain": "The material states 'Proprietor can authorise another person to operate the account through Mandate or Power of Attorney.'"
+        },
+        {
+          "q": "Along with the KYC Official Valid Documents of the proprietor, how many additional documents from the prescribed list must be obtained to establish proof of proprietorship?",
+          "options": [
+            "All of the followings",
+            "Any five of the followings",
+            "Only one of the followings",
+            "Any two of the followings"
+          ],
+          "correct": 3,
+          "explain": "The material states 'Along with KYC Official Valid Documents of Proprietor, any two of the followings required.'"
+        },
+        {
+          "q": "Which of the following is listed as an acceptable document to establish proof of proprietorship of a firm?",
+          "options": [
+            "Trust deed and a certificate from the Charity Commission",
+            "Certificate/licence issued by the municipal authorities under the Shop and Establishment Act",
+            "Partnership deed",
+            "Joint Hindu Family Letter (CD-115)"
+          ],
+          "correct": 1,
+          "explain": "Among the documents listed for proprietorship proof is a 'Certificate/licence issued by the municipal authorities under Shop and Establishment Act.'"
+        }
+      ]
+    },
+    {
+      "topic": "Partnership Firms",
+      "questions": [
+        {
+          "q": "As per the Partnership Act 1932, partnership is defined as the relation between persons who have agreed to do what?",
+          "options": [
+            "Jointly own ancestral property",
+            "Share losses of a business equally",
+            "Form a company together",
+            "Share profits of a business carried on by all or any one of them acting for all"
+          ],
+          "correct": 3,
+          "explain": "The material states 'Partnership is the relation between persons who have agreed to share profits of business carried on by all or any one them acting for all (Partnership Act 1932).'"
+        },
+        {
+          "q": "Which two documents, referenced by Circular Letter No 2014-15/102 dated 08.10.2014, must be obtained for a partnership firm account?",
+          "options": [
+            "Memorandum and Articles of Association",
+            "Certificate of Incorporation and Board Resolution",
+            "Registration Certificate and Partnership deed",
+            "Trust Deed and Resolution"
+          ],
+          "correct": 2,
+          "explain": "The material states 'Registration Certificate and Partnership deed to be obtained (Cir Letter No 2014-15/102 dated 08.10.2014).'"
+        },
+        {
+          "q": "As per the Companies Act 2013, what is the maximum number of partners now allowed in a partnership firm, excluding minors?",
+          "options": [
+            "50",
+            "100",
+            "20",
+            "10"
+          ],
+          "correct": 1,
+          "explain": "The material states 'As per Companies Act 2013, Maximum number of partner can be up to 100 (excluding minor) in a firm.'"
+        },
+        {
+          "q": "Before the Companies Act 2013 raised the limit, what was the maximum number of partners permitted in a partnership firm carrying on banking business?",
+          "options": [
+            "10",
+            "50",
+            "20",
+            "100"
+          ],
+          "correct": 0,
+          "explain": "The material states the earlier number was 'restricted to 20 for other businesses & 10 for Banking business.'"
+        },
+        {
+          "q": "Can a minor be admitted as a full partner in a partnership firm?",
+          "options": [
+            "Yes, a minor can be a full partner if the guardian consents",
+            "Yes, a minor can be a partner after age 15",
+            "No, a minor cannot be a partner, but can be admitted for his benefit in an existing partnership firm",
+            "It depends on the amount of capital contributed"
+          ],
+          "correct": 2,
+          "explain": "The material states 'A minor cannot a partner, but he can be admitted for his benefit in an existing partnership firm.'"
+        },
+        {
+          "q": "In a partnership account with no clear-cut operational instructions in the deed, how should the account be operated?",
+          "options": [
+            "By the senior-most partner alone",
+            "By all the partners jointly",
+            "The account cannot be opened",
+            "As per the bank's discretion"
+          ],
+          "correct": 1,
+          "explain": "The material states 'In the absence of clear cut operational instructions, account to be operated upon by all the partners jointly.'"
+        },
+        {
+          "q": "Can any one partner stop payment of a cheque issued by another partner of the same firm?",
+          "options": [
+            "Yes, any partner can stop a cheque issued by another partner",
+            "No, only the issuing partner can stop it",
+            "Only the Managing Partner can stop it",
+            "No, only all partners jointly can stop it"
+          ],
+          "correct": 0,
+          "explain": "The material states 'Any partner can stop cheque issued by another partner.'"
+        },
+        {
+          "q": "Cheques favouring the partnership firm can be deposited into which account, per the training material?",
+          "options": [
+            "Any partner's individual account",
+            "Only the firm's account, not into the individual accounts of partners",
+            "Any account nominated by a majority of the partners",
+            "Any account at the bank's discretion"
+          ],
+          "correct": 1,
+          "explain": "The material states 'Cheques favouring firm can not be deposited in the individual accounts of partners.'"
+        },
+        {
+          "q": "As per the Supreme Court judgement of 1998 referenced in the training material, which entity cannot enter into a partnership?",
+          "options": [
+            "A Private Limited Company",
+            "A Trust",
+            "A registered Society",
+            "Hindu Undivided Family (HUF)"
+          ],
+          "correct": 3,
+          "explain": "The material states 'HUF cannot enter into a partnership as per Supreme Court judgement of 1998.'"
+        },
+        {
+          "q": "If a partner's account balance is in debit at the time of his death, retirement or insolvency, what should the bank do?",
+          "options": [
+            "Stop the account, and open a fresh account only after fresh sanction of limit",
+            "Have the remaining partners automatically inherit the debit balance",
+            "Write off the debit balance immediately",
+            "Allow the account to continue unchanged"
+          ],
+          "correct": 0,
+          "explain": "The material states 'In case of death/retirement/insolvency of a partner a/c should be stopped, if the balance is in debit and a fresh account should opened after fresh sanction of limit.'"
+        }
+      ]
+    },
+    {
+      "topic": "LLP & Company Types",
+      "questions": [
+        {
+          "q": "A Limited Liability Partnership (LLP) is governed by which Act?",
+          "options": [
+            "Indian Trust Act, 1882",
+            "Companies Act, 2013",
+            "Limited Liability Partnership Act, 2008",
+            "Partnership Act, 1932"
+          ],
+          "correct": 2,
+          "explain": "The material states 'LLP is governed by limited liability partnership Act 2008.'"
+        },
+        {
+          "q": "What is the minimum number of designated partners required to form an LLP?",
+          "options": [
+            "1",
+            "2",
+            "100",
+            "7"
+          ],
+          "correct": 1,
+          "explain": "The material states 'Minimum 2 designated partner, no limit on maximum No. of Partners.'"
+        },
+        {
+          "q": "Does the death of a partner affect the existence of an LLP?",
+          "options": [
+            "No, an LLP has perpetual succession and continues to exist",
+            "Yes, unless a new partner joins within 30 days",
+            "Only if the deceased was a designated partner",
+            "Yes, the LLP is automatically dissolved"
+          ],
+          "correct": 0,
+          "explain": "The material states an LLP 'has perpetual succession (death of a partner does not affect the existence of LLP).'"
+        },
+        {
+          "q": "Can an LLP raise funds from the public?",
+          "options": [
+            "Yes, with RBI approval",
+            "No, an LLP cannot raise funds from the public",
+            "Yes, freely, like a public limited company",
+            "Yes, but only through debentures"
+          ],
+          "correct": 1,
+          "explain": "The material states 'LLP can not raise fund from public.'"
+        },
+        {
+          "q": "What is the minimum and maximum number of members allowed in a Private Limited Company?",
+          "options": [
+            "Minimum 2, Maximum 200",
+            "Minimum 7, no maximum limit",
+            "Minimum 1, Maximum 50",
+            "Minimum 2, Maximum 100"
+          ],
+          "correct": 0,
+          "explain": "The material states members of a Private Limited Company are 'Min. – 2 members, Max. - 200 members.'"
+        },
+        {
+          "q": "What is the minimum number of members required to form a Public Limited Company?",
+          "options": [
+            "7",
+            "2",
+            "200",
+            "3"
+          ],
+          "correct": 0,
+          "explain": "The material states 'Members – Min. 7 & Max – No limit' for a Public Limited Company."
+        },
+        {
+          "q": "The names of Public Limited Companies must end with which word?",
+          "options": [
+            "\"Associates\"",
+            "\"Incorporated\"",
+            "\"Enterprises\"",
+            "\"Limited\""
+          ],
+          "correct": 3,
+          "explain": "The material states 'Names of the companies ends with the words \"Limited\"' for Public Limited Companies."
+        },
+        {
+          "q": "What must a Public Limited Company obtain before it can commence any type of business?",
+          "options": [
+            "Memorandum of Association only",
+            "Board Resolution only",
+            "A minimum turnover threshold",
+            "Certificate of commencement of business"
+          ],
+          "correct": 3,
+          "explain": "The material states 'Certificate of commencement of business is must to do any type of business' for a Public Limited Company."
+        },
+        {
+          "q": "As per the training material, a 'Government Company' is one in which not less than what percentage of paid-up share capital is held by the Central or State Government(s)?",
+          "options": [
+            "100 percent",
+            "75 percent",
+            "51 percent",
+            "26 percent"
+          ],
+          "correct": 2,
+          "explain": "The material defines a Government Company as one where 'not less than fifty one percent of the paid-up share capital is held by the Central Government, or by any State Government or Governments.'"
+        },
+        {
+          "q": "Under Section 3(1) of the Companies Act 2013, a One Person Company (OPC) is a company with how many persons as its member?",
+          "options": [
+            "A minimum of two persons",
+            "Only one person",
+            "A minimum of seven persons",
+            "No fixed minimum number"
+          ],
+          "correct": 1,
+          "explain": "The material states 'An OPC means a company with only one person as its member [section 3(1) of 2013 Act].'"
+        }
+      ]
+    },
+    {
+      "topic": "Company Documents & Governance",
+      "questions": [
+        {
+          "q": "Who issues the Certificate of Incorporation to a company?",
+          "options": [
+            "Income Tax Department",
+            "Registrar of Companies",
+            "Ministry of Corporate Affairs Secretary directly",
+            "Reserve Bank of India"
+          ],
+          "correct": 1,
+          "explain": "The material states the Certificate of Incorporation is 'Issued by Registrar of Companies.'"
+        },
+        {
+          "q": "Is a Certificate of Commencement of Business required for a Private Limited Company?",
+          "options": [
+            "Yes, but only for companies with paid-up capital above Rs 1 lakh",
+            "Only if the company has more than 50 members",
+            "Yes, it is mandatory for all companies",
+            "No, it is not required since its shares are closely held and it can commence business on incorporation"
+          ],
+          "correct": 3,
+          "explain": "The material states 'Certificate of commencement of business is not required by Private Ltd. Co. as it's shares are closely held & it can commence business on it's incorporation.'"
+        },
+        {
+          "q": "Which document is described as the company's 'fundamental & unalterable law,' embodying its name, authorized capital, objectives and shareholders' liability?",
+          "options": [
+            "Memorandum of Association",
+            "Articles of Association",
+            "Certificate of Incorporation",
+            "Board Resolution"
+          ],
+          "correct": 0,
+          "explain": "The material describes the Memorandum of Association as the 'Company's fundamental & unalterable law' embodying name, authorized capital, objectives and liability of shareholders."
+        },
+        {
+          "q": "Which document is also known as the 'Document of Indoor Management' and regulates internal management, directors' powers, meeting conduct and borrowing procedures?",
+          "options": [
+            "Articles of Association",
+            "Memorandum of Association",
+            "Partnership Deed",
+            "Certificate of Incorporation"
+          ],
+          "correct": 0,
+          "explain": "The material states Article of Association is 'Also known as Document of Indoor Management' with regulations controlling internal management of the company."
+        },
+        {
+          "q": "A certified copy of the Board Resolution obtained by the bank should include details of which of the following?",
+          "options": [
+            "Only the company's audited financial statements",
+            "Only the company's tax records",
+            "Persons authorized to sign security documents and operate the bank account",
+            "Only the names of shareholders"
+          ],
+          "correct": 2,
+          "explain": "The material states the Board Resolution should detail 'Persons who are authorized to sign the security documents & operate the Bank Account.'"
+        },
+        {
+          "q": "As per the Companies (Amendment) Act, 2015, is a company's common seal now compulsory on bank documents?",
+          "options": [
+            "Yes, only for public companies",
+            "No, common seal of a company is not compulsory now",
+            "Yes, only for private companies",
+            "Yes, it is mandatory on all documents"
+          ],
+          "correct": 1,
+          "explain": "The material states 'As per Companies (Amendment) Act, 2015, Common seal of company is not compulsory now.'"
+        },
+        {
+          "q": "What is the registered office of a company primarily important for, as per the training material?",
+          "options": [
+            "It has no legal significance",
+            "It is the address at which all documents and notices may be served upon the company",
+            "It determines the company's tax rate",
+            "It is where shareholders' meetings must always be held"
+          ],
+          "correct": 1,
+          "explain": "The material states the registered office 'is the address at which all the documents & notices may be served upon the company.'"
+        },
+        {
+          "q": "Cheques favouring a company should NOT be credited to which type of account, per the training material?",
+          "options": [
+            "Personal accounts of the Directors or other officers of the company",
+            "The company's fixed deposit account",
+            "The company's own current account",
+            "Any account at another bank"
+          ],
+          "correct": 0,
+          "explain": "The material states 'Cheques favouring company are not to be credited to the personal accounts of the Directors or other officers of the company.'"
+        },
+        {
+          "q": "Which unique identifier is listed among the documents to be obtained from a limited company?",
+          "options": [
+            "Passport number of the Managing Director",
+            "GST return acknowledgment",
+            "PAN of each director's family members",
+            "Company Identification Number (CIN)"
+          ],
+          "correct": 3,
+          "explain": "The material lists 'Company Identification Number (CIN) of companies' among documents to be obtained from a limited company."
+        },
+        {
+          "q": "Which document serves as conclusive proof of a company's incorporation and compliance of formalities by its promoters?",
+          "options": [
+            "Certificate of Commencement of Business",
+            "Memorandum of Association",
+            "Certificate of Incorporation",
+            "Board Resolution"
+          ],
+          "correct": 2,
+          "explain": "The material states the Certificate of Incorporation 'is conclusive proof for incorporation of the company & compliance of all formalities by promoters.'"
+        }
+      ]
+    },
+    {
+      "topic": "Trust, Club & Society",
+      "questions": [
+        {
+          "q": "Trusts in India, as referenced in the training material, are governed by which Act?",
+          "options": [
+            "Indian Trust Act, 1882",
+            "Companies Act, 2013",
+            "Societies Registration Act, 1860",
+            "Indian Contract Act, 1872"
+          ],
+          "correct": 0,
+          "explain": "The material states 'Trusts are governed by the Indian Trust Act, 1882.'"
+        },
+        {
+          "q": "A trust set up for the benefit of private individuals, rather than for a public charitable purpose, is called what?",
+          "options": [
+            "A statutory trust",
+            "A private trust",
+            "A public trust",
+            "A discretionary company"
+          ],
+          "correct": 1,
+          "explain": "The material states 'Trust may be public charitable trust or private trust (for benefit of private individuals).'"
+        },
+        {
+          "q": "Who manages a trust, per the training material?",
+          "options": [
+            "Trustees",
+            "A Karta",
+            "Partners",
+            "A Board of Directors"
+          ],
+          "correct": 0,
+          "explain": "The material states 'Trusts managed by trustees.'"
+        },
+        {
+          "q": "What must be examined before opening a trust account with the bank?",
+          "options": [
+            "The Partnership Deed",
+            "The Memorandum of Association",
+            "The original Trust Deed",
+            "A police verification report"
+          ],
+          "correct": 2,
+          "explain": "The material states 'Original Trust Deed to be examined before opening Account.'"
+        },
+        {
+          "q": "When the Trust Deed is silent about the operation of the account, how should the account be operated?",
+          "options": [
+            "As per the bank's sole discretion",
+            "The account cannot be opened",
+            "By the senior-most trustee alone",
+            "By all the trustees jointly"
+          ],
+          "correct": 3,
+          "explain": "The material states 'When Trust Deed is silent about operation of the account, Account should be operated upon by all the trustees jointly.'"
+        },
+        {
+          "q": "For a public trust, which certificate must be examined and a copy kept on record?",
+          "options": [
+            "Certificate of Registration under Public Trust Act",
+            "GST Registration Certificate",
+            "Certificate of Commencement of Business",
+            "Certificate of Incorporation"
+          ],
+          "correct": 0,
+          "explain": "The material states 'Certificate of Registration under Public Trust Act to be examined & copy to be kept on record.'"
+        },
+        {
+          "q": "How are clubs and societies described in the training material?",
+          "options": [
+            "Sole proprietorships",
+            "Profit-making private enterprises",
+            "Government departments",
+            "Non-profit making organisations representing a group of persons"
+          ],
+          "correct": 3,
+          "explain": "The material states 'Society & Clubs are non profit making organisations and represents a group of persons.'"
+        },
+        {
+          "q": "Under which Act(s) can clubs be registered, per the training material?",
+          "options": [
+            "Limited Liability Partnership Act 2008",
+            "Society Act 1860, or Company Act 1956",
+            "Partnership Act 1932 only",
+            "Indian Trust Act 1882 only"
+          ],
+          "correct": 1,
+          "explain": "The material states 'Clubs can be registered under Society Act 1860, or Company Act 1956.'"
+        },
+        {
+          "q": "A club or society gets the status of a legal entity only after what event, per the training material?",
+          "options": [
+            "Its first Annual General Meeting",
+            "Its incorporation in its own name",
+            "Registration with the Income Tax Department",
+            "Its first bank transaction"
+          ],
+          "correct": 1,
+          "explain": "The material states clubs and societies 'get the status of a legal entity only after their incorporation in their own name.'"
+        },
+        {
+          "q": "Cheques favouring a society, club or association should NOT be collected into which type of account?",
+          "options": [
+            "The society's fixed deposit account",
+            "The society's own savings account",
+            "Individual accounts of office bearers or employees",
+            "A joint account of all members"
+          ],
+          "correct": 2,
+          "explain": "The material states 'Cheques favouring society, club, association not to be collected in individual A/Cs of office bearers or employees.'"
+        }
+      ]
+    }
+  ]
+}

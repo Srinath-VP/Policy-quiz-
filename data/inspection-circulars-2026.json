@@ -1,0 +1,236 @@
+{
+  "id": "inspection-circulars-2026",
+  "policyName": "Inspection Circulars 2026",
+  "quizzes": [
+    {
+      "topic": "Long Pending Entries and Parking Account - Reversal Timelines and Limits",
+      "questions": [
+        {
+          "q": "Which circular number and date govern 'Long Pending Entries and Parking Account'?",
+          "options": [
+            "170/2024-25 dated 28.02.2024",
+            "14/2025-26 dated 05.04.2025",
+            "170/2023-24 dated 28.02.2024",
+            "103-2024-25 dated 27.08.2024"
+          ],
+          "correct": 2,
+          "explain": "The slide heading states 'Long Pending Entries and Parking Account (Circular 170/2023-24 dated 28.02.2024)'."
+        },
+        {
+          "q": "Under the Sundry Receivable Deposit (SR-I) head, which entries are permitted?",
+          "options": [
+            "Vigilance related entries only",
+            "Premises Rent Advance and Caution Deposits for TNEB, BSNL etc.",
+            "Excess cash entries only",
+            "Any entry approved by the RO"
+          ],
+          "correct": 1,
+          "explain": "The circular states 'Entries other than Premises Rent Advance, Caution Deposits for TNEB, BSNL etc., should not be allowed in SR-I head', meaning only these are permitted."
+        },
+        {
+          "q": "As per the circular, entries under Sundry Receivable II (other than those permitted by Head Office) should not be allowed to remain outstanding for more than how many days from the date of entry?",
+          "options": [
+            "30 days",
+            "15 days",
+            "60 days",
+            "45 days"
+          ],
+          "correct": 0,
+          "explain": "The circular states such SR-II entries 'should not be allowed to be outstanding for more than 30 days from the date of entry'."
+        },
+        {
+          "q": "Expenditure related entries under BM discretionary powers should be reversed within what period?",
+          "options": [
+            "15 days",
+            "Two months",
+            "One month",
+            "One week"
+          ],
+          "correct": 2,
+          "explain": "The circular states 'Expenditure related entries under BM discretionary should be reversed within one month'."
+        },
+        {
+          "q": "A confirmation proposal for entries exceeding BM discretion should be sent to the RO within how many working days from the end of the month?",
+          "options": [
+            "6 working days",
+            "3 working days",
+            "10 working days",
+            "2 working days"
+          ],
+          "correct": 1,
+          "explain": "The circular states 'Exceeding BM discretion confirmation proposal should be sent to Ro with in 3 working days from the end of the month'."
+        },
+        {
+          "q": "After receiving the proposal for entries exceeding BM discretion, within how many working days from the month end should the RO process it?",
+          "options": [
+            "30 days",
+            "3 working days",
+            "10 working days",
+            "6 working days"
+          ],
+          "correct": 3,
+          "explain": "The circular states 'RO should be process the same with in 6 working days from the month end'."
+        },
+        {
+          "q": "Entries sanctioned under Head Office (HO) discretion should be vouched for reversal within how many working days from the month end?",
+          "options": [
+            "10 working days",
+            "3 working days",
+            "60 days",
+            "6 working days"
+          ],
+          "correct": 0,
+          "explain": "The circular states 'All entries sanctioned under HO discretion should be vouched for reversal with in 10 working days from the month end'."
+        },
+        {
+          "q": "What action does the circular state should be taken if confirmation is not received for entries sanctioned under HO discretion?",
+          "options": [
+            "The branch is closed for the day",
+            "The entry is automatically written off",
+            "No action is required",
+            "Recovery is made from the staff concerned"
+          ],
+          "correct": 3,
+          "explain": "The circular states 'If not get confirmation, recovery made from the staff concerned'."
+        },
+        {
+          "q": "Under the OSL category described in the circular, entries should be reversed within how many days from the date of entry?",
+          "options": [
+            "60 days",
+            "45 days",
+            "30 days",
+            "90 days"
+          ],
+          "correct": 0,
+          "explain": "The circular states 'All the entries should be reversed with in 60 days from the date of entry' under OSL."
+        },
+        {
+          "q": "According to the circular, how do the reversal timelines for C2C and FIT entries compare?",
+          "options": [
+            "Both must be reversed within 2 working days",
+            "C2C within 2 working days, FIT within the next working day",
+            "C2C within the next working day, FIT within 2 working days",
+            "Both must be reversed within the next working day"
+          ],
+          "correct": 1,
+          "explain": "The circular states C2C entries should be reversed 'with in 2 working days from the date of entry' while FIT entries should be reversed 'with in Next working day fro the date of entry'."
+        }
+      ]
+    },
+    {
+      "topic": "Time-Barred DPNs and Cyber Crime Awareness Circulars",
+      "questions": [
+        {
+          "q": "As per Circular No. 103-2024-25 on Time Barred DPNs, within what limitation period must an acknowledgment of indebtedness be obtained to preserve the bank's right to initiate legal action?",
+          "options": [
+            "Two years",
+            "One year",
+            "Three years",
+            "Five years"
+          ],
+          "correct": 2,
+          "explain": "The circular states the acknowledgment must be obtained 'within the limitation period (three years) from the date of DPN or the date of the previous Acknowledgement of Debt Cum Security'."
+        },
+        {
+          "q": "The three-year limitation period for obtaining an acknowledgment of indebtedness is counted from the date of the DPN or from which other date?",
+          "options": [
+            "The date of the previous Acknowledgement of Debt Cum Security (AOD-D11)",
+            "The date the loan was sanctioned",
+            "The date of the last branch inspection",
+            "The date of account opening"
+          ],
+          "correct": 0,
+          "explain": "The circular specifies the limitation period runs 'from the date of DPN or the date of the previous Acknowledgement of Debt Cum Security (AOD-D11)'."
+        },
+        {
+          "q": "What does AOD-D11 refer to in Circular No. 103-2024-25 (Time Barred DPNs)?",
+          "options": [
+            "Account Opening Document",
+            "Audit Observation Discrepancy",
+            "Annual Overdue Declaration",
+            "Acknowledgement of Debt Cum Security"
+          ],
+          "correct": 3,
+          "explain": "The circular explicitly names 'Acknowledgement of Debt Cum Security (AOD-D11)' as one of the acknowledgment documents."
+        },
+        {
+          "q": "In the case of a deceased borrower, from whom should the Letter of Acknowledgement of Debt (AOL-D11A) be obtained as per Circular No. 103-2024-25?",
+          "options": [
+            "The legal heir of the deceased",
+            "The Regional Office",
+            "The guarantor only",
+            "The branch manager"
+          ],
+          "correct": 0,
+          "explain": "The circular states the 'Letter of acknowledgement of debt to be obtained from the legal heir of the deceased (AOL-D11A)'."
+        },
+        {
+          "q": "Circular No. 103-2024-25 dealing with Time Barred DPNs is dated:",
+          "options": [
+            "27.08.2024",
+            "27.08.2025",
+            "28.02.2024",
+            "05.04.2025"
+          ],
+          "correct": 0,
+          "explain": "The slide heading states 'Time Barred DPNs (Cir. No:103-2024-25 dated 27.08.2024)'."
+        },
+        {
+          "q": "According to Circular No.14/2025-26 on cyber crime, what does 'Phishing Attacks' refer to?",
+          "options": [
+            "Using corrupt mobile charging stations",
+            "Sending fraudulent emails or messages",
+            "Infecting devices via malware",
+            "Advertising unrealistic investment returns"
+          ],
+          "correct": 1,
+          "explain": "The circular defines Phishing Attacks as: 'Send fraudulent emails or messages'."
+        },
+        {
+          "q": "Which cyber-crime method described in Circular No.14/2025-26 involves using stolen or leaked personal data to gain unauthorized access to bank accounts?",
+          "options": [
+            "Phishing Attacks",
+            "Taking Control of Account",
+            "Malware and Ransomware",
+            "Online Sales fraud"
+          ],
+          "correct": 1,
+          "explain": "The circular describes 'Taking Control of Account' as: 'Stolen or leaked personal data to gain unauthorized access to bank accounts'."
+        },
+        {
+          "q": "Circular No.14/2025-26 describes a cyber fraud tactic involving advertisements of high-return investments and unrealistic discounts on products online. Under which category is this listed?",
+          "options": [
+            "Charging Points",
+            "Phishing Attacks",
+            "Taking Control of Account",
+            "Online Sales"
+          ],
+          "correct": 3,
+          "explain": "The circular lists 'Online Sales: Advertisement on high return investment and unrealistic discount on online sales of products.'"
+        },
+        {
+          "q": "Which cyber-crime risk in Circular No.14/2025-26 relates to corrupt mobile charging stations that use the same cable for charging and data transfer?",
+          "options": [
+            "Malware and Ransomware",
+            "Online Sales",
+            "Charging Points",
+            "Phishing Attacks"
+          ],
+          "correct": 2,
+          "explain": "The circular describes 'Charging Points: Use corrupt mobile charging station to infect phone and tablet same cable for charging and data transfer.'"
+        },
+        {
+          "q": "Which of the following is listed as a precaution to protect customers under Circular No.14/2025-26?",
+          "options": [
+            "Share confidential information only with known social media contacts",
+            "Avoid using public unknown charging portals",
+            "Connect to public Wi-Fi for convenience when banking",
+            "Use the same password across all accounts for easy recall"
+          ],
+          "correct": 1,
+          "explain": "The precautions list explicitly states 'Avoid using public unknown charging portal' and separately 'Don't connect public Wi-Fi', making the other options contrary to the guidance."
+        }
+      ]
+    }
+  ]
+}

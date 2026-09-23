@@ -1,0 +1,1156 @@
+{
+  "id": "vigilance",
+  "policyName": "Vigilance Policy (Whistle Blower & Fraud Risk)",
+  "quizzes": [
+    {
+      "topic": "Whistle Blower Policy – Objective, Definition & Custodian",
+      "questions": [
+        {
+          "q": "What is the Whistle Blower Policy primarily meant to establish?",
+          "options": [
+            "A mechanism for staff to report, in good faith, concerns about unethical behavior, fraud or violation of the Bank's code of conduct",
+            "A framework for employee performance appraisal",
+            "A system for customer complaint escalation",
+            "A process for approving loan sanctions"
+          ],
+          "correct": 0,
+          "explain": "The Objective states the policy lets an institution establish a mechanism for staff to report, in good faith, concerns about unethical behavior, actual or suspected fraud, or violation of the Bank's code of conduct/ethics policy."
+        },
+        {
+          "q": "Which of the following is NOT listed as an objective of the Whistle Blower Policy?",
+          "options": [
+            "Creating culture of openness",
+            "Compliance with rules and regulations",
+            "Maximizing branch profitability",
+            "Setting standards of public services"
+          ],
+          "correct": 2,
+          "explain": "The stated objectives are creating a culture of openness, setting standards of public services, and compliance with rules and regulations; branch profitability is not mentioned."
+        },
+        {
+          "q": "Who is the custodian of the Whistle Blower Policy?",
+          "options": [
+            "Chairman",
+            "General Manager - Admin",
+            "Chief Vigilance Officer",
+            "Regional Manager"
+          ],
+          "correct": 1,
+          "explain": "Under Definitions, the document states: 'The General Manager - Admin will be the custodian of the Policy.'"
+        },
+        {
+          "q": "An employee making a disclosure about an improper practice under this policy is commonly referred to as:",
+          "options": [
+            "Designated Authority",
+            "Whistle blower",
+            "Investigating Officer",
+            "Appellate Authority"
+          ],
+          "correct": 1,
+          "explain": "The Definition slide states an employee making such a disclosure is commonly referred to as a whistle blower."
+        },
+        {
+          "q": "What is the whistle blower's role under the policy?",
+          "options": [
+            "Reporting party only",
+            "Disciplinary authority",
+            "Investigator and fact finder",
+            "Decision maker on corrective action"
+          ],
+          "correct": 0,
+          "explain": "The policy states the whistle blower's role is that of a reporting party; he/she is not an investigator or fact finder, nor does he/she determine corrective or remedial action."
+        },
+        {
+          "q": "As part of effective corporate governance, the Whistle Blower Policy provides adequate safeguards against:",
+          "options": [
+            "Victimization of whistle blowers",
+            "Loss of bank assets",
+            "Fraudulent loan disbursement",
+            "Data breaches"
+          ],
+          "correct": 0,
+          "explain": "The Objective slide states the policy will provide for adequate safeguards against victimization of whistle blowers."
+        },
+        {
+          "q": "Under the policy, which of these is explicitly listed as a 'lapse' constituting improper practice?",
+          "options": [
+            "Customer complaints about service",
+            "Gross or willful negligence and recklessness",
+            "Routine clerical errors",
+            "Late arrival to work"
+          ],
+          "correct": 1,
+          "explain": "Improper Practice includes lapses involving gross or willful negligence and recklessness, among other listed lapses."
+        },
+        {
+          "q": "According to the policy, an improper practice includes violation of any law or regulation of India, including but not limited to:",
+          "options": [
+            "Late payment of EMIs",
+            "Branch relocation decisions",
+            "Bribery, theft of property, fraud, and misuse of property",
+            "Overtime disputes"
+          ],
+          "correct": 2,
+          "explain": "The Improper Practice slide lists corruption, malfeasance, bribery, theft of property, fraudulent claims, fraud, coercion, conversion, malicious prosecution, misuse of property and willful omission to perform duty as examples of law violations."
+        },
+        {
+          "q": "Besides violation of law, which of these is also explicitly listed as constituting 'improper practice' under the policy?",
+          "options": [
+            "Attending training programs",
+            "Taking annual leave",
+            "Requesting a transfer",
+            "Violation of systems and procedures of the Bank, or gross misconduct, incompetence or inefficiency"
+          ],
+          "correct": 3,
+          "explain": "The Improper Practice definition also covers violation of systems and procedures of the Bank, and gross misconduct, incompetence or inefficiency."
+        },
+        {
+          "q": "The Whistle Blower Policy is one of two policies covered in this Vigilance Department training deck; the other is:",
+          "options": [
+            "Human Resource Policy",
+            "IT Security Policy",
+            "Credit Risk Policy",
+            "Fraud Risk Management Policy"
+          ],
+          "correct": 3,
+          "explain": "The title slide lists Whistle Blower Policy and Fraud Risk Management Policy as the two policies covered in this Vigilance Department deck."
+        }
+      ]
+    },
+    {
+      "topic": "Whistle Blower Policy – Rights, Responsibilities & Improper Practice",
+      "questions": [
+        {
+          "q": "What duty do all staff members of the Bank have under the Whistle Blower Policy?",
+          "options": [
+            "A duty to cooperate with investigations initiated under this policy",
+            "A duty to report only to the Chairman directly",
+            "A duty to maintain a public log of all disclosures",
+            "A duty to inform customers of ongoing investigations"
+          ],
+          "correct": 0,
+          "explain": "The Rights and Responsibilities slide states all staff members of the Bank have a duty to cooperate with investigations initiated under this policy."
+        },
+        {
+          "q": "How is the intentional filing of a false report by a whistle blower treated under the policy?",
+          "options": [
+            "It is ignored as it doesn't affect the Bank",
+            "It is considered an improper practice, and the Bank has a right to take appropriate action",
+            "It automatically disqualifies the whistle blower from further employment",
+            "It is referred directly to NABARD"
+          ],
+          "correct": 1,
+          "explain": "The policy states the intentional filing of a false report by the whistle blower is considered an improper practice and the Bank has a right to take appropriate action."
+        },
+        {
+          "q": "Does protection from retaliation extend to immunity for the whistle blower's own involvement in the matters under investigation?",
+          "options": [
+            "Only for financial matters",
+            "No, protection does not extend immunity for matters that are the subject of the allegations or an ensuing investigation in which he is involved",
+            "Only if the whistle blower is a manager",
+            "Yes, complete immunity is granted"
+          ],
+          "correct": 1,
+          "explain": "The policy explicitly states protection from retaliation does not extend immunity to the whistle blower in respect of matters that are the subject of the allegations or investigation in which he is involved."
+        },
+        {
+          "q": "Before ventilating concerns to outsiders, what must a whistle blower do first?",
+          "options": [
+            "Exhaust the remedy internally",
+            "Inform the Reserve Bank of India directly",
+            "Resign from service",
+            "Consult the media"
+          ],
+          "correct": 0,
+          "explain": "The policy states a whistle blower shall not ventilate to outsiders before exhausting the remedy internally."
+        },
+        {
+          "q": "What type of activity qualifies as an 'improper practice' under the policy?",
+          "options": [
+            "Any activity by an employee at any level undertaken in the performance of official duties, whether or not within scope of employment, that violates law, systems/procedures, or involves gross misconduct",
+            "Only activities involving customers directly",
+            "Only activities outside working hours",
+            "Only activities by senior management"
+          ],
+          "correct": 0,
+          "explain": "The Improper Practice slide defines it as any activity by an employee at any level, undertaken in the performance of official duties, whether or not within the scope of employment, meeting the listed conditions."
+        },
+        {
+          "q": "Which of the following is listed as an example of a violation of law/regulation constituting improper practice?",
+          "options": [
+            "Requesting a salary revision",
+            "Attending a competitor's event",
+            "Late submission of KYC documents",
+            "Malfeasance, bribery, theft of property"
+          ],
+          "correct": 3,
+          "explain": "Malfeasance, bribery and theft of property are explicitly listed among the examples of violation of law or regulation of India."
+        },
+        {
+          "q": "'Recklessness' and 'gross or willful negligence' are examples of what category under the improper practice definition?",
+          "options": [
+            "Systems and procedures violations",
+            "Lapses",
+            "Appellate Authority functions",
+            "Whistle blower obligations"
+          ],
+          "correct": 1,
+          "explain": "The policy lists gross or willful negligence and recklessness under 'lapses involving' as part of the improper practice definition."
+        },
+        {
+          "q": "What must whistle blowers do regarding confidentiality and reporting, per the Rights and Responsibilities section?",
+          "options": [
+            "Publicize the report to build support",
+            "Wait for management approval before reporting",
+            "Share the report with colleagues for verification",
+            "Lodge reports in confidence and facilitate the conduct of a competent investigation"
+          ],
+          "correct": 3,
+          "explain": "Whistle blowers should lodge their reports in confidence and facilitate the conduct of a competent investigation, per the Rights and Responsibilities slide."
+        },
+        {
+          "q": "According to the policy, 'cause of undue loss or concomitant gain to one individual or a set of individuals' is an example of:",
+          "options": [
+            "A recognized whistle blower reward",
+            "A recognized exception to reporting",
+            "An improper practice lapse",
+            "A permitted business practice"
+          ],
+          "correct": 2,
+          "explain": "This is listed among the lapses (item d) that constitute an improper practice under the policy."
+        },
+        {
+          "q": "Confidentiality of whistle blowers under the policy shall be:",
+          "options": [
+            "Optional, at the discretion of the reported employee",
+            "Disclosed to the Board only",
+            "Maintained",
+            "Published quarterly"
+          ],
+          "correct": 2,
+          "explain": "The Rights and Responsibilities slide states 'Confidentiality of whistle blowers shall be maintained.'"
+        }
+      ]
+    },
+    {
+      "topic": "Whistle Blower Policy – Mode of Reporting, Appeal & Recognition",
+      "questions": [
+        {
+          "q": "Through which modes may disclosures be made under the Whistle Blower Policy?",
+          "options": [
+            "Orally, E-mail, SMS or in writing",
+            "Only through a mobile app",
+            "Only in writing, notarized",
+            "Only via registered post"
+          ],
+          "correct": 0,
+          "explain": "The Mode of Reporting slide states disclosures may be made orally or by E-Mail, SMS, or in writing."
+        },
+        {
+          "q": "If a disclosure is made orally, what must follow for it to be taken cognizance of?",
+          "options": [
+            "A public announcement",
+            "Approval from the Board within 30 days",
+            "Nothing further is needed",
+            "A written communication within 48 hours, else no cognizance is taken"
+          ],
+          "correct": 3,
+          "explain": "The policy states an oral disclosure should be followed up with a written communication within 48 hours, else no cognizance will be taken."
+        },
+        {
+          "q": "To whom must a disclosure under the Whistle Blower Policy be made?",
+          "options": [
+            "The local police station",
+            "Any staff member's line manager",
+            "Any branch manager",
+            "The Designated Authority, i.e., General Manager - Admin"
+          ],
+          "correct": 3,
+          "explain": "The disclosure must be made to the Designated Authority, and the General Manager - Admin is named as the designated authority to hear/receive communications under this policy."
+        },
+        {
+          "q": "Can the letter/document of disclosure be used as evidence in a domestic inquiry?",
+          "options": [
+            "Only for inquiries above Rs. 1 lakh",
+            "No, it shall not form a part of evidence to be adduced in a domestic inquiry",
+            "Only if the whistle blower consents",
+            "Yes, it forms the primary evidence"
+          ],
+          "correct": 1,
+          "explain": "The policy states the letter/document indicating the disclosure of improper practice shall not form a part of evidence to be adduced in a domestic inquiry."
+        },
+        {
+          "q": "Who is the Appellate Authority to hear appeals from whistle blowers who claim to have been victimized?",
+          "options": [
+            "General Manager - Admin",
+            "Regional Manager",
+            "Chairman of the Bank",
+            "Chief Vigilance Officer"
+          ],
+          "correct": 2,
+          "explain": "The policy states the Chairman of the Bank is the Appellate Authority to hear appeals under this policy."
+        },
+        {
+          "q": "What condition must a whistle blower's communication satisfy to be treated as a valid disclosure under the policy?",
+          "options": [
+            "It must be co-signed by two colleagues",
+            "It must be made in 'Good Faith', with a reasonable basis for the communication",
+            "It must relate to a financial loss above Rs. 1 lakh",
+            "It must be anonymous"
+          ],
+          "correct": 1,
+          "explain": "The policy states a whistle blower shall communicate in 'Good Faith' if there is a reasonable basis for the communication of a violation or observed unethical/improper practice."
+        },
+        {
+          "q": "On what basis does the General Manager - Admin place a summary of alerts received to the Board?",
+          "options": [
+            "Quarterly",
+            "Annually",
+            "Only when requested by the Board",
+            "Monthly"
+          ],
+          "correct": 0,
+          "explain": "The policy states the General Manager - Admin shall, on a quarterly basis, place to the Board a summary of alerts received and those on which action has been initiated."
+        },
+        {
+          "q": "What must a whistle blower disclose about themselves when making a report?",
+          "options": [
+            "Only their employee ID",
+            "Their name and full address",
+            "Only their department",
+            "Nothing; anonymous reports are the default"
+          ],
+          "correct": 1,
+          "explain": "The Mode of Reporting slide states the whistle blower should disclose his/her name and full address."
+        },
+        {
+          "q": "Any staff member who knowingly makes false allegations of alleged improper practice shall be subject to disciplinary action; who decides on reference to disciplinary proceedings in such cases?",
+          "options": [
+            "The Chairman of the Bank",
+            "NABARD",
+            "The Board of Directors as a whole",
+            "The Designated Authority alone"
+          ],
+          "correct": 0,
+          "explain": "The Recognition/Punishment slide states the decision on reference to disciplinary proceedings shall vest with the Chairman of the Bank."
+        },
+        {
+          "q": "Under what condition can recognition for a whistle blower's timely and factual information be acknowledged by SMS or Email?",
+          "options": [
+            "Only if the disclosure amount exceeds Rs. 1 lakh",
+            "Only after Board approval",
+            "If the contact number and mail id are made available to the Designated Authority by the whistle blower",
+            "Never; recognition is always made public"
+          ],
+          "correct": 2,
+          "explain": "The Recognition/Punishment slide states acknowledgement may be by SMS or Email if the contact number and mail id are made available to the Designated Authority by the whistle blower."
+        }
+      ]
+    },
+    {
+      "topic": "Fraud Risk Management – Objective, Definition of Fraud & Custodian",
+      "questions": [
+        {
+          "q": "What is the primary objective of the Fraud Risk Management Policy?",
+          "options": [
+            "To increase the Bank's loan portfolio",
+            "To reduce staff headcount",
+            "To obviate fraud risks by strengthening internal controls and protect the Bank's brand, reputation and assets from loss due to suspected or confirmed fraud",
+            "To standardize customer onboarding forms"
+          ],
+          "correct": 2,
+          "explain": "The Objective slide states the policy is to obviate fraud risks by strengthening internal controls to protect the brand, reputation and assets of the bank from loss or damage resulting from suspected or confirmed incidents of fraud."
+        },
+        {
+          "q": "Who is the custodian of the Fraud Risk Management Policy?",
+          "options": [
+            "General Manager - Admin",
+            "Chief Vigilance Officer",
+            "Board Secretary",
+            "Chairman"
+          ],
+          "correct": 3,
+          "explain": "The Objective slide for Fraud Risk Management states 'The Chairman will be the custodian of policy.'"
+        },
+        {
+          "q": "As per which legal definitions is 'fraud' defined in the policy?",
+          "options": [
+            "Indian Penal Code (IPC) 1860 / Bharatiya Nyaya Sanhita (BNS) 2023",
+            "RBI Master Circular only",
+            "Indian Contract Act 1872",
+            "Companies Act 2013 only"
+          ],
+          "correct": 0,
+          "explain": "The Definition of Fraud slide cites the Indian Penal Code (IPC) 1860 / Bharatiya Nyaya Sanhita (BNS) 2023."
+        },
+        {
+          "q": "When did the Bharatiya Nyaya Sanhita (BNS) 2023 take effect, as noted in the policy?",
+          "options": [
+            "October 31, 2025",
+            "April 1, 2025",
+            "July 1, 2024",
+            "January 1, 2024"
+          ],
+          "correct": 2,
+          "explain": "The Definition of Fraud slide states the BNS 2023 was effected on July 1, 2024."
+        },
+        {
+          "q": "As per IPC/BNS, fraud is defined in the policy as:",
+          "options": [
+            "Any unauthorized leave of absence",
+            "Any behavior by which one person intends to gain a dishonest advantage over another",
+            "Any clerical error in account records",
+            "Any delay in loan repayment"
+          ],
+          "correct": 1,
+          "explain": "The policy quotes the IPC/BNS definition as 'Any behavior by which one person intends to gain a dishonest advantage over another.'"
+        },
+        {
+          "q": "Which of the following is listed as a goal to achieve the Fraud Risk Management Policy's objective?",
+          "options": [
+            "Eliminating all credit facilities",
+            "Fostering specialization in the investigation of large value frauds",
+            "Increasing marketing budgets",
+            "Reducing the number of bank branches"
+          ],
+          "correct": 1,
+          "explain": "The Objective slide states the objective will be achieved by strengthening surveillance, fostering specialization in investigation of large value frauds, efficient monitoring, and systemic improvements."
+        },
+        {
+          "q": "What is stated to review the surveillance, investigation and systemic-improvement functions under the Fraud Risk Management Policy and issue guidance?",
+          "options": [
+            "A dynamic oversight framework",
+            "The local police",
+            "Customers via feedback forms",
+            "External auditors only"
+          ],
+          "correct": 0,
+          "explain": "The Objective slide states 'A dynamic oversight framework will review these functions and issue guidance.'"
+        },
+        {
+          "q": "Bank fraud, as classified in the policy, is commonly called:",
+          "options": [
+            "Petty crime",
+            "White collar crime",
+            "Blue collar crime",
+            "Organized crime"
+          ],
+          "correct": 1,
+          "explain": "The Classification of Fraud - Bank slide states 'Bank Fraud is called as white collar crime.'"
+        },
+        {
+          "q": "Which of the following is explicitly included as a type of bank fraud under the 'Classification of Fraud - Bank' heading?",
+          "options": [
+            "Change of registered office address",
+            "Employee resignation",
+            "Late fee waivers",
+            "Misappropriation of funds and criminal breach of trust"
+          ],
+          "correct": 3,
+          "explain": "Misappropriation of funds and criminal breach of trust is explicitly listed under Classification of Fraud - Bank."
+        },
+        {
+          "q": "Fraudulent electronic banking / digital payment related transactions committed on Banks are classified under:",
+          "options": [
+            "Classification of Fraud - Bank",
+            "Whistle Blower improper practice only",
+            "Vigilance Awareness Week activities",
+            "Theft, burglary, dacoity and robbery reporting"
+          ],
+          "correct": 0,
+          "explain": "Fraudulent electronic banking / digital payment related transactions are listed under Classification of Fraud - Bank."
+        }
+      ]
+    },
+    {
+      "topic": "Classification of Fraud – Bank & Borrower Types",
+      "questions": [
+        {
+          "q": "Which of these is listed under 'Classification of Fraud - Bank'?",
+          "options": [
+            "Fraudulent encashment through forged instruments",
+            "Diversion of funds outside the borrowing unit",
+            "Kite flying in clearing",
+            "Fraudulent removal of pledged stocks"
+          ],
+          "correct": 0,
+          "explain": "Fraudulent encashment through forged instruments is listed under Classification of Fraud - Bank; the other options are borrower-side classifications."
+        },
+        {
+          "q": "'Manipulation of Books of Accounts or through fictitious accounts and conversion of property' is classified as:",
+          "options": [
+            "A borrower-side fraud only",
+            "A whistle blower improper practice",
+            "A type of bank fraud",
+            "A theft/burglary incident"
+          ],
+          "correct": 2,
+          "explain": "This is explicitly listed under Classification of Fraud - Bank."
+        },
+        {
+          "q": "Which activity is classified under 'Classification of Fraud - Borrowers'?",
+          "options": [
+            "Cash shortages on account of frauds",
+            "Fraudulent transactions involving foreign exchange",
+            "Fraudulent removal of pledged stocks / disposing hypothecated stocks without the bank's knowledge",
+            "Manipulation of books of accounts"
+          ],
+          "correct": 2,
+          "explain": "Fraudulent removal of pledged stocks / disposing hypothecated stocks without the bank's knowledge is listed under Classification of Fraud - Borrowers; the other options are bank-side classifications."
+        },
+        {
+          "q": "Diversion of funds outside the borrowing units, along with lack of interest and criminal neglect/managerial failure, is attributed to:",
+          "options": [
+            "Borrowers, their partners, etc.",
+            "The Reserve Bank of India",
+            "NABARD",
+            "The Bank's own staff"
+          ],
+          "correct": 0,
+          "explain": "The Classification of Fraud - Borrowers slide attributes diversion of funds and criminal neglect/managerial failure to borrowers, their partners, etc."
+        },
+        {
+          "q": "Under the 'Classification of Fraud - Borrowers' heading, which of these is explicitly cited as an act committed with malice that would constitute fraud?",
+          "options": [
+            "Requesting a statement of account",
+            "Sharing of password, shoulder surfing of password",
+            "Applying for a new loan",
+            "Closing a savings account"
+          ],
+          "correct": 1,
+          "explain": "The policy states any act committed with malice, like sharing of password or shoulder surfing of password, would also constitute fraud."
+        },
+        {
+          "q": "Cheating by concealment of facts with intention to deceive, and cheating by impersonation, fall under:",
+          "options": [
+            "Whistle Blower recognition",
+            "Classification of Fraud - Bank",
+            "Vigilance Awareness Week activities",
+            "Classification of Fraud - Borrowers"
+          ],
+          "correct": 1,
+          "explain": "This is listed under Classification of Fraud - Bank."
+        },
+        {
+          "q": "'Fraudulent discounting of instruments or kite flying in clearing effects' is an example of:",
+          "options": [
+            "Borrower-side fraud classification",
+            "A theft/burglary incident",
+            "An improper practice under Whistle Blower Policy",
+            "Bank-side fraud classification"
+          ],
+          "correct": 0,
+          "explain": "This is the first item listed under Classification of Fraud - Borrowers."
+        },
+        {
+          "q": "Inflating the value of stocks in stock statements to draw excess bank finance is classified as:",
+          "options": [
+            "A whistle blower disclosure",
+            "A borrower fraud",
+            "A bank fraud",
+            "A cheque-related fraud"
+          ],
+          "correct": 1,
+          "explain": "Inflating stock values to draw excess bank finance is listed under Classification of Fraud - Borrowers."
+        },
+        {
+          "q": "Forgery with the intention to commit fraud by making false documents/electronic records is listed under:",
+          "options": [
+            "Reporting cases of theft",
+            "Circulars - Important Points",
+            "Classification of Fraud - Borrowers",
+            "Classification of Fraud - Bank"
+          ],
+          "correct": 3,
+          "explain": "Forgery with the intention to commit fraud by making false documents/electronic records is listed under Classification of Fraud - Bank."
+        },
+        {
+          "q": "Willful falsification, destruction, alteration or mutilation of any book, electronic record, paper, writing, valuable security or account with intent to defraud is classified as:",
+          "options": [
+            "A type of borrower fraud only",
+            "An attempted fraud exempt from all reporting",
+            "A whistle blower recognition case",
+            "A type of bank fraud"
+          ],
+          "correct": 3,
+          "explain": "This is explicitly listed under Classification of Fraud - Bank."
+        }
+      ]
+    },
+    {
+      "topic": "Early Warning Signals, Red Flagged Accounts & Fraud Identification",
+      "questions": [
+        {
+          "q": "What is a 'Red Flagged Account' (RFA)?",
+          "options": [
+            "An account under NRI status",
+            "An account where suspicion of fraudulent activity is thrown up by the presence of one or more EWS indicators",
+            "An account with a negative balance",
+            "An account closed due to inactivity"
+          ],
+          "correct": 1,
+          "explain": "The policy defines a Red Flagged Account as one where suspicion of fraudulent activity is thrown up by the presence of one or more EWS indicators."
+        },
+        {
+          "q": "Which Board-level committee oversees the effectiveness of the framework for EWS and RFA?",
+          "options": [
+            "Nomination Committee",
+            "Risk Management Committee of the Board (RMCB)",
+            "Special Committee of the Board for Monitoring and Follow-up of Frauds (SCBMF)",
+            "Audit Committee of the Board"
+          ],
+          "correct": 1,
+          "explain": "The policy states the Risk Management Committee of the Board (RMCB) shall oversee the effectiveness of the framework for EWS and RFA."
+        },
+        {
+          "q": "When a credit facility/loan account is classified as a Red Flagged Account, how does the Bank conduct further investigation?",
+          "options": [
+            "Through Internal Audit",
+            "Through the local municipal office",
+            "Through NABARD directly",
+            "Through the customer's own declaration"
+          ],
+          "correct": 0,
+          "explain": "The policy states the Bank shall conduct further investigation through Internal Audit in such an account."
+        },
+        {
+          "q": "If Law Enforcement Agencies have suo moto initiated an investigation involving a borrower account, what must the Bank do?",
+          "options": [
+            "Ignore it until formal notice",
+            "Immediately red-flag the account and follow the usual classification process within the stipulated period",
+            "Wait for NABARD's direction before acting",
+            "Close the account permanently"
+          ],
+          "correct": 1,
+          "explain": "The policy states the Bank shall immediately red-flag the account and follow the usual process for classification of the account as fraud, within the stipulated period."
+        },
+        {
+          "q": "Cases remaining in red-flagged status beyond how many days must be reported to the SCBMF for review?",
+          "options": [
+            "120 days",
+            "90 days",
+            "180 days",
+            "365 days"
+          ],
+          "correct": 2,
+          "explain": "The policy states cases remaining in red-flagged status beyond 180 days shall be reported to the SCBMF for review with adequate reasoning/justification."
+        },
+        {
+          "q": "Cases remaining red-flagged beyond 180 days are also subject to supervisory review by:",
+          "options": [
+            "The Ministry of Finance",
+            "The State Police Authorities",
+            "The Reserve Bank of India only",
+            "NABARD"
+          ],
+          "correct": 3,
+          "explain": "The policy states such cases shall also be subject to supervisory review by NABARD."
+        },
+        {
+          "q": "On detecting an incident of suspected fraud, who submits a preliminary/flash report to HO: Inspection Department?",
+          "options": [
+            "Only the Vigilance Department",
+            "Only the Chairman",
+            "Only NABARD",
+            "Regional Offices / Departments / Other Offices of the Bank"
+          ],
+          "correct": 3,
+          "explain": "The Identification of Incident as Fraud slide states Regional Offices / Departments / Other Offices of the Bank will submit a preliminary report / flash report on detection of any incident of suspected fraud to HO: Inspection Department."
+        },
+        {
+          "q": "If an incident is suspected as fraud after the preliminary report, what is conducted next?",
+          "options": [
+            "A detailed investigation along with Staff Accountability",
+            "Immediate closure of the account with no further action",
+            "Referral to the Whistle Blower Appellate Authority",
+            "An external customer survey"
+          ],
+          "correct": 0,
+          "explain": "The policy states that if suspected as a fraud, a detailed investigation on the incident along with Staff Accountability is conducted."
+        },
+        {
+          "q": "An Early Warning Signal (EWS) indicator is primarily used to detect:",
+          "options": [
+            "Customer satisfaction levels",
+            "Staff attendance issues",
+            "Suspicion of fraudulent activity in an account",
+            "Interest rate changes"
+          ],
+          "correct": 2,
+          "explain": "EWS indicators are the basis on which an account's suspicion of fraudulent activity is thrown up, leading to red-flagging."
+        },
+        {
+          "q": "The SCBMF stands for:",
+          "options": [
+            "Special Committee of the Board for Monitoring and Follow-up of cases of Fraud",
+            "State Committee for Bank Monitoring of Finance",
+            "Statutory Committee for Board Meetings and Finance",
+            "Standing Committee for Bank Management and Fraud"
+          ],
+          "correct": 0,
+          "explain": "SCBMF is defined in the policy as the Special Committee of the Board for Monitoring and follow up of cases of Fraud."
+        }
+      ]
+    },
+    {
+      "topic": "Fraud Classification Process & Competent Authority",
+      "questions": [
+        {
+          "q": "What must be issued to persons/entities and their promoters/whole-time and executive directors against whom an allegation of fraud is being examined?",
+          "options": [
+            "A detailed Show Cause Notice (SCN)",
+            "A final termination order",
+            "A police FIR only",
+            "A public press release"
+          ],
+          "correct": 0,
+          "explain": "The Classification Process slide states the Bank issues a detailed Show Cause Notice (SCN) to the Persons, Entities and its Promoters / Whole-time and Executive Directors against whom allegation of fraud is being examined."
+        },
+        {
+          "q": "What minimum time must be provided to persons/entities to respond to a Show Cause Notice (SCN)?",
+          "options": [
+            "Not less than 7 days",
+            "Not less than 21 days",
+            "Not less than 30 days",
+            "Not less than 14 days"
+          ],
+          "correct": 1,
+          "explain": "The policy states a time of not less than 21 days shall be provided to the persons/entities on whom the SCN was served to respond."
+        },
+        {
+          "q": "Before declaring persons/entities as fraudulent, what must the Bank do with their SCN responses?",
+          "options": [
+            "Forward them directly to the police without review",
+            "Publish them publicly for feedback",
+            "Examine the responses/submissions made prior to declaring them fraudulent",
+            "Ignore them"
+          ],
+          "correct": 2,
+          "explain": "The policy states responses/submissions made by the persons/entities for the SCN shall be examined prior to declaring such persons/entities as fraudulent."
+        },
+        {
+          "q": "What is served on the persons/entities conveying the Bank's decision on declaring/classifying accounts as fraud or otherwise?",
+          "options": [
+            "An informal email",
+            "A verbal communication",
+            "A newspaper notice",
+            "A Reasoned order"
+          ],
+          "correct": 3,
+          "explain": "The policy states a Reasoned order shall be served on the persons/entities conveying the decision of the Bank regarding declaring/classification of the accounts as fraud or otherwise."
+        },
+        {
+          "q": "Who is the competent authority to classify a suspected fraud involving an amount up to Rs. 50.00 lakh?",
+          "options": [
+            "General Manager - Admin",
+            "Regional Manager",
+            "Board of Directors",
+            "Chairman"
+          ],
+          "correct": 0,
+          "explain": "The Competent Authority slide states suspected fraud detected involving amount up to Rs.50.00 lakh is classified by the General Manager-Admin."
+        },
+        {
+          "q": "Who is the competent authority to classify a suspected fraud involving an amount above Rs. 50.00 lakh?",
+          "options": [
+            "Chairman",
+            "Audit Committee",
+            "General Manager - Admin",
+            "Branch Manager"
+          ],
+          "correct": 0,
+          "explain": "The Competent Authority slide states suspected fraud detected involving amount above Rs.50.00 lakh is classified by the Chairman."
+        },
+        {
+          "q": "Are banks required to report cases of attempted fraud to NABARD?",
+          "options": [
+            "Only if the amount exceeds Rs. 50 lakh",
+            "No, banks need not report cases of attempted frauds to NABARD",
+            "Only if reported by the police",
+            "Yes, always, regardless of amount"
+          ],
+          "correct": 1,
+          "explain": "The policy states banks need not report cases of attempted frauds to NABARD."
+        },
+        {
+          "q": "For attempted fraud involving an amount of Rs. 20.00 lakhs and above, what must banks continue to do?",
+          "options": [
+            "Nothing further is required",
+            "Close the account immediately",
+            "Place the report on individual cases before the Audit Committee of its Board",
+            "Report it to the local police only"
+          ],
+          "correct": 2,
+          "explain": "The policy states banks should continue to place the report on individual cases of attempted fraud involving Rs. 20.00 lakhs and above before the Audit Committee of its Board."
+        },
+        {
+          "q": "Which of the following must the attempted fraud report to the Audit Committee cover?",
+          "options": [
+            "Only the customer's contact details",
+            "Only the branch's annual profit figures",
+            "Only the staff attendance record",
+            "The modus operandi of the attempted fraud, and measures/new systems and controls put in place"
+          ],
+          "correct": 3,
+          "explain": "The policy lists the modus operandi, how the attempt failed, measures taken, and new systems/controls put in place as required contents of the attempted fraud report."
+        },
+        {
+          "q": "What determines whether an incident is ultimately classified as 'fraud' under the process described?",
+          "options": [
+            "A vote by branch customers",
+            "The reasoned order conveying the Bank's decision after examining SCN responses",
+            "Approval from the whistle blower",
+            "Automatic classification after 90 days"
+          ],
+          "correct": 1,
+          "explain": "The classification process ends with a reasoned order conveying the Bank's decision on declaring/classifying the account as fraud or otherwise, after examining the SCN responses."
+        }
+      ]
+    },
+    {
+      "topic": "Reporting of Frauds to NABARD – FMS Returns & Timelines",
+      "questions": [
+        {
+          "q": "Frauds involving amounts less than Rs. 1.00 lakh need to be reported to NABARD:",
+          "options": [
+            "Not individually, but statistical data should be submitted in quarterly FMS-2 returns",
+            "Only through the police",
+            "Individually within 14 days",
+            "Only if attempted"
+          ],
+          "correct": 0,
+          "explain": "The policy states frauds involving amounts less than Rs. 1.00 lakh need not be reported individually to NABARD, but statistical data should be submitted in quarterly FMS-2 returns."
+        },
+        {
+          "q": "Frauds involving amounts of Rs. 1.00 lakh and above must be reported to NABARD through which portal, and within how many days of classification?",
+          "options": [
+            "Phone call, within 48 hours",
+            "Post, within 7 days",
+            "'ENSURE' portal, in format DoS-FMS-1, within 14 days",
+            "Email, within 30 days"
+          ],
+          "correct": 2,
+          "explain": "The policy states frauds of Rs. 1.00 lakh and above should be reported to NABARD through the 'ENSURE' portal, in format DoS-FMS-1, not later than 14 days from the date of classification."
+        },
+        {
+          "q": "For frauds in borrowal accounts involving Rs. 20.00 lakhs and above, what additional requirement applies?",
+          "options": [
+            "Additional information as prescribed under Part-B of DoS-FMS-1 shall be furnished",
+            "The account must be closed immediately",
+            "No additional information is needed",
+            "Only the Chairman may report it"
+          ],
+          "correct": 0,
+          "explain": "The policy states that in respect of frauds in borrowal accounts involving Rs. 20.00 lakhs and above, additional information as prescribed under Part-B of DoS-FMS-1 shall be furnished."
+        },
+        {
+          "q": "What is DoS-FMS-2 used for?",
+          "options": [
+            "Reporting of theft and burglary only",
+            "Ad-hoc reporting of new frauds within 14 days",
+            "Annual staff appraisal report",
+            "Quarterly Report on Frauds Outstanding, uploaded in ENSURE within 30 days of the end of the quarter"
+          ],
+          "correct": 3,
+          "explain": "DoS-FMS-2 is the Quarterly Report on Frauds Outstanding, to be uploaded in ENSURE within 30 days of the end of the quarter to which it relates."
+        },
+        {
+          "q": "If a bank has no fraud outstanding at the end of a quarter for DoS-FMS-2, what should it submit?",
+          "options": [
+            "Nothing at all",
+            "A NIL report",
+            "A request for exemption",
+            "A provisional estimate"
+          ],
+          "correct": 1,
+          "explain": "The policy states banks not having any fraud outstanding as at the end of a quarter should submit a NIL report."
+        },
+        {
+          "q": "What does DoS-FMS-3 cover?",
+          "options": [
+            "Branch expansion plans",
+            "Customer satisfaction surveys",
+            "Annual staff training records",
+            "Case-wise quarterly progress reports on frauds involving Rs. 1.00 lakh and above, uploaded within 30 days of the end of the quarter"
+          ],
+          "correct": 3,
+          "explain": "DoS-FMS-3 covers case-wise quarterly progress reports on frauds involving Rs.1.00 lakh and above, uploaded in ENSURE within 30 days of the end of the quarter."
+        },
+        {
+          "q": "Under the 'Various Dates' concept, what is the 'Date of detection'?",
+          "options": [
+            "The date the SCN response is due",
+            "The actual date when the fraud came to light in the concerned branch/audit/department, not the date of approval by the Competent Authority",
+            "The date when due approval from the Competent Authority is obtained",
+            "The date the reasoned order is passed"
+          ],
+          "correct": 1,
+          "explain": "The policy defines the 'Date of detection' as the actual date when the fraud came to light in the concerned branch/audit/department, not the date of approval by the Competent Authority."
+        },
+        {
+          "q": "What is the 'Date of classification' of a fraud?",
+          "options": [
+            "The date NABARD acknowledges receipt",
+            "The date when due approval from the Competent Authority has been obtained and the reasoned order is passed",
+            "The date the fraud actually occurred",
+            "The date the fraud came to light"
+          ],
+          "correct": 1,
+          "explain": "The policy defines the 'Date of classification' as the date when due approval from the Competent Authority has been obtained for such classification and the reasoned order is passed."
+        },
+        {
+          "q": "According to the timelines table, within how many days of the date of classification of an incident/account as fraud must FMS-1 be submitted?",
+          "options": [
+            "21 days",
+            "7 days",
+            "14 days",
+            "30 days"
+          ],
+          "correct": 2,
+          "explain": "The Timelines table states FMS-1 (an ad-hoc return) must be submitted within 14 days from the date of classification of an incident/account as fraud."
+        },
+        {
+          "q": "FMS-2 and FMS-3 returns share what periodicity and submission timeline?",
+          "options": [
+            "Quarterly, 30 days from the end of the quarter",
+            "Monthly, within 10 days",
+            "Annual, within 60 days",
+            "Ad-hoc, within 7 days"
+          ],
+          "correct": 0,
+          "explain": "The Timelines table shows both FMS-2 and FMS-3 are quarterly returns to be submitted within 30 days from the end of the quarter."
+        }
+      ]
+    },
+    {
+      "topic": "Reporting to Law Enforcement, Cheque Frauds & Case Closure",
+      "questions": [
+        {
+          "q": "For a fraud involving an amount up to Rs. 1 lakh, to which authority should the complaint be lodged, and by whom?",
+          "options": [
+            "State Police Authorities, by the Branch Manager concerned",
+            "CBI, by Head Office",
+            "CBI, by the Branch Manager concerned",
+            "State Police Authorities, by the Regional Manager concerned"
+          ],
+          "correct": 0,
+          "explain": "The LEA reporting table states for frauds up to Rs. 1 lakh, the complaint is lodged with State Police Authorities by the Branch Manager concerned."
+        },
+        {
+          "q": "For frauds involving amounts above Rs. 1 lakh but below Rs. 6 crore, the complaint should be lodged with:",
+          "options": [
+            "State Police Authorities, by the Branch Manager concerned",
+            "State Police Authorities, by the Regional Manager concerned",
+            "CBI, by Head Office",
+            "Local Municipal Authority"
+          ],
+          "correct": 1,
+          "explain": "The table states frauds above Rs. 1 lakh to below Rs. 6 crore are reported to State Police Authorities by the Regional Manager concerned."
+        },
+        {
+          "q": "For frauds involving Rs. 6 crore and above, which agency handles the complaint and who lodges it?",
+          "options": [
+            "Reserve Bank of India directly",
+            "Central Bureau of Investigation (CBI), by Head Office",
+            "State Police Authorities, by the Regional Manager",
+            "NABARD directly"
+          ],
+          "correct": 1,
+          "explain": "The table states frauds of Rs. 6 crore and above are reported to the CBI, with the complaint lodged by Head Office."
+        },
+        {
+          "q": "If the Branch Manager concerned is involved in the fraud incident, who should file the police complaint instead?",
+          "options": [
+            "The Regional Manager concerned",
+            "NABARD",
+            "The Chairman personally",
+            "The customer affected"
+          ],
+          "correct": 0,
+          "explain": "The footnote states if the Branch Manager concerned is involved in the fraud incident, the Regional Manager concerned should file the complaint to the appropriate police authority."
+        },
+        {
+          "q": "In cheque-related frauds involving forged instruments sent in clearing, who is responsible for reporting the fraud to LEAs and NABARD?",
+          "options": [
+            "The presenting banker",
+            "The clearing house",
+            "The customer",
+            "The paying banker"
+          ],
+          "correct": 3,
+          "explain": "The policy states reporting of frauds involving forged instruments is to be done by the paying banker, not the presenting banker."
+        },
+        {
+          "q": "If a genuine instrument is paid to a person who is not the true owner, and the amount is later found fake/forged and returned by the paying bank, who files the fraud report?",
+          "options": [
+            "NABARD",
+            "The Reserve Bank of India",
+            "The paying bank",
+            "The presenting bank, which was defrauded or put to loss"
+          ],
+          "correct": 3,
+          "explain": "The policy states in this scenario, the presenting bank which is defrauded or put to loss shall file the fraud report to NABARD and inform the LEAs."
+        },
+        {
+          "q": "Instances of theft, burglary, dacoity and robbery must be reported to NABARD not later than how many days from the date of occurrence?",
+          "options": [
+            "Seven days",
+            "Fourteen days",
+            "Twenty-one days",
+            "Thirty days"
+          ],
+          "correct": 0,
+          "explain": "The policy states the Bank shall report instances of theft, burglary, dacoity and robbery not later than seven days from the date of occurrence, through the online portal (FMS 4a)."
+        },
+        {
+          "q": "The Quarterly Return (FMS 4) on theft, burglary, dacoity and robbery must be submitted to NABARD within:",
+          "options": [
+            "7 days from the date of occurrence",
+            "30 days from the end of the quarter",
+            "21 days from detection",
+            "14 days of classification"
+          ],
+          "correct": 1,
+          "explain": "The policy states the Quarterly Return FMS 4 covering all such cases during the quarter must be submitted 30 days from the end of the quarter."
+        },
+        {
+          "q": "For a fraud case reported to NABARD to be closed, which conditions must both be satisfied?",
+          "options": [
+            "Only that the amount has been recovered",
+            "Only that five years have elapsed",
+            "The fraud case pending with LEAs/Court is disposed off, and the examination of staff accountability has been completed",
+            "Only that the customer has withdrawn the complaint"
+          ],
+          "correct": 2,
+          "explain": "The Closure slide states the Bank shall close fraud cases only where both the LEA/Court proceedings are disposed off and the examination of staff accountability has been completed."
+        },
+        {
+          "q": "Where accounts classified as fraud are sold to other Lenders / Asset Reconstruction Companies (ARCs), how does the Bank continue reporting subsequent developments to NABARD?",
+          "options": [
+            "By asking the customer directly",
+            "It stops all reporting once sold",
+            "By obtaining requisite information periodically from the concerned ARCs",
+            "By waiting for the ARC to report independently to NABARD"
+          ],
+          "correct": 2,
+          "explain": "The policy states the Bank shall continue to report subsequent developments in such accounts to NABARD by obtaining requisite information periodically from the concerned ARCs."
+        }
+      ]
+    },
+    {
+      "topic": "Fraud Governance, Roles, Penalties & Vigilance Circulars",
+      "questions": [
+        {
+          "q": "Who examines every fraud detected and reported, upon it being placed before him by the Inspection/Vigilance department?",
+          "options": [
+            "NABARD",
+            "The Board of Directors",
+            "The Regional Manager",
+            "The Chairman of the Bank"
+          ],
+          "correct": 3,
+          "explain": "The Roles slide states every fraud detected and reported will be examined by the Chairman of the Bank, upon being placed to him by the Inspection/Vigilance department."
+        },
+        {
+          "q": "The Board of Directors should make an overall review of fraud cases in the Bank on what basis, and by when?",
+          "options": [
+            "Monthly, within 10 days",
+            "Bi-annually, before December",
+            "Quarterly, within the same quarter",
+            "Annually, before the end of June of the following year"
+          ],
+          "correct": 3,
+          "explain": "The Roles slide states the Board of Directors should make an overall review of fraud cases on an annual basis, and such review will be made before the end of June of the following year."
+        },
+        {
+          "q": "The Audit Committee of the Board reviews all cases of fraud and attempted fraud on a quarterly basis for which quarters?",
+          "options": [
+            "June, September and December only",
+            "March, June, September and December",
+            "Only March",
+            "Only December"
+          ],
+          "correct": 0,
+          "explain": "The policy states the Audit Committee's quarterly review covers the quarters ending June, September and December; the March quarter review is not required."
+        },
+        {
+          "q": "Why is the Audit Committee's review for the quarter ending March not required?",
+          "options": [
+            "Because the Board conducts an Annual Review of fraud cases for the year ending March",
+            "Because no frauds occur in that quarter",
+            "Because the Chairman waives it every year",
+            "Because NABARD conducts it instead"
+          ],
+          "correct": 0,
+          "explain": "The Roles slide states the review for the quarter ending March is not required in view of the Annual Review of fraud cases by the Board for the year ending March."
+        },
+        {
+          "q": "The Special Committee of the Board for Monitoring and Follow-up of cases of Frauds (SCBMF) exclusively monitors and follows up cases of fraud involving:",
+          "options": [
+            "Only cheque-related frauds",
+            "Amounts below Rs. 1 lakh",
+            "Amounts of Rs. 20.00 lakh and above",
+            "Only frauds committed by borrowers"
+          ],
+          "correct": 2,
+          "explain": "The Roles slide states the SCBMF will monitor and follow up cases of frauds involving amounts of Rs. 20.00 lakh and above exclusively."
+        },
+        {
+          "q": "What happens if a bank fails to strictly adhere to the time frame fixed for reporting fraud cases to NABARD?",
+          "options": [
+            "The bank's license is automatically revoked",
+            "The bank would be liable for penal action under Section 47(A) of the Banking Regulation Act, 1949",
+            "Nothing; there are no consequences",
+            "The Chairman is personally imprisoned"
+          ],
+          "correct": 1,
+          "explain": "The Delays in Reporting of Frauds slide states banks would be liable for penal action as prescribed under Section 47(A) of the Banking Regulation Act, 1949, for failing to adhere to the reporting time frame."
+        },
+        {
+          "q": "As per Regulation 28 of the Tamil Nadu Grama Bank (Officers and Employees) Service Regulation 2019, what must every officer submit annually?",
+          "options": [
+            "A customer feedback report",
+            "A return of immovable / movable property as on 31st March every year",
+            "A training completion certificate",
+            "A performance self-appraisal"
+          ],
+          "correct": 1,
+          "explain": "The Circulars - Important Points slide states every officer shall submit a return of immovable / movable property to the bank as on 31st March every year, per Regulation 28."
+        },
+        {
+          "q": "Vigilance Awareness Week (VAW) is observed every year during the week of the birth anniversary of:",
+          "options": [
+            "Jawaharlal Nehru",
+            "B.R. Ambedkar",
+            "Sardar Vallabhbhai Patel, i.e., 31st October",
+            "Mahatma Gandhi"
+          ],
+          "correct": 2,
+          "explain": "The Circulars - Important Points slide states VAW is observed every year during the week of the birth anniversary of Sardar Vallabhbhai Patel, i.e., 31st October."
+        },
+        {
+          "q": "What is the purpose of the Field Vigilance Unit (FVU) formed at HO level?",
+          "options": [
+            "To conduct branch audits only",
+            "To execute exercises of Investigative / Surveillance Vigilance at field level",
+            "To approve loan applications",
+            "To manage customer grievances"
+          ],
+          "correct": 1,
+          "explain": "The policy states the Field Vigilance Unit (FVU) is formed at HO level to execute the exercises of Investigative / Surveillance Vigilance at field level, improving the quality of existing surveillance vigilance."
+        },
+        {
+          "q": "What is the purpose of the Industrial Relations (IR) Cell formed at HO level?",
+          "options": [
+            "To assign, monitor and ensure timely completion of Disciplinary Proceedings (DP) assignments",
+            "To handle customer complaints",
+            "To approve fraud classification",
+            "To manage vigilance awareness campaigns"
+          ],
+          "correct": 0,
+          "explain": "The policy states the Industrial Relations (IR) Cell is formed at HO level to improve the quality of disciplinary proceedings (DP), to assign, monitor and ensure timely completion of DP assignments."
+        }
+      ]
+    }
+  ]
+}

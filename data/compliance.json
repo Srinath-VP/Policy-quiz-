@@ -1,0 +1,1156 @@
+{
+  "id": "compliance",
+  "policyName": "Compliance Policy",
+  "quizzes": [
+    {
+      "topic": "Compliance Objective, Risk Definition & Types of Compliance",
+      "questions": [
+        {
+          "q": "On which committee's recommendations were the banks' existing compliance processes in India primarily shaped, per the policy?",
+          "options": [
+            "Narasimham Committee report of 1991",
+            "Ghosh Committee report of 1992",
+            "Verma Committee report of 1999",
+            "Basel Committee report of 1988"
+          ],
+          "correct": 1,
+          "explain": "The policy states banks in India already have compliance processes in place in accordance with the recommendations of the Ghosh Committee report of 1992."
+        },
+        {
+          "q": "Which document essentially articulates the need for the compliance function in banks to be adequately enabled and sufficiently independent?",
+          "options": [
+            "Basel III Accord (2010)",
+            "NABARD Circular on Corporate Governance",
+            "RBI Master Circular on Compliance",
+            "The Basel Committee on Banking Supervision (BCBS) document (April 2005)"
+          ],
+          "correct": 3,
+          "explain": "The Basel Committee on Banking Supervision (BCBS) document of April 2005 essentially articulates the perception that the compliance function must be adequately enabled and sufficiently independent."
+        },
+        {
+          "q": "As per the BCBS definition adopted in the policy, \"Compliance risk\" is the risk of legal or regulatory sanctions, material financial loss, or loss of reputation a bank may suffer as a result of its failure to comply with which of the following?",
+          "options": [
+            "Laws, regulations, rules, self-regulatory organization standards, and codes of conduct applicable to its banking activities",
+            "Only statutes passed by Parliament",
+            "Only the bank's own internal policies",
+            "Only RBI circulars"
+          ],
+          "correct": 0,
+          "explain": "The BCBS paper defines compliance risk as the risk of legal/regulatory sanctions, financial loss or reputational loss from failure to comply with laws, regulations, rules, related self-regulatory organization standards, and codes of conduct applicable to banking activities."
+        },
+        {
+          "q": "Which of the following is classified as \"Statutory Compliance\" under the policy?",
+          "options": [
+            "BCSBI codes",
+            "Observance of the Prevention of Money Laundering Act",
+            "IRDAI guidelines",
+            "SEBI guidelines"
+          ],
+          "correct": 1,
+          "explain": "Statutory Compliance covers observance of legislations such as the Banking Regulation Act, RBI Act, Regional Rural Bank Act, Foreign Exchange Management Act, and the Prevention of Money Laundering Act."
+        },
+        {
+          "q": "Compliance with guidelines issued from time to time by regulators such as RBI, NABARD, SEBI and IRDAI is termed as?",
+          "options": [
+            "Other Compliance",
+            "Fair Practices Compliance",
+            "Statutory Compliance",
+            "Regulatory Compliance"
+          ],
+          "correct": 3,
+          "explain": "The policy defines Regulatory Compliance as observance of guidelines issued from time to time by regulators such as RBI, NABARD, SEBI and IRDAI."
+        },
+        {
+          "q": "SEBI, as referred to in the Compliance Policy, stands for?",
+          "options": [
+            "State Enterprises and Banking Institution",
+            "Securities Exchange and Banking Inspectorate",
+            "Securities and Exchange Board of India",
+            "Savings and Exchange Bureau of India"
+          ],
+          "correct": 2,
+          "explain": "The policy explicitly expands SEBI as the \"Securities and Exchange Board of India\"."
+        },
+        {
+          "q": "IRDAI, mentioned as a regulator under Regulatory Compliance, stands for?",
+          "options": [
+            "Internal Regulatory and Development Authority of India",
+            "Insurance Regulatory and Development Authority of India",
+            "Indian Reserve and Deposit Authority of India",
+            "Insurance Reserve and Development Agency of India"
+          ],
+          "correct": 1,
+          "explain": "The policy expands IRDAI as the \"Insurance Regulatory and Development Authority of India\"."
+        },
+        {
+          "q": "Compliance with standards and codes prescribed by BCSBI, Ombudsman, IBA and FEDAI, along with the bank's internal policies and fair practices code, is termed as?",
+          "options": [
+            "Other Compliances",
+            "Voluntary Compliance",
+            "Regulatory Compliance",
+            "Statutory Compliance"
+          ],
+          "correct": 0,
+          "explain": "The policy terms compliance with BCSBI, Ombudsman, IBA, FEDAI and the bank's internal policies/fair practices code as \"Other Compliances\"."
+        },
+        {
+          "q": "BCSBI, referred to under \"Other Compliances,\" stands for?",
+          "options": [
+            "Banking Codes and Standards Board of India",
+            "Bank Credit and Security Bureau of India",
+            "Bureau of Credit Standards for Banking in India",
+            "Banking Compliance and Supervision Board of India"
+          ],
+          "correct": 0,
+          "explain": "The policy expands BCSBI as the \"Banking Codes and Standards Board of India\"."
+        },
+        {
+          "q": "FEDAI, referred to under \"Other Compliances,\" stands for?",
+          "options": [
+            "Finance and Exchange Data Authority of India",
+            "Foreign Economic Development Association of India",
+            "Foreign Exchange Dealers' Association of India",
+            "Federal Exchange and Development Authority of India"
+          ],
+          "correct": 2,
+          "explain": "The policy expands FEDAI as the \"Foreign Exchange Dealers' Association of India\"."
+        }
+      ]
+    },
+    {
+      "topic": "Governance Structure – Board, ACB & Compliance Organogram",
+      "questions": [
+        {
+          "q": "Who must approve the Bank's Compliance Policy?",
+          "options": [
+            "The Regional Manager",
+            "NABARD",
+            "The Board",
+            "The Chief Compliance Officer"
+          ],
+          "correct": 2,
+          "explain": "The policy states the Compliance Policy shall be approved by the Board."
+        },
+        {
+          "q": "According to the policy, who is responsible for overseeing the implementation of the Compliance Policy and the Compliance Function?",
+          "options": [
+            "The HO Compliance Department alone",
+            "The Sponsor Bank",
+            "The Regional Level Compliance Committee",
+            "The Board"
+          ],
+          "correct": 3,
+          "explain": "The document states the implementation of the Policy and Compliance Function shall be overseen by the Board."
+        },
+        {
+          "q": "Which bodies are expected to regularly review compliance functions in strict accordance with extant guidelines?",
+          "options": [
+            "Only the Chairman",
+            "Only NABARD inspectors",
+            "Only the HO Compliance Department",
+            "Board / ACB / Board level committees / Internal Audits"
+          ],
+          "correct": 3,
+          "explain": "The policy states Board/ACB/Board level committees/Internal Audits should regularly review compliance functions in strict accordance with extant guidelines."
+        },
+        {
+          "q": "When compliance failures occur, who may review them and take appropriate remedial measures?",
+          "options": [
+            "ACB / Boards",
+            "Only the Branch Manager",
+            "Only the Regional Manager",
+            "Only the Legal Department"
+          ],
+          "correct": 0,
+          "explain": "The policy states compliance failures may be reviewed by ACB/Boards and appropriate remedial measures may be taken."
+        },
+        {
+          "q": "The Bank recognizes that the best corporate compliance culture starts where?",
+          "options": [
+            "With the HO Compliance Department",
+            "With the regulators",
+            "At the top, with the Board and Top Management leading by example",
+            "At the branch level"
+          ],
+          "correct": 2,
+          "explain": "The policy states the Bank recognizes that compliance starts at the top, with the Board as well as Top Management leading by example to set the right tone."
+        },
+        {
+          "q": "As per the organogram, to which bodies/person does the Chief Compliance Officer report, apart from the Audit Committee of Board?",
+          "options": [
+            "The Audit Committee of Executives and the Chairman",
+            "Only the Regional Manager",
+            "NABARD directly",
+            "The Sponsor Bank's CEO"
+          ],
+          "correct": 0,
+          "explain": "The organogram shows the CCO reporting upward to the Audit Committee of Board, the Audit Committee of Executives, and the Chairman."
+        },
+        {
+          "q": "As per the organogram, which body directly reports upward to the Chief Compliance Officer?",
+          "options": [
+            "The Audit Committee of Board",
+            "The Compliance Department",
+            "The Chairman",
+            "The Board of Directors"
+          ],
+          "correct": 1,
+          "explain": "In the organogram, the Compliance Department reports upward to the Chief Compliance Officer."
+        },
+        {
+          "q": "As per the organogram, which two entities report into the Compliance Department?",
+          "options": [
+            "Regional Offices and HO: Departments",
+            "Sponsor Bank and IBA",
+            "Board of Directors and Chairman",
+            "NABARD and RBI"
+          ],
+          "correct": 0,
+          "explain": "The organogram shows Regional Offices and HO: Departments both feeding into the Compliance Department."
+        },
+        {
+          "q": "As per the organogram, Branches report upward through which office to eventually reach the Compliance Department?",
+          "options": [
+            "HO: Departments",
+            "Regional Offices",
+            "Directly to the Chief Compliance Officer",
+            "Directly to the Board"
+          ],
+          "correct": 1,
+          "explain": "The organogram shows Branches reporting to Regional Offices, which in turn connect to the Compliance Department."
+        },
+        {
+          "q": "In the organogram, which committee reports directly to the Board of Directors, sitting above the Chief Compliance Officer?",
+          "options": [
+            "Chairman",
+            "Audit Committee of Board",
+            "Compliance Department",
+            "Audit Committee of Executives"
+          ],
+          "correct": 1,
+          "explain": "The organogram shows the Audit Committee of Board positioned between the Chief Compliance Officer and the Board of Directors, reporting upward to the Board."
+        }
+      ]
+    },
+    {
+      "topic": "Chief Compliance Officer – Eligibility, Tenure & Independence",
+      "questions": [
+        {
+          "q": "What is the minimum rank required for a bank official to be appointed as Chief Compliance Officer (CCO)?",
+          "options": [
+            "Senior Manager",
+            "Deputy General Manager",
+            "Manager",
+            "Regional Manager"
+          ],
+          "correct": 0,
+          "explain": "The policy states the CCO shall not be below the rank of a Senior Manager."
+        },
+        {
+          "q": "What is the minimum fixed tenure for which the CCO shall be appointed?",
+          "options": [
+            "Not less than 3 years",
+            "Not less than 5 years",
+            "Not less than 1 year",
+            "Not less than 2 years"
+          ],
+          "correct": 0,
+          "explain": "The policy states the CCO shall be appointed for a minimum fixed tenure of not less than 3 years."
+        },
+        {
+          "q": "What is the maximum age prescribed for a candidate to be appointed as CCO?",
+          "options": [
+            "Not more than 55 years",
+            "Not more than 58 years",
+            "Not more than 50 years",
+            "Not more than 60 years"
+          ],
+          "correct": 0,
+          "explain": "The policy prescribes that the CCO's age should not be more than 55 years."
+        },
+        {
+          "q": "The CCO shall not be removed or transferred without the specific approval of which body?",
+          "options": [
+            "NABARD",
+            "The Sponsor Bank",
+            "The Regional Level Compliance Committee",
+            "The Board"
+          ],
+          "correct": 3,
+          "explain": "The policy states the CCO shall not be removed/transferred without the specific approval of the Board."
+        },
+        {
+          "q": "What condition must be satisfied regarding vigilance cases before a candidate is appointed as CCO?",
+          "options": [
+            "Only RBI vigilance clearance is required; NABARD clearance is optional",
+            "A maximum of one minor vigilance case is permitted",
+            "No vigilance cases or adverse observations from RBI/NABARD/Bank should be pending against the candidate",
+            "Vigilance clearance is not required for CCO appointment"
+          ],
+          "correct": 2,
+          "explain": "The policy requires that no vigilance cases or adverse observations from RBI/NABARD/Bank be pending against the candidate identified for appointment as CCO."
+        },
+        {
+          "q": "Which of the following best describes a restriction placed on the CCO regarding business functions?",
+          "options": [
+            "The CCO must report to the head of the largest business vertical",
+            "The CCO shall not have any reporting relationship with business verticals and shall not be given any business targets",
+            "The CCO must handle at least one business vertical",
+            "The CCO is required to meet an annual business target set by the Board"
+          ],
+          "correct": 1,
+          "explain": "The policy states the CCO shall not have any reporting relationship with the business verticals of the Bank and shall not be given any business targets, to preserve independence."
+        },
+        {
+          "q": "Who reviews the performance appraisal of the Chief Compliance Officer?",
+          "options": [
+            "The HO Compliance Department alone",
+            "The Sponsor Bank's Rural Banking Department",
+            "The Board / ACB",
+            "The Regional Manager"
+          ],
+          "correct": 2,
+          "explain": "The policy states the performance appraisal of the CCO shall be reviewed by the Board/ACB."
+        },
+        {
+          "q": "What is the CCO's overall responsibility with respect to compliance function staff?",
+          "options": [
+            "Only to allocate their office seating",
+            "Only to prepare their salary",
+            "Only to approve their annual leave",
+            "Identification and management of the Bank's compliance risk and supervising the activities of other compliance function staff"
+          ],
+          "correct": 3,
+          "explain": "The policy states the CCO has overall responsibility for identification and management of the Bank's compliance risk and for supervising the activities of other compliance function staff."
+        },
+        {
+          "q": "Whom must the Bank keep informed of the name of the Chief Compliance Officer, and of any change thereof?",
+          "options": [
+            "The Ombudsman",
+            "NABARD",
+            "IBA",
+            "SEBI"
+          ],
+          "correct": 1,
+          "explain": "The policy states NABARD will be kept informed of the name of the Chief Compliance Officer, as also any change thereof, as and when it takes place."
+        },
+        {
+          "q": "Of which internal bank forums is the CCO stated to be a member, to achieve close coordination between compliance and business functions?",
+          "options": [
+            "Only the HR Committee",
+            "Various Inter-Departmental Committees in the Bank",
+            "Only the Branch Managers' forum",
+            "Only the Staff Union committee"
+          ],
+          "correct": 1,
+          "explain": "The policy states that to achieve close coordination and partnership between compliance and business operations, the Chief Compliance Officer will be a member of the various Inter-Departmental Committees in the Bank."
+        }
+      ]
+    },
+    {
+      "topic": "Chief Compliance Officer – Powers, Authority & Reporting",
+      "questions": [
+        {
+          "q": "The Chief Compliance Officer is empowered to conduct what, whenever required?",
+          "options": [
+            "Credit appraisals",
+            "Staff performance reviews",
+            "Branch audits only",
+            "Compliance review investigations"
+          ],
+          "correct": 3,
+          "explain": "The policy states the CCO shall be empowered to conduct compliance review investigations whenever required."
+        },
+        {
+          "q": "For audits or investigations requiring expertise the Compliance Department may lack, whose discretion determines whether external experts are used?",
+          "options": [
+            "The Sponsor Bank",
+            "The Board of Directors",
+            "The Chief Compliance Officer",
+            "The Regional Manager"
+          ],
+          "correct": 2,
+          "explain": "The policy states the authority to use external experts for the purpose of audit/investigation, if required, is left to the discretion of the Chief Compliance Officer."
+        },
+        {
+          "q": "How often must the CCO conduct an assessment of the Compliance Risk, at a minimum?",
+          "options": [
+            "Once a year",
+            "Once a quarter",
+            "Once every two years",
+            "Once a month"
+          ],
+          "correct": 0,
+          "explain": "The policy states the CCO shall conduct assessment of the Compliance Risk at least once a year and develop a risk-oriented activity plan."
+        },
+        {
+          "q": "To whom must the CCO's risk-oriented compliance activity plan be submitted for approval?",
+          "options": [
+            "The Chairman's secretariat",
+            "NABARD",
+            "The ACB",
+            "The Sponsor Bank"
+          ],
+          "correct": 2,
+          "explain": "The policy states the risk-oriented activity plan for compliance assessment should be submitted to the ACB for approval and made available for Internal Audit."
+        },
+        {
+          "q": "What access does the Chief Compliance Officer have with regard to staff and records?",
+          "options": [
+            "Access only to records pre-approved by the Board",
+            "The right, on own initiative, to communicate with any staff member and obtain access to any records or files necessary for the role",
+            "Access only to records at Head Office, not branches",
+            "Access only during scheduled quarterly audits"
+          ],
+          "correct": 1,
+          "explain": "The policy states the CCO shall have access to all information required and the right of own initiative to communicate with any staff member and obtain access to any records or files necessary to carry out his responsibilities."
+        },
+        {
+          "q": "To whom is the CCO free to report irregularities or possible breaches disclosed by investigations, without fear of disfavour?",
+          "options": [
+            "The Chairman",
+            "The Sponsor Bank only",
+            "The Branch Manager",
+            "NABARD's DoS only"
+          ],
+          "correct": 0,
+          "explain": "The policy states the Chief Compliance Officer shall be free to report to the Chairman on irregularities or possible breaches disclosed by investigations without fear of disfavour from management or other staff."
+        },
+        {
+          "q": "The Chief Compliance Officer has the right of direct access to which body?",
+          "options": [
+            "Board of Directors / Audit Committee of the Board (ACB)",
+            "Regional Level Compliance Committee only",
+            "Ministry of Finance",
+            "Sponsor Bank's Board only"
+          ],
+          "correct": 0,
+          "explain": "The policy states the Chief Compliance Officer shall also have the right of direct access to the Board of Directors / Audit Committee of the Board (ACB)."
+        },
+        {
+          "q": "To ensure adherence to compliance rules in new business products, the CCO is included in which committee?",
+          "options": [
+            "HR Recruitment Committee",
+            "Regional Level Compliance Committee",
+            "Staff Training Committee",
+            "New Product Development Committee (NPDC)"
+          ],
+          "correct": 3,
+          "explain": "The policy states that in order to ensure adherence to compliance rules in new business products, the CCO will be included in the New Product Development Committee (NPDC)."
+        },
+        {
+          "q": "How often does the CCO convene a meeting with the compliance officers (HODs) of functional departments at Head Office?",
+          "options": [
+            "Half-yearly",
+            "Quarterly",
+            "Monthly",
+            "Annually"
+          ],
+          "correct": 1,
+          "explain": "The policy states the CCO shall convene a quarterly meeting with the compliance officers (HODs) of functional departments at Head Office to exchange views and strengthen compliance culture."
+        },
+        {
+          "q": "If no quarterly meeting is held with NABARD, what is the CCO expected to do?",
+          "options": [
+            "Delegate the meeting entirely to the Regional Manager",
+            "Meet the NABARD officials of DoS (Department of Supervision) at the Regional Office, as suggested by NABARD",
+            "Submit a written report to the Sponsor Bank instead",
+            "Skip the discussion until the next quarter"
+          ],
+          "correct": 1,
+          "explain": "The policy states that in case no quarterly meeting is held, the CCO shall meet the NABARD officials of DoS at the Regional Office, as suggested by NABARD, to discuss compliance issues."
+        }
+      ]
+    },
+    {
+      "topic": "HO Compliance Department – Structure & Responsibilities",
+      "questions": [
+        {
+          "q": "What is the Compliance Department at Head Office primarily responsible for?",
+          "options": [
+            "Implementing the Policy",
+            "Approving the Compliance Policy",
+            "Auditing the Sponsor Bank",
+            "Setting business targets for branches"
+          ],
+          "correct": 0,
+          "explain": "The policy states the Compliance Department at Head Office shall be responsible for implementing the Policy."
+        },
+        {
+          "q": "What is the minimum rank of the official who heads the HO Compliance Department?",
+          "options": [
+            "Deputy General Manager",
+            "Regional Manager",
+            "Manager",
+            "Senior Manager"
+          ],
+          "correct": 3,
+          "explain": "The policy states the Compliance Department at Head Office will be headed by not below the rank of a Senior Manager, under the overall supervision of the Chief Compliance Officer."
+        },
+        {
+          "q": "What knowledge and experience should Compliance Department staff possess?",
+          "options": [
+            "Fair knowledge of Law, Accountancy and Information Technology, and adequate practical experience in business lines, audit/inspection, credit, documentation, supervisory and banking",
+            "Only knowledge of IT systems",
+            "Only academic qualifications in banking law",
+            "Only experience in HR functions"
+          ],
+          "correct": 0,
+          "explain": "The policy states Compliance Department staff shall have fair knowledge of Law, Accountancy and Information Technology, and adequate practical experience in various business lines, audit/inspection functions, credit, documentation, supervisory and banking."
+        },
+        {
+          "q": "How frequently should the Compliance Department submit a report to the ACB and Board?",
+          "options": [
+            "Annually only",
+            "Monthly",
+            "Quarterly",
+            "Half-yearly"
+          ],
+          "correct": 2,
+          "explain": "The policy states the Compliance Department should submit a quarterly report to the ACB and Board, in addition to an Annual Review to the ACB."
+        },
+        {
+          "q": "Besides the quarterly report, what should the Compliance Department submit to the ACB annually, to enable informed judgment by Board members?",
+          "options": [
+            "An Annual HR Appraisal",
+            "An Annual Review",
+            "An Annual Budget Statement",
+            "An Annual Business Plan"
+          ],
+          "correct": 1,
+          "explain": "The policy states the Compliance Department should submit quarterly reports and an Annual Review to the ACB to enable the Board members to make an informed judgment."
+        },
+        {
+          "q": "Who typically carries out compliance testing of RBI/NABARD regulations and internal guidelines at Head Office?",
+          "options": [
+            "The Sponsor Bank",
+            "The staff of the Compliance Department",
+            "The Legal Department",
+            "External auditors only"
+          ],
+          "correct": 1,
+          "explain": "The policy states compliance testing of RBI/NABARD Regulations/Internal guidelines at Head Office shall be carried out by the staff of the Compliance Department."
+        },
+        {
+          "q": "For compliance testing of specialized areas like Forex, Investment, Risk Management or IT where the Compliance Department lacks relevant expertise, what may the CCO do?",
+          "options": [
+            "Skip testing of those areas",
+            "Request the Sponsor Bank to depute official(s) having requisite skills and experience",
+            "Outsource testing permanently to a private firm",
+            "Delegate testing entirely to the Branch Managers"
+          ],
+          "correct": 1,
+          "explain": "The policy states the Chief Compliance Officer may request the Sponsor Bank to depute official(s) having requisite skills and experience for compliance testing of specialized areas."
+        },
+        {
+          "q": "Who is responsible for designing and periodically updating the Reporting Formats used by branches/Regional Offices to report compliance?",
+          "options": [
+            "NABARD",
+            "The Legal Department",
+            "The Sponsor Bank",
+            "The Compliance Department"
+          ],
+          "correct": 3,
+          "explain": "The policy states the Compliance Department shall design the Reporting Formats and update them periodically to enable branches/Regional Offices to report compliance to HO: Compliance Department."
+        },
+        {
+          "q": "How often does the Compliance Department identify and assess the main compliance risks facing the Bank, based on input from all departments?",
+          "options": [
+            "Once every three years",
+            "Once a quarter",
+            "Once a year",
+            "Once a month"
+          ],
+          "correct": 2,
+          "explain": "The policy states the Compliance Department, once in a year, identifies and assesses the main compliance risks facing the Bank in their respective functional area upon receipt of input from all departments."
+        },
+        {
+          "q": "Which departments does the HO Compliance Department coordinate with to identify and document compliance risk associated with the Bank's business activities and products?",
+          "options": [
+            "Risk Management and Audit Department",
+            "HRM and Legal Department",
+            "Sponsor Bank and NABARD",
+            "IBA and FEDAI"
+          ],
+          "correct": 0,
+          "explain": "The policy states HO: Compliance Department in coordination with Risk Management and Audit Department will identify and document the compliance risk associated with the Bank's business activities/products."
+        }
+      ]
+    },
+    {
+      "topic": "Functional Departments at Head Office",
+      "questions": [
+        {
+          "q": "What role are HODs of functional departments at Head Office nominated for?",
+          "options": [
+            "Branch Compliance Officer",
+            "Regional Compliance Officer",
+            "Chief Compliance Officer",
+            "Compliance Officer of their functional department"
+          ],
+          "correct": 3,
+          "explain": "The policy states HODs of functional departments at Head Office will be nominated as Compliance Officer of their functional department for managing compliance risk pertaining to their functional areas."
+        },
+        {
+          "q": "What must a nominated Compliance Officer (HOD) at a functional department identify, to assist with reporting compliance to the HO Compliance Department?",
+          "options": [
+            "A Regional Compliance Officer",
+            "A Compliance Section Officer",
+            "A Branch Manager",
+            "An external auditor"
+          ],
+          "correct": 1,
+          "explain": "The policy states nominated Compliance Officers (HODs) will identify an officer as Compliance Section Officer in their functional department to assist them for reporting compliance to HO: Compliance Department."
+        },
+        {
+          "q": "What must each Functional Department maintain, duly approved by the Chief Compliance Officer?",
+          "options": [
+            "Business targets",
+            "All compliance issues/checklists",
+            "HR appraisal records",
+            "Marketing plans"
+          ],
+          "correct": 1,
+          "explain": "The policy states each Functional Department shall maintain all compliance issues/checklists duly approved by the Chief Compliance Officer."
+        },
+        {
+          "q": "What must a Functional Department submit to HO: Compliance Department regarding regulatory non-compliance?",
+          "options": [
+            "A Statement on Regulatory Non-compliance duly signed by the HOD",
+            "A verbal report only",
+            "A report signed by the Regional Manager",
+            "An unsigned checklist"
+          ],
+          "correct": 0,
+          "explain": "The policy states Functional Department shall submit Statement on Regulatory Non-compliance duly signed by HOD to HO: Compliance Department."
+        },
+        {
+          "q": "What must each Functional Department submit on a quarterly basis to HO: Compliance Department relating to their function?",
+          "options": [
+            "A staff performance review",
+            "An annual budget report",
+            "A customer satisfaction survey",
+            "A detailed Quarterly compliance Certificate"
+          ],
+          "correct": 3,
+          "explain": "The policy states each Functional Department shall submit a detailed Quarterly compliance Certificate to HO: Compliance Department relating to their function."
+        },
+        {
+          "q": "What does the Inspection and Audit department submit on a quarterly basis regarding total compliance?",
+          "options": [
+            "A certificate on total compliance with all specified guidelines, including Managers' monthly certificates covering compliance to HO guidelines",
+            "A budget forecast",
+            "A performance appraisal of RCOs",
+            "A list of new products launched"
+          ],
+          "correct": 0,
+          "explain": "The policy states the Inspection and Audit department is to submit, on a quarterly basis, a certificate on total compliance with all specified guidelines like Managers' monthly certificate covering compliance to HO guidelines."
+        },
+        {
+          "q": "Which department is responsible for advising the CCO on compliance Laws, Rules and Standards relating to banking business operations?",
+          "options": [
+            "HRM Department",
+            "Risk Management Department",
+            "The Legal Department",
+            "Inspection and Audit Department"
+          ],
+          "correct": 2,
+          "explain": "The policy states the Legal Department will be responsible for advising the CCO on compliance Laws, Rules and Standards, and for initiating steps for preparing/issuing guidelines on legal developments."
+        },
+        {
+          "q": "What should Functional Departments at Head Office send, containing their Key Responsibility Areas?",
+          "options": [
+            "Customer grievance logs",
+            "Key Responsibility Areas (KRAs) with regulatory parameters",
+            "Business targets with sales projections",
+            "Staff attendance records"
+          ],
+          "correct": 1,
+          "explain": "The policy states Functional Departments at Head Office should send their Key Responsibility Areas with regulatory parameters."
+        },
+        {
+          "q": "Within how many days from the end of every quarter should the Inspection and Audit Department report?",
+          "options": [
+            "7 days",
+            "30 days",
+            "15 days",
+            "3 days"
+          ],
+          "correct": 0,
+          "explain": "The policy states the Inspection and Audit Department should report within 7 days from the end of every quarter."
+        },
+        {
+          "q": "The Inspection and Audit Department's quarterly report should include a list of branches identified below which rating, along with reasons for down-gradation and a copy of the FRC?",
+          "options": [
+            "Below Excellent rating in Customer Service Audit",
+            "Below Satisfactory rating in External Audit",
+            "Below Medium Risk rating in RBIA / Good in Regular Inspection",
+            "Below High Risk rating in RBIA"
+          ],
+          "correct": 2,
+          "explain": "The policy states the report should include a list of branches identified as below the rating of Medium Risk in RBIA / Good in Regular Inspection during the Internal Inspection, along with a detailed report, reasons for down gradation, and a copy of the FRC."
+        }
+      ]
+    },
+    {
+      "topic": "Regional Office & Regional Compliance Officer (RCO)",
+      "questions": [
+        {
+          "q": "Who performs the role of Compliance Officer at the Regional Office?",
+          "options": [
+            "The Regional Manager (RM)",
+            "The OMU Officer",
+            "The Deputy Regional Manager (DRM)",
+            "The Chief Compliance Officer"
+          ],
+          "correct": 0,
+          "explain": "The policy states that in Regional Offices, the Regional Manager (RM) is the Compliance Officer."
+        },
+        {
+          "q": "Who does the Regional Manager nominate as Regional Compliance Officer (RCO)?",
+          "options": [
+            "An officer from the Sponsor Bank",
+            "An officer other than the DRM and OMU officer, who will be independent and report directly to the CCO",
+            "Any branch manager in the region",
+            "The Deputy Regional Manager"
+          ],
+          "correct": 1,
+          "explain": "The policy states each RM will nominate a Regional Compliance Officer (other than DRM and OMU officer) who will be independent and report directly to CCO."
+        },
+        {
+          "q": "Under what circumstance can the RCO be changed during the financial year?",
+          "options": [
+            "Every six months automatically",
+            "Only in exceptional circumstances, with the approval of the CCO",
+            "Whenever the branch rating changes",
+            "At the RM's discretion at any time"
+          ],
+          "correct": 1,
+          "explain": "The policy states RCOs shall not be changed during the FY, and any change of RCO is permitted only in exceptional circumstances with the approval of the CCO."
+        },
+        {
+          "q": "At what intervals must the Compliance Officer at the Regional Office submit a compliance report to HO, in the format prescribed?",
+          "options": [
+            "Monthly",
+            "Annually",
+            "Half-yearly",
+            "Quarterly"
+          ],
+          "correct": 3,
+          "explain": "The policy states the Compliance Officer at RO shall submit a compliance report on status/extent of compliance to HO at quarterly intervals in the format prescribed."
+        },
+        {
+          "q": "Why are Regional Compliance Officers not entrusted with direct business line responsibilities and audit/inspection functions?",
+          "options": [
+            "To reduce their workload",
+            "Because they lack the necessary qualifications",
+            "Because those duties belong exclusively to the Branch Manager",
+            "To avoid potential conflict of interest and ensure their independence"
+          ],
+          "correct": 3,
+          "explain": "The policy states the Regional Compliance Officers will not be entrusted with the direct business line responsibilities and duties of audit and inspection function in order to avoid potential conflict of interest and ensure their independence."
+        },
+        {
+          "q": "What is the minimum rank required for an officer to be nominated as RCO?",
+          "options": [
+            "Manager",
+            "Officer",
+            "Regional Manager",
+            "Senior Manager"
+          ],
+          "correct": 0,
+          "explain": "The policy states the RCO shall not be below the rank of Manager."
+        },
+        {
+          "q": "While under the administrative control of the RM, to whom does the RCO directly report?",
+          "options": [
+            "NABARD directly",
+            "The Branch Manager",
+            "CCO / HO: Compliance Department",
+            "The Sponsor Bank"
+          ],
+          "correct": 2,
+          "explain": "The policy states the RCO will be under the administrative control of the RM but should directly report to CCO/HO: Compliance Department."
+        },
+        {
+          "q": "How often does the RCO visit branches that are randomly selected by HO: Compliance Department for verification of compliance reports?",
+          "options": [
+            "Every half-year",
+            "Every year",
+            "Every quarter",
+            "Every month"
+          ],
+          "correct": 2,
+          "explain": "The policy states the RCO will visit branches randomly selected every quarter by HO: Compliance Department to conduct verification of the genuineness and correctness of compliance reports submitted by branches."
+        },
+        {
+          "q": "What is a key responsibility of RCOs regarding branch compliance officers?",
+          "options": [
+            "To set their sales targets",
+            "To collect periodical reporting on various compliance functions from branch compliance officers of branches under their control",
+            "To approve their loan sanctions",
+            "To conduct their annual performance appraisal exclusively"
+          ],
+          "correct": 1,
+          "explain": "The policy lists collecting periodical reporting on various compliance functions from branch compliance officers of the branches under their control as a role/responsibility of the RCO."
+        },
+        {
+          "q": "What is the CCO's involvement regarding RCOs' performance?",
+          "options": [
+            "The CCO shall be part of the annual performance appraisal of the RCOs",
+            "The CCO only reviews RCO attendance",
+            "The CCO only reviews RCO transfer requests",
+            "The CCO has no role in RCO performance"
+          ],
+          "correct": 0,
+          "explain": "The policy states the CCO shall be part of the annual performance appraisal of the RCOs."
+        }
+      ]
+    },
+    {
+      "topic": "Regional Level Compliance Committee (RLCC) Meetings",
+      "questions": [
+        {
+          "q": "Who chairs the Regional Level Compliance Committee (RLCC) under normal circumstances?",
+          "options": [
+            "Regional Compliance Officer",
+            "Chief Compliance Officer",
+            "Regional Manager",
+            "Deputy Regional Manager"
+          ],
+          "correct": 2,
+          "explain": "The RLCC composition table shows the Regional Manager as Chairman of the committee."
+        },
+        {
+          "q": "What role does the Regional Compliance Officer (RCO) play in the RLCC?",
+          "options": [
+            "Convenor",
+            "Invitee",
+            "Member only, with no other designation",
+            "Chairman"
+          ],
+          "correct": 0,
+          "explain": "The RLCC table lists the Regional Compliance Officer as the Convenor of the committee."
+        },
+        {
+          "q": "What is the Chief Compliance Officer's designated role in the RLCC?",
+          "options": [
+            "Invitee",
+            "Mandatory Member",
+            "Chairman",
+            "Convenor"
+          ],
+          "correct": 0,
+          "explain": "The RLCC composition table lists the Chief Compliance Officer as an Invitee, not a mandatory member."
+        },
+        {
+          "q": "Which of the following is listed as a Member (not Chairman, Convenor, or Invitee) of the RLCC?",
+          "options": [
+            "Regional Manager",
+            "Regional Compliance Officer",
+            "Chief Compliance Officer",
+            "Officer in-Charge (OMU) of Inspection & Audit Desk of the respective RO"
+          ],
+          "correct": 3,
+          "explain": "The RLCC table lists the Officer in-Charge (OMU) of Inspection & Audit Desk as a Member, along with the Deputy Regional Manager and the HO Compliance Department officer."
+        },
+        {
+          "q": "What is the minimum rank of the HO: Compliance Department officer who is a member of the RLCC?",
+          "options": [
+            "Deputy General Manager",
+            "Senior Manager",
+            "Regional Manager",
+            "Manager"
+          ],
+          "correct": 1,
+          "explain": "The RLCC table specifies the Officer from HO: Compliance Department who is a member should not be below the rank of a Senior Manager."
+        },
+        {
+          "q": "What is the quorum required for an RLCC meeting?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "3"
+          ],
+          "correct": 0,
+          "explain": "The policy explicitly states the Quorum for RLCC meetings is 4."
+        },
+        {
+          "q": "When is the RLCC meeting held, as per the prescribed frequency?",
+          "options": [
+            "On the first day of every month",
+            "On a fixed date each quarter regardless of testing status",
+            "Only when a major breach is reported",
+            "Immediately after completion of onsite testing of select branches by the RCO within the stipulated time for the quarter"
+          ],
+          "correct": 3,
+          "explain": "The policy states the frequency of the RLCC meeting is immediately after completion of onsite testing of select branches by the respective RCO within the stipulated time for the quarter."
+        },
+        {
+          "q": "Under exceptional circumstances, if the Regional Manager is absent, who chairs the RLCC meeting?",
+          "options": [
+            "The OMU officer",
+            "The Deputy Regional Manager, with the approval of the CCO",
+            "The Regional Compliance Officer, automatically",
+            "The Chief Compliance Officer directly"
+          ],
+          "correct": 1,
+          "explain": "The policy states that under exceptional circumstances, in the absence of the Regional Manager, the Deputy Regional Manager shall chair the Committee Meeting with the approval of the CCO."
+        },
+        {
+          "q": "To whom are the Minutes of the Regional Compliance Meeting sent?",
+          "options": [
+            "The Sponsor Bank's Rural Banking Department",
+            "HO: Compliance Department",
+            "NABARD directly",
+            "The Board of Directors directly"
+          ],
+          "correct": 1,
+          "explain": "The policy states the Minutes of Regional Compliance Meeting is to be sent to HO: Compliance Department."
+        },
+        {
+          "q": "Which of the following is listed among the \"Mandatory members\" of the RLCC?",
+          "options": [
+            "Chief Compliance Officer",
+            "Sponsor Bank representative",
+            "Regional Compliance Officer (RCO)",
+            "Branch Manager"
+          ],
+          "correct": 2,
+          "explain": "The policy's mandatory members list includes the Regional Manager and/or Deputy Regional Manager, the Regional Compliance Officer (RCO), the OMU Officer in-Charge, and an Officer from HO: Compliance Department."
+        }
+      ]
+    },
+    {
+      "topic": "Branch-Level Compliance, Reporting Structure & Circulars",
+      "questions": [
+        {
+          "q": "At branches, who performs the role of Compliance Officer?",
+          "options": [
+            "The Regional Compliance Officer",
+            "The Branch Manager (BM)",
+            "The Chief Compliance Officer",
+            "A designated clerk"
+          ],
+          "correct": 1,
+          "explain": "The policy states that at branches, the BMs will be performing the role of Compliance Officer."
+        },
+        {
+          "q": "Within how many days from the close of the quarter must the Branch Compliance Officer submit the Quarterly Compliance Certificate to the Regional Office?",
+          "options": [
+            "7 days",
+            "3 days",
+            "2 days",
+            "15 days"
+          ],
+          "correct": 1,
+          "explain": "The policy states the Compliance Officer (Branch Manager) in each branch shall submit a Quarterly Compliance Certificate to the respective Regional Office in the prescribed format (Annexure-I) within 3 days from the close of the quarter."
+        },
+        {
+          "q": "Within how many working days of observing a breach or non-compliance must a branch report it to the Regional Office?",
+          "options": [
+            "Three working days",
+            "One working day",
+            "Two working days",
+            "Seven working days"
+          ],
+          "correct": 2,
+          "explain": "The policy states branches must report any breaches/non-compliances observed within two working days of observing the breach/non-compliance to the respective Regional Office."
+        },
+        {
+          "q": "To which entity at the Sponsor Bank does the Chief Compliance Officer submit the Bank's monthly/quarterly compliance certificate?",
+          "options": [
+            "NABARD's DoS",
+            "The Legal Department of Sponsor Bank",
+            "CO: Rural Banking Department of Sponsor Bank",
+            "The Sponsor Bank's Chairman directly"
+          ],
+          "correct": 2,
+          "explain": "The policy states the Bank shall submit monthly and/or quarterly compliance certificates duly signed by the CCO to CO: Rural Banking Department of the Sponsor Bank."
+        },
+        {
+          "q": "What tool is being developed by the Compliance Department to track non-compliance by branches on a month-on-month basis?",
+          "options": [
+            "A Core Banking dashboard",
+            "An Offsite Monitoring tool",
+            "A Customer Feedback portal",
+            "A Risk Rating calculator"
+          ],
+          "correct": 1,
+          "explain": "The policy states an Offsite Monitoring tool will be developed by the Compliance Department to track non-compliance by branches on a month-on-month basis, to improve data quality and integrity."
+        },
+        {
+          "q": "The activities of the compliance function should be subject to what kind of review by Internal Audit?",
+          "options": [
+            "Annual Review",
+            "A one-time review at policy launch",
+            "A weekly review",
+            "A review only upon RBI's request"
+          ],
+          "correct": 0,
+          "explain": "The policy states, under \"Annual Audit of Compliance Functions,\" that the activities of the compliance function should be subject to Annual Review by the Internal Audit."
+        },
+        {
+          "q": "What does Circular No. 224/2025-26, dated 20-12-2025, pertain to?",
+          "options": [
+            "New and Revised Policies for FY 2026-27",
+            "Advisory on Information Sharing with LEAs/IAs",
+            "New and Revised Policies for FY 2025-26",
+            "Observance of Compliance Awareness Week from 22.12.2025 to 26.12.2025"
+          ],
+          "correct": 3,
+          "explain": "Per the Circulars table, Circular 224/2025-26 dated 20-12-2025 relates to the Observance of Compliance Awareness Week from 22.12.2025 to 26.12.2025."
+        },
+        {
+          "q": "Which circular carries the Advisory on Information Sharing with Law Enforcement Agencies/Intelligence Agencies?",
+          "options": [
+            "Circular 60/2026-27",
+            "Circular 44/2026-27",
+            "Circular 224/2025-26",
+            "Circular 24/2025-26"
+          ],
+          "correct": 0,
+          "explain": "Per the Circulars table, Circular 60/2026-27 dated 06-06-2026 is the Advisory on Information Sharing with Law Enforcement Agencies/Intelligence Agencies (LEAs/IAs)."
+        },
+        {
+          "q": "According to the Reporting Structure table, what does a Branch submit quarterly, which Regional Offices then collect and send to HO: Compliance Department?",
+          "options": [
+            "Loan Sanction Report",
+            "HR Appraisal Report",
+            "Business Growth Report",
+            "Compliance Report"
+          ],
+          "correct": 3,
+          "explain": "The Reporting Structure table shows Branches submitting a quarterly Compliance Report, which Regional Offices collect and send to HO: Compliance Department."
+        },
+        {
+          "q": "According to the Reporting Structure table, to which department does the Staff Training Centre (STC) submit its Compliance Certificate?",
+          "options": [
+            "HRM",
+            "HO: Compliance Department",
+            "Inspection and Audit Department",
+            "Regional Offices"
+          ],
+          "correct": 0,
+          "explain": "The Reporting Structure table shows the STC reporting its Compliance Certificate to HRM."
+        }
+      ]
+    },
+    {
+      "topic": "SOP on Information Sharing with Law Enforcement & Intelligence Agencies",
+      "questions": [
+        {
+          "q": "The SOP on information sharing with Law Enforcement Agencies (LEAs) and Intelligence Agencies (IAs) was issued based on directions from which bodies?",
+          "options": [
+            "FEDAI and Ombudsman",
+            "Ministry of Home Affairs and IBA",
+            "Central Economic Intelligence Bureau (CEIB), and NABARD's instructions dated 21.05.2026",
+            "RBI and SEBI"
+          ],
+          "correct": 2,
+          "explain": "The policy states the SOP was issued by the Central Economic Intelligence Bureau (CEIB), and NABARD's instructions vide letter dated 21.05.2026 directed the Bank to ensure adherence to it."
+        },
+        {
+          "q": "When responding to government communication channels with gov.in or nic.in domains, the branch must act under intimation to whom?",
+          "options": [
+            "The respective Regional Office and HO Compliance Department",
+            "Only NABARD",
+            "Only the Sponsor Bank",
+            "Only the Chairman's secretariat"
+          ],
+          "correct": 0,
+          "explain": "The policy states branches must respond to all government communication channels and broad level domains having gov.in or nic.in in the email address, under intimation to the respective Regional Office and HO Compliance Department."
+        },
+        {
+          "q": "Within how many working days must a branch send an acknowledgement of availability of information/documents and the turnaround time (TAT) to the requesting agency?",
+          "options": [
+            "Three (03) working days",
+            "One working day",
+            "Seven working days",
+            "Two working days"
+          ],
+          "correct": 0,
+          "explain": "The policy states the branch should send an acknowledgement regarding availability of information/documents and TAT to the agency concerned within three (03) working days, with a copy to the Regional Office and HO Compliance department."
+        },
+        {
+          "q": "If an agency's request is for a debit freeze/stop/hold in a suspicious account, what must the branch do?",
+          "options": [
+            "Refer the matter to the Sponsor Bank first",
+            "Take immediate action",
+            "Wait for written confirmation before acting",
+            "Ignore the request until the quarterly RLCC meeting"
+          ],
+          "correct": 1,
+          "explain": "The policy states that if the request of the agency is for debit freeze/stop/hold in suspicious accounts, branches are to take immediate action."
+        },
+        {
+          "q": "If a Law Enforcement Agency's (LEA) request is made before 4 PM, by when must the branch intimate the acknowledgment of debit freeze/stop/hold and action taken?",
+          "options": [
+            "Within one working day",
+            "Within three working days",
+            "Within six weeks",
+            "The same day"
+          ],
+          "correct": 3,
+          "explain": "The policy states the acknowledgment regarding debit freeze/stop/hold and action taken thereof must be intimated to the agency the same day, if the request is made by the LEA before 4 PM."
+        },
+        {
+          "q": "For which type of request does the same-day (before 4 PM) acknowledgment timeline NOT apply, requiring fast-track handling instead?",
+          "options": [
+            "Requests from the Sponsor Bank",
+            "Requests routed through the National Cyber Crime Reporting Portal (NCRP)",
+            "Requests from the Income Tax Department",
+            "Requests from NABARD"
+          ],
+          "correct": 1,
+          "explain": "The policy states this timeline would not be applicable for the requests routed through the National Cyber Crime Reporting Portal (NCRP), which need to be catered to on a fast-track basis."
+        },
+        {
+          "q": "In all cases of data sharing with agencies, what counterparty details must banks invariably provide?",
+          "options": [
+            "Only the counterparty's name",
+            "Only the counterparty's mobile number",
+            "Only the counterparty's PAN number",
+            "Counterparty name, their account number, and IFSC of the Branch"
+          ],
+          "correct": 3,
+          "explain": "The policy states that in all cases of data sharing with the agencies, the banks would invariably provide counterparty details in clear terms, including counterparty name, their account number, and IFSC of the Branch."
+        },
+        {
+          "q": "As per the availability-of-information table, how many weeks does it take to make digital information such as Statement of Accounts or KYC \"available at other centres of the bank\"?",
+          "options": [
+            "6 weeks",
+            "3 weeks",
+            "2 weeks",
+            "1 week"
+          ],
+          "correct": 2,
+          "explain": "The table states digital information such as Statement of Accounts, KYC, and Account Opening Forms is available at other centres of the bank within 2 weeks."
+        },
+        {
+          "q": "If a branch receives verbal instructions from Cyber Police (phone/SMS/WhatsApp) for a lien/debit freeze due to urgency of action, within what time must these be followed up with an authorized letter/email?",
+          "options": [
+            "One (1) working day",
+            "Three (3) working days",
+            "One week",
+            "Same day"
+          ],
+          "correct": 0,
+          "explain": "The policy states verbal instructions from Cyber police should be followed by an authorized letter/email of the appropriate authority within one (1) working day."
+        },
+        {
+          "q": "For any information request scenario not specifically written in the SOP, what is the maximum time-limit to furnish the details?",
+          "options": [
+            "Three (3) months",
+            "Six (6) weeks",
+            "Three (3) working days",
+            "Two (2) weeks"
+          ],
+          "correct": 1,
+          "explain": "The policy states that for anything not written in the SOP, the maximum time-limit would be six (6) weeks to furnish the details."
+        }
+      ]
+    }
+  ]
+}

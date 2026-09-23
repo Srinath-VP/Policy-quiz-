@@ -1,0 +1,387 @@
+<title>Policy Quiz Hub</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+  :root{
+    --bg:#F3F6F7; --surface:#FFFFFF; --surface-2:#EAF1F0; --border:#D7E3E1;
+    --ink:#0E2A28; --muted:#54706D; --muted-2:#7C9694;
+    --accent:#0C6B62; --accent-ink:#FFFFFF; --accent-soft:#DDEFEC; --accent-strong:#084F49;
+    --good:#157A4A; --good-soft:#E1F5EA; --good-ink:#0B3D25;
+    --bad:#B3261E; --bad-soft:#FCE8E6; --bad-ink:#5C120D;
+    --warn:#8A5B00; --warn-soft:#FBF0DC;
+    --shadow:0 1px 2px rgba(14,42,40,.06),0 8px 24px -12px rgba(14,42,40,.18);
+    color-scheme:light;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#0A1716; --surface:#112423; --surface-2:#153230; --border:#204140;
+      --ink:#E7F3F1; --muted:#93B2AE; --muted-2:#6C8C88;
+      --accent:#33D6BA; --accent-ink:#052420; --accent-soft:#123330; --accent-strong:#5CE7CE;
+      --good:#3FCB8C; --good-soft:#0F3324; --good-ink:#BFF3D8;
+      --bad:#FF8A80; --bad-soft:#3B1613; --bad-ink:#FFD9D4;
+      --warn:#F4C05C; --warn-soft:#332707;
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 28px -14px rgba(0,0,0,.55);
+      color-scheme:dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0A1716; --surface:#112423; --surface-2:#153230; --border:#204140;
+    --ink:#E7F3F1; --muted:#93B2AE; --muted-2:#6C8C88;
+    --accent:#33D6BA; --accent-ink:#052420; --accent-soft:#123330; --accent-strong:#5CE7CE;
+    --good:#3FCB8C; --good-soft:#0F3324; --good-ink:#BFF3D8;
+    --bad:#FF8A80; --bad-soft:#3B1613; --bad-ink:#FFD9D4;
+    --warn:#F4C05C; --warn-soft:#332707;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 28px -14px rgba(0,0,0,.55);
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box;}
+  body{background:var(--bg);color:var(--ink);font-family:'Public Sans',ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;}
+  h1,h2,h3{font-family:'Sora',ui-sans-serif,system-ui,sans-serif;letter-spacing:-.01em;text-wrap:balance;}
+  .tabular{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums;}
+  button,select{font-family:inherit;}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .app{max-width:980px;margin:0 auto;padding:20px 16px 64px;}
+
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:6px 2px 20px;}
+  .brand{display:flex;align-items:center;gap:10px;min-width:0;}
+  .brand-mark{min-width:36px;height:36px;padding:0 7px;border-radius:9px;background:linear-gradient(155deg,var(--accent),var(--accent-strong));display:flex;align-items:center;justify-content:center;color:var(--accent-ink);font-weight:800;font-size:12px;flex:none;}
+  .eyebrow{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;}
+  .brand h1{font-size:19px;margin:1px 0 0;}
+  .theme-btn{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:9px;padding:8px 10px;font-size:12px;font-weight:600;cursor:pointer;flex:none;}
+
+  .panel{background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:var(--shadow);}
+  .picker{padding:18px;margin-bottom:14px;display:grid;grid-template-columns:1.4fr 1.6fr auto;gap:12px;align-items:end;}
+  @media (max-width:720px){.picker{grid-template-columns:1fr;}}
+  .field label{display:block;font-size:11.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;}
+  .field select{width:100%;appearance:none;background:var(--surface-2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2354706D' stroke-width='2' fill='none'/%3E%3C/svg%3E") no-repeat right 12px center;border:1.5px solid var(--border);border-radius:10px;padding:11px 34px 11px 12px;font-size:14.5px;color:var(--ink);font-weight:600;cursor:pointer;}
+  .field select:hover{border-color:var(--muted-2);}
+
+  .stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:22px;}
+  @media (max-width:640px){.stats-row{grid-template-columns:repeat(2,1fr);}}
+  .stat-tile{padding:14px;}
+  .stat-tile .num{font-size:22px;font-weight:700;}
+  .stat-tile .label{font-size:11.5px;color:var(--muted);margin-top:2px;font-weight:600;}
+
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;margin:6px 0 12px;gap:8px;flex-wrap:wrap;}
+  .section-head h2{font-size:17px;margin:0;}
+  .hint{font-size:12.5px;color:var(--muted);}
+
+  .quiz-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;}
+  @media (max-width:640px){.quiz-list{grid-template-columns:1fr;}}
+  .quiz-row{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:13px 14px;border-radius:13px;background:var(--surface);border:1px solid var(--border);cursor:pointer;text-align:left;color:var(--ink);width:100%;}
+  .quiz-row:hover{border-color:var(--accent);}
+  .quiz-no{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:12px;color:var(--accent);background:var(--accent-soft);border-radius:8px;min-width:44px;padding:7px 6px;text-align:center;}
+  .quiz-row .t{font-size:14px;font-weight:600;line-height:1.35;}
+  .quiz-row .m{font-size:12px;color:var(--muted);margin-top:2px;}
+  .badge{font-size:11px;font-weight:700;padding:4px 9px;border-radius:999px;white-space:nowrap;}
+  .badge.pass{background:var(--good-soft);color:var(--good-ink);}
+  .badge.low{background:var(--warn-soft);color:var(--warn);}
+  .badge.new{background:var(--surface-2);color:var(--muted);}
+
+  .btn{appearance:none;border:none;cursor:pointer;border-radius:10px;padding:11px 16px;font-weight:700;font-size:13.5px;display:inline-flex;align-items:center;justify-content:center;gap:6px;}
+  .btn:active{transform:scale(.98);}
+  .btn-primary{background:var(--accent);color:var(--accent-ink);}
+  .btn-ghost{background:var(--surface-2);color:var(--ink);border:1px solid var(--border);}
+  .btn-outline{background:transparent;color:var(--accent);border:1px solid var(--accent);}
+  .btn[disabled]{opacity:.45;cursor:not-allowed;}
+
+  .quiz-header{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:10px;}
+  .quiz-header .eyebrow{color:var(--accent);font-weight:700;}
+  .quiz-header h2{font-size:18px;margin:3px 0 0;}
+  .qcount{font-size:13px;color:var(--muted);white-space:nowrap;padding-top:3px;}
+  .progress-track{height:8px;border-radius:999px;background:var(--surface-2);overflow:hidden;margin-bottom:18px;border:1px solid var(--border);}
+  .progress-fill{height:100%;background:var(--accent);border-radius:999px;transition:width .25s ease;}
+  .question-card{padding:20px;}
+  .qnum{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;color:var(--accent);margin-bottom:8px;}
+  .qtext{font-size:16.5px;font-weight:600;line-height:1.5;margin:0 0 16px;}
+  .options{display:flex;flex-direction:column;gap:9px;}
+  .option{text-align:left;width:100%;background:var(--surface-2);border:1.5px solid var(--border);border-radius:11px;padding:12px 13px;font-size:14.5px;color:var(--ink);cursor:pointer;display:flex;align-items:flex-start;gap:10px;line-height:1.45;}
+  .option:hover:not([disabled]){border-color:var(--muted-2);}
+  .opt-letter{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:12.5px;color:var(--muted);background:var(--surface);border:1px solid var(--border);border-radius:6px;width:22px;height:22px;flex:none;display:flex;align-items:center;justify-content:center;margin-top:1px;}
+  .option.correct{border-color:var(--good);background:var(--good-soft);color:var(--good-ink);}
+  .option.correct .opt-letter{background:var(--good);color:var(--surface);border-color:var(--good);}
+  .option.incorrect{border-color:var(--bad);background:var(--bad-soft);color:var(--bad-ink);}
+  .option.incorrect .opt-letter{background:var(--bad);color:var(--surface);border-color:var(--bad);}
+  .option[disabled]{cursor:default;}
+  .mark{margin-left:auto;font-weight:800;font-size:13px;flex:none;}
+  .feedback{margin-top:14px;padding:13px 14px;border-radius:11px;font-size:13.5px;line-height:1.55;}
+  .feedback.right{background:var(--good-soft);color:var(--good-ink);}
+  .feedback.wrong{background:var(--bad-soft);color:var(--bad-ink);}
+  .feedback b{display:block;margin-bottom:3px;}
+  .quiz-nav{display:flex;justify-content:space-between;align-items:center;margin-top:16px;gap:10px;}
+  .live-score{font-size:12.5px;color:var(--muted);}
+
+  .results-hero{padding:26px 22px;text-align:center;margin-bottom:18px;}
+  .score-big{font-size:44px;font-weight:700;line-height:1;margin-top:8px;}
+  .score-pct{font-size:15px;color:var(--muted);margin-top:6px;font-weight:600;}
+  .pass-pill{display:inline-block;margin-top:12px;padding:6px 14px;border-radius:999px;font-size:12.5px;font-weight:700;}
+  .pass-pill.pass{background:var(--good-soft);color:var(--good-ink);}
+  .pass-pill.fail{background:var(--warn-soft);color:var(--warn);}
+  .results-actions{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap;}
+  .review-item{padding:15px 16px;margin-bottom:10px;border-radius:13px;}
+  .rq{font-size:14px;font-weight:600;margin:0 0 8px;line-height:1.45;}
+  .rrow{font-size:13px;padding:3px 0;display:flex;gap:8px;}
+  .rrow .tag{font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.03em;min-width:84px;flex:none;padding-top:1px;}
+  .rrow.wrong{color:var(--bad);} .rrow.right{color:var(--good);}
+  .explain{margin-top:8px;font-size:13px;color:var(--muted);background:var(--surface-2);border-radius:9px;padding:9px 11px;line-height:1.55;}
+  footer{text-align:center;margin-top:30px;font-size:12px;color:var(--muted-2);}
+  footer button{background:none;border:none;color:var(--muted-2);text-decoration:underline;cursor:pointer;font-size:12px;padding:0;}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;}}
+</style>
+
+<div class="app">
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-mark">TNGB</div>
+      <div>
+        <div class="eyebrow">STC Piravalur · Policy Assessment</div>
+        <h1>Policy Quiz Hub</h1>
+      </div>
+    </div>
+    <button class="theme-btn" id="themeBtn" type="button">Dark mode</button>
+  </div>
+
+  <section id="overviewView">
+    <div class="panel picker">
+      <div class="field">
+        <label for="policySelect">Policy</label>
+        <select id="policySelect"></select>
+      </div>
+      <div class="field">
+        <label for="quizSelect">Quiz (by topic)</label>
+        <select id="quizSelect"></select>
+      </div>
+      <button class="btn btn-primary" id="startBtn" type="button">Start quiz</button>
+    </div>
+
+    <div class="stats-row">
+      <div class="panel stat-tile"><div class="num tabular" id="statQuizzes">0</div><div class="label">Quizzes in this policy</div></div>
+      <div class="panel stat-tile"><div class="num tabular" id="statQuestions">0</div><div class="label">Questions (10 per quiz)</div></div>
+      <div class="panel stat-tile"><div class="num tabular" id="statDone">0</div><div class="label">Quizzes attempted</div></div>
+      <div class="panel stat-tile"><div class="num tabular" id="statAvg">—</div><div class="label">Average best score</div></div>
+    </div>
+
+    <div class="section-head">
+      <h2 id="policyHeading">Quizzes</h2>
+      <span class="hint">Pass mark 70% · tap any quiz to start</span>
+    </div>
+    <div class="quiz-list" id="quizList"></div>
+  </section>
+
+  <section id="quizView" hidden>
+    <div class="quiz-header">
+      <div>
+        <div class="eyebrow" id="quizEyebrow"></div>
+        <h2 id="quizTopic"></h2>
+      </div>
+      <div class="qcount tabular" id="quizCount"></div>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="panel question-card">
+      <div class="qnum" id="qNum"></div>
+      <p class="qtext" id="qText"></p>
+      <div class="options" id="optionsWrap"></div>
+      <div class="feedback" id="feedback" hidden></div>
+    </div>
+    <div class="quiz-nav">
+      <button class="btn btn-ghost" id="backBtn" type="button">← All quizzes</button>
+      <span class="live-score tabular" id="liveScore"></span>
+      <button class="btn btn-primary" id="nextBtn" type="button" disabled>Next question</button>
+    </div>
+  </section>
+
+  <section id="resultsView" hidden>
+    <div class="panel results-hero">
+      <div class="eyebrow" id="resultsEyebrow"></div>
+      <div class="score-big tabular" id="scoreBig"></div>
+      <div class="score-pct tabular" id="scorePct"></div>
+      <span class="pass-pill" id="passPill"></span>
+      <div class="results-actions">
+        <button class="btn btn-outline" id="retakeBtn" type="button">Retake this quiz</button>
+        <button class="btn btn-primary" id="nextQuizBtn" type="button">Next quiz →</button>
+        <button class="btn btn-ghost" id="toListBtn" type="button">All quizzes</button>
+      </div>
+    </div>
+    <div class="section-head"><h2>Answer key &amp; explanations</h2></div>
+    <div id="reviewList"></div>
+  </section>
+
+  <footer>
+    Scores are saved only in this browser ·
+    <button id="resetBtn" type="button">Reset progress for this policy</button>
+  </footer>
+</div>
+
+<script>
+/* POLICIES is injected by scripts/build.py from data/*.json — do not edit here. */
+var POLICIES = /*__POLICIES__*/[];
+</script>
+<script>
+(function(){
+  "use strict";
+  var PASS_PCT = 70, LETTERS = ["A","B","C","D"];
+  var STORE = "policy_quiz_hub_v1";
+
+  function esc(s){ return String(s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function $(id){ return document.getElementById(id); }
+  function load(k,d){ try{ var v=localStorage.getItem(k); return v?JSON.parse(v):d; }catch(e){ return d; } }
+  function save(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+
+  var progress = load(STORE, {});       // { "<policyId>": { "<quizIndex>": {best, bestScore, last, attempts} } }
+  var prefs = load(STORE+"_prefs", {});  // { policy, theme }
+
+  /* theme */
+  function paintTheme(){ $("themeBtn").textContent = document.documentElement.getAttribute("data-theme")==="dark" ? "Light mode" : "Dark mode"; }
+  if(prefs.theme) document.documentElement.setAttribute("data-theme", prefs.theme);
+  paintTheme();
+  $("themeBtn").addEventListener("click", function(){
+    var dark = document.documentElement.getAttribute("data-theme")==="dark"
+      || (!document.documentElement.getAttribute("data-theme") && matchMedia("(prefers-color-scheme: dark)").matches);
+    prefs.theme = dark ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", prefs.theme);
+    save(STORE+"_prefs", prefs); paintTheme();
+  });
+
+  /* views */
+  function show(id){ ["overviewView","quizView","resultsView"].forEach(function(v){ $(v).hidden = v!==id; }); window.scrollTo(0,0); }
+
+  /* state */
+  var policyIdx = Math.max(0, POLICIES.findIndex(function(p){ return p.id===prefs.policy; }));
+  var cur = { quiz:0, q:0, answers:[] };
+  function policy(){ return POLICIES[policyIdx]; }
+  function recs(){ return progress[policy().id] || (progress[policy().id] = {}); }
+
+  /* policy + quiz dropdowns */
+  $("policySelect").innerHTML = POLICIES.map(function(p,i){
+    return '<option value="'+i+'">'+esc(p.policyName)+'</option>';
+  }).join("");
+  $("policySelect").value = policyIdx;
+  $("policySelect").addEventListener("change", function(){
+    policyIdx = +this.value; prefs.policy = policy().id; save(STORE+"_prefs", prefs); renderOverview();
+  });
+  $("startBtn").addEventListener("click", function(){ startQuiz(+$("quizSelect").value); });
+
+  function badge(r, n){
+    if(!r) return '<span class="badge new">New</span>';
+    return '<span class="badge '+(r.best>=PASS_PCT?'pass':'low')+'">Best '+r.bestScore+'/'+n+'</span>';
+  }
+
+  function renderOverview(){
+    var p = policy(), R = recs(), done = 0, sum = 0;
+    $("quizSelect").innerHTML = p.quizzes.map(function(z,i){
+      return '<option value="'+i+'">Quiz '+(i+1)+' — '+esc(z.topic)+'</option>';
+    }).join("");
+    $("policyHeading").textContent = p.policyName;
+    $("quizList").innerHTML = p.quizzes.map(function(z,i){
+      var r = R[i]; if(r){ done++; sum += r.best; }
+      return '<button type="button" class="quiz-row" data-quiz="'+i+'">' +
+        '<span class="quiz-no">Q'+(i+1)+'</span>' +
+        '<span><span class="t">'+esc(z.topic)+'</span><span class="m" style="display:block">'+z.questions.length+' questions'+(r?' · '+r.attempts+' attempt'+(r.attempts>1?'s':''):'')+'</span></span>' +
+        badge(r, z.questions.length) + '</button>';
+    }).join("");
+    $("statQuizzes").textContent = p.quizzes.length;
+    $("statQuestions").textContent = p.quizzes.reduce(function(a,z){ return a+z.questions.length; },0);
+    $("statDone").textContent = done + " / " + p.quizzes.length;
+    $("statAvg").textContent = done ? Math.round(sum/done)+"%" : "—";
+    Array.prototype.forEach.call(document.querySelectorAll("[data-quiz]"), function(b){
+      b.addEventListener("click", function(){ startQuiz(+b.getAttribute("data-quiz")); });
+    });
+  }
+
+  /* quiz flow */
+  function startQuiz(i){
+    var z = policy().quizzes[i];
+    cur = { quiz:i, q:0, answers: z.questions.map(function(){ return null; }) };
+    $("quizEyebrow").textContent = policy().policyName + " · Quiz " + (i+1);
+    $("quizTopic").textContent = z.topic;
+    show("quizView"); renderQuestion();
+  }
+
+  function renderQuestion(){
+    var z = policy().quizzes[cur.quiz], q = z.questions[cur.q], n = z.questions.length;
+    $("quizCount").textContent = "Q" + (cur.q+1) + " / " + n;
+    $("progressFill").style.width = ((cur.q+1)/n*100) + "%";
+    $("qNum").textContent = "QUESTION " + (cur.q+1) + " OF " + n;
+    $("qText").textContent = q.q;
+    $("optionsWrap").innerHTML = q.options.map(function(o,i){
+      return '<button type="button" class="option" data-idx="'+i+'"><span class="opt-letter">'+LETTERS[i]+'</span><span>'+esc(o)+'</span><span class="mark"></span></button>';
+    }).join("");
+    $("feedback").hidden = true;
+    $("nextBtn").disabled = true;
+    $("nextBtn").textContent = cur.q === n-1 ? "Finish & see score" : "Next question";
+    Array.prototype.forEach.call($("optionsWrap").children, function(b){
+      b.addEventListener("click", function(){ answer(+b.getAttribute("data-idx")); });
+    });
+    updateLive();
+  }
+
+  function answer(idx){
+    if(cur.answers[cur.q] !== null) return;
+    var q = policy().quizzes[cur.quiz].questions[cur.q];
+    cur.answers[cur.q] = idx;
+    Array.prototype.forEach.call($("optionsWrap").children, function(b,i){
+      b.disabled = true;
+      if(i === q.correct){ b.classList.add("correct"); b.querySelector(".mark").textContent = "✓"; }
+      else if(i === idx){ b.classList.add("incorrect"); b.querySelector(".mark").textContent = "✗"; }
+    });
+    var ok = idx === q.correct, fb = $("feedback");
+    fb.className = "feedback " + (ok ? "right" : "wrong");
+    fb.innerHTML = "<b>" + (ok ? "Correct" : "Incorrect — correct answer: " + LETTERS[q.correct]) + "</b>" + esc(q.explain);
+    fb.hidden = false;
+    $("nextBtn").disabled = false;
+    updateLive();
+  }
+
+  function updateLive(){
+    var z = policy().quizzes[cur.quiz], s = 0, a = 0;
+    cur.answers.forEach(function(v,i){ if(v!==null){ a++; if(v===z.questions[i].correct) s++; } });
+    $("liveScore").textContent = "Score " + s + " / " + a;
+  }
+
+  $("nextBtn").addEventListener("click", function(){
+    var n = policy().quizzes[cur.quiz].questions.length;
+    if(cur.q < n-1){ cur.q++; renderQuestion(); } else finish();
+  });
+  $("backBtn").addEventListener("click", function(){ show("overviewView"); renderOverview(); });
+
+  function finish(){
+    var p = policy(), z = p.quizzes[cur.quiz], n = z.questions.length, s = 0;
+    cur.answers.forEach(function(v,i){ if(v === z.questions[i].correct) s++; });
+    var pct = Math.round(s/n*100), R = recs(), r = R[cur.quiz] || { best:-1, bestScore:0, attempts:0 };
+    r.attempts++; r.last = pct;
+    if(pct >= r.best){ r.best = pct; r.bestScore = s; }
+    R[cur.quiz] = r; save(STORE, progress);
+
+    $("resultsEyebrow").textContent = p.policyName + " · Quiz " + (cur.quiz+1) + " · " + z.topic;
+    $("scoreBig").textContent = s + " / " + n;
+    $("scorePct").textContent = pct + "% correct";
+    var pp = $("passPill");
+    pp.className = "pass-pill " + (pct >= PASS_PCT ? "pass" : "fail");
+    pp.textContent = pct >= PASS_PCT ? "Passed" : "Needs review — pass mark " + PASS_PCT + "%";
+    $("nextQuizBtn").hidden = cur.quiz >= p.quizzes.length-1;
+
+    $("reviewList").innerHTML = z.questions.map(function(q,i){
+      var y = cur.answers[i], ok = y === q.correct;
+      return '<div class="panel review-item"><p class="rq">'+(i+1)+'. '+esc(q.q)+'</p>' +
+        '<div class="rrow '+(ok?'right':'wrong')+'"><span class="tag">'+(ok?'✓ Correct':'✗ Your answer')+'</span><span>'+LETTERS[y]+'. '+esc(q.options[y])+'</span></div>' +
+        (ok ? '' : '<div class="rrow right"><span class="tag">✓ Answer</span><span>'+LETTERS[q.correct]+'. '+esc(q.options[q.correct])+'</span></div>') +
+        '<div class="explain">'+esc(q.explain)+'</div></div>';
+    }).join("");
+    show("resultsView");
+  }
+
+  $("retakeBtn").addEventListener("click", function(){ startQuiz(cur.quiz); });
+  $("nextQuizBtn").addEventListener("click", function(){ startQuiz(cur.quiz+1); });
+  $("toListBtn").addEventListener("click", function(){ show("overviewView"); renderOverview(); });
+
+  /* reset (two-click confirm; native confirm() is unavailable in some hosts) */
+  var armed = null;
+  $("resetBtn").addEventListener("click", function(){
+    var b = this;
+    if(!armed){ b.textContent = "Click again to confirm"; armed = setTimeout(function(){ armed=null; b.textContent="Reset progress for this policy"; }, 4000); return; }
+    clearTimeout(armed); armed = null; delete progress[policy().id]; save(STORE, progress);
+    b.textContent = "Reset progress for this policy"; renderOverview();
+  });
+
+  renderOverview();
+})();
+</script>
