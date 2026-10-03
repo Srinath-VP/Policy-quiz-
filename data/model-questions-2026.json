@@ -1,0 +1,3639 @@
+{
+  "id": "model-questions-2026",
+  "policyName": "Model Questions 2026",
+  "mode": "exam",
+  "questionsPerQuiz": 50,
+  "source": "Model Questions for Promotion Examinations 2026-27 + official answer key",
+  "quizzes": [
+    {
+      "topic": "Model Question 2026 – Set 1 (Q1–50)",
+      "questions": [
+        {
+          "n": 1,
+          "q": "The Prevention of Money Laundering Act (PMLA) came into force on___?",
+          "options": [
+            "1 January 2003",
+            "1 July 2005",
+            "1 April 2002",
+            "1 January 2005"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q1 is B) 1 July 2005."
+        },
+        {
+          "n": 2,
+          "q": "Which stage of money laundering involves introducing illegal money into the financial system?",
+          "options": [
+            "Layering",
+            "Integration",
+            "Placement",
+            "Concealment"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q2 is C) Placement."
+        },
+        {
+          "n": 3,
+          "q": "Under the PMLA, the minimum punishment for money laundering is____?",
+          "options": [
+            "1 year",
+            "2 years",
+            "3 years",
+            "5 years"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q3 is C) 3 years."
+        },
+        {
+          "n": 4,
+          "q": "Claims related to safe deposit locker / articles in safe custody, Bank should be required to pay compensation to the claimant(s) at the rate of ₹_______ for each day of delay after 15 days?",
+          "options": [
+            "100",
+            "5000",
+            "1000",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q4 is B) 5000."
+        },
+        {
+          "n": 5,
+          "q": "Which customer is generally classified as Low Risk?",
+          "options": [
+            "Jeweller",
+            "Pensioner",
+            "Arms Dealer",
+            "NGO"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q5 is B) Pensioner."
+        },
+        {
+          "n": 6,
+          "q": "Payment of Cheques after Stop Payment Instructions should be reversed with in__?",
+          "options": [
+            "1 working day",
+            "2 workings days",
+            "3 working days",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q6 is B) 2 workings days."
+        },
+        {
+          "n": 7,
+          "q": "Which of the following is NOT normally sufficient by itself to establish that a customer is a beneficial owner?",
+          "options": [
+            "Ownership interest",
+            "Control through other means",
+            "Identification of the natural person ultimately exercising control",
+            "The fact that the person is an employee of the company"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q7 is D) The fact that the person is an employee of the company."
+        },
+        {
+          "n": 8,
+          "q": "Who is custodian of Document Handling and Retention Policy?",
+          "options": [
+            "Branch Manager",
+            "General Manager",
+            "Chairman",
+            "Legal Officer"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q8 is B) General Manager."
+        },
+        {
+          "n": 9,
+          "q": "Transaction records retained at least_____years?",
+          "options": [
+            "3",
+            "5",
+            "8",
+            "10"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q9 is B) 5."
+        },
+        {
+          "n": 10,
+          "q": "Local cheque clearing norm is ____?",
+          "options": [
+            "24h",
+            "48-72h",
+            "5d",
+            "7d"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q10 is B) 48-72h."
+        },
+        {
+          "n": 11,
+          "q": "NEFT delay compensation will be ___?",
+          "options": [
+            "SB rate",
+            "Repo Rate+2%",
+            "FD rate",
+            "5%"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q11 is B) Repo Rate+2%."
+        },
+        {
+          "n": 12,
+          "q": "194N threshold limit is ___?",
+          "options": [
+            "Rs.50 Lakhs",
+            "Rs.1 Crore",
+            "Rs.2 Crore",
+            "Rs.3 Crore"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q12 is B) Rs.1 Crore."
+        },
+        {
+          "n": 13,
+          "q": "NRO TDS percentage is ___?",
+          "options": [
+            "10%",
+            "20%",
+            "30%",
+            "31.20%"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q13 is D) 31.20%."
+        },
+        {
+          "n": 14,
+          "q": "Motor vehicle threshold under Rule 159 is ____?",
+          "options": [
+            "Rs.2 Lakhs",
+            "Rs.5 Lakhs",
+            "Rs.10 Lakhs",
+            "Rs.20 Lakhs"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q14 is B) Rs.5 Lakhs."
+        },
+        {
+          "n": 15,
+          "q": "CTR reporting frequency is ______?",
+          "options": [
+            "Weekly",
+            "Monthly",
+            "Quarterly",
+            "Yearly"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q15 is B) Monthly."
+        },
+        {
+          "n": 16,
+          "q": "194H threshold is______?",
+          "options": [
+            "Rs.10000",
+            "Rs.20000",
+            "Rs.50000",
+            "Rs.100000"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q16 is B) Rs.20000."
+        },
+        {
+          "n": 17,
+          "q": "ATM failed transaction compensation/day limit is___?",
+          "options": [
+            "50",
+            "100",
+            "500",
+            "1000"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q17 is B) 100."
+        },
+        {
+          "n": 18,
+          "q": "Outstation cheque ex-ordinary delay more than 90 days penalty is ___?",
+          "options": [
+            "Term Deposit +1%",
+            "Term Deposit +2%",
+            "Repo Rate + 2%",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q18 is B) Term Deposit +2%."
+        },
+        {
+          "n": 19,
+          "q": "Who is authorised to pay compensation of Rs.30000/- will be _____?",
+          "options": [
+            "General Manager",
+            "Board",
+            "Chairman",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q19 is C) Chairman."
+        },
+        {
+          "n": 20,
+          "q": "Savings Bank Accounts and Current Accounts will be classified as inoperative accounts where there is no customer induced credit or debit transaction for 2 years. But, which among the following shall not be considered as customer induced transaction?",
+          "options": [
+            "Periodic interest transfer from term deposits",
+            "Debit or credit transactions done by the third party",
+            "Successful execution of mandate given by the customer",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q20 is B) Debit or credit transactions done by the third party."
+        },
+        {
+          "n": 21,
+          "q": "Post – Sanction Inspection of security by RM for the amount ____ lakhs for the Period of ___?",
+          "options": [
+            "Rs.20 lakhs, 3 Months",
+            "Rs.1 Crore, 6 Months",
+            "Rs.50 lakhs, 6 Months",
+            "All of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q21 is C) Rs.50 lakhs, 6 Months."
+        },
+        {
+          "n": 22,
+          "q": "The Current Ratio measures a firm's ability to____?",
+          "options": [
+            "Earn profits",
+            "Meet current obligations",
+            "Increase sales",
+            "Reduce taxes"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q22 is B) Meet current obligations."
+        },
+        {
+          "n": 23,
+          "q": "Special Report may be given for the reason?",
+          "options": [
+            "Time barred accounts in alarming numbers not identified by HO/RO",
+            "Business units which have closed the business",
+            "Non-checking of Vouchers",
+            "All of the above"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q23 is D) All of the above."
+        },
+        {
+          "n": 24,
+          "q": "Which of the following not covered RBIA?",
+          "options": [
+            "Operations Risk",
+            "Market Risk",
+            "Credit Risk",
+            "Earnings Risk"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q24 is B) Market Risk."
+        },
+        {
+          "n": 25,
+          "q": "A housing loan exposure is limited to what percentage of the Bank's total advances?",
+          "options": [
+            "2%",
+            "3%",
+            "4%",
+            "5%"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q25 is D) 5%."
+        },
+        {
+          "n": 26,
+          "q": "Unsecured exposure is one where the market value of security is not more than:",
+          "options": [
+            "5% of outstanding exposure",
+            "10% of outstanding exposure",
+            "15% of outstanding exposure",
+            "20% of outstanding exposure"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q26 is B) 10% of outstanding exposure."
+        },
+        {
+          "n": 27,
+          "q": "Who is NOT specifically mentioned as a member of HOLPAC?",
+          "options": [
+            "Chief Compliance Officer",
+            "HOD (Credit)",
+            "HOD (Accounts)",
+            "HOD (Planning)"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q27 is C) HOD (Accounts)."
+        },
+        {
+          "n": 28,
+          "q": "LEI is mandatory for payment transactions of:",
+          "options": [
+            "₹10 crore and above",
+            "₹25 crore and above",
+            "₹50 crore and above",
+            "₹100 crore and above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q28 is C) ₹50 crore and above."
+        },
+        {
+          "n": 29,
+          "q": "TEV study is mandatory for the proposals of____?",
+          "options": [
+            "₹5 crore and above",
+            "₹10 crore and above",
+            "₹20 crore and above",
+            "₹25 crore and above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q29 is B) ₹10 crore and above."
+        },
+        {
+          "n": 30,
+          "q": "Agricultural loans up to which amount require no margin/security as per RBI guidelines?",
+          "options": [
+            "₹1 lakh",
+            "₹1.5 lakh",
+            "₹2 lakh",
+            "₹5 lakh"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q30 is C) ₹2 lakh."
+        },
+        {
+          "n": 31,
+          "q": "When shifting to alternate premises due to business expansion, additional area that may be considered by HOLPAC is____?",
+          "options": [
+            "10%",
+            "15%",
+            "20%",
+            "25%"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q31 is C) 20%."
+        },
+        {
+          "n": 32,
+          "q": "Education loans up to ______ are covered under CGFSEL.",
+          "options": [
+            "₹5 lakh",
+            "₹6 lakh",
+            "₹7.50 lakh",
+            "₹10 lakh"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q32 is C) ₹7.50 lakh."
+        },
+        {
+          "n": 33,
+          "q": "Ad-hoc credit limits can be sanctioned for a maximum period of_____?",
+          "options": [
+            "1 month",
+            "2 months",
+            "3 months",
+            "6 months"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q33 is C) 3 months."
+        },
+        {
+          "n": 34,
+          "q": "HOLPAC can consider higher rent based on market conditions up to____?",
+          "options": [
+            "120% of ceiling",
+            "125% of ceiling",
+            "140% of ceiling",
+            "150% of ceiling"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q34 is C) 140% of ceiling."
+        },
+        {
+          "n": 35,
+          "q": "Interest-free rent advance in a rural centre is normally restricted to____?",
+          "options": [
+            "3 months' rent subject to ₹25,000",
+            "6 months' rent subject to ₹50,000",
+            "6 months' rent subject to ₹1 lakh",
+            "12 months' rent subject to ₹50,000"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q35 is B) 6 months' rent subject to ₹50,000."
+        },
+        {
+          "n": 36,
+          "q": "What is the normal period of lease under the premises policy?",
+          "options": [
+            "5 years",
+            "10 years",
+            "12 years",
+            "15 years"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q36 is D) 15 years."
+        },
+        {
+          "n": 37,
+          "q": "The preferred bifurcation of rent and amenities is_____?",
+          "options": [
+            "60:40",
+            "70:30",
+            "80:20",
+            "90:10"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q37 is C) 80:20."
+        },
+        {
+          "n": 38,
+          "q": "The Local Purchase Committee at Head Office can handle purchases up to___?",
+          "options": [
+            "₹1 lakh",
+            "₹2 lakh",
+            "₹2.50 lakh",
+            "₹5 lakh"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q38 is C) ₹2.50 lakh."
+        },
+        {
+          "n": 39,
+          "q": "The minimum period normally given for vendors to submit bids for procurement exceeding Rs. 2 crore is____?",
+          "options": [
+            "7 days",
+            "14 days",
+            "21 days",
+            "30 days"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q39 is C) 21 days."
+        },
+        {
+          "n": 40,
+          "q": "Computer-related items costing up to Rs. 50,000 may be purchased___?",
+          "options": [
+            "Without inviting quotations",
+            "Only through advertised tender",
+            "Through a limited tender",
+            "Through a two-bid system"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q40 is A) Without inviting quotations."
+        },
+        {
+          "n": 41,
+          "q": "Who is the convenor of the Information Security Committee?",
+          "options": [
+            "Chairman",
+            "CISO",
+            "GM-Admin",
+            "HOD-TMD"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q41 is B) CISO."
+        },
+        {
+          "n": 42,
+          "q": "A company has Total Debt of ₹60 crore and Net Worth of ₹40 crore. It revalues land upward by ₹20 crore. Ignoring tax effects, the revised Debt-Equity Ratio becomes:",
+          "options": [
+            "1.50:1",
+            "1.20:1",
+            "1.00:1",
+            "0.75:1"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q42 is C) 1.00:1."
+        },
+        {
+          "n": 43,
+          "q": "TAT for MSME above Rs.5 lakhs to up to Rs.25 lakhs?",
+          "options": [
+            "Within 2 weeks",
+            "Within 3 weeks",
+            "Within 4 weeks",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q43 is B) Within 3 weeks."
+        },
+        {
+          "n": 44,
+          "q": "A company's EBIT remains constant at ₹30 crore. Interest expense increases from ₹5 crore to ₹10 crore. The Interest Coverage Ratio changes from:",
+          "options": [
+            "6 times to 3 times",
+            "5 times to 3 times",
+            "6 times to 4 times",
+            "5 times to 2 times"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q44 is A) 6 times to 3 times."
+        },
+        {
+          "n": 45,
+          "q": "A company has Current Assets of ₹12 crore and Current Liabilities of ₹8 crore. It purchases inventory worth ₹2 crore on credit. What will be the new Current Ratio?",
+          "options": [
+            "1.25:1",
+            "1.40:1",
+            "1.50:1",
+            "1.75:1"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q45 is B) 1.40:1."
+        },
+        {
+          "n": 46,
+          "q": "A company has a Current Ratio of 2.5:1 but a Quick Ratio of only 0.6:1. What is the most likely explanation?",
+          "options": [
+            "Excessive cash balance",
+            "High inventory component in current assets",
+            "Very low current liabilities",
+            "Excessive fixed assets"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q46 is B) High inventory component in current assets."
+        },
+        {
+          "n": 47,
+          "q": "A Project Steering Committee is constituted for projects having estimated cost:",
+          "options": [
+            "Above ₹5 lakh",
+            "Above ₹10 lakh",
+            "Above ₹25 lakh",
+            "Above ₹50 lakh"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q47 is B) Above ₹10 lakh."
+        },
+        {
+          "n": 48,
+          "q": "The margin requirement for Tandon Committee 2nd method of working capital finance is?",
+          "options": [
+            "25% WCG",
+            "25% Current Assets",
+            "25% of Core Current Assets",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q48 is B) 25% Current Assets."
+        },
+        {
+          "n": 49,
+          "q": "Cards not delivered within how many days from receipt must be hot-listed?",
+          "options": [
+            "30 days",
+            "45 days",
+            "60 days",
+            "90 days"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q49 is C) 60 days."
+        },
+        {
+          "n": 50,
+          "q": "In the following which is not the components of Base Rate?",
+          "options": [
+            "Negative Carry on CRR",
+            "Tenor Premium",
+            "Average Cost of Funds",
+            "Repo Rate"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q50 is D) Repo Rate."
+        }
+      ]
+    },
+    {
+      "topic": "Model Question 2026 – Set 2 (Q51–100)",
+      "questions": [
+        {
+          "n": 51,
+          "q": "Interest coverage ratio is for?",
+          "options": [
+            "Term Loan",
+            "CC",
+            "Both a & b",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q51 is C) Both a & b."
+        },
+        {
+          "n": 52,
+          "q": "Transactions on debit cards are restricted per day to____?",
+          "options": [
+            "5 ATM and 5 POS transactions",
+            "10 ATM and 5 POS transactions",
+            "5 ATM and 10 POS transactions",
+            "10 ATM and 10 POS transactions"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q52 is C) 5 ATM and 10 POS transactions."
+        },
+        {
+          "n": 53,
+          "q": "What is the daily withdrawal limit for Rupay Gold debit cards in ATMs?",
+          "options": [
+            "Rs.10000/-",
+            "Rs.40000/-",
+            "Rs.75000/-",
+            "Rs.25000/-"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q53 is D) Rs.25000/-."
+        },
+        {
+          "n": 54,
+          "q": "In case of an issue in crediting a NEFT beneficiary account, the transaction is returned in____?",
+          "options": [
+            "B+1 hour",
+            "B+2 hours",
+            "T+1 day",
+            "T+2 days"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q54 is B) B+2 hours."
+        },
+        {
+          "n": 55,
+          "q": "Net Worth = ₹100 crore, Goodwill = ₹15 crore, Preliminary Expenses = ₹5 crore and accumulated losses = ₹10 crore. Tangible Net Worth is___?",
+          "options": [
+            "₹100 crore",
+            "₹85 crore",
+            "₹80 crore",
+            "₹70 crore"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q55 is C) ₹80 crore."
+        },
+        {
+          "n": 56,
+          "q": "Every RTGS transaction generates a UTR of_____?",
+          "options": [
+            "16 digits",
+            "18 digits",
+            "20 digits",
+            "22 digits"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q56 is D) 22 digits."
+        },
+        {
+          "n": 57,
+          "q": "If the beneficiary bank does not update the UPI status within T+1 day, the penalty mentioned is___?",
+          "options": [
+            "₹10 + GST",
+            "₹20 + GST",
+            "₹25 + GST",
+            "₹50 + GST"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q57 is C) ₹25 + GST."
+        },
+        {
+          "n": 58,
+          "q": "Training Advisory Committee convenor is _____?",
+          "options": [
+            "Chairman",
+            "General Manager",
+            "HOD HRM",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q58 is B) General Manager."
+        },
+        {
+          "n": 59,
+          "q": "What do you mean by Red Flagged Account?",
+          "options": [
+            "Cut-off amount for reporting to RBI is ₹50 crore",
+            "Suspected Fraud Accounts",
+            "Reporting to be made to CRILC",
+            "All of the above"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q59 is D) All of the above."
+        },
+        {
+          "n": 60,
+          "q": "Current Assets are ₹50 crore and Current Liabilities are ₹35 crore. The company pays ₹5 crore to creditors using cash. What happens to Net Working Capital?",
+          "options": [
+            "Increases by ₹5 crore",
+            "Decreases by ₹5 crore",
+            "Remains unchanged",
+            "Becomes negative"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q60 is C) Remains unchanged."
+        },
+        {
+          "n": 61,
+          "q": "The Self Reliant India (SRI) Fund was announced under___?",
+          "options": [
+            "Start-up India",
+            "Digital India",
+            "Aatmanirbhar Bharat Package",
+            "Make in India"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q61 is C) Aatmanirbhar Bharat Package."
+        },
+        {
+          "n": 62,
+          "q": "Bharat-VISTAAR is primarily meant for ___?",
+          "options": [
+            "Healthcare",
+            "Agriculture advisory",
+            "Tourism",
+            "Banking"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q62 is B) Agriculture advisory."
+        },
+        {
+          "n": 63,
+          "q": "NBFC-MFI net owned funds should be Rs.____ by 31st March ___ and Rs. ___ by 31st March ____?",
+          "options": [
+            "7 Cr, 2025, 10 Cr, 2027",
+            "5 Cr, 2026, 7 Cr, 2028",
+            "7 Cr, 2027, 10 Cr, 2028",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q63 is A) 7 Cr, 2025, 10 Cr, 2027."
+        },
+        {
+          "n": 64,
+          "q": "The Reserve Bank of India has included ________ an eligible international Credit Rating Agency (CRA).",
+          "options": [
+            "FITCH",
+            "Care Edge Global IFSC Ltd.",
+            "S&P",
+            "MOODY’s"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q64 is B) Care Edge Global IFSC Ltd.."
+        },
+        {
+          "n": 65,
+          "q": "Maximum Exit age for FLC Councilor may be fixed at ____years",
+          "options": [
+            "65",
+            "75",
+            "68",
+            "70"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q65 is D) 70."
+        },
+        {
+          "n": 66,
+          "q": "BCAs will only be able to perform AEPS transactions within ____ km radius.",
+          "options": [
+            "5",
+            "10",
+            "2",
+            "20"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q66 is D) 20."
+        },
+        {
+          "n": 67,
+          "q": "Banks can transfer unclaimed amounts to the DEA Fund via ____ only once during the _______ days of each month?",
+          "options": [
+            "SAMPARK, First 5 Working",
+            "SAMYAK, First 5 Working",
+            "e-Kuber, Last 5 Working",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q67 is C) e-Kuber, Last 5 Working."
+        },
+        {
+          "n": 68,
+          "q": "TNGB's Net Interest Margin (NIM) as on 31.03.2026 is___?",
+          "options": [
+            "2.62%",
+            "2.96%",
+            "3.04%",
+            "3.50%"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q68 is C) 3.04%."
+        },
+        {
+          "n": 69,
+          "q": "PMJDY OD account Guarantee cover up to ____ of default amount is covered and banks are paying guarantee fee @____ on loan outstanding at the end of each year.",
+          "options": [
+            "70%, 0.5%",
+            "75%, 0.85%",
+            "80%, 1.5%",
+            "60%, 1%"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q69 is D) 60%, 1%."
+        },
+        {
+          "n": 70,
+          "q": "Housing loan limit in centres with population below 10 lakh is___?",
+          "options": [
+            "₹25 lakh",
+            "₹30 lakh",
+            "₹35 lakh",
+            "₹45 lakh"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q70 is C) ₹35 lakh."
+        },
+        {
+          "n": 71,
+          "q": "Who will not conduct interview and will not recommend final candidate for engagement of FLC.",
+          "options": [
+            "Chief Manager (HRM)",
+            "Chief Manager (FI)",
+            "Chief Manager (Credit)",
+            "General Manager (Credit)"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q71 is C) Chief Manager (Credit)."
+        },
+        {
+          "n": 72,
+          "q": "Which is NOT a Basel II pillar?",
+          "options": [
+            "Capital Adequacy",
+            "Supervisory Review",
+            "Market Discipline",
+            "Monetary Policy"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q72 is D) Monetary Policy."
+        },
+        {
+          "n": 73,
+          "q": "MUTUAL CREDIT GUARANTEE SCHEME FOR MSMEs FOR CREDIT FACILITY Rs.______ and claim payable _____%?",
+          "options": [
+            "Rs.200 Lakhs, 75",
+            "Rs.10 Crores, 85",
+            "Rs.100 Crores, 75%",
+            "None of the above"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q73 is D) None of the above."
+        },
+        {
+          "n": 74,
+          "q": "Increasing women business correspondents (BCs) to a ____ target share by December 2028.",
+          "options": [
+            "40%",
+            "50%",
+            "33.33%",
+            "30%"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q74 is D) 30%."
+        },
+        {
+          "n": 75,
+          "q": "Under AIF, credit guarantee is available up to:",
+          "options": [
+            "₹50 lakh",
+            "₹1 crore",
+            "₹2 crore",
+            "₹5 crore"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q75 is C) ₹2 crore."
+        },
+        {
+          "n": 76,
+          "q": "Components of Interest expenses is ______?",
+          "options": [
+            "Advances",
+            "Lockers Rent",
+            "Provisions",
+            "Borrowings"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q76 is D) Borrowings."
+        },
+        {
+          "n": 77,
+          "q": "Which of the following is NOT a loan category under JanSamarth?",
+          "options": [
+            "Education Loan",
+            "Business Activity Loan",
+            "Home Loan",
+            "Agri. Infrastructure Loan"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q77 is C) Home Loan."
+        },
+        {
+          "n": 78,
+          "q": "A delayed payment complaint under MSME Samadhaan can be filed after:",
+          "options": [
+            "15 days",
+            "30 days",
+            "45 days",
+            "60 days"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q78 is C) 45 days."
+        },
+        {
+          "n": 79,
+          "q": "Bank will obtain collateral security from the Corporate BCs in the form of _________",
+          "options": [
+            "Bank Guarantee (BG) of Rs. 25,00,000/-",
+            "Fixed Deposits of Rs. 25,00,000/-",
+            "Cash Deposit of Rs. 25,00,000/-",
+            "None of the above."
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q79 is A) Bank Guarantee (BG) of Rs. 25,00,000/-."
+        },
+        {
+          "n": 80,
+          "q": "Non-functioning of the BC Agents for any reason, beyond 10 (Ten) working days continuously, a penalty @ ________ per day. The penalty will be effective after ____days of activation.",
+          "options": [
+            "Rs.100, 30",
+            "Rs.500, 60",
+            "Rs.1000, 60",
+            "Rs.1000,90"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q80 is A) Rs.100, 30."
+        },
+        {
+          "n": 81,
+          "q": "Bank’s outstanding unsecured advances should not exceed ___% of Total Advances?",
+          "options": [
+            "30%",
+            "20%",
+            "2%",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q81 is A) 30%."
+        },
+        {
+          "n": 82,
+          "q": "An account has principal/interest overdue for 75 days. Which combination is correct?",
+          "options": [
+            "SMA-1, IRAC code 01",
+            "SMA-2, IRAC code 02",
+            "NPA, IRAC code 04",
+            "SMA-0, IRAC code 00"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q82 is B) SMA-2, IRAC code 02."
+        },
+        {
+          "n": 83,
+          "q": "Credit Information Report exempted for _______?",
+          "options": [
+            "Jewel Loans",
+            "LOD",
+            "Small Agricultural Loans up to Rs.50000/-",
+            "All of the above"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q83 is D) All of the above."
+        },
+        {
+          "n": 84,
+          "q": "Submission of claim for CGTMSE ___?",
+          "options": [
+            "Lock-in period of 18 months for guarantee above ₹10 lakh with tenure of less than 36 months",
+            "Lock-in period of 9 months for guarantee above ₹10 lakh with tenure of less than 36 months",
+            "Lock-in period of 9 months for guarantee up to ₹10 lakh with tenure up to 36 months",
+            "Lock-in period of 18 months for guarantee below ₹10 lakh with tenure of more than 36 months"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q84 is C) Lock-in period of 9 months for guarantee up to ₹10 lakh with tenure up to 36 months."
+        },
+        {
+          "n": 85,
+          "q": "Legal action is waived for submission of claim with CGTMSE up to an O/s of Rs.___?",
+          "options": [
+            "50000",
+            "1000000",
+            "No waiver of legal action",
+            "None of these"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q85 is B) 1000000."
+        },
+        {
+          "n": 86,
+          "q": "Project is financially viable in which criteria indicates?",
+          "options": [
+            "BCR is less than one",
+            "NPV is positive value",
+            "IRR is less than lending rate",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q86 is B) NPV is positive value."
+        },
+        {
+          "n": 87,
+          "q": "1st year Guarantee fee for SHG under CGFMU scheme?",
+          "options": [
+            "1%",
+            "0.25%",
+            "0.50%",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q87 is B) 0.25%."
+        },
+        {
+          "n": 88,
+          "q": "Which asset category corresponds to BANCS asset code 06?",
+          "options": [
+            "Substandard",
+            "Doubtful-1",
+            "Doubtful-2",
+            "Doubtful-3"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q88 is C) Doubtful-2."
+        },
+        {
+          "n": 89,
+          "q": "In deserving cases, CLCC may consider with further relaxation of __% in MRA, NPA date from 31.03.2019?",
+          "options": [
+            "25%",
+            "50%",
+            "30%",
+            "100%"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q89 is C) 30%."
+        },
+        {
+          "n": 90,
+          "q": "Short duration crop loans will be treated as NPA, if instalment of principle or interest thereon remains overdue for the period of ___?",
+          "options": [
+            "12 Months",
+            "24 Months",
+            "36 Months",
+            "18 Months"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q90 is B) 24 Months."
+        },
+        {
+          "n": 91,
+          "q": "An ad hoc credit limit sanctioned on 1 January is not reviewed/regularised within the prescribed period. By when must it be reviewed/regularised?",
+          "options": [
+            "30 days",
+            "90 days",
+            "180 days",
+            "365 days"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q91 is B) 90 days."
+        },
+        {
+          "n": 92,
+          "q": "Special Report may be given for the reason?",
+          "options": [
+            "Time barred accounts in alarming numbers not identified by HO/RO",
+            "Business units which have closed the business",
+            "Non-checking of Vouchers",
+            "All of the above"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q92 is D) All of the above."
+        },
+        {
+          "n": 93,
+          "q": "Credit Rating is compulsory for a loan limit of __?",
+          "options": [
+            "Rs.5 Crores",
+            "Rs.5 Crores and above",
+            "Rs.1 Crore and above",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q93 is B) Rs.5 Crores and above."
+        },
+        {
+          "n": 94,
+          "q": "Hybrid security option is available in?",
+          "options": [
+            "CGTMSE",
+            "CGFMU",
+            "All of the above",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q94 is A) CGTMSE."
+        },
+        {
+          "n": 95,
+          "q": "What is the provision (%) for doubtful 2 secured asset?",
+          "options": [
+            "15%",
+            "25%",
+            "30%",
+            "100%"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q95 is C) 30%."
+        },
+        {
+          "n": 96,
+          "q": "What is the provision (%) for standard asset for direct advances to agricultural and SME sectors?",
+          "options": [
+            "0.25%",
+            "0.40%",
+            "0.75%",
+            "1%"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q96 is A) 0.25%."
+        },
+        {
+          "n": 97,
+          "q": "Which of the following is most appropriately classified as an RFA rather than merely a EWS?",
+          "options": [
+            "Minor EMI delay",
+            "Decline in sales",
+            "Fake or forged documents",
+            "Temporary reduction in cash flow"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q97 is C) Fake or forged documents."
+        },
+        {
+          "n": 98,
+          "q": "In genuine cases, extension for payment of OTS in instalments should not exceed_____?",
+          "options": [
+            "3 months",
+            "6 months",
+            "9 months",
+            "12 months"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q98 is B) 6 months."
+        },
+        {
+          "n": 99,
+          "q": "Appropriation of recoveries in an NPA, which sequence is correct?",
+          "options": [
+            "Interest → Principal → MLE → MOX",
+            "Principal → MLE → MOX → Interest",
+            "MLE → Interest → Principal → MOX",
+            "MOX → MLE → Interest → Principal"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q99 is B) Principal → MLE → MOX → Interest."
+        },
+        {
+          "n": 100,
+          "q": "Total sacrifice amount to sanction OTS for RMLCC power is___?",
+          "options": [
+            "Rs.25 lakhs",
+            "Rs.5 lakhs",
+            "Rs.0.5 lakhs",
+            "Rs.10 lakhs"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q100 is B) Rs.5 lakhs."
+        }
+      ]
+    },
+    {
+      "topic": "Model Question 2026 – Set 3 (Q101–150)",
+      "questions": [
+        {
+          "n": 101,
+          "q": "According to a recent Reserve Bank of India (RBI), which Indian state has the highest per capita usage intensity of UPI transactions?",
+          "options": [
+            "Karnataka",
+            "Gujarat",
+            "Telangana",
+            "Maharashtra"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q101 is C) Telangana."
+        },
+        {
+          "n": 102,
+          "q": "Lxmepay is India’s first UPI (United Payments Interface) exclusively designed for which group?",
+          "options": [
+            "Senior citizens",
+            "Women",
+            "Farmers",
+            "Students"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q102 is B) Women."
+        },
+        {
+          "n": 103,
+          "q": "Which bank has been named “Safest Bank in Asia 2025” for the 17th consecutive year?",
+          "options": [
+            "DBS Bank",
+            "Citibank",
+            "Standard Chartered",
+            "HSBC Bank"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q103 is A) DBS Bank."
+        },
+        {
+          "n": 104,
+          "q": "Which bank received the World’s Best Consumer Bank 2025 award from Global Finance?",
+          "options": [
+            "HDFC Bank",
+            "ICICI Bank",
+            "State Bank of India",
+            "Punjab National Bank"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q104 is C) State Bank of India."
+        },
+        {
+          "n": 105,
+          "q": "Which organisation has launched the global hackathon HaRBInger 2025 – Innovation for Transformation?",
+          "options": [
+            "NITI Aayog",
+            "Reserve Bank of India (RBI)",
+            "Ministry of Finance",
+            "Securities and Exchange Board of India (SEBI)"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q105 is B) Reserve Bank of India (RBI)."
+        },
+        {
+          "n": 106,
+          "q": "According to the Reserve Bank of India’s report, which two countries together accounted for over one-third of the total FDI in India?",
+          "options": [
+            "United States and Singapore",
+            "Mauritius and United Kingdom",
+            "Singapore and Netherlands",
+            "Japan and Germany"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q106 is A) United States and Singapore."
+        },
+        {
+          "n": 107,
+          "q": "Which payments bank became the first to receive RBI’s in-principle approval to convert into a Small Finance Bank (SFB)?",
+          "options": [
+            "Airtel Payments Bank",
+            "Paytm Payments Bank",
+            "Jio Payments Bank",
+            "Fino Payments Bank"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q107 is D) Fino Payments Bank."
+        },
+        {
+          "n": 108,
+          "q": "How many days of wage employment are guaranteed under Viksit Bharat– Guarantee for Rozgar and Ajeevika Mission (Gramin) 2025?",
+          "options": [
+            "100 days",
+            "125 days",
+            "150 days",
+            "155 days"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q108 is B) 125 days."
+        },
+        {
+          "n": 109,
+          "q": "Which bank became the first Gramin Bank in India to introduce a solar-powered ATM van?",
+          "options": [
+            "Assam Gramin Bank",
+            "Manipur Rural Bank",
+            "Arunachal Pradesh Rural Bank",
+            "Tripura Gramin Bank"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q109 is D) Tripura Gramin Bank."
+        },
+        {
+          "n": 110,
+          "q": "The ‘CHAKRA’-Centre of Excellence (CoE) has been launched by which bank to finance sunrise sectors?",
+          "options": [
+            "State Bank of India",
+            "Bank of Baroda",
+            "Punjab National Bank",
+            "Canara Bank"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q110 is A) State Bank of India."
+        },
+        {
+          "n": 111,
+          "q": "Which bank has become the first custodian in India to issue an Foreign Portfolio Investor (FPI) licence using entirely electronic signatures?",
+          "options": [
+            "State Bank of India",
+            "ICICI Bank",
+            "HDFC Bank",
+            "Kotak Mahindra Bank"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q111 is D) Kotak Mahindra Bank."
+        },
+        {
+          "n": 112,
+          "q": "Which organization has deployed the AI system ‘Sudarshan’ to monitor misleading financial content on digital platforms in March 2026?",
+          "options": [
+            "Reserve Bank of India",
+            "Securities and Exchange Board of India",
+            "Ministry of Finance",
+            "Insurance Regulatory and Development Authority of India"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q112 is B) Securities and Exchange Board of India."
+        },
+        {
+          "n": 113,
+          "q": "Which financial institution has launched specialised ‘Spoorthi’ programme for women entrepreneurs?",
+          "options": [
+            "L&T Finance Ltd",
+            "HDFC Ltd",
+            "HDFC Ltd",
+            "ICICI Bank"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q113 is A) L&T Finance Ltd."
+        },
+        {
+          "n": 114,
+          "q": "Which bank became the first in India to issue domestic green bonds?",
+          "options": [
+            "State Bank of India",
+            "HDFC Bank",
+            "Bank of Baroda",
+            "ICICI Bank"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q114 is C) Bank of Baroda."
+        },
+        {
+          "n": 115,
+          "q": "Which institution has launched a pilot Benchmark Issuance Strategy (BIS) to streamline state government borrowings?",
+          "options": [
+            "Reserve Bank of India",
+            "Ministry of Finance",
+            "NITI Aayog",
+            "Securities and Exchange Board of India"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q115 is A) Reserve Bank of India."
+        },
+        {
+          "n": 116,
+          "q": "Which bank has become India’s largest Urban Co-operative Bank (UCB) after crossing ₹1 lakh crore total business in FY 2025–26?",
+          "options": [
+            "Cosmos Co-operative Bank",
+            "Abhyudaya Cooperative Bank",
+            "Shamrao Vithal Cooperative Bank",
+            "Saraswat Co-operative Bank"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q116 is D) Saraswat Co-operative Bank."
+        },
+        {
+          "n": 117,
+          "q": "What is India’s Wholesale Price Index (WPI)-based inflation in March 2026?",
+          "options": [
+            "0.64%",
+            "1.64%",
+            "2.13%",
+            "3.12%"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q117 is B) 1.64%."
+        },
+        {
+          "n": 118,
+          "q": "Which bank has become the first Public Sector Bank in India to migrate it’s corporate website to the secure ‘.bank.in’ domain?",
+          "options": [
+            "Bank of Baroda",
+            "Bank of Maharashtra",
+            "Canara Bank",
+            "Punjab National Bank"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q118 is D) Punjab National Bank."
+        },
+        {
+          "n": 119,
+          "q": "Where has the State Bank of India (SBI) set up its Centre of Excellence (CoE) for MSMEs?",
+          "options": [
+            "Mumbai",
+            "Gurugram",
+            "New Delhi",
+            "Bengaluru"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q119 is B) Gurugram."
+        },
+        {
+          "n": 120,
+          "q": "According to the latest International Monetary Fund estimates (2025–26), what is India’s rank in global GDP (nominal terms)?",
+          "options": [
+            "Third",
+            "Fourth",
+            "Fifth",
+            "Sixth"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q120 is D) Sixth."
+        },
+        {
+          "n": 121,
+          "q": "Who has been appointed as Deputy Governor of the Reserve Bank of India (RBI)?",
+          "options": [
+            "T. Rabi Sankar",
+            "Swaminathan J",
+            "Rohit Jain",
+            "Poonam Gupta"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q121 is C) Rohit Jain."
+        },
+        {
+          "n": 122,
+          "q": "UDGAM portal was developed by which institution?",
+          "options": [
+            "Securities and Exchange Board of India",
+            "Reserve Bank of India",
+            "National Payments Corporation of India",
+            "Ministry of Finance"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q122 is B) Reserve Bank of India."
+        },
+        {
+          "n": 123,
+          "q": "Which organisation launched the Bharat Maritime Insurance Pool (BMIP) to provide maritime insurance coverage with sovereign backing?",
+          "options": [
+            "Reserve Bank of India",
+            "Department of Financial Services",
+            "Ministry of Ports, Shipping and Waterways",
+            "Insurance Regulatory and Development Authority of India"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q123 is B) Department of Financial Services."
+        },
+        {
+          "n": 124,
+          "q": "India’s first AI-powered “phygital” banking branch was inaugurated in which city?",
+          "options": [
+            "Bengaluru",
+            "Hyderabad",
+            "Guwahati",
+            "Pune"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q124 is C) Guwahati."
+        },
+        {
+          "n": 125,
+          "q": "MachFin Mart and MoRE (Modernisation of Rural Enterprises), that were recently launched, are the initiatives of which organization?",
+          "options": [
+            "National Bank for Agriculture and Rural Development",
+            "Small Industries Development Bank of India",
+            "Reserve Bank of India",
+            "National Small Industries Corporation"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q125 is B) Small Industries Development Bank of India."
+        },
+        {
+          "n": 126,
+          "q": "Which organization launched the Unclaimed Assets Portal?",
+          "options": [
+            "Department of Financial Services",
+            "Reserve Bank of India",
+            "NITI Aayog",
+            "Department of Economic Affairs"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q126 is A) Department of Financial Services."
+        },
+        {
+          "n": 127,
+          "q": "What is the “Kill Switch mechanism”, that was recently mentioned in news?",
+          "options": [
+            "Emergency payment block system",
+            "A military defence system",
+            "A tax monitoring system",
+            "A new cryptocurrency platform"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q127 is A) Emergency payment block system."
+        },
+        {
+          "n": 128,
+          "q": "Which country has become the first Central Asian country to join the New Development Bank (NDB)?",
+          "options": [
+            "Kazakhstan",
+            "Kyrgyzstan",
+            "Turkmenistan",
+            "Uzbekistan"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q128 is D) Uzbekistan."
+        },
+        {
+          "n": 129,
+          "q": "What is Dropshipping, that was recently mentioned in news?",
+          "options": [
+            "A business model where sellers manufacture products themselves",
+            "A retail model where sellers accept orders without keeping inventory",
+            "A government scheme for online retailers",
+            "A logistics service for exporters"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q129 is B) A retail model where sellers accept orders without keeping inventory."
+        },
+        {
+          "n": 130,
+          "q": "Which fund, recently approved for additional government investment, is recognised as India’s first Sovereign Wealth Fund?",
+          "options": [
+            "National Investment and Infrastructure Fund (NIIF)",
+            "India Infrastructure Finance Company Limited (IIFCL)",
+            "PM Gati Shakti Fund",
+            "National Bank for Financing Infrastructure and Development (NaBFID)"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q130 is A) National Investment and Infrastructure Fund (NIIF)."
+        },
+        {
+          "n": 131,
+          "q": "Which organization has launched launched Drunix, an open-source block chain platform?",
+          "options": [
+            "Reserve Bank of India (RBI)",
+            "National Payments Corporation of India (NPCI)",
+            "Securities and Exchange Board of India (SEBI)",
+            "National Bank for Agriculture and Rural Development (NABARD)"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q131 is B) National Payments Corporation of India (NPCI)."
+        },
+        {
+          "n": 132,
+          "q": "Which committee’s recommendations led to the establishment of the Insurance Regulatory and Development Authority of India (IRDAI)?",
+          "options": [
+            "Malhotra Committee",
+            "Urjit Patel Committee",
+            "Narasimham Committee",
+            "Vijay Kelkar Committee"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q132 is A) Malhotra Committee."
+        },
+        {
+          "n": 133,
+          "q": "‘Bank in a Box’, recently launched by the Union Government, is an integrated technology platform designed primarily to support which type of banks?",
+          "options": [
+            "Regional Rural Banks",
+            "Urban Cooperative Banks",
+            "Small Finance Banks",
+            "Payments Banks"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q133 is B) Urban Cooperative Banks."
+        },
+        {
+          "n": 134,
+          "q": "Which state received the highest allocation of ₹19,208 crore in the additional tax devolution instalment released by the Union government?",
+          "options": [
+            "Bihar",
+            "Madhya Pradesh",
+            "Uttarakhand",
+            "Uttar Pradesh"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q134 is D) Uttar Pradesh."
+        },
+        {
+          "n": 135,
+          "q": "Electronic Gold Receipts (EGRs) are regulated by which institution?",
+          "options": [
+            "Reserve Bank of India (RBI)",
+            "Securities and Exchange Board of India (SEBI)",
+            "Ministry of Finance",
+            "Bureau of Indian Standards (BIS)"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q135 is B) Securities and Exchange Board of India (SEBI)."
+        },
+        {
+          "n": 136,
+          "q": "Which of the following affects CASA Ratio negatively?",
+          "options": [
+            "Higher interest rates on fixed deposits",
+            "Growth in digital payment systems",
+            "Increase in salary accounts",
+            "Strong corporate tie-ups"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q136 is A) Higher interest rates on fixed deposits."
+        },
+        {
+          "n": 137,
+          "q": "Which type of bank generally maintains a higher CASA Ratio?",
+          "options": [
+            "Cooperative Banks",
+            "Public Sector Banks",
+            "Small Finance Banks",
+            "Both (b) and (c) depending on customer base"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q137 is D) Both (b) and (c) depending on customer base."
+        },
+        {
+          "n": 138,
+          "q": "If CASA deposits of a bank = ₹80,000 crore and total deposits = ₹2,00,000 crore, what is the CASA Ratio?",
+          "options": [
+            "35%",
+            "40%",
+            "45%",
+            "50%"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q138 is B) 40%."
+        },
+        {
+          "n": 139,
+          "q": "Which of the following best describes a high CASA Ratio?",
+          "options": [
+            "Bank depends heavily on term deposits",
+            "Bank has more access to low-cost deposits",
+            "Bank is unable to mobilize retail deposits",
+            "Bank has lower liquidity"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q139 is B) Bank has more access to low-cost deposits."
+        },
+        {
+          "n": 140,
+          "q": "CASA Ratio is used to measure which of the following?",
+          "options": [
+            "Profitability of banks",
+            "Proportion of low-cost deposits",
+            "Market share of banks",
+            "Lending capacity of banks"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q140 is B) Proportion of low-cost deposits."
+        },
+        {
+          "n": 141,
+          "q": "In the following which one is not a court settlement _____?",
+          "options": [
+            "Suit filing",
+            "Mutual Settlement",
+            "DRT",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q141 is B) Mutual Settlement."
+        },
+        {
+          "n": 142,
+          "q": "Cheque Validity is defined under which act ___?",
+          "options": [
+            "Section 81 of NI act 1881",
+            "Section 131 of NI act 1881",
+            "Section 138 of NI act1881",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q142 is C) Section 138 of NI act1881."
+        },
+        {
+          "n": 143,
+          "q": "Stock of a Company should registered with____?",
+          "options": [
+            "Registrar of Company",
+            "SEBI",
+            "Ministry of Corporate Affairs",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q143 is A) Registrar of Company."
+        },
+        {
+          "n": 144,
+          "q": "Under SARFEASI, prior notice is required for Sale of assets ___days?",
+          "options": [
+            "120",
+            "25",
+            "60",
+            "30"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q144 is D) 30."
+        },
+        {
+          "n": 145,
+          "q": "Maximum award by Integrated Ombudsman Scheme in case of credit card ___?",
+          "options": [
+            "Rs. 30 Lakhs",
+            "Rs. 33 Lakhs",
+            "Rs. 1 Lakh",
+            "Rs. 3 Lakhs"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q145 is B) Rs. 33 Lakhs."
+        },
+        {
+          "n": 146,
+          "q": "Digital signature is coming under which act _____?",
+          "options": [
+            "Digital Personal Data Protection Act 2023",
+            "Negotiable Instrument Act 1881",
+            "Information Technology Act 2000",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q146 is C) Information Technology Act 2000."
+        },
+        {
+          "n": 147,
+          "q": "If court order received the bank and the customer relationship is __?",
+          "options": [
+            "Creditor, Debtor",
+            "Debtor, Creditor",
+            "Agent, Principal",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q147 is A) Creditor, Debtor."
+        },
+        {
+          "n": 148,
+          "q": "What the letter ‘A ‘stands for in RAROC?",
+          "options": [
+            "Agreement",
+            "Adjusted",
+            "Augmented",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q148 is B) Adjusted."
+        },
+        {
+          "n": 149,
+          "q": "Which state is secured the top performing state on the Fiscal Health Index 2025, a report by NITI-Ayog that assessed the fiscal health of Indian States ______?",
+          "options": [
+            "Tamil Nadu",
+            "Kerala",
+            "Odisha",
+            "Andhra Pradesh"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q149 is C) Odisha."
+        },
+        {
+          "n": 150,
+          "q": "What is the maximum home loan amount for repair and renovation that can be classified under priority Sector____?",
+          "options": [
+            "Rs.15 lakhs centres with population of 50 lakhs and above",
+            "Rs.25 lakhs centres with population of 50 lakhs and above",
+            "Rs.35 lakhs centres with population of 50 lakhs and above",
+            "Rs.50 lakhs centres with population of 50 lakhs and above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q150 is A) Rs.15 lakhs centres with population of 50 lakhs and above."
+        }
+      ]
+    },
+    {
+      "topic": "Model Question 2026 – Set 4 (Q151–200)",
+      "questions": [
+        {
+          "n": 151,
+          "q": "What is the primary focus of the EASE reforms related to cloud adaption in banks?",
+          "options": [
+            "Reducing staff members",
+            "Improving interest rates",
+            "Adopting cloud technologies with board approved policies",
+            "Building more data centres"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q151 is C) Adopting cloud technologies with board approved policies."
+        },
+        {
+          "n": 152,
+          "q": "What purpose does India’s Meghraj cloud serve?",
+          "options": [
+            "Hosting application for govt. departments and NIC",
+            "Providing email services for citizens",
+            "Offering cloud services to private business",
+            "Managing social media platforms"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q152 is A) Hosting application for govt. departments and NIC."
+        },
+        {
+          "n": 153,
+          "q": "According to the RBI bulletin, which is one of the key enabling technologies for fintech?",
+          "options": [
+            "Block chain",
+            "Cloud computing",
+            "Artificial intelligence",
+            "Quantum computing"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q153 is B) Cloud computing."
+        },
+        {
+          "n": 154,
+          "q": "Within the cloud adoption policy, what primarily ensures the integrity and privacy of bank owned information?",
+          "options": [
+            "Hiring more IT staff",
+            "Implementing cloud policies",
+            "Expanding physical data centres",
+            "Logging all transaction"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q154 is B) Implementing cloud policies."
+        },
+        {
+          "n": 155,
+          "q": "Why is cloud computing considered important for banks despite its evolving nature?",
+          "options": [
+            "It eliminates the need for IT departments",
+            "It offers cost savings and operational efficiencies",
+            "It simplifies customer interaction exclusively",
+            "It immediately increases bank profit"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q155 is B) It offers cost savings and operational efficiencies."
+        },
+        {
+          "n": 156,
+          "q": "What is the role of ReBIT/IDRBT/IFTAS In cloud adoption for urban co-operative Banks",
+          "options": [
+            "Developing new cloud applications",
+            "Auditing financial transactions",
+            "Providing consultation and guidance",
+            "Managing customer data"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q156 is C) Providing consultation and guidance."
+        },
+        {
+          "n": 157,
+          "q": "Which of the following is not a role identified in a cloud environment as per the policy?",
+          "options": [
+            "Cloud customer",
+            "Cloud inspector",
+            "Cloud broker",
+            "Cloud carrier"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q157 is B) Cloud inspector."
+        },
+        {
+          "n": 158,
+          "q": "What is the name of the government cloud specifically for operations?",
+          "options": [
+            "Meghraj",
+            "Aaddaar cloud",
+            "Govcloud",
+            "Bharathnet"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q158 is A) Meghraj."
+        },
+        {
+          "n": 159,
+          "q": "According to the RBI bulletin, which technology is particularly important for fintech?",
+          "options": [
+            "Cloud computing",
+            "Block chain technology",
+            "Quantum computing",
+            "SG Networks"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q159 is A) Cloud computing."
+        },
+        {
+          "n": 160,
+          "q": "What is one of the primary concerns with cloud computing in banks?",
+          "options": [
+            "Hardware failure",
+            "Data privacy",
+            "Software costs",
+            "Connectivity issues"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q160 is B) Data privacy."
+        },
+        {
+          "n": 161,
+          "q": "Which entity has the role of conducting independent security audits in a cloud environment?",
+          "options": [
+            "Cloud provider",
+            "Cloud consumer",
+            "Cloud auditor",
+            "Cloud carrier"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q161 is C) Cloud auditor."
+        },
+        {
+          "n": 162,
+          "q": "What is the primary objective of the cloud adaption policy?",
+          "options": [
+            "To facilitate efficiency while maintaining confidentiality, integrity and availability",
+            "To completely migrate all applications to the cloud",
+            "To reduce costs regardless of security implications",
+            "To replace bank owned data centers"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q162 is A) To facilitate efficiency while maintaining confidentiality, integrity and availability."
+        },
+        {
+          "n": 163,
+          "q": "What must banks have in order to adapt cloud technologies according to EASE reforms?",
+          "options": [
+            "A Board approved policy",
+            "Complete technological independence",
+            "External consultations for all IT needs",
+            "A government mandate"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q163 is A) A Board approved policy."
+        },
+        {
+          "n": 164,
+          "q": "Who is responsible for spearheading the adaption of cloud services as per the RBI’s technology version?",
+          "options": [
+            "Individual banks alone",
+            "Federations of UCBs of equivalents",
+            "International cloud providers",
+            "Private cloud developers"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q164 is B) Federations of UCBs of equivalents."
+        },
+        {
+          "n": 165,
+          "q": "Which characteristics of cloud computing ensures that resources can be provisioned on demand?",
+          "options": [
+            "On demand self service",
+            "Broad network access",
+            "Resource pooling",
+            "Rapid elasticity"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q165 is C) Resource pooling."
+        },
+        {
+          "n": 166,
+          "q": "What is primary benefit of using a public cloud__?",
+          "options": [
+            "Increased control over data",
+            "Ownership of hardware",
+            "Easy and inexpensive setup",
+            "Limited scalability"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q166 is C) Easy and inexpensive setup."
+        },
+        {
+          "n": 167,
+          "q": "What type of cloud deployment model allows sharing of data between public and private clouds?",
+          "options": [
+            "Community cloud",
+            "Public cloud",
+            "Private cloud",
+            "Hybrid cloud"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q167 is D) Hybrid cloud."
+        },
+        {
+          "n": 168,
+          "q": "Which type of cloud service allows for the use of infrastructure resources such as computer, network, and storage?",
+          "options": [
+            "SaaS",
+            "PaaS",
+            "IaaS",
+            "FaaS"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q168 is C) IaaS."
+        },
+        {
+          "n": 169,
+          "q": "Which characteristics of cloud computing involves resources usage being measured and controlled?",
+          "options": [
+            "Rapid elasticity",
+            "Measure service",
+            "Resource pooling",
+            "Broad network access"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q169 is B) Measure service."
+        },
+        {
+          "n": 170,
+          "q": "Which cloud service model provides everything for simple cloud based applications to sophisticated enabled enterprise applications?",
+          "options": [
+            "SaaS",
+            "PaaS",
+            "IaaS",
+            "FaaS"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q170 is B) PaaS."
+        },
+        {
+          "n": 171,
+          "q": "Proposed with CMR _____ is not to be considered",
+          "options": [
+            "1-4",
+            "5-7",
+            "7-10",
+            "11-13"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q171 is C) 7-10."
+        },
+        {
+          "n": 172,
+          "q": "What is the primary purpose of obtaining a legal entity identifier?",
+          "options": [
+            "To uniquely identify parties to financial transactions worldwide,",
+            "To assess the creditworthiness of an individual",
+            "To provide a credit score equivalent",
+            "To register the trademark of a business"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q172 is A) To uniquely identify parties to financial transactions worldwide,."
+        },
+        {
+          "n": 173,
+          "q": "What should be done if access to the credit information Bureau is not available for verification?",
+          "options": [
+            "Skip the credit verification process",
+            "Advice the borrower to provide a self-declaration",
+            "Seek assistance from the regional or head office",
+            "Rely on the borrowers past transaction history"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q173 is C) Seek assistance from the regional or head office."
+        },
+        {
+          "n": 174,
+          "q": "When is a techno economic viability study required according to the policy?",
+          "options": [
+            "For all proposals without exceptions",
+            "For credit proposals equal to and beyond Rs. 10crore",
+            "Only for new and untested industries",
+            "For any credit proposal exceeding Rs. 1 crore"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q174 is B) For credit proposals equal to and beyond Rs. 10crore."
+        },
+        {
+          "n": 175,
+          "q": "What is required by branches regarding the identification of directors of companies?",
+          "options": [
+            "Obtain the director identification number (DIN)",
+            "Conduct a personal interview with each director",
+            "Submit a report to the ministry of finance",
+            "Create a visual chart of the management structure"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q175 is A) Obtain the director identification number (DIN)."
+        },
+        {
+          "n": 176,
+          "q": "What should branches ensure concerning the dues owed by borrowing entities to statutory authorities?",
+          "options": [
+            "Obtain a verbal assurance from the borrower",
+            "Ensure dues to statutory authorities are paid up to date",
+            "Recommend the borrower pays the dues within a year",
+            "Ignore government dues as they are not crucial"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q176 is B) Ensure dues to statutory authorities are paid up to date."
+        },
+        {
+          "n": 177,
+          "q": "For loan amounts greater than or equal to Rs. 5 crore what is required __?",
+          "options": [
+            "Internal rating",
+            "External rating",
+            "No rating",
+            "Peer review"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q177 is B) External rating."
+        },
+        {
+          "n": 178,
+          "q": "Which committee has the power to waive the additional interest rate of 0.75%__?",
+          "options": [
+            "Branch level credit committee",
+            "Regional level credit committee",
+            "Chairman level credit committee",
+            "Audit committee"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q178 is C) Chairman level credit committee."
+        },
+        {
+          "n": 179,
+          "q": "How much genuineness of a CA certified document be established ____?",
+          "options": [
+            "Through verification with the bank",
+            "By using the unique document identification number portal",
+            "By obtaining a notarized statement",
+            "With a company seal"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q179 is B) By using the unique document identification number portal."
+        },
+        {
+          "n": 180,
+          "q": "There are ____ kinds of PSLC is available?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q180 is C) 4."
+        },
+        {
+          "n": 181,
+          "q": "The PSLC would have a standard lot size of Rs. ____Lakhs and multiple thereof?",
+          "options": [
+            "10",
+            "15",
+            "20",
+            "25"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q181 is D) 25."
+        },
+        {
+          "n": 182,
+          "q": "Both seller and buyer shall report the amount of PSLC (category wise) sold and purchased during the year in the _____?",
+          "options": [
+            "P&L",
+            "Disclosures to the balance sheet",
+            "Income and expenditure account",
+            "Fund flow statement"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q182 is B) Disclosures to the balance sheet."
+        },
+        {
+          "n": 183,
+          "q": "If shortfall in overall priority sector lending target is less than 5 percentage points then RIDF will fetch interest rate of ____?",
+          "options": [
+            "Bank rate minus 2%",
+            "Bank rate minus 3%",
+            "Bank rate minus 4%",
+            "Bank rate minus 5%"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q183 is A) Bank rate minus 2%."
+        },
+        {
+          "n": 184,
+          "q": "Bank waives margin/security requirement for Agri. Clinic and Agri. Business Centre for loan up to _____?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q184 is D) 5."
+        },
+        {
+          "n": 185,
+          "q": "The margin for MSME term loan is ___% for plant ____%for land and building?",
+          "options": [
+            "10/20",
+            "20/30",
+            "25/30",
+            "25/35"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q185 is C) 25/30."
+        },
+        {
+          "n": 186,
+          "q": "Method of assessment for working capital for limit more than Rs. 5 crore is ____?",
+          "options": [
+            "Turnover method",
+            "MPBF 2nd lending",
+            "MBPF 3rd lending",
+            "Cash budget method"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q186 is B) MPBF 2nd lending."
+        },
+        {
+          "n": 187,
+          "q": "For term loans of above Rs.1 Crore ____to be done?",
+          "options": [
+            "Ratio analysis",
+            "Sensitivity analysis",
+            "Profit equity analysis",
+            "Optimum utilization analysis"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q187 is B) Sensitivity analysis."
+        },
+        {
+          "n": 188,
+          "q": "The bench mark Debt Equity Ratio for Manufacturing /Service is ___?",
+          "options": [
+            "1:3",
+            "3:1",
+            "1:1.33",
+            "1:2"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q188 is B) 3:1."
+        },
+        {
+          "n": 189,
+          "q": "Which of the following is NOT a component of TIER 1 capital____?",
+          "options": [
+            "Paid up equity capital",
+            "Statutory reserves",
+            "Subordinate debt",
+            "Perpetual non-cumulative preference shares (PNCPS)"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q189 is C) Subordinate debt."
+        },
+        {
+          "n": 190,
+          "q": "In which year was the internal ombudsman scheme made mandatory for all scheduled commercial banks__?",
+          "options": [
+            "2017",
+            "2018",
+            "2020",
+            "2023"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q190 is B) 2018."
+        },
+        {
+          "n": 191,
+          "q": "Under SARFAESI act what is the minimum outstanding amount for a bank to initiate action Rs.___?",
+          "options": [
+            "50000",
+            "100000",
+            "1000000",
+            "2500000"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q191 is B) 100000."
+        },
+        {
+          "n": 192,
+          "q": "In asset classification if an account remains NPA for more than 12 months it becomes ___?",
+          "options": [
+            "Substandard",
+            "Doubtful",
+            "Loss",
+            "Written off"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q192 is B) Doubtful."
+        },
+        {
+          "n": 193,
+          "q": "What is the max period of pre-shipment credit in foreign currency____?",
+          "options": [
+            "90 days",
+            "180 days",
+            "270 days",
+            "360 days"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q193 is D) 360 days."
+        },
+        {
+          "n": 194,
+          "q": "What is the maximum penalty RBI can impose on a bank under section 47A of the banking regulation act _____?",
+          "options": [
+            "Rs. 5 Lakh",
+            "Rs. 10 Lakh",
+            "Rs.1 crore",
+            "As directed by RBI"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q194 is D) As directed by RBI."
+        },
+        {
+          "n": 195,
+          "q": "Which of the following rates is announced by RBI for long term project lending benchmarked to repo rate___?",
+          "options": [
+            "MCLR",
+            "Base rate",
+            "External benchmark rate",
+            "BPLR"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q195 is C) External benchmark rate."
+        },
+        {
+          "n": 196,
+          "q": "What is the max limit for remittance under the liberalized remittance scheme (LRS) per financial year?",
+          "options": [
+            "USD 100000",
+            "USD 150000",
+            "USD 200000",
+            "USD 250000"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q196 is D) USD 250000."
+        },
+        {
+          "n": 197,
+          "q": "Currency note exchange facility for soiled and mutilated note is provided under which RBI policy__?",
+          "options": [
+            "Note security policy",
+            "Clean Note Policy",
+            "Exchange Value Policy",
+            "Currency Regulation policy"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q197 is B) Clean Note Policy."
+        },
+        {
+          "n": 198,
+          "q": "What is the penalty for willful mutilation or defacement of Indian currency under sec 489 E IPC ___?",
+          "options": [
+            "fine only",
+            "Imprisonment up to 2years or fine or both",
+            "Imprisonment up to 5 years",
+            "Cancellation of exchange facility"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q198 is B) Imprisonment up to 2years or fine or both."
+        },
+        {
+          "n": 199,
+          "q": "The nodal agency for PMAY (urban) is ___?",
+          "options": [
+            "RBI",
+            "NHB",
+            "Ministry of housing and urban affairs",
+            "NABARD"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q199 is C) Ministry of housing and urban affairs."
+        },
+        {
+          "n": 200,
+          "q": "Writing on the back of the cheque for transfer rights is called____?",
+          "options": [
+            "Assignments",
+            "Endorsement",
+            "Negotiation",
+            "Acknowledgement"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q200 is B) Endorsement."
+        }
+      ]
+    },
+    {
+      "topic": "Model Question 2026 – Set 5 (Q201–250)",
+      "questions": [
+        {
+          "n": 201,
+          "q": "Risk Weightage of inoperative account is _____?",
+          "options": [
+            "Low Risk",
+            "Medium Risk",
+            "High Risk",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q201 is C) High Risk."
+        },
+        {
+          "n": 202,
+          "q": "NPA loan outstanding is Rs.10.00 lakh; ECGC coverage is at 50%; Security coverage is Rs.3.00 lakh; Account is classified under Doubtful 2 years- Required provision is _________?",
+          "options": [
+            "Rs.4.40 lakhs",
+            "Rs.4.70 lakhs",
+            "Rs.4.90 lakhs",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q202 is A) Rs.4.40 lakhs."
+        },
+        {
+          "n": 203,
+          "q": "A& B are husband and wife and maintaining joint account with E or S conditions and Garnishee order received in the name of “A”___?",
+          "options": [
+            "Garnishee Order shall be executed",
+            "Garnishee Order shall not be executed",
+            "Garnishee Order is not applicable",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q203 is C) Garnishee Order is not applicable."
+        },
+        {
+          "n": 204,
+          "q": "Canvassing SB account by BC Rs.____is the commission for BC.",
+          "options": [
+            "15",
+            "10",
+            "20",
+            "12"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q204 is D) 12."
+        },
+        {
+          "n": 205,
+          "q": "Components of Interest expenses is ______?",
+          "options": [
+            "Advances",
+            "Lockers Rent",
+            "Provisions",
+            "Borrowings"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q205 is D) Borrowings."
+        },
+        {
+          "n": 206,
+          "q": "Under the Make in India Order, a Class I Supplier has local content of__?",
+          "options": [
+            "20% or more",
+            "30% or more",
+            "40% or more",
+            "50% or more"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q206 is D) 50% or more."
+        },
+        {
+          "n": 207,
+          "q": "A customer asks the branch employee, \"Why is my transaction being reviewed for AML purposes?\" The employee should__?",
+          "options": [
+            "Tell the customer that an STR has been filed",
+            "Explain the internal suspicious transaction investigation in detail",
+            "Avoid inappropriate disclosure that could amount to tipping-off",
+            "Give the customer a copy of the STR"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q207 is C) Avoid inappropriate disclosure that could amount to tipping-off."
+        },
+        {
+          "n": 208,
+          "q": "The distance between BC and the base branch should not exceed ______ in rural, semi-urban and urban areas & _____ in metropolitan centres.",
+          "options": [
+            "5 km, 2 km",
+            "10 km, 5 km",
+            "30 km, 5 km",
+            "2 km, 5 km"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q208 is C) 30 km, 5 km."
+        },
+        {
+          "n": 209,
+          "q": "Documents to be preserved for a period of not less than 10 years immediately preceding the current calendar year.",
+          "options": [
+            "Address Proof",
+            "Utility Bills",
+            "e-TDS Return",
+            "Transactions"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q209 is C) e-TDS Return."
+        },
+        {
+          "n": 210,
+          "q": "___________is the Grievance Redressal Officer (GRO) of our Bank.",
+          "options": [
+            "General Manager (Admin)",
+            "GM (Monitoring)",
+            "General Manager (Credit)",
+            "General Manager (in charge of Financial Inclusion)"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q210 is D) General Manager (in charge of Financial Inclusion)."
+        },
+        {
+          "n": 211,
+          "q": "Lending to Medium Enterprises, Social Infrastructure and Renewable Energy shall be reckoned for priority sector achievement _______%ANBC",
+          "options": [
+            "10",
+            "15",
+            "7.5",
+            "18"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q211 is B) 15."
+        },
+        {
+          "n": 212,
+          "q": "Within Agricultural target in the Priority Sector, _____ percent is prescribed for Non-Corporate Farmers.",
+          "options": [
+            "10",
+            "15",
+            "14",
+            "18"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q212 is C) 14."
+        },
+        {
+          "n": 213,
+          "q": "RBIA inspection for newly opened branches are carried out within _____ from the date of opening.",
+          "options": [
+            "12 months",
+            "9 months",
+            "18 months",
+            "15 months"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q213 is B) 9 months."
+        },
+        {
+          "n": 214,
+          "q": "Revenue Audit is carried out in _________ periodicity.",
+          "options": [
+            "Monthly",
+            "Quarterly",
+            "Half yearly",
+            "Annually"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q214 is C) Half yearly."
+        },
+        {
+          "n": 215,
+          "q": "Concurrent Audit branches should cover ______ percentage of Deposits and __________ percentage of Advances of our Bank as on 31.03.2026",
+          "options": [
+            "50,100",
+            "50, 50",
+            "50, 75",
+            "25, 50"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q215 is B) 50, 50."
+        },
+        {
+          "n": 216,
+          "q": "Special Reports should be submitted by Branch Inspectors to___________",
+          "options": [
+            "Chairman",
+            "GM Incharge of IAD",
+            "GM Admin",
+            "AGM IAD"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q216 is B) GM Incharge of IAD."
+        },
+        {
+          "n": 217,
+          "q": "Excess Cash amount kept in Sundry Deposit shall be remitted to Head Office after completion of ______ in case no claim has been received till date.",
+          "options": [
+            "3 Years",
+            "2 Year",
+            "1 year",
+            "6 months"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q217 is C) 1 year."
+        },
+        {
+          "n": 218,
+          "q": "RSAC (RO level Staff Accountability Committee) headed by RM is the Competent Authority to determine Staff accountability with respect to loans up to ………………",
+          "options": [
+            "Rs. 50,000/- of the sanctioned limit",
+            "Rs. 1,00,000/- of the sanctioned limit",
+            "Rs. 50,000/- of the Balance outstanding (Book Balance)",
+            "Rs.1,00,000/- of the Balance outstanding (Book Balance)"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q218 is D) Rs.1,00,000/- of the Balance outstanding (Book Balance)."
+        },
+        {
+          "n": 219,
+          "q": "RACE (Regional Audit Committee of Executives) is headed by ………………",
+          "options": [
+            "General Manager",
+            "Regional Manager",
+            "IC Head",
+            "Deputy Regional Manager"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q219 is C) IC Head."
+        },
+        {
+          "n": 220,
+          "q": "An account is classified under Quick Mortality Account if the account slips within a period of ………?",
+          "options": [
+            "6 months from the date of first disbursement",
+            "6 months from the date of last disbursement",
+            "one year from the date of last disbursement",
+            "one year from the date of first disbursement"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q220 is D) one year from the date of first disbursement."
+        },
+        {
+          "n": 221,
+          "q": "Staff Accountability Study (SAS) is not required in the following cases?",
+          "options": [
+            "Account has slipped to NPA",
+            "Account is overdue",
+            "Account is being proposed for filing suit",
+            "NPA Account is considered for settling under OTS"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q221 is B) Account is overdue."
+        },
+        {
+          "n": 222,
+          "q": "Credit Audit, Legal Audit & Stock Audit is required for the loan sanctioned above",
+          "options": [
+            "Rs.50 lakhs & above",
+            "Rs.75 lakhs & above",
+            "Rs.1.00 crore & above",
+            "Rs.2.00 crore & above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q222 is C) Rs.1.00 crore & above."
+        },
+        {
+          "n": 223,
+          "q": "Which of the following comes under the Bank’s Zero Tolerance Area?",
+          "options": [
+            "Non-creation or non-registration of Mortgage Deed / Memorandum of Deposit of Title Deeds (MOD) for securities in favour of the Bank",
+            "Fresh slippage of time-barred DPNs exceeding 10 accounts or involving an amount of more than Rs. 5.00 lakhs",
+            "Non-registration of the Bank’s hypothecation clause in the RC book of vehicles financed by the Bank",
+            "All the above."
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q223 is D) All the above.."
+        },
+        {
+          "n": 224,
+          "q": "Bank Guarantee Exposure Limit is _____?",
+          "options": [
+            "5% of the total assets of the Bank as on March of the previous FY",
+            "5% of total advance of the Bank as on March of the previous FY",
+            "2% of the total assets of the Bank as on March of the previous FY",
+            "2% of total advance of the Bank as on March of the previous FY"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q224 is A) 5% of the total assets of the Bank as on March of the previous FY."
+        },
+        {
+          "n": 225,
+          "q": "Proposals without CMR can be considered ____?",
+          "options": [
+            "Availability of collateral security - 100%",
+            "If Promoters/ Partners/ Guarantors have prime credit score i.e. 700 or above",
+            "Both a & b",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q225 is C) Both a & b."
+        },
+        {
+          "n": 226,
+          "q": "TNGB Credit exposure of ₹______ and above and advise them to obtain LEI.",
+          "options": [
+            "50 Crore",
+            "5 Crore",
+            "1 Crore",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q226 is C) 1 Crore."
+        },
+        {
+          "n": 227,
+          "q": "Review / Renewal of willful defaulter’s account and its group accounts shall be considered only at ________?",
+          "options": [
+            "CLCC",
+            "BOARD",
+            "GMLCC",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q227 is B) BOARD."
+        },
+        {
+          "n": 228,
+          "q": "Credit Guarantee Coverage and Interest Subsidy available in IBA’s Model Educational Loan scheme are not applicable under this category.",
+          "options": [
+            "Education Loans with a limit up to ₹ 7.50 lakh",
+            "Education Loans under Management Quota",
+            "Annual family Income up to Rs.4.50 lakhs",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q228 is B) Education Loans under Management Quota."
+        },
+        {
+          "n": 229,
+          "q": "Which is not considered as PANCHASUTRA in SHG_____?",
+          "options": [
+            "Meetings",
+            "Savings",
+            "Internal Lending",
+            "None of the above"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q229 is D) None of the above."
+        },
+        {
+          "n": 230,
+          "q": "Term Deposit of at least ___ times the limit sanctioned to be obtained for ATL/AATL.",
+          "options": [
+            "1.50",
+            "1.10",
+            "1.25",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q230 is C) 1.25."
+        },
+        {
+          "n": 231,
+          "q": "Rate of Interest will be made with the approval of ______?",
+          "options": [
+            "CLCC",
+            "GMLCC",
+            "ALCO",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q231 is C) ALCO."
+        },
+        {
+          "n": 232,
+          "q": "Prerelease Audit to be conducted ______loan Rs.______amount?",
+          "options": [
+            "Vehicle loan, 10 lakhs",
+            "SHG/JLG, 20 lakhs",
+            "Housing Loan, 30 lakhs",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q232 is C) Housing Loan, 30 lakhs."
+        },
+        {
+          "n": 233,
+          "q": "A night guard must be deployed at all branches where the loan portfolio secured by gold collateral exceeds ₹______ crores.",
+          "options": [
+            "75",
+            "25",
+            "175",
+            "150"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q233 is D) 150."
+        },
+        {
+          "n": 234,
+          "q": "Pledged gold remains with the bank for more than _____ years after the loan has been fully repaid or settled, it is treated as _______",
+          "options": [
+            "1, undelivered",
+            "2, undelivered",
+            "2, unclaimed",
+            "1, unclaimed"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q234 is C) 2, unclaimed."
+        },
+        {
+          "n": 235,
+          "q": "overdue in portfolio under loan against gold collateral do not exceed _____%.",
+          "options": [
+            "2",
+            "3",
+            "1",
+            "5"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q235 is B) 3."
+        },
+        {
+          "n": 236,
+          "q": "Same Gold collateral must be retained till end of ___ years",
+          "options": [
+            "7",
+            "5",
+            "8",
+            "6"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q236 is A) 7."
+        },
+        {
+          "n": 237,
+          "q": "Compensation of Rs._____/ Calendar days. Amount should be credited within ____ working days from the resolution date",
+          "options": [
+            "100, 6",
+            "5000, 7",
+            "100, 5",
+            "5000, 6"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q237 is C) 100, 5."
+        },
+        {
+          "n": 238,
+          "q": "In PM–Surya Ghar: Muft Bijli Yojana 40% Gross income not less than Rs. __?",
+          "options": [
+            "20000/Month",
+            "30000/Month",
+            "25000/Month",
+            "15000/Month"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q238 is C) 25000/Month."
+        },
+        {
+          "n": 239,
+          "q": "Lower rate of interest with interest subvention of ___% SHG under VISVAS.",
+          "options": [
+            "3",
+            "5",
+            "2",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q239 is B) 5."
+        },
+        {
+          "n": 240,
+          "q": "Housing for all PMAY.U. 2.0 Project cost should not exceed Rs.___?",
+          "options": [
+            "25 lakhs",
+            "30 lakhs",
+            "35 lakhs",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q240 is C) 35 lakhs."
+        },
+        {
+          "n": 241,
+          "q": "Under NLM scheme No subsidy will be provided for ________",
+          "options": [
+            "Working capital,",
+            "Purchase of land",
+            "Both a & B",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q241 is C) Both a & B."
+        },
+        {
+          "n": 242,
+          "q": "Credit Guarantee fee for farmers______ %under CGS-NPF.",
+          "options": [
+            "0.40",
+            "0.50",
+            "1",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q242 is A) 0.40."
+        },
+        {
+          "n": 243,
+          "q": "In NABARD Unit Cost ______Animals/acre for green fodder cultivation needed.",
+          "options": [
+            "10",
+            "5",
+            "4",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q243 is C) 4."
+        },
+        {
+          "n": 244,
+          "q": "FLCs should conduct camp for target group, which is not the group__?",
+          "options": [
+            "Small Entrepreneurs",
+            "School Children",
+            "Senior citizens",
+            "None of the above"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q244 is D) None of the above."
+        },
+        {
+          "n": 245,
+          "q": "Maximum Exit age for FLC councilor is ____Years?",
+          "options": [
+            "65",
+            "60",
+            "70",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q245 is C) 70."
+        },
+        {
+          "n": 246,
+          "q": "A ______ order shall be served on the persons conveying the decision of the Bank regarding declaring of the accounts as fraud.",
+          "options": [
+            "Reasoned order",
+            "Show cause Notice",
+            "Charge Sheet",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q246 is A) Reasoned order."
+        },
+        {
+          "n": 247,
+          "q": "PMFBY premium for Rabi crop is______%?",
+          "options": [
+            "2",
+            "5",
+            "1.5",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q247 is C) 1.5."
+        },
+        {
+          "n": 248,
+          "q": "In SARFAESI Act ___ days notice is to be given for acquision of assets",
+          "options": [
+            "45",
+            "60",
+            "15",
+            "None of the above"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q248 is B) 60."
+        },
+        {
+          "n": 249,
+          "q": "Standby LC is similar to ____?",
+          "options": [
+            "Bank Guarantee",
+            "Back to Back LC",
+            "Green Clause LC",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q249 is A) Bank Guarantee."
+        },
+        {
+          "n": 250,
+          "q": "ECGC (Export Credit Guarantee Corporation of India) standard export credit insurance policies typically cover up to ____% of the loss arising from commercial and political risks for exporters.",
+          "options": [
+            "100",
+            "80",
+            "90",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q250 is C) 90."
+        }
+      ]
+    },
+    {
+      "topic": "Model Question 2026 – Set 6 (Q251–300)",
+      "questions": [
+        {
+          "n": 251,
+          "q": "Yellow label ATM is for ____?",
+          "options": [
+            "E Commerce transaction",
+            "Share transaction",
+            "Agriculture transaction",
+            "For female customers"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q251 is A) E Commerce transaction."
+        },
+        {
+          "n": 252,
+          "q": "Third pillar of Basel II accord is known as ____?",
+          "options": [
+            "Minimum capital requirement",
+            "Market discipline",
+            "Supervisory review",
+            "Exchange control"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q252 is B) Market discipline."
+        },
+        {
+          "n": 253,
+          "q": "Pancha Sutra the term used in____?",
+          "options": [
+            "Term loan",
+            "Agriculture",
+            "Share trading",
+            "SHG lending"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q253 is D) SHG lending."
+        },
+        {
+          "n": 254,
+          "q": "National financial switch is associated with which of the following?",
+          "options": [
+            "NEFT",
+            "RTGS",
+            "UPI",
+            "ATM"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q254 is D) ATM."
+        },
+        {
+          "n": 255,
+          "q": "Which is not capital account of the country?",
+          "options": [
+            "Exports and Imports",
+            "FII",
+            "FDI",
+            "External commercial borrowing"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q255 is A) Exports and Imports."
+        },
+        {
+          "n": 256,
+          "q": "Activity ratio indicates_____?",
+          "options": [
+            "Interest Obligation",
+            "Firms efficiency in utilising the assets",
+            "Overall performance of the company",
+            "Firms ability to meet the current obligation"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q256 is B) Firms efficiency in utilising the assets."
+        },
+        {
+          "n": 257,
+          "q": "Nonpayment of locker unit will be break after ________years",
+          "options": [
+            "2",
+            "7",
+            "4",
+            "3"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q257 is D) 3."
+        },
+        {
+          "n": 258,
+          "q": "Final Escalation matrix in bank assurance policy grievances redressal mechanism is _____?",
+          "options": [
+            "Specified Person",
+            "Regional Manager",
+            "Principal Officer",
+            "Nodal Officer"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q258 is C) Principal Officer."
+        },
+        {
+          "n": 259,
+          "q": "The monetary policy committee maintained a hawkish stand on the interest rates. In this context hawkish stand means_____?",
+          "options": [
+            "Interest rate decreased",
+            "Interest rate increased",
+            "Interest rate kept unchanged",
+            "Money supply will increase"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q259 is B) Interest rate increased."
+        },
+        {
+          "n": 260,
+          "q": "Real Time Gross settlement system takes care of which risk ____?",
+          "options": [
+            "Systemic risk and settlement risk",
+            "Credit risk and settlement risk",
+            "Legal risk and settlement risk",
+            "Call risk and settlement risk"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q260 is A) Systemic risk and settlement risk."
+        },
+        {
+          "n": 261,
+          "q": "Net working capital is Rs.80000. Current ratio is 3:1, current asset is Rs.____?",
+          "options": [
+            "120000",
+            "210000",
+            "40000",
+            "60000"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q261 is A) 120000."
+        },
+        {
+          "n": 262,
+          "q": "Limitation period for Mortgage loan is ___ Years?",
+          "options": [
+            "30",
+            "10",
+            "14",
+            "12"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q262 is D) 12."
+        },
+        {
+          "n": 263,
+          "q": "Unclaimed deposits of RBI portal is ___?",
+          "options": [
+            "UDGAM",
+            "PRAVAAH",
+            "CIMS",
+            "FIRMS"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q263 is A) UDGAM."
+        },
+        {
+          "n": 264,
+          "q": "Deposits with the RBI in the form of cash is called ____?",
+          "options": [
+            "Repo rate",
+            "CRR",
+            "SLR",
+            "MSF"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q264 is B) CRR."
+        },
+        {
+          "n": 265,
+          "q": "A cheque is written in different hand-writings and different inks __?",
+          "options": [
+            "It will be paid",
+            "Cannot pay",
+            "Manager discretion",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q265 is A) It will be paid."
+        },
+        {
+          "n": 266,
+          "q": "In EBITDA, D Indicates _____?",
+          "options": [
+            "Deposit",
+            "Debt",
+            "Depreciation",
+            "Debentures"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q266 is C) Depreciation."
+        },
+        {
+          "n": 267,
+          "q": "In Integrated Ombudsman Scheme 2021, maximum compensation for any financial loss is Rs.____lakhs?",
+          "options": [
+            "30",
+            "10",
+            "25",
+            "Depends on Loss"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q267 is A) 30."
+        },
+        {
+          "n": 268,
+          "q": "Documentation related act_____?",
+          "options": [
+            "Transfer of Property Act",
+            "Indian Evidence Act",
+            "Stamp Act",
+            "All the above"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q268 is D) All the above."
+        },
+        {
+          "n": 269,
+          "q": "Full form of PFRDA is ____?",
+          "options": [
+            "Pension Fund Regulatory and Development Authority",
+            "Pension Fund Regulatory and Development Agency",
+            "Public Fund Regulatory and Development Authority",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q269 is A) Pension Fund Regulatory and Development Authority."
+        },
+        {
+          "n": 270,
+          "q": "Bank has considered the Life policy of the borrower as security. Then the transaction involve____?",
+          "options": [
+            "Pledge",
+            "Hypothecation",
+            "Assignment",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q270 is C) Assignment."
+        },
+        {
+          "n": 271,
+          "q": "Fiscal policy prepared by ___?",
+          "options": [
+            "RBI",
+            "STATE GOVT",
+            "MINISTRY OF FINANCE",
+            "PARLIAMENT"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q271 is C) MINISTRY OF FINANCE."
+        },
+        {
+          "n": 272,
+          "q": "Who is the designated director in our bank under PMLA act____?",
+          "options": [
+            "General Manager - Admin",
+            "General Manager – Credit",
+            "Chairman",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q272 is C) Chairman."
+        },
+        {
+          "n": 273,
+          "q": "An endorsement in which an endorser is not liable in case of dishonor is known as __?",
+          "options": [
+            "Blank endorsement",
+            "Restrictive endorsement",
+            "Full endorsement",
+            "Sans recourse endorsement"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q273 is D) Sans recourse endorsement."
+        },
+        {
+          "n": 274,
+          "q": "Who would be the appellate authority under the integrated ombudsman scheme 2021?",
+          "options": [
+            "Governor",
+            "Deputy Governor",
+            "ED",
+            "CGM"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q274 is C) ED."
+        },
+        {
+          "n": 275,
+          "q": "FCNR (B) stands for ____?",
+          "options": [
+            "Fast Currency Nonresident – Bank",
+            "Foreign Currency Nonresident - Bank",
+            "Foreign Currency Nonresident –Business",
+            "Foreign Country Nonresident –Bank."
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q275 is B) Foreign Currency Nonresident - Bank."
+        },
+        {
+          "n": 276,
+          "q": "What is Nostro Account?",
+          "options": [
+            "Account of an Indian Bank with Foreign Bank",
+            "Indian bank with branch in India",
+            "Foreign bank branch in india",
+            "None of the above"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q276 is A) Account of an Indian Bank with Foreign Bank."
+        },
+        {
+          "n": 277,
+          "q": "The relationship between the bank and customer, in case of locker is _?",
+          "options": [
+            "Lessor and Lessee",
+            "Pledger and Pledgee",
+            "Principal and Agent",
+            "None of these"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q277 is A) Lessor and Lessee."
+        },
+        {
+          "n": 278,
+          "q": "What do you mean by Red Flagged Account?",
+          "options": [
+            "Cut-off amount for reporting to RBI is ₹50 crore",
+            "Suspected Fraud Accounts",
+            "Reporting to be made to CRILC",
+            "All of the above"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q278 is D) All of the above."
+        },
+        {
+          "n": 279,
+          "q": "For which of the following loan, Cash Budget method WC is used ___?",
+          "options": [
+            "Sugar mill",
+            "Hospital",
+            "Exporter",
+            "Education institution"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q279 is A) Sugar mill."
+        },
+        {
+          "n": 280,
+          "q": "Nab FID denotes___?",
+          "options": [
+            "National Bank for Financing Infrastructure and De-velopment",
+            "National Bank for Financing India and De-velopment",
+            "National Bank for Fincorp Infrastructure and De-velopment",
+            "National building for Financing Infrastructure and De-velopment"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q280 is A) National Bank for Financing Infrastructure and De-velopment."
+        },
+        {
+          "n": 281,
+          "q": "Who regulates the district central cooperative banks in India?",
+          "options": [
+            "RBI",
+            "State Government",
+            "Central Government",
+            "SEBI"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q281 is A) RBI."
+        },
+        {
+          "n": 282,
+          "q": "Who is eligible to be promoter of small finance bank?",
+          "options": [
+            "Individual",
+            "Trust",
+            "Corporates",
+            "All the above"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q282 is D) All the above."
+        },
+        {
+          "n": 283,
+          "q": "What was the objective behind the banking correspondent scheme?",
+          "options": [
+            "Taking banking services to the remotest areas",
+            "Helping in the process of financial inclusion",
+            "Both a and b",
+            "None of the above"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q283 is C) Both a and b."
+        },
+        {
+          "n": 284,
+          "q": "Which of the following names is used to refer to the RBI?",
+          "options": [
+            "Reserve Street",
+            "Credit Street",
+            "Mint Street",
+            "Fit Street"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q284 is C) Mint Street."
+        },
+        {
+          "n": 285,
+          "q": "In Indian banking what are statutory pre-emptions?",
+          "options": [
+            "Mandatory lending to priority sectors",
+            "Provisioning requirements for non-performing assets",
+            "RBI approval needed for large loans",
+            "Mandatory investments in government securities and reserve maintenance"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q285 is D) Mandatory investments in government securities and reserve maintenance."
+        },
+        {
+          "n": 286,
+          "q": "Where was India’s first bank note printing press established?",
+          "options": [
+            "New Delhi",
+            "Pune",
+            "Nasik",
+            "Bhopal"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q286 is C) Nasik."
+        },
+        {
+          "n": 287,
+          "q": "How many crop seasons an unpaid short duration farm loan will be termed as NPA?",
+          "options": [
+            "1 crop season",
+            "2 crop season",
+            "90 days",
+            "36 Months"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q287 is B) 2 crop season."
+        },
+        {
+          "n": 288,
+          "q": "Which option best represents a person’s overall financial wealth?",
+          "options": [
+            "Bank balance",
+            "Capital",
+            "Assets",
+            "Net worth"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q288 is D) Net worth."
+        },
+        {
+          "n": 289,
+          "q": "Core investment company holds not less than how much percent of its net assets in the form of investment?",
+          "options": [
+            "50%",
+            "60%",
+            "80%",
+            "90%"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q289 is D) 90%."
+        },
+        {
+          "n": 290,
+          "q": "In ESG ratings, a high score indicates that a bank____?",
+          "options": [
+            "Focuses solely on profitability",
+            "Has poor performance practices",
+            "Demonstrates strong sustainability an ethical practice",
+            "Lacks transparency in operations"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q290 is C) Demonstrates strong sustainability an ethical practice."
+        },
+        {
+          "n": 291,
+          "q": "What is the primary objective of launching a central bank digital currency?",
+          "options": [
+            "To replace cryptocurrency",
+            "To promote cashless transactions and improve financial inclusion",
+            "To increase interest rates",
+            "To regulate stock markets"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q291 is B) To promote cashless transactions and improve financial inclusion."
+        },
+        {
+          "n": 292,
+          "q": "Which technology forms the backbone of most digital currency?",
+          "options": [
+            "Block chain",
+            "Artificial intelligence",
+            "Cloud computing",
+            "Quantum computing"
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q292 is A) Block chain."
+        },
+        {
+          "n": 293,
+          "q": "Which of following best describes the role of a central bank acting as the lender of last resort?",
+          "options": [
+            "Providing long-term equity funding to private startup corporation during a recession",
+            "Guaranteeing personal retail bank accounts against identity theft and digital fraud",
+            "Providing emergency credit to solvent commercial banks facing acute temporary liquidity shortages",
+            "Buying nonperforming corporate bonds directly from retail individuals’ investors."
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q293 is C) Providing emergency credit to solvent commercial banks facing acute temporary liquidity shortages."
+        },
+        {
+          "n": 294,
+          "q": "What is the core operational difference between NEFT and RTGS?",
+          "options": [
+            "NEFT settles transactions in batches at specific times, whereas RTGS processes transactions individually and in real time.",
+            "RTGS is exclusively meant for international cross border trade while NEFT handles domestic cash",
+            "NEFT has a mandatory high minimum transaction limit whereas RTGS has no minimum limit",
+            "RTGS can only be used on weekends whereas NEFT works only on weekends."
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q294 is A) NEFT settles transactions in batches at specific times, whereas RTGS processes transactions individually and in real time.."
+        },
+        {
+          "n": 295,
+          "q": "Which organization in India developed and manages the unified payments interface UPI ecosystem?",
+          "options": [
+            "Securities and exchange board of India",
+            "National Payments Corporation of India",
+            "Ministry of corporate affairs",
+            "Indian bank processing switch"
+          ],
+          "correct": 1,
+          "explain": "As per the official answer key, the answer to Q295 is B) National Payments Corporation of India."
+        },
+        {
+          "n": 296,
+          "q": "How will a commercial bank calculate NIM?",
+          "options": [
+            "Net interest income divided by average earning assets",
+            "Total interest earned divided by total assets",
+            "Net income divided by shareholders equity",
+            "Non interest income divided by operating expenses."
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q296 is A) Net interest income divided by average earning assets."
+        },
+        {
+          "n": 297,
+          "q": "Using DuPont analysis, if a banks return on assets (ROA) remains constant while its financial leverage multiplier (asset/ equity) increases. What will happen to its return on equity?",
+          "options": [
+            "ROE will decrease proportionally",
+            "ROE will remain completely unchanged",
+            "ROE will increase",
+            "ROE will drop to Zero"
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q297 is C) ROE will increase."
+        },
+        {
+          "n": 298,
+          "q": "A persistent very high loan to deposit ratio – say exceeding 100% generally signals what type of primary vulnerability for a bank?",
+          "options": [
+            "Excess uninvest cash reserves sitting idle in the vault.",
+            "High operational efficiency and low administrative overhead",
+            "Over reliance on low cost savings deposit",
+            "Potential liquidity risk requiring the bank to source higher cost wholesale or interbank funding"
+          ],
+          "correct": 3,
+          "explain": "As per the official answer key, the answer to Q298 is D) Potential liquidity risk requiring the bank to source higher cost wholesale or interbank funding."
+        },
+        {
+          "n": 299,
+          "q": "How will be banks efficiency ratio conventionally defined, and what does a lower percentage indicate?",
+          "options": [
+            "Non-interest expenses divided by revenue a lower percentage indicates higher operational efficiency.",
+            "Total credit losses divided by total loans a lower percentage means worse credit quality",
+            "Interest paid divided by interest earned a lower percentage means poor deposit acquisition",
+            "Operating income divided by total assets, a lower percentage means stronger performance."
+          ],
+          "correct": 0,
+          "explain": "As per the official answer key, the answer to Q299 is A) Non-interest expenses divided by revenue a lower percentage indicates higher operational efficiency.."
+        },
+        {
+          "n": 300,
+          "q": "What does a provision coverage ratios (PCR) of 100% signify for a banking institution?",
+          "options": [
+            "The bank has covered 100% of its total performing loan portfolio against market risk",
+            "The bank has zero bad loans and full compliance with cash reserve caps",
+            "The bank has set aside provisions equal to the total value of its impaired or non- performing loans",
+            "The bank has leveraged its equity 100-fold relative to Tier 1 capital."
+          ],
+          "correct": 2,
+          "explain": "As per the official answer key, the answer to Q300 is C) The bank has set aside provisions equal to the total value of its impaired or non- performing loans."
+        }
+      ]
+    }
+  ]
+}

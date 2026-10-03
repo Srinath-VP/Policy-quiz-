@@ -11,7 +11,8 @@ Always run `build.py` after changing `data/` or `src/`. Never hand-edit `dist/`.
 ## Architecture
 - `data/policies.json`: an ordered list of policy ids. This order is the dropdown order.
 - `data/<id>.json`: `{ id, policyName, quizzes: [{ topic, questions: [{ q, options[4], correct(0-3), explain }] }] }`
-- `src/template.html`: all UI, CSS, and JS in one file. `build.py` replaces the marker `/*__POLICIES__*/[]` with the data array. Keep that marker exactly once.
+- `data/exams.json`: ordered list of exam-mode papers, shown under the "Model Questions 2026" tab. An exam file uses the same schema plus `"mode": "exam"`, `"questionsPerQuiz"` (e.g. 50), and an optional `n` (the paper's question number) on each question. Exam questions are verbatim from the paper: never shuffle their options, because `correct` must match the official answer key.
+- `src/template.html`: all UI, CSS, and JS in one file. `build.py` replaces the markers `/*__POLICIES__*/[]` and `/*__EXAMS__*/[]` with the data arrays. Keep each marker exactly once.
 - Progress is stored in `localStorage` under the key `policy_quiz_hub_v1`, shaped as `{ [policyId]: { [quizIndex]: {best, bestScore, last, attempts} } }`. If you change the shape, bump the key.
 
 ## Rules for generating questions from a policy PDF
