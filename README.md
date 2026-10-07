@@ -18,6 +18,8 @@ No server, no database, no login. The whole app is one static HTML file, so it c
 
 **Model Questions 2026** (separate tab, exam mode): 300 questions from *Model Questions for Promotion Examinations 2026-27*, in 6 sets of 50 (Q1–50 … Q251–300). Questions and options keep the paper's exact order. Answers are not shown during the test. You can change answers, jump between questions, and submit; then every answer is checked against the official answer key, and you get the score plus a full answer key (with an "only wrong / unanswered" filter). The source paper's Q113 lists "HDFC Ltd" twice (options B and C). It is kept as printed, and the answer is A.
 
+**New Policy Quiz** (third tab, exam mode): 24 quizzes with 690 questions in total, one quiz per training PDF in `New-policy-quiz/`. There are 21 PDFs with 30 questions each and 3 PDFs (TDS/Form 121/STR-CTR, Fund Based Limits, NPA Management) with 20 each. Every question and explanation is taken from its PDF, and answers are scored on submit with a full answer key.
+
 Each policy can grow to **100 quizzes × 10 questions**. The validator enforces that limit.
 
 ## Folder layout
@@ -27,6 +29,8 @@ policy-quiz-hub/
 ├── data/
 │   ├── policies.json          # sets the dropdown order: list of policy ids
 │   ├── exams.json             # exam-mode question papers (separate tab)
+│   ├── new-policy.json        # New Policy Quiz collections (third tab)
+│   ├── new-policy-quiz.json
 │   ├── model-questions-2026.json
 │   ├── kyc-aml-cft.json       # one file per policy (see schema below)
 │   └── ...

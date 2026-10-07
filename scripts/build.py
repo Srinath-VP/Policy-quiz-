@@ -12,14 +12,19 @@ subprocess.run([sys.executable, str(ROOT / "scripts/validate.py")], check=True)
 
 order = json.loads((ROOT / "data/policies.json").read_text())
 policies = [json.loads((ROOT / f"data/{pid}.json").read_text(encoding="utf-8")) for pid in order]
-exam_order = json.loads((ROOT / "data/exams.json").read_text()) if (ROOT / "data/exams.json").exists() else []
-exams = [json.loads((ROOT / f"data/{eid}.json").read_text(encoding="utf-8")) for eid in exam_order]
+def load_list(name):
+    f = ROOT / "data" / name
+    order = json.loads(f.read_text()) if f.exists() else []
+    return [json.loads((ROOT / f"data/{sid}.json").read_text(encoding="utf-8")) for sid in order]
+
+exams = load_list("exams.json")
+new_policy = load_list("new-policy.json")
 
 def bake(data):
     return json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 fragment = (ROOT / "src/template.html").read_text(encoding="utf-8")
-for marker, data in (("/*__POLICIES__*/[]", policies), ("/*__EXAMS__*/[]", exams)):
+for marker, data in (("/*__POLICIES__*/[]", policies), ("/*__EXAMS__*/[]", exams), ("/*__NEWPOLICY__*/[]", new_policy)):
     assert fragment.count(marker) == 1, f"template must contain the {marker} marker exactly once"
     fragment = fragment.replace(marker, bake(data))
 

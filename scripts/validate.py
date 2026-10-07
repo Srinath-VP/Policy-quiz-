@@ -3,9 +3,9 @@
 
 Policies (data/policies.json): <=100 quizzes, exactly 10 questions per quiz, 4 distinct options,
 one correct index (0-3), non-empty explanation. Also warns if the answer key is lopsided.
-Exams (data/exams.json): same checks, but the per-quiz count comes from `questionsPerQuiz`,
-options keep the source paper's order (no lopsided warning) and duplicate options only warn,
-because they are copied verbatim from the paper.
+Exams (data/exams.json, data/new-policy.json): same checks, but the per-quiz count comes from
+`questionsPerQuiz` (or, when absent, any 10-50 per quiz), options keep the source paper's order
+(no lopsided warning) and duplicate options only warn, because they are copied verbatim from the paper.
 Exit code 1 on any error.
 """
 import json, sys, pathlib
@@ -19,7 +19,7 @@ def check(pid, exam, errors, warnings):
         errors.append(f"{pid}: listed but data/{pid}.json is missing"); return 0, 0
     p = json.loads(path.read_text(encoding="utf-8"))
     if p.get("id") != pid: errors.append(f"{path.name}: id '{p.get('id')}' != '{pid}'")
-    per_quiz = p.get("questionsPerQuiz", Q_PER_QUIZ) if exam else Q_PER_QUIZ
+    per_quiz = p.get("questionsPerQuiz") if exam else Q_PER_QUIZ
     quizzes = p.get("quizzes", [])
     if not 1 <= len(quizzes) <= MAX_QUIZZES:
         errors.append(f"{pid}: has {len(quizzes)} quizzes (allowed 1-{MAX_QUIZZES})")
@@ -27,7 +27,9 @@ def check(pid, exam, errors, warnings):
     for zi, z in enumerate(quizzes, 1):
         qs = z.get("questions", [])
         if not z.get("topic"): errors.append(f"{pid} quiz {zi}: missing topic")
-        if len(qs) != per_quiz: errors.append(f"{pid} quiz {zi}: {len(qs)} questions (need {per_quiz})")
+        if per_quiz is None:
+            if not 10 <= len(qs) <= 50: errors.append(f"{pid} quiz {zi}: {len(qs)} questions (need 10-50)")
+        elif len(qs) != per_quiz: errors.append(f"{pid} quiz {zi}: {len(qs)} questions (need {per_quiz})")
         for qi, q in enumerate(qs, 1):
             tag = f"{pid} quiz {zi} q{q.get('n', qi)}"
             opts = q.get("options", [])
@@ -46,7 +48,7 @@ def check(pid, exam, errors, warnings):
 
 def main():
     errors, warnings, total_q, total_z = [], [], 0, 0
-    lists = [("policies.json", False), ("exams.json", True)]
+    lists = [("policies.json", False), ("exams.json", True), ("new-policy.json", True)]
     count = 0
     for fname, exam in lists:
         f = ROOT / "data" / fname

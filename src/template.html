@@ -174,6 +174,7 @@
   <div class="tabs" role="tablist" id="sectionTabs">
     <button class="tab" role="tab" type="button" data-section="policies">Policy Quizzes</button>
     <button class="tab" role="tab" type="button" data-section="exams">Model Questions 2026</button>
+    <button class="tab" role="tab" type="button" data-section="newpolicy">New Policy Quiz</button>
   </div>
 
   <section id="overviewView" hidden>
@@ -266,6 +267,7 @@
 /* POLICIES is injected by scripts/build.py from data/*.json — do not edit here. */
 var POLICIES = /*__POLICIES__*/[];
 var EXAMS = /*__EXAMS__*/[];
+var NEW_POLICY = /*__NEWPOLICY__*/[];
 </script>
 <script>
 (function(){
@@ -297,7 +299,7 @@ var EXAMS = /*__EXAMS__*/[];
   /* views */
   function show(id){
     ["welcomeView","overviewView","quizView","resultsView"].forEach(function(v){ $(v).hidden = v!==id; });
-    $("sectionTabs").hidden = id==="welcomeView" || !EXAMS.length;
+    $("sectionTabs").hidden = id==="welcomeView";
     $("greetBar").hidden = $("appFooter").hidden = id==="welcomeView";
     window.scrollTo(0,0);
   }
@@ -306,11 +308,14 @@ var EXAMS = /*__EXAMS__*/[];
   $("welcomeName").textContent = USER_NAME;
   $("greetName").textContent = USER_NAME;
 
-  /* sections: "policies" (instant-feedback policy quizzes) and "exams" (Model Questions, scored on submit) */
-  var section = prefs.section === "exams" && EXAMS.length ? "exams" : "policies";
-  function sets(){ return section === "exams" ? EXAMS : POLICIES; }
+  /* sections: "policies" (instant feedback), "exams" (Model Questions) and "newpolicy" (New Policy Quiz);
+     sets with mode "exam" are scored only on submit */
+  var SECTIONS = { policies: POLICIES, exams: EXAMS, newpolicy: NEW_POLICY };
+  var PICKER_LABEL = { policies: "Policy", exams: "Question paper", newpolicy: "Quiz collection" };
+  var section = SECTIONS[prefs.section] && SECTIONS[prefs.section].length ? prefs.section : "policies";
+  function sets(){ return SECTIONS[section]; }
   function pickIdx(){
-    var want = section === "exams" ? prefs.exam : prefs.policy;
+    var want = (prefs.pick || {})[section] || (section === "policies" ? prefs.policy : section === "exams" ? prefs.exam : null);
     return Math.max(0, sets().findIndex(function(p){ return p.id===want; }));
   }
 
@@ -321,6 +326,7 @@ var EXAMS = /*__EXAMS__*/[];
   function isExam(){ return policy().mode === "exam"; }
   function recs(){ return progress[policy().id] || (progress[policy().id] = {}); }
   function qLabel(q, i){ return q.n ? q.n : i+1; }
+  function unit(){ return policy().unit || (isExam() ? "Set" : "Quiz"); }
 
   /* section tabs */
   function paintTabs(){
@@ -329,6 +335,7 @@ var EXAMS = /*__EXAMS__*/[];
     });
   }
   Array.prototype.forEach.call(document.querySelectorAll("[data-section]"), function(b){
+    b.hidden = !SECTIONS[b.getAttribute("data-section")].length;
     b.addEventListener("click", function(){
       section = b.getAttribute("data-section"); prefs.section = section; save(STORE+"_prefs", prefs);
       policyIdx = pickIdx(); fillPolicySelect(); paintTabs(); show("overviewView"); renderOverview();
@@ -341,11 +348,11 @@ var EXAMS = /*__EXAMS__*/[];
       return '<option value="'+i+'">'+esc(p.policyName)+'</option>';
     }).join("");
     $("policySelect").value = policyIdx;
-    $("policyLabel").textContent = section === "exams" ? "Question paper" : "Policy";
+    $("policyLabel").textContent = PICKER_LABEL[section];
   }
   $("policySelect").addEventListener("change", function(){
     policyIdx = +this.value;
-    if(section === "exams") prefs.exam = policy().id; else prefs.policy = policy().id;
+    prefs.pick = prefs.pick || {}; prefs.pick[section] = policy().id;
     save(STORE+"_prefs", prefs); renderOverview();
   });
   $("startBtn").addEventListener("click", function(){ startQuiz(+$("quizSelect").value); });
@@ -356,29 +363,30 @@ var EXAMS = /*__EXAMS__*/[];
   }
 
   function renderOverview(){
-    var p = policy(), R = recs(), done = 0, sum = 0, exam = isExam();
-    var per = p.quizzes[0] ? p.quizzes[0].questions.length : 0;
+    var p = policy(), R = recs(), done = 0, sum = 0, exam = isExam(), u = unit();
+    var counts = p.quizzes.map(function(z){ return z.questions.length; });
+    var per = Math.min.apply(null, counts) === Math.max.apply(null, counts) ? counts[0] + " per " + u.toLowerCase() : "per " + u.toLowerCase() + " varies";
     $("quizSelect").innerHTML = p.quizzes.map(function(z,i){
-      return '<option value="'+i+'">'+(exam?'Set ':'Quiz ')+(i+1)+' — '+esc(z.topic)+'</option>';
+      return '<option value="'+i+'">'+u+' '+(i+1)+' — '+esc(z.topic)+'</option>';
     }).join("");
     $("policyHeading").textContent = p.policyName;
     $("quizList").innerHTML = p.quizzes.map(function(z,i){
       var r = R[i]; if(r){ done++; sum += r.best; }
       return '<button type="button" class="quiz-row" data-quiz="'+i+'">' +
-        '<span class="quiz-no">'+(exam?'S':'Q')+(i+1)+'</span>' +
+        '<span class="quiz-no">'+u.charAt(0)+(i+1)+'</span>' +
         '<span><span class="t">'+esc(z.topic)+'</span><span class="m" style="display:block">'+z.questions.length+' questions'+(r?' · '+r.attempts+' attempt'+(r.attempts>1?'s':''):'')+'</span></span>' +
         badge(r, z.questions.length) + '</button>';
     }).join("");
     $("statQuizzes").textContent = p.quizzes.length;
-    $("statQuizzesLabel").textContent = exam ? "Sets in this paper" : "Quizzes in this policy";
+    $("statQuizzesLabel").textContent = section === "policies" ? "Quizzes in this policy" : u + "s in this collection";
     $("statQuestions").textContent = p.quizzes.reduce(function(a,z){ return a+z.questions.length; },0);
-    $("statQuestionsLabel").textContent = "Questions (" + per + " per " + (exam?"set":"quiz") + ")";
+    $("statQuestionsLabel").textContent = "Questions (" + per + ")";
     $("statDone").textContent = done + " / " + p.quizzes.length;
     $("statAvg").textContent = done ? Math.round(sum/done)+"%" : "—";
     $("overviewHint").textContent = exam
       ? "Pass mark " + PASS_PCT + "% · answers are checked against the answer key when you submit"
       : "Pass mark " + PASS_PCT + "% · tap any quiz to start";
-    $("startBtn").textContent = exam ? "Start set" : "Start quiz";
+    $("startBtn").textContent = "Start " + u.toLowerCase();
     Array.prototype.forEach.call(document.querySelectorAll("[data-quiz]"), function(b){
       b.addEventListener("click", function(){ startQuiz(+b.getAttribute("data-quiz")); });
     });
@@ -388,7 +396,7 @@ var EXAMS = /*__EXAMS__*/[];
   function startQuiz(i){
     var z = policy().quizzes[i], exam = isExam();
     cur = { quiz:i, q:0, answers: z.questions.map(function(){ return null; }) };
-    $("quizEyebrow").textContent = policy().policyName + (exam ? " · Set " : " · Quiz ") + (i+1);
+    $("quizEyebrow").textContent = policy().policyName + " · " + unit() + " " + (i+1);
     $("quizTopic").textContent = z.topic;
     $("prevBtn").hidden = !exam; $("palette").hidden = !exam; $("submitRow").hidden = !exam; $("examNote").hidden = !exam;
     disarm();
@@ -502,7 +510,7 @@ var EXAMS = /*__EXAMS__*/[];
     if(pct >= r.best){ r.best = pct; r.bestScore = s; }
     R[cur.quiz] = r; save(STORE, progress);
 
-    $("resultsEyebrow").textContent = p.policyName + (exam ? " · Set " : " · Quiz ") + (cur.quiz+1) + " · " + z.topic;
+    $("resultsEyebrow").textContent = p.policyName + " · " + unit() + " " + (cur.quiz+1) + " · " + z.topic;
     $("scoreBig").textContent = s + " / " + n;
     var wrong = cur.answers.filter(function(v,i){ return v!==null && v!==z.questions[i].correct; }).length;
     $("scorePct").textContent = pct + "% correct" + (exam ? " · " + wrong + " wrong · " + (n - answeredCount()) + " unanswered" : "");
@@ -510,8 +518,8 @@ var EXAMS = /*__EXAMS__*/[];
     pp.className = "pass-pill " + (pct >= PASS_PCT ? "pass" : "fail");
     pp.textContent = pct >= PASS_PCT ? "Passed" : "Needs review — pass mark " + PASS_PCT + "%";
     $("nextQuizBtn").hidden = cur.quiz >= p.quizzes.length-1;
-    $("nextQuizBtn").textContent = exam ? "Next set →" : "Next quiz →";
-    $("retakeBtn").textContent = exam ? "Retake this set" : "Retake this quiz";
+    $("nextQuizBtn").textContent = "Next " + unit().toLowerCase() + " →";
+    $("retakeBtn").textContent = "Retake this " + unit().toLowerCase();
     $("reviewFilter").hidden = !exam;
     reviewFilter = "all"; renderReview();
     show("resultsView");
