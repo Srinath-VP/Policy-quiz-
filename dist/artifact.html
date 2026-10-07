@@ -44,7 +44,8 @@
 
   .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:6px 2px 20px;}
   .brand{display:flex;align-items:center;gap:10px;min-width:0;}
-  .brand-mark{min-width:36px;height:36px;padding:0 7px;border-radius:9px;background:linear-gradient(155deg,var(--accent),var(--accent-strong));display:flex;align-items:center;justify-content:center;color:var(--accent-ink);font-weight:800;font-size:12px;flex:none;}
+  .brand-mark{width:44px;height:44px;border-radius:50%;background:linear-gradient(155deg,var(--accent-soft),var(--surface-2));border:2px solid var(--accent);display:flex;align-items:center;justify-content:center;flex:none;overflow:hidden;}
+  .brand-mark .girl{width:100%;height:100%;}
   .eyebrow{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;}
   .brand h1{font-size:19px;margin:1px 0 0;}
   .theme-btn{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:9px;padding:8px 10px;font-size:12px;font-weight:600;cursor:pointer;flex:none;}
@@ -135,9 +136,8 @@
   .pal.done{background:var(--accent-soft);color:var(--accent);border-color:var(--accent-soft);}
   .pal.here{border-color:var(--accent);color:var(--ink);}
   .exam-note{font-size:12.5px;color:var(--muted);margin-top:12px;}
-  .welcome{text-align:center;padding:56px 22px;margin-top:12px;}
-  .welcome-mark{font-size:44px;line-height:1;}
-  .welcome-title{font-size:34px;margin:16px 0 6px;}
+  .welcome{text-align:center;padding:30px 22px 44px;margin-top:12px;}
+  .welcome-title{font-size:34px;margin:8px 0 6px;}
   .welcome-title span{color:var(--accent);}
   .welcome-sub{font-size:17px;color:var(--muted);font-weight:600;margin:0 0 26px;}
   .welcome-btn{padding:14px 28px;font-size:15px;}
@@ -148,22 +148,81 @@
   footer{text-align:center;margin-top:30px;font-size:12px;color:var(--muted-2);}
   footer button{background:none;border:none;color:var(--muted-2);text-decoration:underline;cursor:pointer;font-size:12px;padding:0;}
   @media (prefers-reduced-motion:reduce){*{transition:none!important;}}
+
+  /* ---- cartoon guide (inline SVG drawn by girlSVG()) ---- */
+  :root{
+    --girl-skin:#FFDCC2; --girl-skin-shade:#F2BE9C; --girl-hair:#4A2B23; --girl-hair-hi:#6B4034;
+    --girl-eye:#2A1A16; --girl-cheek:#FF8FA3; --girl-mouth:#D9576B; --girl-tongue:#FF9FAE;
+    --girl-dress:#7C5CFF; --girl-dress-dk:#5B3FDB; --girl-collar:#FFFFFF; --girl-bow:#FF5C8A;
+    --girl-book:#FFB547; --girl-book-dk:#E08A00; --girl-page:#FFFDF6; --girl-shoe:#3B2A63;
+  }
+  .girl{display:block;overflow:visible;cursor:pointer;-webkit-tap-highlight-color:transparent;}
+  .girl .eyes-happy{display:none;}
+  .girl.happy .eyes-open{display:none;}
+  .girl.happy .eyes-happy{display:inline;}
+  .girl.happy .cheek{opacity:1;}
+  .girl .cheek{opacity:.65;transition:opacity .3s;}
+  .girl .pony{transform-box:view-box;transform-origin:138px 50px;}
+  .girl .book{transform-box:view-box;transform-origin:100px 168px;}
+  .girl .head{transform-box:view-box;transform-origin:100px 118px;}
+  .girl .eyes-open .eye{transform-box:fill-box;transform-origin:center;}
+  @media (prefers-reduced-motion:no-preference){
+    .girl .bob{animation:girl-bob 3.2s ease-in-out infinite;}
+    .girl .pony{animation:girl-sway 2.6s ease-in-out infinite alternate;}
+    .girl .head{animation:girl-tilt 6s ease-in-out infinite;}
+    .girl .eyes-open .eye{animation:girl-blink 4.6s infinite;}
+    .girl .look{animation:girl-look 8s ease-in-out infinite;}
+    .girl .book{animation:girl-book 3.2s ease-in-out infinite;}
+    .girl.happy .bob{animation:girl-hop .55s ease-out 2;}
+    .welcome-girl{animation:girl-enter .7s cubic-bezier(.2,1.4,.4,1) both;}
+    .speech{animation:bubble-pop .45s cubic-bezier(.2,1.6,.4,1) .55s both;}
+    .brand-mark .girl .pony{animation-duration:3.4s;}
+  }
+  @keyframes girl-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+  @keyframes girl-sway{from{transform:rotate(-7deg)}to{transform:rotate(9deg)}}
+  @keyframes girl-tilt{0%,70%,100%{transform:rotate(0)}78%{transform:rotate(-4deg)}88%{transform:rotate(3deg)}}
+  @keyframes girl-blink{0%,90%,100%{transform:scaleY(1)}94%{transform:scaleY(.08)}}
+  @keyframes girl-look{0%,20%,100%{transform:translate(0,0)}30%,42%{transform:translate(3px,-1px)}55%,68%{transform:translate(-3px,0)}}
+  @keyframes girl-book{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(3deg)}}
+  @keyframes girl-hop{0%,100%{transform:translateY(0)}40%{transform:translateY(-14px)}}
+  @keyframes girl-enter{from{opacity:0;transform:translateY(24px) scale(.9)}to{opacity:1;transform:none}}
+  @keyframes bubble-pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+
+  .welcome-stage{display:flex;align-items:flex-end;justify-content:center;gap:4px;margin:0 auto 6px;max-width:420px;}
+  .welcome-girl{width:min(170px,44vw);flex:none;}
+  .speech{position:relative;align-self:flex-start;margin-top:18px;background:var(--surface);border:2px solid var(--accent);color:var(--ink);border-radius:18px;padding:10px 14px;font-weight:700;font-size:15px;line-height:1.35;text-align:left;box-shadow:var(--shadow);transform-origin:left bottom;max-width:190px;}
+  .speech::before{content:"";position:absolute;left:-11px;bottom:16px;border:9px solid transparent;border-right-color:var(--accent);border-left:0;}
+  .speech::after{content:"";position:absolute;left:-7px;bottom:18px;border:7px solid transparent;border-right-color:var(--surface);border-left:0;}
+  .tap-hint{font-size:12px;color:var(--muted-2);margin:0 0 18px;}
+  .result-guide{display:flex;align-items:flex-end;justify-content:center;gap:4px;margin-bottom:6px;}
+  .result-guide .girl{width:96px;flex:none;}
+  .result-guide .speech{margin-top:4px;font-size:14px;}
+  .voice-btn{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:9px;padding:8px 10px;font-size:12px;font-weight:600;cursor:pointer;flex:none;}
+  .top-actions{display:flex;gap:8px;flex:none;}
+  @media (max-width:480px){.voice-lbl{display:none;}}
 </style>
 
 <div class="app">
   <div class="topbar">
     <div class="brand">
-      <div class="brand-mark">TNGB</div>
+      <div class="brand-mark" id="logoGirl"></div>
       <div>
-        <div class="eyebrow">STC Piravalur · Policy Assessment</div>
+        <div class="eyebrow">TNGB · STC Piravalur · Policy Assessment</div>
         <h1>Policy Quiz Hub</h1>
       </div>
     </div>
-    <button class="theme-btn" id="themeBtn" type="button">Dark mode</button>
+    <div class="top-actions">
+      <button class="voice-btn" id="voiceBtn" type="button"></button>
+      <button class="theme-btn" id="themeBtn" type="button">Dark mode</button>
+    </div>
   </div>
 
   <section id="welcomeView" class="panel welcome">
-    <div class="welcome-mark" aria-hidden="true">👋</div>
+    <div class="welcome-stage">
+      <div class="welcome-girl" id="welcomeGirl"></div>
+      <div class="speech" id="welcomeSpeech"></div>
+    </div>
+    <p class="tap-hint">Tap her to say hi</p>
     <h2 class="welcome-title">Welcome <span id="welcomeName"></span></h2>
     <p class="welcome-sub">All the best for exam</p>
     <button class="btn btn-primary welcome-btn" id="welcomeStartBtn" type="button">Start quiz →</button>
@@ -237,6 +296,10 @@
 
   <section id="resultsView" hidden>
     <div class="panel results-hero">
+      <div class="result-guide">
+        <div id="resultGirl"></div>
+        <div class="speech" id="resultSpeech"></div>
+      </div>
       <div class="eyebrow" id="resultsEyebrow"></div>
       <div class="score-big tabular" id="scoreBig"></div>
       <div class="score-pct tabular" id="scorePct"></div>
@@ -307,6 +370,117 @@ var NEW_POLICY = [{"id":"new-policy-quiz","policyName":"New Policy Quiz 2026","m
   /* welcome */
   $("welcomeName").textContent = USER_NAME;
   $("greetName").textContent = USER_NAME;
+
+  /* cartoon guide: a 10-year-old girl with a ponytail holding a book (inline SVG, colours from --girl-* tokens) */
+  function girlSVG(viewBox, label){
+    var f = function(v){ return 'style="fill:var(--girl-'+v+')"'; };
+    var s = function(v,w){ return 'style="fill:none;stroke:var(--girl-'+v+');stroke-width:'+w+';stroke-linecap:round;stroke-linejoin:round"'; };
+    return '<svg class="girl" viewBox="'+viewBox+'" role="img" aria-label="'+esc(label)+'"><g class="bob">' +
+      /* legs + shoes */
+      '<rect x="87" y="206" width="10" height="42" rx="4" '+f('skin')+'/><rect x="103" y="206" width="10" height="42" rx="4" '+f('skin')+'/>' +
+      '<ellipse cx="91" cy="250" rx="11" ry="6" '+f('shoe')+'/><ellipse cx="109" cy="250" rx="11" ry="6" '+f('shoe')+'/>' +
+      /* dress */
+      '<path d="M100 120 C86 120 80 128 78 140 L66 212 Q100 222 134 212 L122 140 C120 128 114 120 100 120 Z" '+f('dress')+'/>' +
+      '<path d="M72 196 Q100 206 128 196" '+s('dress-dk',3)+'/>' +
+      '<path d="M88 124 Q94 134 100 128 Q106 134 112 124" '+s('collar',4)+'/>' +
+      /* arms */
+      '<path d="M82 134 Q66 156 84 172" '+s('skin',9)+'/><path d="M118 134 Q134 156 116 172" '+s('skin',9)+'/>' +
+      /* book */
+      '<g class="book"><rect x="74" y="148" width="52" height="38" rx="4" '+f('book-dk')+'/>' +
+        '<rect x="76" y="150" width="48" height="34" rx="3" '+f('book')+'/>' +
+        '<path d="M100 151 L100 183" '+s('book-dk',2)+'/>' +
+        '<path d="M82 160 L94 160 M82 166 L92 166 M106 160 L118 160 M106 166 L116 166" '+s('page',2.4)+'/>' +
+        '<path d="M96 175 q4 -5 8 0 q-4 5 -8 0" '+f('bow')+'/></g>' +
+      '<circle cx="82" cy="172" r="6.5" '+f('skin')+'/><circle cx="118" cy="172" r="6.5" '+f('skin')+'/>' +
+      '<rect x="93" y="108" width="14" height="16" rx="5" '+f('skin-shade')+'/>' +
+      /* head */
+      '<g class="head">' +
+        '<g class="pony"><path d="M134 46 C168 34 186 64 176 96 C170 116 182 130 172 142 C160 124 150 104 148 84 C146 68 142 56 134 46 Z" '+f('hair')+'/>' +
+          '<path d="M150 58 C166 62 172 82 166 100" '+s('hair-hi',3)+'/></g>' +
+        '<circle cx="61" cy="84" r="7" '+f('skin-shade')+'/><circle cx="139" cy="84" r="7" '+f('skin-shade')+'/>' +
+        '<circle cx="100" cy="78" r="40" '+f('skin')+'/>' +
+        '<path d="M60 80 C56 40 86 30 104 32 C130 34 146 52 140 82 C136 64 124 54 110 52 C104 62 86 68 66 66 C63 70 61 75 60 80 Z" '+f('hair')+'/>' +
+        '<path d="M78 44 C88 38 100 37 110 39" '+s('hair-hi',3)+'/>' +
+        '<circle cx="136" cy="48" r="7" '+f('bow')+'/><circle cx="133" cy="45" r="2" '+f('collar')+'/>' +
+        '<path d="M79 68 Q85 64 91 66 M109 66 Q115 64 121 68" '+s('hair',2.5)+'/>' +
+        '<g class="look"><g class="eyes-open">' +
+          '<g class="eye"><ellipse cx="85" cy="84" rx="6.5" ry="8.5" '+f('eye')+'/><circle cx="87.5" cy="80.5" r="2.6" '+f('collar')+'/><circle cx="83" cy="88" r="1.2" '+f('collar')+'/></g>' +
+          '<g class="eye"><ellipse cx="115" cy="84" rx="6.5" ry="8.5" '+f('eye')+'/><circle cx="117.5" cy="80.5" r="2.6" '+f('collar')+'/><circle cx="113" cy="88" r="1.2" '+f('collar')+'/></g>' +
+          '<path d="M78.5 79 l-4 -3 M121.5 79 l4 -3" '+s('eye',2)+'/>' +
+        '</g></g>' +
+        '<g class="eyes-happy"><path d="M78 86 Q85 77 92 86 M108 86 Q115 77 122 86" '+s('eye',3.2)+'/></g>' +
+        '<ellipse class="cheek" cx="75" cy="96" rx="7.5" ry="4.5" '+f('cheek')+'/><ellipse class="cheek" cx="125" cy="96" rx="7.5" ry="4.5" '+f('cheek')+'/>' +
+        '<path d="M98.5 92 q1.5 2 3 0" '+s('skin-shade',2)+'/>' +
+        '<path d="M91 99 Q100 112 109 99 Z" '+f('mouth')+'/><path d="M95 105 Q100 109 105 105 Q100 102 95 105 Z" '+f('tongue')+'/>' +
+      '</g></g></svg>';
+  }
+  function mountGirl(id, viewBox, label){ $(id).innerHTML = girlSVG(viewBox, label); return $(id).firstChild; }
+  function react(svg){
+    if(!svg) return;
+    svg.classList.remove("happy"); void svg.getBoundingClientRect(); svg.classList.add("happy");
+    clearTimeout(svg._happyT); svg._happyT = setTimeout(function(){ svg.classList.remove("happy"); }, 1400);
+  }
+  var WELCOME_LINE = "Hey " + USER_NAME + ", welcome!";
+  var DONE_LINE = "All the best, " + USER_NAME + "! You have done well.";
+  mountGirl("logoGirl", "54 30 96 96", "Policy Quiz Hub logo");
+  var welcomeGirl = mountGirl("welcomeGirl", "40 26 150 236", "Cartoon girl holding a book, smiling");
+  var resultGirl = mountGirl("resultGirl", "40 26 150 236", "Cartoon girl cheering");
+  $("welcomeSpeech").textContent = WELCOME_LINE + " 👋";
+  $("resultSpeech").textContent = DONE_LINE + " 🎉";
+  /* her eyes light up every few seconds, and whenever she is tapped */
+  setInterval(function(){ if(!$("welcomeView").hidden) react(welcomeGirl); }, 7000);
+
+  /* voice (Web Speech API). Browsers only allow speech after the visitor's first tap or key press,
+     so the greeting is tried on load and, if blocked, spoken on the first interaction. */
+  var voiceOn = prefs.voice !== false;
+  function pickVoice(){
+    try{
+      var vs = window.speechSynthesis.getVoices().filter(function(v){ return /^en/i.test(v.lang); });
+      var girlish = /female|woman|girl|zira|samantha|heera|veena|kalpana|neerja|aria|jenny|libby|sonia|google uk english female|google us english/i;
+      return vs.filter(function(v){ return /en-IN/i.test(v.lang) && girlish.test(v.name); })[0]
+        || vs.filter(function(v){ return girlish.test(v.name); })[0]
+        || vs.filter(function(v){ return /en-IN/i.test(v.lang); })[0] || vs[0] || null;
+    }catch(e){ return null; }
+  }
+  function speak(text){
+    if(!voiceOn || !window.speechSynthesis || !window.SpeechSynthesisUtterance) return null;
+    try{
+      window.speechSynthesis.cancel();
+      var u = new SpeechSynthesisUtterance(text), v = pickVoice();
+      if(v){ u.voice = v; u.lang = v.lang; } else u.lang = "en-IN";
+      u.pitch = 1.6; u.rate = 1.0;
+      window.speechSynthesis.speak(u);
+      return u;
+    }catch(e){ return null; }
+  }
+  var greeted = false;
+  function greet(){
+    var u = speak(WELCOME_LINE);
+    if(u) u.onstart = function(){ greeted = true; };
+  }
+  if(window.speechSynthesis && "onvoiceschanged" in window.speechSynthesis){
+    window.speechSynthesis.onvoiceschanged = function(){ window.speechSynthesis.onvoiceschanged = null; if(!greeted) greet(); };
+  }
+  greet();
+  function firstGesture(){
+    document.removeEventListener("pointerdown", firstGesture, true);
+    document.removeEventListener("keydown", firstGesture, true);
+    if(!greeted && !$("welcomeView").hidden) greet();
+  }
+  document.addEventListener("pointerdown", firstGesture, true);
+  document.addEventListener("keydown", firstGesture, true);
+  welcomeGirl.addEventListener("click", function(){ react(welcomeGirl); greeted = true; speak(WELCOME_LINE); });
+  resultGirl.addEventListener("click", function(){ react(resultGirl); speak(DONE_LINE); });
+  function paintVoice(){
+    $("voiceBtn").innerHTML = (voiceOn ? "🔊" : "🔇") + '<span class="voice-lbl"> Voice ' + (voiceOn ? "on" : "off") + "</span>";
+    $("voiceBtn").setAttribute("aria-label", voiceOn ? "Voice on" : "Voice off");
+    $("voiceBtn").setAttribute("aria-pressed", voiceOn ? "true" : "false");
+  }
+  paintVoice();
+  $("voiceBtn").addEventListener("click", function(){
+    voiceOn = !voiceOn; prefs.voice = voiceOn; save(STORE+"_prefs", prefs); paintVoice();
+    if(!voiceOn && window.speechSynthesis) window.speechSynthesis.cancel();
+  });
 
   /* sections: "policies" (instant feedback), "exams" (Model Questions) and "newpolicy" (New Policy Quiz);
      sets with mode "exam" are scored only on submit */
@@ -512,6 +686,7 @@ var NEW_POLICY = [{"id":"new-policy-quiz","policyName":"New Policy Quiz 2026","m
 
     $("resultsEyebrow").textContent = p.policyName + " · " + unit() + " " + (cur.quiz+1) + " · " + z.topic;
     $("scoreBig").textContent = s + " / " + n;
+    speak(DONE_LINE); setTimeout(function(){ react(resultGirl); }, 300);
     var wrong = cur.answers.filter(function(v,i){ return v!==null && v!==z.questions[i].correct; }).length;
     $("scorePct").textContent = pct + "% correct" + (exam ? " · " + wrong + " wrong · " + (n - answeredCount()) + " unanswered" : "");
     var pp = $("passPill");
