@@ -22,7 +22,6 @@ No server, no database, no login. The whole app is one static HTML file, so it c
 
 **Study Notes** (fourth tab): quick-revision tables built from the same PDFs. **TAT** covers turnaround times, **Committees** shows who decides what, **Grievance** gives complaint timelines and escalation, and **Important Years** lists one line per year on what came in and why. There is a search box, and every entry names its source PDF.
 
-**PIN:** the site asks for a 4-digit PIN on every visit. Only its salted SHA-256 hash is stored in the page.
 
 Each policy can grow to **100 quizzes × 10 questions**. The validator enforces that limit.
 

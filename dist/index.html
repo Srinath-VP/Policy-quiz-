@@ -206,19 +206,6 @@
   .top-actions{display:flex;gap:8px;flex:none;}
   @media (max-width:480px){.voice-lbl{display:none;}}
 
-  /* PIN lock */
-  .lock{text-align:center;padding:30px 22px 34px;margin:12px auto 0;max-width:460px;}
-  .lock-girl{width:112px;height:112px;margin:0 auto 8px;border-radius:50%;overflow:hidden;border:3px solid var(--accent);background:linear-gradient(155deg,var(--accent-soft),var(--surface-2));}
-  .lock-girl .girl{width:100%;height:100%;}
-  .lock-title{font-size:24px;margin:6px 0 4px;}
-  .pin-form{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap;}
-  .pin-input{width:150px;text-align:center;font-size:26px;letter-spacing:.5em;padding:10px 0 10px .5em;border-radius:12px;border:2px solid var(--border);background:var(--surface-2);color:var(--ink);}
-  .pin-input:focus{outline:none;border-color:var(--accent);}
-  .pin-msg{min-height:20px;margin:12px 0 0;font-size:13.5px;font-weight:600;color:var(--bad);}
-  .lock.shake .pin-input{border-color:var(--bad);}
-  @media (prefers-reduced-motion:no-preference){.lock.shake .pin-form{animation:pin-shake .4s;}}
-  @keyframes pin-shake{20%,60%{transform:translateX(-8px)}40%,80%{transform:translateX(8px)}}
-
   /* quiz page cheer */
   .quiz-cheer{text-align:center;font-family:'Sora',ui-sans-serif,system-ui,sans-serif;font-weight:700;font-size:18px;color:var(--accent);background:var(--accent-soft);border-radius:12px;padding:10px 12px;margin-bottom:14px;}
 
@@ -267,17 +254,6 @@
       <button class="theme-btn" id="themeBtn" type="button">Dark mode</button>
     </div>
   </div>
-
-  <section id="lockView" class="panel lock">
-    <div class="lock-girl" id="lockGirl"></div>
-    <h2 class="lock-title">Enter your PIN</h2>
-    <p class="hint">Type the 4-digit PIN to open the quiz.</p>
-    <form id="pinForm" class="pin-form" autocomplete="off">
-      <input id="pinInput" class="pin-input tabular" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="4" aria-label="4-digit PIN" placeholder="••••">
-      <button class="btn btn-primary" id="pinBtn" type="submit">Unlock</button>
-    </form>
-    <p class="pin-msg" id="pinMsg" role="alert"></p>
-  </section>
 
   <section id="welcomeView" class="panel welcome" hidden>
     <div class="welcome-stage">
@@ -436,8 +412,8 @@ var NOTES = {"title":"Study Notes","tabs":[{"id":"tat","title":"TAT","subtitle":
 
   /* views */
   function show(id){
-    ["lockView","welcomeView","overviewView","notesView","quizView","resultsView"].forEach(function(v){ $(v).hidden = v!==id; });
-    var intro = id==="welcomeView" || id==="lockView";
+    ["welcomeView","overviewView","notesView","quizView","resultsView"].forEach(function(v){ $(v).hidden = v!==id; });
+    var intro = id==="welcomeView";
     $("sectionTabs").hidden = intro;
     $("greetBar").hidden = $("appFooter").hidden = intro;
     window.scrollTo(0,0);
@@ -534,7 +510,17 @@ var NOTES = {"title":"Study Notes","tabs":[{"id":"tat","title":"TAT","subtitle":
     var u = speak(WELCOME_LINE);
     if(u) u.onstart = function(){ greeted = true; };
   }
-  if(window.speechSynthesis) try{ window.speechSynthesis.getVoices(); }catch(e){}  /* warm up the voice list */
+  if(window.speechSynthesis && "onvoiceschanged" in window.speechSynthesis){
+    window.speechSynthesis.onvoiceschanged = function(){ window.speechSynthesis.onvoiceschanged = null; if(!greeted) greet(); };
+  }
+  greet();
+  function firstGesture(){
+    document.removeEventListener("pointerdown", firstGesture, true);
+    document.removeEventListener("keydown", firstGesture, true);
+    if(!greeted && !$("welcomeView").hidden) greet();
+  }
+  document.addEventListener("pointerdown", firstGesture, true);
+  document.addEventListener("keydown", firstGesture, true);
   welcomeGirl.addEventListener("click", function(){ react(welcomeGirl); greeted = true; speak(WELCOME_LINE); });
   resultGirl.addEventListener("click", function(){ react(resultGirl); speak(DONE_LINE); });
   function paintVoice(){
@@ -847,41 +833,7 @@ var NOTES = {"title":"Study Notes","tabs":[{"id":"tat","title":"TAT","subtitle":
   }
   $("notesSearch").addEventListener("input", renderNotes);
 
-  /* PIN lock: shown on every visit. Only a salted SHA-256 hash of the PIN is kept here, never the PIN itself.
-     (A PIN in a static page keeps casual visitors out; it is not strong security.) */
-  var PIN_SALT = "policy-quiz-hub:", PIN_HASH = "02e000be6090467213db53b742f749b28c107968c83827e43cdfc9be5064e967";
-  var LOCK_KEY = STORE + "_pin";
-  function sha256hex(text){
-    return crypto.subtle.digest("SHA-256", new TextEncoder().encode(text)).then(function(buf){
-      return Array.prototype.map.call(new Uint8Array(buf), function(b){ return ("0"+b.toString(16)).slice(-2); }).join("");
-    });
-  }
-  mountGirl("lockGirl", "54 30 96 96", "Cartoon girl");
-  function unlock(){
-    save(LOCK_KEY, { fails:0, until:0 });
-    show("welcomeView");
-    setTimeout(greet, 150);   /* the Unlock tap lets the browser speak */
-  }
-  $("pinInput").addEventListener("input", function(){ this.value = this.value.replace(/\D/g, "").slice(0,4); $("pinMsg").textContent = ""; });
-  $("pinForm").addEventListener("submit", function(e){
-    e.preventDefault();
-    var st = load(LOCK_KEY, { fails:0, until:0 }), now = Date.now(), pin = $("pinInput").value;
-    if(st.until > now){ $("pinMsg").textContent = "Too many tries. Please wait " + Math.ceil((st.until-now)/1000) + " seconds."; return; }
-    if(!/^\d{4}$/.test(pin)){ $("pinMsg").textContent = "Please enter the 4-digit PIN."; return; }
-    if(!(window.crypto && crypto.subtle && window.TextEncoder)){ $("pinMsg").textContent = "This browser cannot check the PIN. Please open the site over https."; return; }
-    sha256hex(PIN_SALT + pin).then(function(h){
-      if(h === PIN_HASH){ unlock(); return; }
-      st.fails = (st.fails||0) + 1;
-      if(st.fails >= 5){ st.until = Date.now() + 30000; st.fails = 0; }
-      save(LOCK_KEY, st);
-      $("pinInput").value = ""; $("pinInput").focus();
-      $("pinMsg").textContent = st.until > Date.now() ? "Wrong PIN. Locked for 30 seconds." : "Wrong PIN. Please try again.";
-      var lv = $("lockView"); lv.classList.remove("shake"); void lv.offsetWidth; lv.classList.add("shake");
-    });
-  });
-
-  fillPolicySelect(); paintTabs(); show("lockView");
-  try{ $("pinInput").focus(); }catch(e){}
+  fillPolicySelect(); paintTabs(); show("welcomeView");
 })();
 </script>
 
