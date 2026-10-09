@@ -24,7 +24,11 @@ def bake(data):
     return json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 fragment = (ROOT / "src/template.html").read_text(encoding="utf-8")
-for marker, data in (("/*__POLICIES__*/[]", policies), ("/*__EXAMS__*/[]", exams), ("/*__NEWPOLICY__*/[]", new_policy)):
+notes_file = ROOT / "data/study-notes.json"
+notes = json.loads(notes_file.read_text(encoding="utf-8")) if notes_file.exists() else None
+
+for marker, data in (("/*__POLICIES__*/[]", policies), ("/*__EXAMS__*/[]", exams),
+                     ("/*__NEWPOLICY__*/[]", new_policy), ("/*__NOTES__*/null", notes)):
     assert fragment.count(marker) == 1, f"template must contain the {marker} marker exactly once"
     fragment = fragment.replace(marker, bake(data))
 

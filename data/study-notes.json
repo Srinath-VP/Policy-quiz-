@@ -1,0 +1,381 @@
+{
+  "title": "Study Notes",
+  "tabs": [
+    {
+      "id": "tat",
+      "title": "TAT",
+      "subtitle": "Turnaround times: how many days for what",
+      "groups": [
+        {
+          "heading": "Loan applications: disposal time",
+          "source": "Loan Policy",
+          "items": [
+            {"k": "Agriculture loans up to ₹25,000", "v": "15 days"},
+            {"k": "Agriculture: above ₹25,000 up to ₹5 crore", "v": "4 weeks"},
+            {"k": "Agriculture: above ₹5 crore", "v": "8 weeks"},
+            {"k": "MSME loans up to ₹5 lakh", "v": "2 weeks"},
+            {"k": "MSME: above ₹5 lakh up to ₹25 lakh", "v": "3 weeks"},
+            {"k": "MSME: above ₹25 lakh", "v": "6 weeks"},
+            {"k": "Other loans sanctioned by Branch Manager", "v": "15 days"},
+            {"k": "Other loans sanctioned by RMLCC / MRPCLCC", "v": "30 days"},
+            {"k": "Other loans sanctioned by Head Office", "v": "45 days"}
+          ]
+        },
+        {
+          "heading": "Loan follow-up timelines",
+          "source": "Loan Policy",
+          "items": [
+            {"k": "Confirm an oral sanction", "v": "7 days", "d": "No reply within 21 days counts as confirmation"},
+            {"k": "Ad-hoc limit", "v": "Max 3 months", "d": "At least 1 month gap between two ad-hoc limits"},
+            {"k": "Report security interest to CERSAI", "v": "30 days", "d": "Creation, modification and satisfaction"},
+            {"k": "Monthly stock statement", "v": "Before 7th of next month", "d": "Delay not more than 7 days; else penal charges"},
+            {"k": "Review of limit after due date", "v": "Up to 90 days", "d": "Max two times; renewal must finish within 180 days"},
+            {"k": "Stock / book-debt audit", "v": "Yearly", "d": "Gap between audits not more than 15 months"},
+            {"k": "Legal audit (₹1 crore and above)", "v": "Within 3 years", "d": "From the last legal audit"},
+            {"k": "Revaluation of mortgaged property", "v": "Once in 3 years"},
+            {"k": "Gold ornaments returned after full repayment", "v": "7 working days", "d": "₹5,000 per day penalty for delay"},
+            {"k": "Gold loss/discrepancy told to borrower", "v": "3 days"},
+            {"k": "Compensation for gold loss paid", "v": "30 days", "d": "From report of incident"},
+            {"k": "Home loan completion certificate", "v": "3 months", "d": "After construction is completed"}
+          ]
+        },
+        {
+          "heading": "Customer compensation & service",
+          "source": "Legal Policies",
+          "items": [
+            {"k": "Unauthorised debit: verification with a third party", "v": "1 month"},
+            {"k": "Unauthorised debit: no third party", "v": "7 days"},
+            {"k": "Cheque paid after stop payment: reversal", "v": "2 working days", "d": "Loss also compensated within 2 working days"},
+            {"k": "Local cheque clearing", "v": "48 to 72 hours", "d": "Delay: SB interest"},
+            {"k": "Outstation cheques: State capitals / Major cities / Others", "v": "7 / 10 / 14 days", "d": "Beyond 14 days: TD rate; beyond 90 days: TD + 2%"},
+            {"k": "NEFT / RTGS credit delay", "v": "Beyond 1 day", "d": "Compensation at Repo Rate + 2%"},
+            {"k": "Duplicate demand draft", "v": "A fortnight", "d": "Delay: FD interest for the period"},
+            {"k": "Complaint about bank's agent: findings", "v": "7 working days"},
+            {"k": "Report fraud for zero liability", "v": "3 working days", "d": "4 to 7 days: limited liability; beyond 7 days: as per policy"},
+            {"k": "Return securities after full repayment", "v": "15 days", "d": "30 days for consortium; ₹100/day, max ₹5,000"},
+            {"k": "ATM failed transaction re-credit", "v": "7 working days", "d": "After that ₹100 per day"},
+            {"k": "Release property documents after closure", "v": "30 days", "d": "₹5,000 per day if bank delays"}
+          ]
+        },
+        {
+          "heading": "Death claims",
+          "source": "Legal Policies; Grievance PDF (Lockers)",
+          "items": [
+            {"k": "Settle deposit claim of deceased", "v": "15 calendar days", "d": "From receipt of all documents; delay: Bank Rate + 4%"},
+            {"k": "Locker / safe custody claim: fix inventory date", "v": "15 calendar days", "d": "Delay: ₹5,000 per day"}
+          ]
+        },
+        {
+          "heading": "Compliance & law enforcement requests",
+          "source": "Compliance Policy",
+          "items": [
+            {"k": "Branch Quarterly Compliance Certificate to RO", "v": "3 days", "d": "From close of the quarter"},
+            {"k": "Branch reports a breach to RO", "v": "2 working days"},
+            {"k": "Inspection & Audit Dept quarterly report", "v": "7 days", "d": "From end of every quarter"},
+            {"k": "Acknowledge LEA / agency request", "v": "3 working days"},
+            {"k": "Debit freeze asked by LEA before 4 PM", "v": "Same day"},
+            {"k": "Phone / WhatsApp freeze by cyber police: written follow-up", "v": "1 working day"},
+            {"k": "Anything not in the SOP", "v": "Max 6 weeks"}
+          ]
+        },
+        {
+          "heading": "Long pending entries (Cir 170/2023-24)",
+          "source": "Inspection Circulars 2026",
+          "items": [
+            {"k": "SR-II and Sundry Deposits entries", "v": "Max 30 days"},
+            {"k": "Expenditure under BM discretion: reversal", "v": "1 month"},
+            {"k": "Proposal beyond BM discretion to RO", "v": "3 working days", "d": "From month end"},
+            {"k": "RO processes that proposal", "v": "6 working days"},
+            {"k": "HO-discretion entries vouched for reversal", "v": "10 working days"},
+            {"k": "OSL entries reversal", "v": "60 days"},
+            {"k": "C2C entries reversal", "v": "2 working days"},
+            {"k": "FIT entries reversal", "v": "Next working day"},
+            {"k": "Time-barred DPN: get acknowledgement of debt", "v": "Within 3 years", "d": "Cir 103-2024-25"}
+          ]
+        },
+        {
+          "heading": "Guarantees & MSME",
+          "source": "Non Fund Based Limits; Fund Based Limits (BCSBI); MSME Portals",
+          "items": [
+            {"k": "Pay an invoked bank guarantee", "v": "Not beyond 3 days"},
+            {"k": "BCSBI: ask MSE for extra documents", "v": "7 days"},
+            {"k": "BCSBI: disburse after all terms are met", "v": "2 working days"},
+            {"k": "BCSBI: decide on loan transfer request", "v": "14 days"},
+            {"k": "BCSBI: release securities after closure", "v": "15 days"},
+            {"k": "MSE may approach MSEFC for delayed payment", "v": "After 45 days"},
+            {"k": "MSEFC decides a reference", "v": "90 days"}
+          ]
+        },
+        {
+          "heading": "Credit guarantee (CGTMSE / CGFMU)",
+          "source": "Comparison between CGTMSE and CGFMU",
+          "items": [
+            {"k": "CGTMSE guarantee fee (AGF)", "v": "Immediately", "d": "After the Demand Advice"},
+            {"k": "CGFMU guarantee fee (AGF)", "v": "3 days", "d": "From Demand Advice"},
+            {"k": "CGTMSE Annual Service Fee", "v": "By 15th April"},
+            {"k": "CGFMU balances / maintenance fee", "v": "By 31st July / 31st August"},
+            {"k": "CGTMSE: report NPA slippage", "v": "Before end of next quarter"},
+            {"k": "CGTMSE lock-in", "v": "18 months / 9 months", "d": "Above ₹10 lakh / up to ₹10 lakh (w.e.f. 15.12.2023)"},
+            {"k": "CGTMSE: invoke the guarantee", "v": "Within 3 years", "d": "Of NPA date or lock-in, whichever later"},
+            {"k": "CGTMSE: 2nd instalment of claim", "v": "After 3 years", "d": "From 1st claim settlement or OTS"}
+          ]
+        },
+        {
+          "heading": "NPA, OTS, SARFAESI & DRT",
+          "source": "NPA Management Policy 2026-27",
+          "items": [
+            {"k": "OTS proposal to HO / RO", "v": "3 working days"},
+            {"k": "Pay OTS amount", "v": "90 days", "d": "Instalments only for genuine cases, max 6 months, 10% interest"},
+            {"k": "Ad-hoc limit not reviewed", "v": "180 days → NPA"},
+            {"k": "Report red-flagged account to RBI (CFMC)", "v": "1 month"},
+            {"k": "Wilful defaulter: reply to show-cause", "v": "21 days"},
+            {"k": "Wilful defaulter: representation to Review Committee", "v": "15 days"},
+            {"k": "Declare wilful defaulter after NPA", "v": "6 months", "d": "Re-examine within 12 months"},
+            {"k": "Remove name from LWD at CICs", "v": "30 days"},
+            {"k": "SARFAESI demand notice (Sec 13(2))", "v": "60 days"},
+            {"k": "Reply to borrower's objection", "v": "15 days"},
+            {"k": "Caveat validity", "v": "90 days"},
+            {"k": "Whole SARFAESI process", "v": "120 days", "d": "From demand notice"},
+            {"k": "SARFAESI sale: balance after 25%", "v": "15 days"},
+            {"k": "DRT order / Recovery Certificate / Appeal", "v": "180 / 30 / 30 days"},
+            {"k": "Execution Petition after decree", "v": "12 years"},
+            {"k": "Recovery agent must recover", "v": "6 months", "d": "GM can extend by 6 months"}
+          ]
+        },
+        {
+          "heading": "Deposits, lockers & BC",
+          "source": "Grievance PDF (Deposits, Lockers, Customer Service); FI Policies",
+          "items": [
+            {"k": "Switch account and get money back", "v": "14 days", "d": "From first payment into the account"},
+            {"k": "Close an account on request", "v": "5 working days"},
+            {"k": "Notice for adverse change in terms", "v": "30 days", "d": "Customer can close/switch without charge within 60 days"},
+            {"k": "Notice before closing / shifting a branch", "v": "30 days"},
+            {"k": "Locker CCTV recording kept", "v": "180 days"},
+            {"k": "Notice before relocating lockers", "v": "2 months"},
+            {"k": "Break open for unpaid locker rent", "v": "3 years", "d": "7 years if locker not operated"},
+            {"k": "BC non-functioning penalty starts", "v": "After 10 working days", "d": "₹1,000/day, max ₹10,000/month"},
+            {"k": "BC absent without reason", "v": "30 days → inactive"},
+            {"k": "FLC monthly report to HO", "v": "By 7th of next month"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "committees",
+      "title": "Committees",
+      "subtitle": "Who decides what",
+      "groups": [
+        {
+          "heading": "Credit sanction committees",
+          "source": "Loan Policy",
+          "items": [
+            {"k": "CLCC: Chairman Level Credit Committee", "v": "Highest below Board", "d": "ROI concession up to 2.50%; full write-off powers; restructures home loans"},
+            {"k": "GMLCC: General Manager Level Credit Committee", "v": "HO", "d": "ROI concession up to 1.50%; empanels jewel appraisers"},
+            {"k": "RMLCC: Regional Manager Level Credit Committee", "v": "Region", "d": "ROI concession up to 0.50%; 25% processing-fee concession"},
+            {"k": "MRPCLCC", "v": "Region", "d": "ROI concession up to 0.25%"},
+            {"k": "Board", "v": "Top", "d": "Concession above 2.50%; wilful defaulter renewals; fraud write-offs"}
+          ]
+        },
+        {
+          "heading": "Monitoring committees",
+          "source": "Loan Policy",
+          "items": [
+            {"k": "CMC (HO): Credit Monitoring Committee", "v": "Quarterly", "d": "Chair: General Manager; reviews top 50 accounts of the bank + new loans ₹35 lakh+"},
+            {"k": "CMC (RO)", "v": "Quarterly", "d": "Chair: Regional Manager; top 50 of the region + new loans ₹10 lakh+"},
+            {"k": "SAMC: Standard Assets Monitoring Committee", "v": "Monthly", "d": "At HO; irregular & SMA accounts of ₹10 lakh+"}
+          ]
+        },
+        {
+          "heading": "NPA & recovery committees",
+          "source": "NPA Management Policy 2026-27",
+          "items": [
+            {"k": "OTS committees: CLCC / GMLCC / RMLCC", "v": "Compromise", "d": "Recovery HOD is the convenor at HO; CCO is a member"},
+            {"k": "Identification Committee (wilful default)", "v": "Chair: GM (Monitoring)", "d": "Issues show-cause notice (21 days)"},
+            {"k": "Review Committee (wilful default)", "v": "Chair: Chairman", "d": "+ two directors nominated by Sponsor Bank; passes final order"},
+            {"k": "Security Enforcement Committee", "v": "Chair: GM", "d": "Fixes reserve price & EMD for SARFAESI sale"},
+            {"k": "RMCB (Risk Management Committee of Board)", "v": "RFA", "d": "Approves red-flagged accounts; beyond 180 days → SCMBF"},
+            {"k": "SCMBF", "v": "Frauds", "d": "Special Committee of the Board for Monitoring and Follow-up of Frauds"},
+            {"k": "e-Auction approval committee", "v": "Chair: GM", "d": "Approves e-auction service providers"}
+          ]
+        },
+        {
+          "heading": "Risk, investment & deposits",
+          "source": "Risk Management Policy; Grievance PDF (Deposits)",
+          "items": [
+            {"k": "Board of Directors", "v": "Policy approver", "d": "Lays down risk parameters"},
+            {"k": "RMC: Risk Management Committee", "v": "Sub-committee of Board", "d": "Identifies, measures and monitors risk; verifies pricing models"},
+            {"k": "ALCO: Asset Liability Management Committee", "v": "Balance sheet", "d": "Top operational unit; approves investments and interest rates"},
+            {"k": "Investment Cell", "v": "Daily", "d": "Monitors investments; keeps CRR & SLR without default"},
+            {"k": "Mid Office", "v": "Real time", "d": "Tracks market risk independently"},
+            {"k": "Funds & Investment Committee", "v": "Bulk deposit rates", "d": "Chairman, GM-Credit, GM-Admin, CMs Accounts, Planning, Credit"}
+          ]
+        },
+        {
+          "heading": "Compliance & customer service",
+          "source": "Compliance Policy; Grievance PDF",
+          "items": [
+            {"k": "ACB: Audit Committee of the Board", "v": "Quarterly reports", "d": "Reviews compliance; approves CCO's activity plan"},
+            {"k": "RLCC: Regional Level Compliance Committee", "v": "Quorum 4", "d": "Meets after RCO's on-site testing each quarter"},
+            {"k": "NPDC: New Product Development Committee", "v": "CCO is member", "d": "Checks compliance of new products"},
+            {"k": "Customer Service Committee of the Board", "v": "Board level", "d": "Strengthens governance on customer service"},
+            {"k": "Standing Committee on Customer Service", "v": "Quarterly", "d": "Chairman, GM, CM + eminent public; reviews unresolved complaints"}
+          ]
+        },
+        {
+          "heading": "Financial inclusion & RBI",
+          "source": "FI Policies; Monetary Policy; Govt Scheme PDF",
+          "items": [
+            {"k": "Corporate BC selection committee", "v": "Board approves", "d": "Chairman, GM-FI, HODs of FI, TMD, Credit"},
+            {"k": "FLC counsellor interview", "v": "GM (Credit)", "d": "With CM (HRM) and CM (FI); Chairman engages"},
+            {"k": "CLEAC", "v": "FLC expenses", "d": "Chairman Level Expenditure Approval Committee"},
+            {"k": "DLCC: District Level Co-ordination Committee", "v": "SSA", "d": "Identifies Sub Service Areas"},
+            {"k": "MPC: Monetary Policy Committee", "v": "Bi-monthly", "d": "6 members (3 RBI + 3 GOI); RBI Governor has casting vote; Sec 45ZB"},
+            {"k": "National Monitoring Committee", "v": "AIF", "d": "Fixes share of funding to private entrepreneurs"}
+          ]
+        },
+        {
+          "heading": "Famous committees & reports",
+          "source": "Various PDFs",
+          "items": [
+            {"k": "Tandon Committee (July 1974)", "v": "MPBF", "d": "Methods for working capital (Prakash Tandon, PNB)"},
+            {"k": "Narasimham Committee (1991)", "v": "IRACP", "d": "Led to prudential norms (1993) and DRTs"},
+            {"k": "Nayak Committee (Dec 1991)", "v": "Turnover method", "d": "Working capital for small units (P R Nayak, RBI DG)"},
+            {"k": "Ghosh Committee (1992)", "v": "Compliance", "d": "Basis of banks' compliance processes"},
+            {"k": "Kannan Committee", "v": "Cash budget", "d": "Cash budget method of working capital"},
+            {"k": "Siddiqui Committee", "v": "CIBIL", "d": "CIBIL incorporated on its recommendation (2000)"},
+            {"k": "T. Tiwari Committee", "v": "DRT", "d": "Suggested DRTs (set up 1993)"},
+            {"k": "Andhyarujina Committee", "v": "SARFAESI", "d": "Gave banks power to sell assets without courts"},
+            {"k": "BCBS: Basel Committee on Banking Supervision", "v": "Basel norms", "d": "Also the April 2005 compliance paper"},
+            {"k": "National Credit Council (1968)", "v": "Priority sector", "d": "Start of priority sector lending"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grievance",
+      "title": "Grievance",
+      "subtitle": "Complaint timelines and who handles them",
+      "groups": [
+        {
+          "heading": "Bank complaints (SPGRS)",
+          "source": "Policy on Customers Grievance Redressal",
+          "items": [
+            {"k": "Branch resolves", "v": "5 days"},
+            {"k": "Regional Office resolves", "v": "10 days"},
+            {"k": "Head Office resolves (total)", "v": "21 days", "d": "SPGRS escalates automatically, no manual step"},
+            {"k": "Not resolved / not satisfied", "v": "After 1 month", "d": "Customer can go to Banking Ombudsman"},
+            {"k": "Meet the Branch Manager", "v": "15th of every month, 3 PM", "d": "Next working day if holiday"},
+            {"k": "Anonymous complaints", "v": "No action", "d": "Simply filed (PIDPI 2004 protects informers)"}
+          ]
+        },
+        {
+          "heading": "Who handles complaints",
+          "source": "Policy on Customers Grievance Redressal; FI Policies",
+          "items": [
+            {"k": "Nodal Officer (whole bank)", "v": "GM in charge of Customer Service"},
+            {"k": "Customer Relation Officer", "v": "Regional Manager", "d": "In each region"},
+            {"k": "Internal Ombudsman", "v": "Chief Customer Service Officer (CCSO)"},
+            {"k": "Deposits: complaints authority", "v": "General Manager"},
+            {"k": "BC service complaints (GRO)", "v": "GM (Credit)", "d": "Regional Managers are GRO at region level"},
+            {"k": "Must be displayed in banking hall", "v": "Notice", "d": "Complaint box, Nodal Officer contact, Ombudsman contact"}
+          ]
+        },
+        {
+          "heading": "Customer Service policy",
+          "source": "Policy on Customers Grievance Redressal",
+          "items": [
+            {"k": "Acknowledge a formal complaint", "v": "3 working days"},
+            {"k": "Resolve a complaint", "v": "Max 30 days", "d": "Counted after all information is received"},
+            {"k": "Favourable change made without notice", "v": "Tell within 30 days"},
+            {"k": "Adverse change in terms", "v": "30 days prior notice"}
+          ]
+        },
+        {
+          "heading": "Insurance (bancassurance) complaints",
+          "source": "Policy on Customers Grievance Redressal",
+          "items": [
+            {"k": "Bank redresses insurance grievance", "v": "14 days"},
+            {"k": "Acknowledgement to complainant", "v": "3 working days"},
+            {"k": "Insurer resolves if not done in 3 days", "v": "10 days"},
+            {"k": "Written reply (redress or reject)", "v": "2 weeks"},
+            {"k": "Treated closed if no reply from customer", "v": "8 weeks"},
+            {"k": "Escalation", "v": "4 levels", "d": "Branch → Regional Nodal Officer → Central Nodal Officer (HO) → Principal Officer"},
+            {"k": "Penalty (Sec 102, IRDA Act 1999)", "v": "₹1 crore"}
+          ]
+        },
+        {
+          "heading": "Fraud & unauthorised transactions",
+          "source": "Legal Policies",
+          "items": [
+            {"k": "Report within 3 working days", "v": "Zero liability"},
+            {"k": "Report in 4 to 7 working days", "v": "Limited liability", "d": "BSBD ₹5,000; other SB ₹10,000; other CA/CC/OD ₹25,000"},
+            {"k": "Compensation: up to ₹10,000", "v": "GM approves"},
+            {"k": "Compensation: ₹10,001 to ₹1 lakh", "v": "Chairman approves"},
+            {"k": "Compensation: above ₹1 lakh", "v": "Board approves"}
+          ]
+        },
+        {
+          "heading": "MSME grievance portals",
+          "source": "MSME Portals",
+          "items": [
+            {"k": "MSME SAMADHAAN", "v": "Delayed payments", "d": "Beyond 45 days; buyer pays 3× Bank Rate compound interest; MSEFC decides in 90 days"},
+            {"k": "Appeal against MSEFC award", "v": "Deposit 75%", "d": "Of the award amount (non-supplier)"},
+            {"k": "MSME CHAMPIONS", "v": "Grievance redressal", "d": "Hub at MoMSME New Delhi; TN control rooms: Tirunelveli & Thoothukudi"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "Important Years",
+      "subtitle": "Year → what came in, and why (one line each)",
+      "timeline": [
+        {"y": "1906", "what": "Indian Coinage Act", "why": "Coins are issued under it (up to ₹1,000).", "src": "Cash Management"},
+        {"y": "1917", "what": "Treasury Bills first issued in India", "why": "Short-term borrowing for the Central Government.", "src": "Monetary Policy"},
+        {"y": "1930", "what": "BIS set up (17 May 1930)", "why": "Cooperation among central banks for financial stability.", "src": "Basel"},
+        {"y": "1934", "what": "RBI established (1 April 1934)", "why": "Issues currency, banker to Govt and banks (sole note issuer, Sec 22).", "src": "Cash Management"},
+        {"y": "1940", "what": "Currency Ordinance", "why": "₹1 notes are issued under it (by Govt of India).", "src": "Cash Management"},
+        {"y": "1949", "what": "RBI nationalised (1 Jan 1949); Banking Regulation Act", "why": "Shares moved to Central Govt; BR Act defines banking (Sec 5(b)).", "src": "Cash Management; Types of Customer"},
+        {"y": "1955", "what": "NSIC set up", "why": "To promote and grow micro and small enterprises.", "src": "MSME Portals"},
+        {"y": "1960", "what": "NI-MSME set up", "why": "Enterprise promotion and entrepreneurship development.", "src": "MSME Portals"},
+        {"y": "1968", "what": "National Credit Council", "why": "First step towards priority sector lending.", "src": "Priority Sector Lending"},
+        {"y": "1972", "what": "Priority sector formally described", "why": "To direct credit to neglected sectors.", "src": "Priority Sector Lending"},
+        {"y": "1973", "what": "SWIFT founded (Brussels)", "why": "Secure worldwide messaging between banks.", "src": "NRE NRO FCNR"},
+        {"y": "1974", "what": "Tandon Committee (July); PSL target 33⅓% by 1979", "why": "Fix working capital lending (MPBF); raise priority sector share.", "src": "Fund Based Limits; PSL"},
+        {"y": "1985", "what": "Nomination facility (29 Mar 1985); PSL target 40% by Mar 1985", "why": "Pay nominees without succession certificate; more credit to priority sector.", "src": "Nomination; PSL"},
+        {"y": "1987", "what": "CRISIL (first rating agency); Legal Services Authorities Act", "why": "Credit ratings in India; Lok Adalats to settle cases without courts.", "src": "CIC; NPA Policy"},
+        {"y": "1988", "what": "Basel I", "why": "Minimum capital 8% of RWA, focus on credit risk.", "src": "Basel"},
+        {"y": "1991", "what": "Narasimham Committee; Nayak Committee (Dec); ICRA", "why": "Financial sector reforms; working capital for small units.", "src": "NPA Policy; Fund Based Limits; CIC"},
+        {"y": "1992", "what": "Ghosh Committee", "why": "Base for banks' compliance processes.", "src": "Compliance Policy"},
+        {"y": "1993", "what": "IRACP prudential norms; DRTs set up; CARE", "why": "Recognise NPAs properly and speed up recovery.", "src": "NPA Policy; CIC"},
+        {"y": "1998", "what": "Supreme Court: HUF cannot be a partner", "why": "HUF cannot enter into a partnership.", "src": "Types of Customer"},
+        {"y": "1999", "what": "India adopted Basel I; IRDA Act", "why": "Capital adequacy for Indian banks; insurance regulation.", "src": "Basel; Grievance PDF"},
+        {"y": "2000", "what": "CIBIL incorporated; CGTMSE started (01.08.2000)", "why": "Credit information bureau; collateral-free guarantee for MSE loans.", "src": "CIC; CGTMSE"},
+        {"y": "2002", "what": "SARFAESI Act; PMLA", "why": "Banks can enforce security without courts; fight money laundering.", "src": "NPA Policy; Legal Policies"},
+        {"y": "2003", "what": "BPLR introduced; RBI bars 'without recourse' LCs (23 Jan)", "why": "Bring transparency to lending rates.", "src": "Fund Based Limits; Non Fund Based"},
+        {"y": "2004", "what": "Basel II published; consumer credit bureau launched", "why": "3 pillars: capital, supervisory review, market discipline.", "src": "Basel; CIC"},
+        {"y": "2005", "what": "PML Records Rules (1 July 2005); BCBS compliance paper (April); SMERA; CRIF incorporated", "why": "Record keeping for AML; independent compliance function.", "src": "Legal; Compliance; CIC"},
+        {"y": "2006", "what": "MSMED Act (2 Oct 2006); BC/BF model; UCPDC 600 approved (25 Oct)", "why": "Define & support MSMEs; branchless banking; LC rules.", "src": "Fund Based; FI; Non Fund Based"},
+        {"y": "2007", "what": "UCPDC 600 effective (1 July 2007); CIBIL Score; ICRA listed", "why": "All LCs irrevocable; first generic credit score.", "src": "Non Fund Based; CIC"},
+        {"y": "2008", "what": "LLP Act; RBI circular on CTR (22 May 2008)", "why": "Limited liability partnerships; monthly cash transaction reporting.", "src": "Types of Customer; TDS PDF"},
+        {"y": "2009", "what": "RBI Note Refund Rules", "why": "Rules to exchange soiled and mutilated notes.", "src": "Cash Management"},
+        {"y": "2010", "what": "Base Rate (01.07.2010); Basel III; CRIF licence; FI Plan Phase I", "why": "No lending below Base Rate; stronger capital after 2008 crisis.", "src": "Fund Based; Basel; CIC; FI"},
+        {"y": "2012", "what": "Public Procurement Policy for MSEs (1 Apr); EM registration compulsory in TN (01.12.2012)", "why": "Assured market for MSEs; protect bank's mortgage.", "src": "MSME Portals; Loan Policy"},
+        {"y": "2013", "what": "Aadhaar e-KYC allowed (Sept); Companies Act 2013", "why": "Easy account opening; One Person Company introduced.", "src": "FI; Types of Customer"},
+        {"y": "2014", "what": "PMJDY (28 Aug 2014); CRILC created; CRIF takes High Mark", "why": "Bank account for every household; data on large credit.", "src": "FI; Fund Based; CIC"},
+        {"y": "2015", "what": "APY (9 May 2015); procurement policy mandatory (1 Apr); LCR 60%", "why": "Pension for unorganised sector; liquidity safety.", "src": "FI; MSME; Basel"},
+        {"y": "2016", "what": "MCLR (01.04.2016); CGFMU (18.04.2016); GeM (9 Aug 2016)", "why": "Faster rate transmission; guarantee for micro loans; transparent Govt buying.", "src": "Fund Based; CGTMSE; MSME"},
+        {"y": "2017", "what": "MSME Sambandh (8 Dec 2017); TransUnion buys 92.1% of CIBIL", "why": "Monitor Govt procurement from MSEs.", "src": "MSME Portals; CIC"},
+        {"y": "2018", "what": "PMJDY open-ended (28.08.2018); MSME Sampark (27.06.2018)", "why": "Focus moved to every adult; OD ₹10,000, accident cover ₹2 lakh.", "src": "FI; MSME Portals"},
+        {"y": "2019", "what": "EBLR (01.10.2019); LCR 100% (Jan 2019); VAHAN-CERSAI link (3 May)", "why": "Loans linked to external benchmark like Repo.", "src": "Fund Based; Basel; Loan Policy"},
+        {"y": "2020", "what": "NSFI 2019-24 released (10 Jan); CHAMPIONS (1 June); Global Tender rule (15 May)", "why": "Financial inclusion plan; MSME grievances; Make in India.", "src": "FI; MSME Portals"},
+        {"y": "2021", "what": "BCSBI functions stopped (28.09.2021); street vendors as MSME (9 Aug)", "why": "RBI handles it directly; codes still apply.", "src": "Fund Based Limits"},
+        {"y": "2022", "what": "SDF introduced (April 2022)", "why": "Replaced fixed reverse repo as floor of LAF corridor.", "src": "Monetary Policy"},
+        {"y": "2023", "what": "PM Vishwakarma (17 Sep 2023); CGTMSE lock-in revised (15 Dec)", "why": "Support artisans with loans, toolkit and training.", "src": "Govt Schemes; CGTMSE"},
+        {"y": "2024", "what": "Cir 170/2023-24 (28.02.2024); Time-barred DPN Cir 103 (27.08.2024)", "why": "Clear long pending entries; keep legal action alive.", "src": "Inspection Circulars"},
+        {"y": "2025", "what": "Revised PSL w.e.f. 01.04.2025; Cyber crime Cir 14 (05.04.2025)", "why": "New PSL targets; exports out of MSME turnover; protect customers.", "src": "PSL; Inspection Circulars"},
+        {"y": "2026", "what": "Policy rates as on 5 June 2026: Repo 5.25%, CRR 3%, SLR 18%", "why": "Current RBI rates; NSFI 2025-30 aims for 30% women BCs by Dec 2028.", "src": "Monetary Policy; FI"}
+      ]
+    }
+  ]
+}

@@ -200,6 +200,49 @@
   .voice-btn{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:9px;padding:8px 10px;font-size:12px;font-weight:600;cursor:pointer;flex:none;}
   .top-actions{display:flex;gap:8px;flex:none;}
   @media (max-width:480px){.voice-lbl{display:none;}}
+
+  /* PIN lock */
+  .lock{text-align:center;padding:30px 22px 34px;margin:12px auto 0;max-width:460px;}
+  .lock-girl{width:112px;height:112px;margin:0 auto 8px;border-radius:50%;overflow:hidden;border:3px solid var(--accent);background:linear-gradient(155deg,var(--accent-soft),var(--surface-2));}
+  .lock-girl .girl{width:100%;height:100%;}
+  .lock-title{font-size:24px;margin:6px 0 4px;}
+  .pin-form{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap;}
+  .pin-input{width:150px;text-align:center;font-size:26px;letter-spacing:.5em;padding:10px 0 10px .5em;border-radius:12px;border:2px solid var(--border);background:var(--surface-2);color:var(--ink);}
+  .pin-input:focus{outline:none;border-color:var(--accent);}
+  .pin-msg{min-height:20px;margin:12px 0 0;font-size:13.5px;font-weight:600;color:var(--bad);}
+  .lock.shake .pin-input{border-color:var(--bad);}
+  @media (prefers-reduced-motion:no-preference){.lock.shake .pin-form{animation:pin-shake .4s;}}
+  @keyframes pin-shake{20%,60%{transform:translateX(-8px)}40%,80%{transform:translateX(8px)}}
+
+  /* quiz page cheer */
+  .quiz-cheer{text-align:center;font-family:'Sora',ui-sans-serif,system-ui,sans-serif;font-weight:700;font-size:18px;color:var(--accent);background:var(--accent-soft);border-radius:12px;padding:10px 12px;margin-bottom:14px;}
+
+  /* four section tabs: wrap to 2x2 on phones */
+  .tabs{flex-wrap:wrap;}
+  @media (max-width:560px){.tab{flex:1 1 calc(50% - 6px);}}
+
+  /* study notes */
+  .subtabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;}
+  .subtab{border:1.5px solid var(--border);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;font-weight:700;font-size:13px;cursor:pointer;}
+  .subtab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);}
+  .notes-search{width:100%;padding:11px 13px;border-radius:11px;border:1.5px solid var(--border);background:var(--surface-2);color:var(--ink);font-size:14px;margin-bottom:14px;font-family:inherit;}
+  .notes-group{padding:14px 16px;margin-bottom:12px;}
+  .notes-group h3{font-size:15px;margin:0 0 2px;}
+  .notes-src{font-size:11.5px;color:var(--muted-2);margin-bottom:8px;}
+  .note-row{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:8px 0;border-top:1px solid var(--border);font-size:13.5px;line-height:1.4;}
+  .note-row:first-of-type{border-top:none;}
+  .note-k{font-weight:600;}
+  .note-v{font-weight:700;color:var(--accent);text-align:right;white-space:nowrap;}
+  .note-d{grid-column:1 / -1;color:var(--muted);font-size:12.5px;}
+  @media (max-width:520px){.note-row{grid-template-columns:1fr;}.note-v{text-align:left;white-space:normal;}}
+  .tl{position:relative;padding-left:4px;}
+  .tl-item{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:11px 14px;margin-bottom:8px;}
+  .tl-year{font-family:'JetBrains Mono',ui-monospace,monospace;font-weight:700;font-size:15px;color:var(--accent-ink);background:var(--accent);border-radius:9px;display:flex;align-items:center;justify-content:center;height:34px;}
+  .tl-what{font-weight:700;font-size:14px;line-height:1.4;}
+  .tl-why{color:var(--muted);font-size:13px;line-height:1.45;margin-top:2px;}
+  .tl-src{font-size:11.5px;color:var(--muted-2);margin-top:3px;}
+  .notes-empty{color:var(--muted);text-align:center;padding:20px;}
+  mark{background:var(--warn-soft);color:inherit;border-radius:3px;padding:0 1px;}
 </style>
 
 <div class="app">
@@ -217,7 +260,18 @@
     </div>
   </div>
 
-  <section id="welcomeView" class="panel welcome">
+  <section id="lockView" class="panel lock">
+    <div class="lock-girl" id="lockGirl"></div>
+    <h2 class="lock-title">Enter your PIN</h2>
+    <p class="hint">Type the 4-digit PIN to open the quiz.</p>
+    <form id="pinForm" class="pin-form" autocomplete="off">
+      <input id="pinInput" class="pin-input tabular" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="4" aria-label="4-digit PIN" placeholder="••••">
+      <button class="btn btn-primary" id="pinBtn" type="submit">Unlock</button>
+    </form>
+    <p class="pin-msg" id="pinMsg" role="alert"></p>
+  </section>
+
+  <section id="welcomeView" class="panel welcome" hidden>
     <div class="welcome-stage">
       <div class="welcome-girl" id="welcomeGirl"></div>
       <div class="speech" id="welcomeSpeech"></div>
@@ -234,7 +288,18 @@
     <button class="tab" role="tab" type="button" data-section="policies">Policy Quizzes</button>
     <button class="tab" role="tab" type="button" data-section="exams">Model Questions 2026</button>
     <button class="tab" role="tab" type="button" data-section="newpolicy">New Policy Quiz</button>
+    <button class="tab" role="tab" type="button" data-section="notes">Study Notes</button>
   </div>
+
+  <section id="notesView" hidden>
+    <div class="section-head">
+      <h2>Study Notes</h2>
+      <span class="hint" id="notesSub"></span>
+    </div>
+    <div class="subtabs" id="notesTabs" role="tablist"></div>
+    <input id="notesSearch" class="notes-search" type="search" placeholder="Search these notes (e.g. 15 days, CLCC, 2016)" aria-label="Search notes">
+    <div id="notesBody"></div>
+  </section>
 
   <section id="overviewView" hidden>
     <div class="panel picker">
@@ -264,6 +329,7 @@
   </section>
 
   <section id="quizView" hidden>
+    <div class="quiz-cheer" id="quizCheer"></div>
     <div class="quiz-header">
       <div>
         <div class="eyebrow" id="quizEyebrow"></div>
@@ -331,6 +397,7 @@
 var POLICIES = /*__POLICIES__*/[];
 var EXAMS = /*__EXAMS__*/[];
 var NEW_POLICY = /*__NEWPOLICY__*/[];
+var NOTES = /*__NOTES__*/null;
 </script>
 <script>
 (function(){
@@ -361,9 +428,10 @@ var NEW_POLICY = /*__NEWPOLICY__*/[];
 
   /* views */
   function show(id){
-    ["welcomeView","overviewView","quizView","resultsView"].forEach(function(v){ $(v).hidden = v!==id; });
-    $("sectionTabs").hidden = id==="welcomeView";
-    $("greetBar").hidden = $("appFooter").hidden = id==="welcomeView";
+    ["lockView","welcomeView","overviewView","notesView","quizView","resultsView"].forEach(function(v){ $(v).hidden = v!==id; });
+    var intro = id==="welcomeView" || id==="lockView";
+    $("sectionTabs").hidden = intro;
+    $("greetBar").hidden = $("appFooter").hidden = intro;
     window.scrollTo(0,0);
   }
 
@@ -458,17 +526,7 @@ var NEW_POLICY = /*__NEWPOLICY__*/[];
     var u = speak(WELCOME_LINE);
     if(u) u.onstart = function(){ greeted = true; };
   }
-  if(window.speechSynthesis && "onvoiceschanged" in window.speechSynthesis){
-    window.speechSynthesis.onvoiceschanged = function(){ window.speechSynthesis.onvoiceschanged = null; if(!greeted) greet(); };
-  }
-  greet();
-  function firstGesture(){
-    document.removeEventListener("pointerdown", firstGesture, true);
-    document.removeEventListener("keydown", firstGesture, true);
-    if(!greeted && !$("welcomeView").hidden) greet();
-  }
-  document.addEventListener("pointerdown", firstGesture, true);
-  document.addEventListener("keydown", firstGesture, true);
+  if(window.speechSynthesis) try{ window.speechSynthesis.getVoices(); }catch(e){}  /* warm up the voice list */
   welcomeGirl.addEventListener("click", function(){ react(welcomeGirl); greeted = true; speak(WELCOME_LINE); });
   resultGirl.addEventListener("click", function(){ react(resultGirl); speak(DONE_LINE); });
   function paintVoice(){
@@ -487,6 +545,7 @@ var NEW_POLICY = /*__NEWPOLICY__*/[];
   var SECTIONS = { policies: POLICIES, exams: EXAMS, newpolicy: NEW_POLICY };
   var PICKER_LABEL = { policies: "Policy", exams: "Question paper", newpolicy: "Quiz collection" };
   var section = SECTIONS[prefs.section] && SECTIONS[prefs.section].length ? prefs.section : "policies";
+  var activeTab = section;   /* a quiz section, or "notes" */
   function sets(){ return SECTIONS[section]; }
   function pickIdx(){
     var want = (prefs.pick || {})[section] || (section === "policies" ? prefs.policy : section === "exams" ? prefs.exam : null);
@@ -505,13 +564,15 @@ var NEW_POLICY = /*__NEWPOLICY__*/[];
   /* section tabs */
   function paintTabs(){
     Array.prototype.forEach.call(document.querySelectorAll("[data-section]"), function(b){
-      b.setAttribute("aria-selected", b.getAttribute("data-section")===section ? "true" : "false");
+      b.setAttribute("aria-selected", b.getAttribute("data-section")===activeTab ? "true" : "false");
     });
   }
   Array.prototype.forEach.call(document.querySelectorAll("[data-section]"), function(b){
-    b.hidden = !SECTIONS[b.getAttribute("data-section")].length;
+    var id = b.getAttribute("data-section");
+    b.hidden = id === "notes" ? !(NOTES && NOTES.tabs && NOTES.tabs.length) : !SECTIONS[id].length;
     b.addEventListener("click", function(){
-      section = b.getAttribute("data-section"); prefs.section = section; save(STORE+"_prefs", prefs);
+      if(id === "notes"){ activeTab = "notes"; paintTabs(); show("notesView"); renderNotes(); return; }
+      section = activeTab = id; prefs.section = section; save(STORE+"_prefs", prefs);
       policyIdx = pickIdx(); fillPolicySelect(); paintTabs(); show("overviewView"); renderOverview();
     });
   });
@@ -572,6 +633,7 @@ var NEW_POLICY = /*__NEWPOLICY__*/[];
     cur = { quiz:i, q:0, answers: z.questions.map(function(){ return null; }) };
     $("quizEyebrow").textContent = policy().policyName + " · " + unit() + " " + (i+1);
     $("quizTopic").textContent = z.topic;
+    $("quizCheer").textContent = "All the best, " + USER_NAME + "! 🍀";
     $("prevBtn").hidden = !exam; $("palette").hidden = !exam; $("submitRow").hidden = !exam; $("examNote").hidden = !exam;
     disarm();
     show("quizView"); renderQuestion();
@@ -736,6 +798,81 @@ var NEW_POLICY = /*__NEWPOLICY__*/[];
     if(EXAMS.length) tab.click(); else { show("overviewView"); renderOverview(); }
   });
 
-  fillPolicySelect(); paintTabs(); show("welcomeView");
+  /* study notes: TAT / Committees / Grievance / Important Years, each in its own sub-tab */
+  var notesTab = prefs.notesTab || (NOTES && NOTES.tabs[0].id);
+  function hl(text, q){
+    var s = esc(text); if(!q) return s;
+    var k = esc(q), i = s.toLowerCase().indexOf(k.toLowerCase());
+    return i < 0 ? s : s.slice(0,i) + "<mark>" + s.slice(i, i+k.length) + "</mark>" + s.slice(i+k.length);
+  }
+  function renderNotes(){
+    if(!NOTES) return;
+    var tab = NOTES.tabs.filter(function(t){ return t.id===notesTab; })[0] || NOTES.tabs[0];
+    notesTab = tab.id;
+    $("notesTabs").innerHTML = NOTES.tabs.map(function(t){
+      return '<button type="button" class="subtab" role="tab" data-note="'+esc(t.id)+'" aria-selected="'+(t.id===tab.id)+'">'+esc(t.title)+'</button>';
+    }).join("");
+    Array.prototype.forEach.call($("notesTabs").children, function(b){
+      b.addEventListener("click", function(){ notesTab = b.getAttribute("data-note"); prefs.notesTab = notesTab; save(STORE+"_prefs", prefs); renderNotes(); });
+    });
+    $("notesSub").textContent = tab.subtitle || "";
+    var q = $("notesSearch").value.trim(), ql = q.toLowerCase(), html = "";
+    function hit(){ return !ql || Array.prototype.join.call(arguments, " ").toLowerCase().indexOf(ql) >= 0; }
+    if(tab.timeline){
+      html = tab.timeline.filter(function(e){ return hit(e.y, e.what, e.why, e.src); }).map(function(e){
+        return '<div class="panel tl-item"><div class="tl-year">'+hl(e.y,q)+'</div><div><div class="tl-what">'+hl(e.what,q)+'</div>' +
+          '<div class="tl-why">Why: '+hl(e.why,q)+'</div><div class="tl-src">Source: '+esc(e.src)+'</div></div></div>';
+      }).join("");
+      if(html) html = '<div class="tl">'+html+'</div>';
+    } else {
+      html = tab.groups.map(function(g){
+        var rows = g.items.filter(function(it){ return hit(g.heading, it.k, it.v, it.d||""); });
+        if(!rows.length) return "";
+        return '<div class="panel notes-group"><h3>'+hl(g.heading,q)+'</h3><div class="notes-src">Source: '+esc(g.source)+'</div>' +
+          rows.map(function(it){
+            return '<div class="note-row"><span class="note-k">'+hl(it.k,q)+'</span><span class="note-v">'+hl(it.v,q)+'</span>' +
+              (it.d ? '<span class="note-d">'+hl(it.d,q)+'</span>' : '') + '</div>';
+          }).join("") + '</div>';
+      }).join("");
+    }
+    $("notesBody").innerHTML = html || '<p class="notes-empty">Nothing matches "'+esc(q)+'" in '+esc(tab.title)+'.</p>';
+  }
+  $("notesSearch").addEventListener("input", renderNotes);
+
+  /* PIN lock: shown on every visit. Only a salted SHA-256 hash of the PIN is kept here, never the PIN itself.
+     (A PIN in a static page keeps casual visitors out; it is not strong security.) */
+  var PIN_SALT = "policy-quiz-hub:", PIN_HASH = "02e000be6090467213db53b742f749b28c107968c83827e43cdfc9be5064e967";
+  var LOCK_KEY = STORE + "_pin";
+  function sha256hex(text){
+    return crypto.subtle.digest("SHA-256", new TextEncoder().encode(text)).then(function(buf){
+      return Array.prototype.map.call(new Uint8Array(buf), function(b){ return ("0"+b.toString(16)).slice(-2); }).join("");
+    });
+  }
+  mountGirl("lockGirl", "54 30 96 96", "Cartoon girl");
+  function unlock(){
+    save(LOCK_KEY, { fails:0, until:0 });
+    show("welcomeView");
+    setTimeout(greet, 150);   /* the Unlock tap lets the browser speak */
+  }
+  $("pinInput").addEventListener("input", function(){ this.value = this.value.replace(/\D/g, "").slice(0,4); $("pinMsg").textContent = ""; });
+  $("pinForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    var st = load(LOCK_KEY, { fails:0, until:0 }), now = Date.now(), pin = $("pinInput").value;
+    if(st.until > now){ $("pinMsg").textContent = "Too many tries. Please wait " + Math.ceil((st.until-now)/1000) + " seconds."; return; }
+    if(!/^\d{4}$/.test(pin)){ $("pinMsg").textContent = "Please enter the 4-digit PIN."; return; }
+    if(!(window.crypto && crypto.subtle && window.TextEncoder)){ $("pinMsg").textContent = "This browser cannot check the PIN. Please open the site over https."; return; }
+    sha256hex(PIN_SALT + pin).then(function(h){
+      if(h === PIN_HASH){ unlock(); return; }
+      st.fails = (st.fails||0) + 1;
+      if(st.fails >= 5){ st.until = Date.now() + 30000; st.fails = 0; }
+      save(LOCK_KEY, st);
+      $("pinInput").value = ""; $("pinInput").focus();
+      $("pinMsg").textContent = st.until > Date.now() ? "Wrong PIN. Locked for 30 seconds." : "Wrong PIN. Please try again.";
+      var lv = $("lockView"); lv.classList.remove("shake"); void lv.offsetWidth; lv.classList.add("shake");
+    });
+  });
+
+  fillPolicySelect(); paintTabs(); show("lockView");
+  try{ $("pinInput").focus(); }catch(e){}
 })();
 </script>

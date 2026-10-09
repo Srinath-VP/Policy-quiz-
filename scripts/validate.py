@@ -46,6 +46,27 @@ def check(pid, exam, errors, warnings):
     print(f"  {pid:28} quizzes={len(quizzes):3}  questions={n:4}  A/B/C/D={dist}{warn}")
     return len(quizzes), n
 
+def check_notes(errors):
+    """data/study-notes.json: tabs of either groups[{heading, source, items[{k, v, d?}]}] or timeline[{y, what, why, src}]."""
+    f = ROOT / "data/study-notes.json"
+    if not f.exists(): return
+    n = json.loads(f.read_text(encoding="utf-8"))
+    rows = 0
+    for ti, tab in enumerate(n.get("tabs", []), 1):
+        tag = f"study-notes tab {ti} ({tab.get('id')})"
+        if not tab.get("id") or not tab.get("title"): errors.append(f"{tag}: needs id and title")
+        if "timeline" in tab:
+            for e in tab["timeline"]:
+                if not all(e.get(k) for k in ("y", "what", "why", "src")): errors.append(f"{tag}: timeline entry needs y/what/why/src: {e}")
+                rows += 1
+        else:
+            for g in tab.get("groups", []):
+                if not g.get("heading") or not g.get("source"): errors.append(f"{tag}: group needs heading and source")
+                for it in g.get("items", []):
+                    if not it.get("k") or not it.get("v"): errors.append(f"{tag} / {g.get('heading')}: item needs k and v: {it}")
+                    rows += 1
+    print(f"  study-notes: {len(n.get('tabs', []))} tabs, {rows} entries")
+
 def main():
     errors, warnings, total_q, total_z = [], [], 0, 0
     lists = [("policies.json", False), ("exams.json", True), ("new-policy.json", True)]
@@ -58,6 +79,7 @@ def main():
         for pid in order:
             z, q = check(pid, exam, errors, warnings); total_z += z; total_q += q; count += 1
     print(f"  TOTAL: {count} sets, {total_z} quizzes, {total_q} questions")
+    check_notes(errors)
     if warnings:
         print("\nWARNINGS:"); [print("  -", w) for w in warnings]
     if errors:

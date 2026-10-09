@@ -20,6 +20,10 @@ No server, no database, no login. The whole app is one static HTML file, so it c
 
 **New Policy Quiz** (third tab, exam mode): 24 quizzes with 690 questions in total, one quiz per training PDF in `New-policy-quiz/`. There are 21 PDFs with 30 questions each and 3 PDFs (TDS/Form 121/STR-CTR, Fund Based Limits, NPA Management) with 20 each. Every question and explanation is taken from its PDF, and answers are scored on submit with a full answer key.
 
+**Study Notes** (fourth tab): quick-revision tables built from the same PDFs. **TAT** covers turnaround times, **Committees** shows who decides what, **Grievance** gives complaint timelines and escalation, and **Important Years** lists one line per year on what came in and why. There is a search box, and every entry names its source PDF.
+
+**PIN:** the site asks for a 4-digit PIN on every visit. Only its salted SHA-256 hash is stored in the page.
+
 Each policy can grow to **100 quizzes × 10 questions**. The validator enforces that limit.
 
 ## Folder layout
